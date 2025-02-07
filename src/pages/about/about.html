@@ -9,21 +9,28 @@
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container d-flex align-items-center">
-                <a class="navbar-brand" href="#">TechDepot</a>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="/public/logo.png" alt="TechDepot Logo" class="logo" style="height: 35px; width: auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="search-container">
                     <input type="search" class="search-bar" placeholder="¿Qué estás buscando?" aria-label="Buscar">
-                    <button class="search-btn"></button>
+                    <button class="search-btn">🔍</button>
                 </div>
-                <div class="user-icons">
+                <div class="user-icons d-flex align-items-center">
                     <a href="#" class="user-link">Iniciar Sesión</a>
                     <a href="#" class="user-link">Mi Carrito</a>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
     <main>
         <section class="container text-center mt-5">
