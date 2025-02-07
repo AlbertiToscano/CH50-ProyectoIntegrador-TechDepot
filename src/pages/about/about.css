@@ -59,21 +59,23 @@ body {
     text-decoration: none;
     color: #153B4C;
 }
+
 #valores {
-    p{
-        color:white;
+    p {
+        color: white;
     }
-    
+
 }
 
 h2 {
     color: #153B4C;
     font-weight: 600;
 }
-#misionVision{
-   p{
+
+#misionVision {
+    p {
         color: white;
-   } 
+    }
 }
 
 h4 {
@@ -122,13 +124,15 @@ footer nav a:hover {
 }
 
 .valores-section {
-    background-color: #A2B8C9; /* Color de fondo */
+    background-color: #A2B8C9;
+    /* Color de fondo */
     padding: 20px;
     border-radius: 10px;
 }
 
 .valor-icon {
-    width: 50px; /* Tamaño del ícono */
+    width: 50px;
+    /* Tamaño del ícono */
     height: auto;
     margin-bottom: 10px;
 }
