@@ -59,10 +59,21 @@ body {
     text-decoration: none;
     color: #153B4C;
 }
+#valores {
+    p{
+        color:white;
+    }
+    
+}
 
 h2 {
     color: #153B4C;
     font-weight: 600;
+}
+#misionVision{
+   p{
+        color: white;
+   } 
 }
 
 h4 {
