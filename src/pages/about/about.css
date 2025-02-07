@@ -1,11 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #D6E1EC;
+    background-color: white;
     color: #153B4C;
 }
 
 .navbar {
-    background-color: #153B4C !important;
+    background-color: white !important;
     padding: 10px;
 }
 
@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #A2B8C9;
+    background-color: #D6E1EC;
     border-radius: 25px;
     padding: 5px 15px;
     max-width: 600px;
@@ -48,11 +48,24 @@ body {
     cursor: pointer;
 }
 
-.user-icons {
+.user-icon {
+    font-size: 40px; /* Aumenta el tamaño del icono */
+    color: #386578;
+    margin-right: 8px;
+}
+
+.cart-icon {
+    font-size: 40px; /* Aumenta el tamaño del icono del carrito */
+    color: #386578;
+}
+
+.cart-link {
     display: flex;
     align-items: center;
-    gap: 15px;
-    color: #153B4C;
+    font-size: 18px;
+    color: #386578;
+    text-decoration: none;
+    gap: 8px;
 }
 
 .user-link {
@@ -138,3 +151,48 @@ footer nav a:hover {
     font-weight: 500;
     color: #153B4C;
 }
+.info-box {
+    background-color: #A2B8C9; /* Color de fondo */
+    padding: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center;
+}
+
+.info-box h3 {
+    color: #153B4C; /* Color del texto */
+    font-weight: 600;
+}
+
+.info-box p {
+    color: #386578;
+    font-size: 16px;
+}
+
+.about-text {
+    max-width: 1000px; /* Expande el ancho del texto */
+        margin: 0 auto; /* Centra el texto */
+        font-size: 18px; /* Aumenta el tamaño de la fuente */
+        color: #386578; /* Color similar a la sección de misión y visión */
+        line-height: 1.8; /* Mejora la legibilidad */
+        text-align: center; /* Centra el texto para una mejor presentación */
+}
+
+/* Estilos para la sección de usuario y carrito */
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.user-btn {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #153B4C;
+    cursor: pointer;
+    gap: 8px;
+}
+
+
