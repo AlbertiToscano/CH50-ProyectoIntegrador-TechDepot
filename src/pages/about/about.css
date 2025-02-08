@@ -1,3 +1,12 @@
+
+/*
+Font--'Poppins', sans-serif;
+Color Barra--#153B4C;
+Color Fondo--#D6E1EC;
+Color Tarjetas--#386578;
+*/
+
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #D6E1EC;
@@ -141,4 +150,16 @@ footer nav a:hover {
     font-size: 18px;
     font-weight: 500;
     color: #153B4C;
+}
+
+.card{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.card-img-top{
+
+    
+    width: 15em;
+    background-color: #D6E1EC;
+
 }
