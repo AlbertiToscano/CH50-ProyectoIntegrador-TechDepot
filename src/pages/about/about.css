@@ -1,3 +1,12 @@
+
+/*
+Font--'Poppins', sans-serif;
+Color Barra--#153B4C;
+Color Fondo--#D6E1EC;
+Color Tarjetas--#386578;
+*/
+
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #D6E1EC;
@@ -36,6 +45,8 @@ body {
 
 .search-bar::placeholder {
     color: #153B4C;
+    text-align: right;
+    padding-left: 10px;
 }
 
 .search-btn {
@@ -58,9 +69,22 @@ body {
     color: #153B4C;
 }
 
+#valores {
+    p {
+        color: white;
+    }
+
+}
+
 h2 {
     color: #153B4C;
     font-weight: 600;
+}
+
+#misionVision {
+    p {
+        color: white;
+    }
 }
 
 h4 {
@@ -106,4 +130,36 @@ footer nav a {
 
 footer nav a:hover {
     text-decoration: underline;
+}
+
+.valores-section {
+    background-color: #A2B8C9;
+    /* Color de fondo */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.valor-icon {
+    width: 50px;
+    /* Tamaño del ícono */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.valores-section p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #153B4C;
+}
+
+.card{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.card-img-top{
+
+    
+    width: 15em;
+    background-color: #D6E1EC;
+
 }

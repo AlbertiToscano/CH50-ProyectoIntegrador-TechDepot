@@ -1,198 +1,304 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - TechDepot</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="about.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Links de bootstrap, estilos y Fuentes.-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- incluir FontAwesome para el icono de menu desplagable (3 barras horizontales) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="about.css">
+  <title>About - TechDepot</title>
 </head>
+
 <body>
+  <!--Header-->
   <header>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container d-flex align-items-center justify-content-between">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="/public/logo.png" alt="TechDepot Logo" class="logo" style="height: 35px; width: auto;">
+    <nav class="navbar navbar-expand-md">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <!--Logo TechDepot en la barra de Navegacion-->
+          <img src="/public/logo.png" alt="TechDepot Logo" class="logo" style="height: 35px; width: auto;">
+        </a>
+        <!--Botones de la barra de navegacion-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="search-container">
+            <input type="search" class="search-bar" placeholder="¿Qué estás buscando?" aria-label="Buscar">
+            <img src="https://cdn-icons-png.flaticon.com/16/3917/3917132.png" alt="Buscar" class="search-icon"></button>
+          </div>
+          <div class="user-menu d-flex align-items-center">
+            <div class="dropdown">
+              <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                <i class="bi bi-person-circle user-icon"></i> Iniciar Sesión
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+              </ul>
+            </div>
+            <a href="#" class="cart-link">
+              <i class="bi bi-cart3 cart-icon"></i> Mi Carrito
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="search-container">
-                    <input type="search" class="search-bar" placeholder="¿Qué estás buscando?" aria-label="Buscar">
-                    <button class="search-btn">🔍</button>
-                </div>
-                <div class="user-icons d-flex align-items-center">
-                    <a href="#" class="user-link">Iniciar Sesión</a>
-                    <a href="#" class="user-link">Mi Carrito</a>
-                </div>
-            </div>
+
+          </div>
         </div>
+      </div>
     </nav>
-</header>
+  </header>
 
-    <main>
-        <section class="container text-center mt-5">
-            <h2>Nuestros Valores</h2>
-            <div class="row mt-4">
-                <article class="col-md-4"><h4>Innovación</h4></article>
-                <article class="col-md-4"><h4>Compromiso</h4></article>
-                <article class="col-md-4"><h4>Calidad</h4></article>
-            </div>
-        </section>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav w-100 justify-content-between">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              <i class="fas fa-bars"></i> <!-- Icono para el menú desplegable -->
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Opción 1</a></li>
+              <li><a class="dropdown-item" href="#">Opción 2</a></li>
+              <li><a class="dropdown-item" href="#">Opción 3</a></li>
+              <li><a class="dropdown-item" href="#">Opción 4</a></li>
+              <li><a class="dropdown-item" href="#">Opción 5</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Categorías</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Construye tu máquina</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Opción 1</a></li>
+              <li><a class="dropdown-item" href="#">Opción 2</a></li>
+              <li><a class="dropdown-item" href="#">Opción 3</a></li>
+              <li><a class="dropdown-item" href="#">Opción 4</a></li>
+              <li><a class="dropdown-item" href="#">Opción 5</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Acerca de nosotros</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-        <section class="container text-center mt-5">
-            <div class="row">
-                <article class="col-md-6">
-                    <div class="info-box">
-                        <h3>Misión</h3>
-                        <p>Ofrecer una experiencia única en la adquisición de tecnología, combinando productos de vanguardia y calidad, con excelente servicio al cliente.</p>
-                    </div>
-                </article>
-                <article class="col-md-6">
-                    <div class="info-box">
-                        <h3>Visión</h3>
-                        <p>Ser el referente global en la adquisición de tecnología, conectando a compradores y vendedores con altos estándares de calidad y servicio.</p>
-                    </div>
-                </article>
-            </div>
-        </section>
+  <main>
+    <!--Baner con iconos-->
+    <section class="container-fluid valores-section text-center py-4">
+      <h2 class="fw-bold">Nuestros Valores</h2>
+      <div id="valores" class="row align-items-center justify-content-center mt-3">
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <img src="/public/icons/bombilla.png" alt="Innovación" class="valor-icon">
+          <p class="colorBlanco">Innovación</p>
+        </div>
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <img src="/public/icons/manos.png" alt="Compromiso" class="valor-icon">
+          <p>Compromiso</p>
+        </div>
+        <div class="col-md-4 d-flex flex-column align-items-center">
+          <img src="/public/icons/medalla.png" alt="Calidad" class="valor-icon">
+          <p>Calidad</p>
+        </div>
+      </div>
+    </section>
+    <!-- mision y vision -->
+    <section class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <div class="info-box text-center">
+            <h3>Misión</h3>
+            <p>Ofrecer una experiencia única en la adquisición de tecnología, combinando productos de vanguardia y
+              calidad, con excelente servicio al cliente.</p>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="info-box text-center">
+            <h3>Visión</h3>
+            <p>Ser el referente global en la adquisición de tecnología, conectando a compradores y vendedores con altos
+              estándares de calidad y servicio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section>
-<div>
-<!-- codigo de fotos de perfil -->
- <!-- Todos los cards van aqui -->
-  <section class="row my-3 m-auto p-3 mb-4">
- <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Araceli Guzmán</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">Correo</h6>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
-    </div>
-  </div>
-  <!--  -->
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Arytzy Olán</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">Correo</h6>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
-    </div>
-  </div>
-  <!--  -->
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <img src="/img/colaboradores/ana2.png" class="card-img-top" alt="Foto de ana">
-      <h5 class="card-title">Ana Suárez</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">barajassuarezanalaura@gmail.com</h6>
-      <p class="card-text">Desarrolladora Full-Stack y Diseñadora gráfica apasionada por crear soluciones centradas en el usuario que son tanto funcionales como visualmente atractivas.</p>
-      <a href="https://www.linkedin.com/in/ana-laura-su%C3%A1rez/" class="card-link">Linkedin</a>
-      <a href="#" class="card-link">GitHub</a>
-    </div>
-  </div>
-  <!--  -->
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <img src="/img/colaboradores/alberti.png" class="card-img-top" alt="imagen de perfil de alberti, miembro de Digital dreamers">
-      <h5 class="card-title">Alberti Toscano</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">alberti.toscano1@gmail.com</h6>
-      <p class="card-text">SDesarrollador Jr. Java full stack / Desarrollador web Jr.</p>
-      <a href="https://github.com/AlbertiToscano" class="card-link">Github</a>
-      <a href="https://www.linkedin.com/in/alberti-toscano10/" class="card-link">LinkedIn</a>
-    </div>
-  </div>
-  <!--  -->
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-        <img src="/img/colaboradores/Fotojorge.png" class="card-img-top" alt="imagen de jorge, miembro de DigitalDreamers ">
-      <h5 class="card-title">Jorge Espinosa</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">jorge_usharif@gmail.com</h6>
-      <p class="card-text">Desarrollador Java Full Stack Jr | Html | Css | Git/GitHub</p>
-      <a href="https://github.com/Jorge-Espinosa22" class="card-link">GitHub</a>
-      <a href="https://www.linkedin.com/notifications/?filter=all" class="card-link">LinkedIn</a>
-    </div>
-  </div>
-  <!--  -->
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Cecilia Barranco</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">Correo</h6>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
-    </div>
-  </div>
-  <!--  -->
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Yolanda Ortiz</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">Correo</h6>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
-    </div>
-  </div>
-  <!--  -->
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Nancy Hernández</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">Correo</h6>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
-    </div>
-  </div>
-  <!--  -->
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <img src="/img/colaboradores/jesus2.png" class="card-img-top" alt="">
-      <h5 class="card-title">Jesús Vázquez</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">vazquez.jesus.e2e@gmail.com</h6>
-      <p class="card-text">Desarrollador Full-Stack, apasionado por la tecnología y comprometido con el crecimiento profesional.</p>
-      <a href="https://www.linkedin.com/in/jes%C3%BAs-v%C3%A1zquez-ben%C3%ADtez-5b1258327/" class="card-link">Linkedin</a>
-      <a href="https://github.com/JesusE2E" class="card-link">Git Hub</a>
-    </div>
-  </div>
-  <!--  -->
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Karen Flores</h5>
-      <h6 class="card-subtitle mb-2 text-body-secondary">Correo</h6>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
-    </div>
-  </div>
-  <!--  -->
 
-<div class="card" style="width: 18rem;">
-<div class="card-body">
-<h5 class="card-title">Fernando Moreno</h5>
+    <section class="container my-5 text-center">
+      <h2 class="fw-bold">Acerca de nosotros</h2>
+      <p class="about-text">
+        En TechDepot, desde nuestra fundación, nos hemos dedicado a seleccionar cuidadosamente los productos más
+        innovadores, asegurándonos de que cada equipo y accesorio cumplan con los más altos estándares de rendimiento y
+        durabilidad.
+        Nuestro equipo está formado por expertos que no solo conocen la tecnología, sino que también están comprometidos
+        a brindarte el mejor asesoramiento.
+        Entendemos que la tecnología avanza rápidamente, y es por eso que estamos siempre al tanto de las últimas
+        tendencias y actualizaciones, para ofrecerte lo más nuevo y eficiente del mercado.
+      </p>
+    </section>
 
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-<a href="#" class="card-link">Card link</a>
-<a href="#" class="card-link">Another link</a>
-</div>
-</div>
-</section>
-<!-- aqui terminan todas las tarjetas -->
 
-</div>
+    <div>
 
-        </section>
-    </main>
+      <!-- Todos los cards van aqui -->
+      <section class="row col-sm- 9 col-12 m-auto " class="cards">
+        <!--Carta Araceli-->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="/public/img colaboradores/ara.png" class="card-img-top"
+              alt="Foto de ara, miembro de DigitalDreamers">
+            <h5 class="card-title">Araceli Guzmán</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">araguzmen@gmail.com</h6>
+            <p class="card-text"> Desarrolladora Java Full-Stack Jr.</p>
+            <a href="https://github.com/aragm97" class="card-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/araceliguzmanmendoza/" class="card-link">LinkedIn</a>
+          </div>
+        </div>
+        <!--Carta Arytzy -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="/public/img colaboradores/arytzy.png" class="card-img-top" alt="Foto de Arytzy">
+            <h5 class="card-title">Arytzy Olán</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">oaritzy@gmail.com</h6>
+            <p class="card-text">Desarrolladora Java Full Stack Jr | Html | Css |.</p>
+            <a href="https://github.com/Arytzykeren" class="card-link">Github</a>
+            <a href="https://www.linkedin.com/in/arytzy-keren-olan-romero-9493a7345/" class="card-link">LinkedIn</a>
+          </div>
+        </div>
+        <!--Carta Ana  -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="/public/img colaboradores/ana2.png" class="card-img-top" alt="Foto de ana">
+            <h5 class="card-title">Ana Suárez</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">barajassuarezanalaura@gmail.com</h6>
+            <p class="card-text">Desarrolladora Full-Stack y Diseñadora gráfica apasionada por crear soluciones
+              centradas en el usuario que son tanto funcionales como visualmente atractivas.</p>
+            <a href="https://www.linkedin.com/in/ana-laura-su%C3%A1rez/" class="card-link">Linkedin</a>
+            <a href="#" class="card-link">GitHub</a>
+          </div>
+        </div>
+        <!--Carta Alberti  -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="/public/img colaboradores/alberti.png" class="card-img-top"
+              alt="imagen de perfil de alberti, miembro de Digital dreamers">
+            <h5 class="card-title">Alberti Toscano</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">alberti.toscano1@gmail.com</h6>
+            <p class="card-text">SDesarrollador Jr. Java full stack / Desarrollador web Jr.</p>
+            <a href="https://github.com/AlbertiToscano" class="card-link">Github</a>
+            <a href="https://www.linkedin.com/in/alberti-toscano10/" class="card-link">LinkedIn</a>
+          </div>
+        </div>
+        <!--Carta Jorge  -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="/public/img colaboradores/jorge.png" class="card-img-top"
+              alt="imagen de jorge, miembro de DigitalDreamers ">
+            <h5 class="card-title">Jorge Espinosa</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">jorge_usharif@gmail.com</h6>
+            <p class="card-text">Desarrollador Java Full Stack Jr | Html | Css | Git/GitHub</p>
+            <a href="https://github.com/Jorge-Espinosa22" class="card-link">GitHub</a>
+            <a href="https://www.linkedin.com/notifications/?filter=all" class="card-link">LinkedIn</a>
+          </div>
+        </div>
+        <!--Carta Cecilia  -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="/public/img colaboradores/cecilia.png" class="card-img-top"
+              alt="imagen de Cecilia, miembro de DigitalDreamers">
+            <h5 class="card-title">Cecilia Barranco</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">cc94barranco@gmail.com</h6>
+            <p class="card-text">Desarrolladora Java Full Stack Jr | Html | Css | Git/GitHub</p>
+            <a href="https://github.com/ceciliabarranco94" class="card-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/cecilia-barranco-s%C3%A1nchez/" class="card-link">LinkedIn</a>
+          </div>
+        </div>
+        <!--Carta Yolanda  -->
+        <div class="card" style="width: 18rem;">
+          <img src="/public/img colaboradores/yolis.png" class="card-img-top"
+              alt="imagen de Yolanda, miembro de DigitalDreamers">
+          <div class="card-body">
+          <h5 class="card-title">Yolanda Ortiz</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">lizortiz.2211@gmail.com</h6>
+          <p class="card-text">Gestora Intercultural y Desarrolladora Java Full Stack Jr | Html | Css | Git/GitHub</p>
+          <a href="https://github.com/yolotl22" class="card-link">GitHub</a>
+          <a href="https://www.linkedin.com/in/yolanda-ortiz-845a43220/" class="card-link">LinkedIn</a>
+          </div>
+          </div>
+        <!--Carta Nancy -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="/public/img colaboradores/nancy.png" class="card-img-top" alt="colaboradora Nancy">
+            <h5 class="card-title">Nancy Hernández</h5> 
+            <h6 class="card-subtitle mb-2 text-body-secondary">nancyphs26@gmail.com</h6>
+            <p class="card-text">Desarrolladora Full-Stack Jr | Licenciatura en Informática | Java | HTML | CSS |
+              JavaScript | Git / GitHub | Habilidades en Enseñanza | Gestión | Creatividad |</p>
+            <a href="https://github.com/nancyphs" class="card-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/nancy-paola-hernandez-sanchez/" class="card-link">LinkedIn</a>
+          </div>
+        </div>
+        <!--Carta Jesus  -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="/public/img colaboradores/jesus2.png" class="card-img-top" alt="Imagen de jesus ">
+            <h5 class="card-title">Jesús Vázquez</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">vazquez.jesus.e2e@gmail.com</h6>
+            <p class="card-text">Desarrollador Full-Stack, apasionado por la tecnología y comprometido con el
+              crecimiento profesional.</p>
+            <a href="https://www.linkedin.com/in/jes%C3%BAs-v%C3%A1zquez-ben%C3%ADtez-5b1258327/"
+              class="card-link">Linkedin</a>
+            <a href="https://github.com/JesusE2E" class="card-link">Git Hub</a>
+          </div>
+        </div>
+        <!--Carta Karen  -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="/public/img colaboradores/karen.png" class="card-img-top" alt="Imagen de Karen">
+            <h5 class="card-title">Karen Flores </h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">karenflores071196@gmail.com</h6>
+            <p class="card-text">Desarrolladora Full-Stack apasionada por la innovación y el aprendizaje continuo.</p>
+            <a href="https://www.linkedin.com/in/karen-flores-89aa64303/" class="card-link">Linkedin</a>
+            <a href="https://github.com/karenflores07" class="card-link">Github</a>
+          </div>
+        </div>
+        <!--Carta Fernando -->
 
-    <footer class="text-center py-3 mt-5">
-        <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
-        <nav>
-            <a href="#">Términos y condiciones</a> | <a href="#">Aviso de privacidad</a>
-        </nav>
-    </footer>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <img src="/public/img colaboradores/Fernando.png" class="card-img-top" alt="Fernando Moreno">
+            <h5 class="card-title">Fernando Moreno</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">fermoipn2.98@gmail.com</h6>
+            <p class="card-text">Ingeniero en Mecatrónica | Desarrollador Java Full-Stack Jr.</p>
+            <a href="linkedin.com/in/moreno-camacho-fernando" class="card-link">LinkedIn</a>
+            <a href="https://github.com/FerUPIITA" class="card-link">GitHub</a>
+          </div>
+        </div>
+      </section>
+      <!-- aqui terminan todas las tarjetas -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+
+    </section>
+  </main>
+
+  <footer class="text-center py-3 mt-5">
+    <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
+    <nav>
+      <a href="#">Términos y condiciones</a> | <a href="#">Aviso de privacidad</a>
+    </nav>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
