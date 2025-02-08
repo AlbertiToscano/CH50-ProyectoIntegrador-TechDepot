@@ -163,3 +163,7 @@ footer nav a:hover {
     background-color: #D6E1EC;
 
 }
+
+.card:hover {
+    transform: scale(1.1); /* Escala la tarjeta al 110% */
+}
