@@ -150,3 +150,8 @@ footer nav a:hover {
     font-weight: 500;
     color: #153B4C;
 }
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
