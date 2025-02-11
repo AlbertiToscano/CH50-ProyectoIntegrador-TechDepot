@@ -87,36 +87,14 @@
               </div>
             </div>
           </nav> 
-          <main>            
-            
-            <section>
-              <form id="miFormulario">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" >
-                <span class="error" id="error-nombre"></span><br>
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" >
-                <span class="error" id="error-email"></span><br>
-        
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" minlength="10" maxlength="12" id="telefono" name="telefono" >
-                <span class="error" id="error-telefono"></span><br>
-
-                <label for="mensaje">Mensaje:</label>
-                <input type="text" id="mensaje" name="mensaje" >
-                <span class="error" id="error-mensaje"></span><br>
-        
-                <button type="submit">Enviar</button>
-            </form> </section>
-            
+          <main>          <br><br><br><br><br>  
             <section>
               <!-- imagen -->
               <div class="container text-center">
                 <div class="row">
                   <div class="col-sm-6">
                     <div class="col-md-12">
-                      <img src="/public/imagen-contactanos.avif" class="img-fluid" alt="...">
+                      <img src="/public/imagen-contactanos.avif" class="img-fluid" alt="..."> <br><br>
                         <a class="btn btn-primary" href="#" role="button">Instagram</a>
                         <a class="btn btn-primary" href="#" role="button">Facebook</a>
                         <a class="btn btn-primary" href="#" role="button">Email</a>
@@ -126,26 +104,36 @@
                   <!-- formulario -->
                   <div class="col-sm-6">
                     <div class="row">
-                      <div class="col-md-6">Nombre completo*
-                        <input type="text" class="form-control" aria-label="nombre" required>
+                     
+                      <div class="col-md-6">
+                        <form id="miFormulario">
+                        <label for="nombre">Nombre completo*</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" aria-label="nombre">
+                        <span class="error" id="error-nombre"></span><br>
                       </div>
-                      <div class="col-md-6"> Apellidos*
-                        <input type="text" class="form-control" aria-label="Apellidos" required>
+                      <div class="col-md-6"> 
+                        <label for="email">Correo Electronico*</label>
+                        <input type="email" id="email" name="email" class="form-control" aria-label="email">
+                        <span class="error" id="error-email"></span>
                       </div>
-                      <div type="tel" class="col-md-6"> Número de teléfono*
-                        <input type="text" class="form-control" aria-label="telefono" required>
-                      </div>
-                      <div class="col-md-12">
-                        <div for="inputZip" class="form-label">¿Cómo te podemos ayudar?*</div>
-                        <div class="form-floating" required>
-                          <textarea class="form-control" placeholder="Escribe tus comentarios" id="comentarios"
-                            required></textarea>
+                      <div type="tel" class="col-md-6"> 
+                        <label for="telefono">Número de teléfono*</label>
+                        <input type="tel" minlength="10" maxlength="12" id="telefono" name="telefono" class="form-control" aria-label="telefono">
+                        <span class="error" id="error-telefono"></span>
+                      </div><br>
+                      <div class="col-md-12"><br>
+                        <div for="inputZip" class="form-label">
+                          <label for="mensaje">¿Cómo te podemos ayudar?*</label>
+                        </div>
+                        <div class="form-floating">
+                          <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Escribe tus comentarios" ></textarea>
                           <label for="floatingTextarea" required>Escribe tus comentarios</label>
+                          <span class="error" id="error-mensaje"></span>
                         </div>
                       </div>
-                      <div class="col-12">
+                      <div class="col-12"><br>
                         <div class="form-check" required>
-                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <input class="form-check-input" type="checkbox" id="gridCheck"> 
                           <label class="form-check-label" for="gridCheck" required>
                             Al aceptar, das tu consentimiento para que TechDepot almacene y procese la información personal
                             proporcionada. Consulta nuestro Aviso de privacidad*
@@ -153,8 +141,9 @@
                         </div>
                       </div>
                       <div class="col-md-4">
-                        <button type="submit" class="btn btn-primary">Explora ahora</button>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                       </div>
+                      </form>
                     </div>
                   </div>
                 </div>
