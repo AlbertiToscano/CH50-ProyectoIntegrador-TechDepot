@@ -1,9 +1,15 @@
-body {
+/* ==============================
+   ESTILOS GENERALES
+   ============================== */
+   body {
     font-family: 'Poppins', sans-serif;
     background-color: white;
     color: #153B4C;
 }
 
+/* ==============================
+   NAVBAR GENERAL
+   ============================== */
 .navbar {
     background-color: white !important;
     padding: 10px;
@@ -14,6 +20,70 @@ body {
     font-weight: bold;
 }
 
+/* ==============================
+   NAVBAR ESPECÍFICA: .tech-navbar
+   ============================== */
+.tech-navbar {
+    background-color: #153B4C !important;
+    padding: 14px;
+}
+
+.tech-navbar .navbar-toggler {
+    border: none;
+}
+
+.tech-navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* Ícono del menú desplegable */
+.tech-navbar .navbar-nav .nav-item .fas {
+    font-size: 24px;
+    color: #D6E1EC;
+}
+
+/* Alineación y espaciado de la navbar */
+.tech-navbar .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Enlaces de la navbar */
+.tech-navbar .navbar-nav .nav-item .nav-link {
+    color: #D6E1EC !important;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 14px 20px;
+}
+
+/* Hover en los enlaces */
+.tech-navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #A2B8C9 !important;
+}
+
+/* Menú desplegable */
+.tech-navbar .dropdown-menu {
+    background-color: #153B4C;
+    border: none;
+}
+
+.tech-navbar .dropdown-item {
+    color: #D6E1EC !important;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px 18px;
+}
+
+.tech-navbar .dropdown-item:hover {
+    background-color: #A2B8C9;
+    color: #153B4C !important;
+}
+
+/* ==============================
+   BARRA DE BÚSQUEDA
+   ============================== */
 .search-container {
     flex-grow: 1;
     display: flex;
@@ -48,17 +118,16 @@ body {
     cursor: pointer;
 }
 
-.user-icon {
-    font-size: 40px; /* Aumenta el tamaño del icono */
-    color: #386578;
-    margin-right: 8px;
-}
-
+/* ==============================
+   ICONOS DE USUARIO Y CARRITO
+   ============================== */
+.user-icon,
 .cart-icon {
-    font-size: 40px; /* Aumenta el tamaño del icono del carrito */
+    font-size: 40px;
     color: #386578;
 }
 
+/* Enlace "Mi Carrito" */
 .cart-link {
     display: flex;
     align-items: center;
@@ -68,25 +137,55 @@ body {
     gap: 8px;
 }
 
+.cart-link:hover {
+    color: #A2B8C9 !important;
+}
+
+/* Enlace de usuario */
 .user-link {
     text-decoration: none;
     color: #153B4C;
 }
-#valores {
-    p{
-        color:white;
-    }
-    
+
+
+.user-menu {
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    gap: 15px; /* Espaciado entre elementos */
 }
 
+/* Asegurar que ambos elementos (usuario y carrito) tengan el mismo color */
+.user-btn, .cart-link {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espacio entre el ícono y el texto */
+    color: #386578; /* Mismo color que "Mi Carrito" */
+    text-decoration: none; /* Evita subrayados */
+    font-size: 18px; /* Ajusta tamaño si es necesario */
+    font-weight: 400; /* Mantiene un estilo uniforme */
+}
+
+/* Cambia el color en hover para ambos */
+.user-btn:hover, .cart-link:hover {
+    color: #A2B8C9 !important; /* Color más claro al pasar el mouse */
+}
+
+
+
+/* ==============================
+   SECCIÓN DE VALORES
+   ============================== */
+#valores p,
+#misionVision p {
+    color: white;
+}
+
+/* ==============================
+   ESTILOS GENERALES DE TEXTOS
+   ============================== */
 h2 {
     color: #153B4C;
     font-weight: 600;
-}
-#misionVision{
-   p{
-        color: white;
-   } 
 }
 
 h4 {
@@ -94,12 +193,58 @@ h4 {
     font-weight: 500;
 }
 
+h5 {
+    color: #153B4C;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+h6 {
+    color: #386578;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+/* ==============================
+   INFO BOX
+   ============================== */
 .info-box {
     background-color: #A2B8C9;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
+.info-box h3 {
+    color: #153B4C;
+    font-weight: 600;
+}
+
+.info-box p {
+    color: #386578;
+    font-size: 16px;
+}
+
+/* ==============================
+   SECCIÓN ACERCA DE NOSOTROS
+   ============================== */
+.about-text {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #386578;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* ==============================
+   SECCIÓN DE EQUIPO
+   ============================== */
 .team {
     display: flex;
     justify-content: center;
@@ -118,6 +263,9 @@ h4 {
     object-fit: cover;
 }
 
+/* ==============================
+   FOOTER
+   ============================== */
 footer {
     background-color: #153B4C;
     color: white;
@@ -134,14 +282,17 @@ footer nav a:hover {
     text-decoration: underline;
 }
 
+/* ==============================
+   SECCIÓN DE VALORES
+   ============================== */
 .valores-section {
-    background-color: #A2B8C9; /* Color de fondo */
+    background-color: #A2B8C9;
     padding: 20px;
     border-radius: 10px;
 }
 
 .valor-icon {
-    width: 50px; /* Tamaño del ícono */
+    width: 50px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -151,48 +302,49 @@ footer nav a:hover {
     font-weight: 500;
     color: #153B4C;
 }
-.info-box {
-    background-color: #A2B8C9; /* Color de fondo */
-    padding: 20px;
-    border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-    text-align: center;
+
+/* ==============================
+   TARJETAS (CARDS)
+   ============================== */
+.cards {
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 
-.info-box h3 {
-    color: #153B4C; /* Color del texto */
-    font-weight: 600;
-}
-
-.info-box p {
-    color: #386578;
-    font-size: 16px;
-}
-
-.about-text {
-    max-width: 1000px; /* Expande el ancho del texto */
-        margin: 0 auto; /* Centra el texto */
-        font-size: 18px; /* Aumenta el tamaño de la fuente */
-        color: #386578; /* Color similar a la sección de misión y visión */
-        line-height: 1.8; /* Mejora la legibilidad */
-        text-align: center; /* Centra el texto para una mejor presentación */
-}
-
-/* Estilos para la sección de usuario y carrito */
-.user-menu {
+.card {
     display: flex;
-    align-items: center;
-    gap: 15px;
-}
-.user-btn {
-    display: flex;
-    align-items: center;
-    background: none;
-    border: none;
-    font-size: 16px;
-    color: #153B4C;
-    cursor: pointer;
-    gap: 8px;
+    flex-direction: column;
+    gap: 2px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    overflow: hidden;
 }
 
+.card > img {
+    width: 100%;
+}
 
+.card > header {
+    padding: 30px;
+}
+
+.card-img-top {
+    width: 15em;
+    background-color: #D6E1EC;
+}
+
+/* Efecto hover en las tarjetas */
+.card:hover {
+    transform: scale(1.1);
+}
+
+/* ==============================
+   OTROS ESTILOS
+   ============================== */
+.navbar-toggler:hover {
+    background-color: #D6E1EC;
+}
