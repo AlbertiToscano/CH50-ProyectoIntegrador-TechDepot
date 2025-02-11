@@ -75,7 +75,13 @@ body {
     }
 
 }
-
+.about-text{
+    color:#153B4C;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
 h2 {
     color: #153B4C;
     font-weight: 600;
@@ -151,10 +157,44 @@ footer nav a:hover {
     font-weight: 500;
     color: #153B4C;
 }
-
-.card{
+.cards{
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr)
+    
+}
+h5{
+    color:#153B4C;
+    font-weight: 600;
+    font-size: 22px;
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    text-align: left;
+}
+h6{
+    color: #386578;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+
+   & > img {
+Width : '100%'
+  }
+  & > header {
+    padding: 30px;
+  }
+
 }
 .card-img-top{
 
@@ -166,4 +206,13 @@ footer nav a:hover {
 
 .card:hover {
     transform: scale(1.1); /* Escala la tarjeta al 110% */
+}
+
+.cart-link{
+    color: #A2B8C9; 
+} 
+
+.navbar-toggler:hover {
+    background-color: #D6E1EC
+    
 }
