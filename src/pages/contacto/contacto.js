@@ -1,5 +1,4 @@
 
-
 /* // declaración de variables */
 let isValid = true;
 // variables que contienen los ID
