@@ -198,6 +198,7 @@ h5{
     font-weight: 600;
     font-size: 22px;
     font-family: 'Poppins', sans-serif;
+<<<<<<< HEAD
     text-align: left;
 }
 h6{
@@ -223,18 +224,25 @@ Width : '100%'
     padding: 30px;
   }
 
+=======
+    font-size: 13px;
+    margin: 10px;
+>>>>>>> 819032c0936f98af93f07a073fd7c990023600c3
 }
 .card-img-top{
 
     
     width: 15em;
     background-color: #D6E1EC;
+    align-items: center;
+     
 
 }
 
 .card:hover {
     transform: scale(1.1); /* Escala la tarjeta al 110% */
 }
+<<<<<<< HEAD
 
 .cart-link{
     color: #A2B8C9; 
@@ -244,3 +252,12 @@ Width : '100%'
     background-color: #D6E1EC
     
 }
+=======
+ .card-title{
+     font-size: 150%;
+     text-align: center;
+ }
+ .card-subtitle {
+    font-size: 95%;
+ }
+>>>>>>> 819032c0936f98af93f07a073fd7c990023600c3
