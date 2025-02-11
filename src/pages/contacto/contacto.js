@@ -25,7 +25,6 @@ const verificacion = (id) =>{
             isValid = false;
         }
     };
-
 }
 
 // mediante la función de verificación, comprueba que el contenido no esté vacio, si cualquier elemento está vacio envia un preventDefault();
