@@ -111,7 +111,7 @@
     color: #386578;
 }
 
-.cart-link {
+.cart-link-header {
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -120,7 +120,7 @@
     gap: 8px;
 }
 
-.cart-link:hover {
+.cart-link-header :hover {
     color: #A2B8C9 !important;
 }
 
@@ -130,7 +130,7 @@
     gap: 15px;
 }
 
-.user-btn, .cart-link {
+.user-btn, .cart-link-header  {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -140,7 +140,7 @@
     font-weight: 400;
 }
 
-.user-btn:hover, .cart-link:hover {
+.user-btn:hover, .cart-link-header:hover {
     color: #A2B8C9 !important;
 }
 
@@ -198,6 +198,91 @@
     line-height: 1.8;
     text-align: center;
 }
+
+.cards {
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/* 2 columnas en pantallas mayores a 576px */
+@media (min-width: 576px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 3 columnas en pantallas mayores a 768px */
+@media (min-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* 4 columnas en pantallas mayores a 992px */
+@media (min-width: 992px) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* 6 columnas en pantallas mayores a 1200px */
+@media (min-width: 1200px) {
+    .cards {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+h5 {
+    color: #153B4C;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+h6 {
+    color: #386578;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.card > header {
+    padding: 30px;
+}
+
+.card-img-top {
+    width: 15em;
+    background-color: #D6E1EC;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.cart-link {
+    color: #A2B8C9;
+}
+
+
 
 /* ==============================
    ESTILOS GENERALES DE TEXTOS
