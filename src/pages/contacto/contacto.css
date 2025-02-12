@@ -159,3 +159,29 @@ footer nav a:hover {
 .form-control {
     background-color: #A2B8C9;
 }
+
+/* botones dentro de la imagen */
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;/* Ajusta según tu imagen */
+}
+.background {
+    width: 100%;
+    display: block;
+}
+.button {
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+
+}
+/* .whatsapp { top: 15%; right: 10%; }
+.email { top: 35%; right: 15%; } */
+.facebook { bottom: 35%; left: 30%; }
+.instagram { bottom: 15%; left: 10%; }
