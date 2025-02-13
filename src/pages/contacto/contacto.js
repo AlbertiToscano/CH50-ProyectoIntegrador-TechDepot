@@ -67,7 +67,7 @@ const verificacion = (id,event) => {
     case "mensaje":
         
          let regexMensaje=/^.{1,200}$/gi;
-         if (regexMensaje.test(parametro)){
+         if (regexMensaje.test(parametro) && parametro !==""){
             document.getElementById( `error-${id}`).classList.add("correcto");
              document.getElementById( `error-${id}`).textContent = ` ${id} correcto`;
  
@@ -99,6 +99,7 @@ if(id=="nombre"){
         document.getElementById( `error-${id}`).textContent = `ingrese un ${id} válido.`;
         event.preventDefault();
       }else if(id=="mensaje"){
+        document.getElementById( `error-${id}`).textContent = `Por favor, llena el campo ${id}`;
         event.preventDefault();
       }else if(parametro== ""){
         document.getElementById( `error-${id}`).textContent = `Por favor, llena el campo ${id}`;
@@ -107,7 +108,8 @@ if(id=="nombre"){
 }
 //funcion que borra el mensaje de error al hacer click sobre el campo
 function borrarLeyenda(id){
- return document.getElementById( `error-${id}`).textContent = ``;
+  document.getElementById( `error-${id}`).textContent = ``;
+  document.getElementById( `${id}`).value = ``;
  
 }
 

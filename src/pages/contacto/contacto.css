@@ -185,3 +185,19 @@ footer nav a:hover {
 .email { top: 35%; right: 15%; } */
 .facebook { bottom: 35%; left: 30%; color: #386578;}
 .instagram { bottom: 15%; left: 10%; color: #386578;}
+
+
+
+
+
+
+
+
+.correcto#error-mensaje,
+.correcto#error-telefono,
+.correcto#error-nombre,
+.correcto#error-email
+{
+    color: rgb(36, 113, 36);
+    font-size: 0.9em;
+}
