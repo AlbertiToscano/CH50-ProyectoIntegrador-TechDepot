@@ -1,0 +1,143 @@
+[
+  {
+    "id":"pro1",
+    "titulo": "Procesador AMD Ryzen 7 9800X3D / AM5 / Up to 5.2 GHz / 8-Core / 96MB L3 Cache / AMD Radeon™ Graphics",
+    "precio": 11999,
+    "descripcion": "Procesador AMD Ryzen 7 9800X3D / AM5 / Up to 5.2 GHz / 8-Core / 96MB L3 Cache / AMD Radeon™ Graphics / No Incluye Disipador / 100-100001084WOF",
+    "caracteristicas": {
+      "marca": "AMD",
+      "modelo": "AMD Ryzen 9800X3D",
+      "socket": "AM5",
+      "disipador": "no",
+      "graficos_integrados": "si",
+      "TDP": 120
+    },
+    "imagen": "./public/img productos/pro1.webp",
+    "rating": {
+      "valoracion": 4.6,
+      "votos": 234
+    }
+  },
+
+  {
+    "id":"pro2",
+    "titulo": "Procesador AMD Ryzen 5 7600X / Socket AM5 / 4.7GHz / 6 núcleos / 12 hilos / Gráficos Integrados",
+    "precio": 4599,
+    "descripcion": "Procesador AMD Ryzen 7 9800X3D / AM5 / Up to 5.2 GHz / 8-Core / 96MB L3 Cache / AMD Radeon™ Graphics / No Incluye Disipador / 100-100001084WOF",
+    "caracteristicas": {
+      "marca": "AMD",
+      "modelo": "AMD Ryzen 5 7600X",
+      "socket": "AM5",
+      "disipador": "no",
+      "graficos_integrados": "si",
+      "TDP": 105
+    },
+    "imagen": "./public/img productos/pro2.webp",
+    "rating": {
+      "valoracion": 4.8,
+      "votos": 915
+    }
+  },
+
+  {
+    "id":"pro3",
+    "titulo": "Procesador AMD Ryzen 5 5500 / 6 Core / 12 Thread / 3.6GHz / 4.2GHz Boost / TDP 65W / Incluye Disipador Wraith Stealth",
+    "precio": 1599,
+    "descripcion": "Procesador AMD Ryzen 5 5500 / 6 Core / 12 Thread / 3.6GHz / 4.2GHz Boost / TDP 65W / Incluye Disipador Wraith Stealth / (Requiere Tarjeta de Video) /  100-100000457BOX",
+    "caracteristicas": {
+      "marca": "AMD",
+      "modelo": "AMD Ryzen 5 5500",
+      "socket": "AM4",
+      "disipador": "si",
+      "graficos_integrados": "no",
+      "TDP": 65
+    },
+    "imagen": "./public/img productos/pro3.webp",
+    "rating": {
+      "valoracion": 4.7,
+      "votos": 2033
+    }
+  },
+
+  {
+    "id":"pro4",
+    "titulo": "Procesador AMD RYZEN 9 7900X3D / 5.6 GHZ / 12 Núcleos / Socket AM5 / AMD Radeon Graphics",
+    "precio": 9599,
+    "descripcion": "Procesador AMD RYZEN 9 7900X3D / 5.6 GHZ / 12 Núcleos / Socket AM5 / AMD Radeon™ Graphics / 7000 Series",
+    "caracteristicas": {
+      "marca": "AMD",
+      "modelo": "AMD RYZEN 9 7900X3D",
+      "socket": "AM4",
+      "disipador": "no",
+      "graficos_integrados": "si",
+      "TDP": 170
+    },
+    "imagen": "./public/img productos/pro4.webp",
+    "rating": {
+      "valoracion": 4.7,
+      "votos": 2033
+    }
+  },
+
+  {
+    "id":"pro5",
+    "titulo": "ROCESADOR AMD RYZEN 5 3400G APU 3.7GHZ / 4.2GHZ / 4CORE / AM4 / Con disipador Wraith Spire",
+    "precio": 4399,
+    "descripcion": "PROCESADOR AMD RYZEN 5 3400G APU 3.7GHZ / 4.2GHZ / 4CORE / AM4 / Con disipador Wraith Spire / Radeon VEGA 11 Integrada / YD3400C5FHBOX",
+    "caracteristicas": {
+      "marca": "AMD",
+      "modelo": "AMD RYZEN 5 3400G",
+      "socket": "AM4",
+      "disipador": "si",
+      "graficos_integrados": "si",
+      "TDP": 65
+    },
+    "imagen": "./public/img productos/pro5.jpg",
+    "rating": {
+      "valoracion": 4.6,
+      "votos": 54
+    }
+  },
+  
+  {
+    "id":"pro6",
+    "titulo": "PROCESADOR AMD RYZEN 3 3200G APU 3.6GHZ / 4GHZ / 4CORE / AM4 / Con disipador Wraith Stealth",
+    "precio": 1399,
+    "descripcion": "PROCESADOR AMD RYZEN 3 3200G APU 3.6GHZ / 4GHZ / 4CORE / AM4 / Con disipador Wraith Stealth / Radeon VEGA 8 Integrada / YD3200C5FHBOX",
+    "caracteristicas": {
+      "marca": "AMD",
+      "modelo": "AMD RYZEN 3 3200G",
+      "socket": "AM4",
+      "disipador": "si",
+      "graficos_integrados": "si",
+      "TDP": 65
+    },
+    "imagen": "./public/img productos/pro6.webp",
+    "rating": {
+      "valoracion": 4.7,
+      "votos": 701
+    }
+  },
+
+  {
+    "id":"pro7",
+    "titulo": "Procesador AMD Ryzen 5 7600X / Socket AM5 / 4.7GHz / 6 núcleos / 12 hilos / Gráficos Integrados",
+    "precio": 4599,
+    "descripcion": "Procesador AMD Ryzen 5 7600X / Socket AM5 / 4.7GHz / 6 núcleos / 12 hilos / Gráficos Integrados / REQUIERE DISIPADOR / 100-100000593WOF",
+    "caracteristicas": {
+      "marca": "AMD",
+      "modelo": "AMD RYZEN 5 7600G",
+      "socket": "AM4",
+      "disipador": "no",
+      "graficos_integrados": "si",
+      "TDP": 105
+    },
+    "imagen": "./public/img productos/pro7.webp",
+    "rating": {
+      "valoracion": 4.8,
+      "votos": 913
+    }
+  },
+
+
+]
