@@ -4,7 +4,7 @@ Color Barra--#153B4C;
 Color Fondo--#D6E1EC;
 Color Tarjetas--#386578;
 */
-
+/*  */
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -185,6 +185,8 @@ footer nav a:hover {
 .email { top: 35%; right: 15%; } */
 .facebook { bottom: 35%; left: 30%; color: #386578;}
 .instagram { bottom: 15%; left: 10%; color: #386578;}
+
+
 
 
 
