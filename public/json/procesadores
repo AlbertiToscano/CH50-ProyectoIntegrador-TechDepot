@@ -138,6 +138,163 @@
       "votos": 913
     }
   },
-
-
+  
+  {
+    "id":"pro8",
+    "titulo": "Procesador Intel Core i7-14700KF / Core i7 14th Gen / 20-Core (8P+12E) / LGA 1700",
+    "precio": 7999,
+    "descripcion": "Procesador Intel Core i7-14700KF / Core i7 14th Gen / 20-Core (8P+12E) / LGA 1700 / Requiere Tarjeta de Video / BX8071514700KF",
+    "caracteristicas": {
+      "marca": "Intel",
+      "modelo": "Intel Core i7-14700KF",
+      "socket": "LGA 1700",
+      "disipador": "no",
+      "graficos_integrados": "no",
+      "TDP": 235
+    },
+    "imagen": "./public/img productos/pro8.webp",
+    "rating": {
+      "valoracion": 4.7,
+      "votos": 277
+    }
+  },
+  
+  {
+    "id":"pro9",
+    "titulo": "Procesador Intel Core i5-14400F / Core i5 14th Gen / 10-Core (6P+4E) / 2.50GHz / LGA 1700 / 60W",
+    "precio": 3899,
+    "descripcion": "Procesador Intel Core i5-14400F / Core i5 14th Gen / 10-Core (6P+4E) / 2.50GHz / LGA 1700 / 60W / Requiere Tarjeta de Video / BX8071514400F",
+    "caracteristicas": {
+      "marca": "Intel",
+      "modelo": "Intel Core i5-14400F",
+      "socket": "LGA 1700",
+      "disipador": "si",
+      "graficos_integrados": "no",
+      "TDP": 60
+    },
+    "imagen": "./public/img productos/pro9.webp",
+    "rating": {
+      "valoracion": 4.7,
+      "votos": 124
+    }
+  },
+  {
+    "id":"pro10",
+    "titulo": "Procesador Intel Core i5-12400F 2.5GHz / 4.3GHz / 6 Nucleos / 12 Hilos / Socket LGA1700 - Intel 12TH Generación ",
+    "precio": 3899,
+    "descripcion": "Procesador Intel Core i5-12400F 2.5GHz / 4.3GHz / 6 Nucleos / 12 Hilos / Socket LGA1700 - Intel 12TH Generación / Requiere Tarjeta de Video / BX8071512400F",
+    "caracteristicas": {
+      "marca": "Intel",
+      "modelo": "Intel Core i5-12400F",
+      "socket": "LGA 1700",
+      "disipador": "si",
+      "graficos_integrados": "no",
+      "TDP": 117
+    },
+    "imagen": "./public/img productos/pro10.webp",
+    "rating": {
+      "valoracion": 4.7,
+      "votos": 124
+    }
+  },
+  
+  {
+    "id":"pro11",
+    "titulo": "Procesador Intel Core i3-12100F 3.3GHz / 4.3GHz / 4 Nucleos / 8 Hilos / Socket LGA1700 - Intel 12TH Generación",
+    "precio": 1799,
+    "descripcion": "Procesador Intel Core i3-12100F 3.3GHz / 4.3GHz / 4 Nucleos / 8 Hilos / Socket LGA1700 - Intel 12TH Generación / Requiere Tarjeta de Video / BX8071512100F",
+    "caracteristicas": {
+      "marca": "Intel",
+      "modelo": "Intel Core i3-12100F",
+      "socket": "LGA 1700",
+      "disipador": "si",
+      "graficos_integrados": "no",
+      "TDP": 89
+    },
+    "imagen": "./public/img productos/pro11.webp",
+    "rating": {
+      "valoracion": 4.7,
+      "votos": 183
+    }
+  },
+  
+  {
+    "id":"pro12",
+    "titulo": "Procesador Intel Core i9-14900KF / Core i9 14th Gen 24-Core (8P+16E) / LGA 1700 125W",
+    "precio": 9999,
+    "descripcion": "Procesador Intel Core i9-14900KF / Core i9 14th Gen 24-Core (8P+16E) / LGA 1700 125W / Requiere Tarjeta de Video / BX8071514900KF",
+    "caracteristicas": {
+      "marca": "Intel",
+      "modelo": "Intel Core i9-14900KF",
+      "socket": "LGA 1700",
+      "disipador": "no",
+      "graficos_integrados": "no",
+      "TDP": 125
+    },
+    "imagen": "./public/img productos/pro12.webp",
+    "rating": {
+      "valoracion": 4.5,
+      "votos": 114
+    }
+  },
+  
+  {
+    "id":"pro13",
+    "titulo": "Procesador Intel Core i5-10400 2.90GHz / 4.30GHz / 6 Nucleos / 12 Hilos / Socket LGA1200",
+    "precio": 2899,
+    "descripcion": "Procesador Intel Core i5-10400 2.90GHz / 4.30GHz / 6 Nucleos / 12 Hilos / Socket LGA1200 - Intel 10TH Generación / BX8070110400",
+    "caracteristicas": {
+      "marca": "Intel",
+      "modelo": "Intel Core i5-10400",
+      "socket": "LGA 1200",
+      "disipador": "si",
+      "graficos_integrados": "si",
+      "TDP": 65
+    },
+    "imagen": "./public/img productos/pro13.webp",
+    "rating": {
+      "valoracion": 4.7,
+      "votos": 799
+    }
+  },
+  
+  {
+    "id":"pro14",
+    "titulo": "Procesador Intel Core I3-13100 / Intel Uhd Graphics 730 / Socket 1700 3.40ghz / BX8071513100",
+    "precio": 2899,
+    "descripcion": "Procesador Intel Core I3-13100 / Intel Uhd Graphics 730 / Socket 1700 3.40ghz / BX8071513100",
+    "caracteristicas": {
+      "marca": "Intel",
+      "modelo": "Intel Core I3-13100",
+      "socket": "LGA 1700",
+      "disipador": "si",
+      "graficos_integrados": "si",
+      "TDP": 89
+    },
+    "imagen": "./public/img productos/pro14.webp",
+    "rating": {
+      "valoracion": 4.5,
+      "votos": 19
+    }
+  },
+  
+  {
+    "id":"pro15",
+    "titulo": "Procesador Intel Core i7-13700 Intel Graphics UHD 770 / Socket LGA 1700 2.10GHz 16-Core 30MB",
+    "precio": 6599,
+    "descripcion": "Procesador Intel Core i7-13700 Intel Graphics UHD 770 / Socket LGA 1700 2.10GHz 16-Core 30MB / 13 Generación Raptor Lake / BX8071513700",
+    "caracteristicas": {
+      "marca": "Intel",
+      "modelo": "Intel Core i7-13700",
+      "socket": "LGA 1700",
+      "disipador": "si",
+      "graficos_integrados": "si",
+      "TDP": 219
+    },
+    "imagen": "./public/img productos/pro14.webp",
+    "rating": {
+      "valoracion": 4.6,
+      "votos": 36
+    }
+  }
 ]
