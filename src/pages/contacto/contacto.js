@@ -1,127 +1,86 @@
 
 
-/* // declaración de variables */
+// IDs de los campos del formulario
+const campos = {
+  nombre: "nombre",
+  email: "email",
+  telefono: "telefono",
+  mensaje: "mensaje"
+};
 
-// variables que contienen los ID
-const nombre = "nombre";
-const email = "email";
-const telefono = "telefono";
-const mensaje = "mensaje";
+// Expresiones regulares para validación
+const regex = {
+  nombre: /[a-zA-Z]\s[a-zA-Z]/,
+  email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+  telefono: /\d{10}/,
+  mensaje: /^.{1,200}$/
+};
 
+// Mensajes de error personalizados
+const mensajesError = {
+  nombre: "Ingrese un nombre válido y completo.",
+  email: "Ingrese un correo electrónico válido.",
+  telefono: "Ingrese un número de teléfono válido.",
+  mensaje: "Por favor, ingrese un mensaje (máximo 200 caracteres)."
+};
 
 /**
- * Función que comprueba el contenido de las casillas del formulario y retorna un mensaje en caso de que sea un empty string
- * @param {* variable de ID} id
+ * Función para validar un campo específico.
+ * @param {string} id - ID del campo a validar.
+ * @param {string} valor - Valor del campo.
+ * @returns {boolean} - True si es válido, False si no.
  */
+function validarCampo(id, valor) {
+  return regex[id].test(valor.trim());
+}
 
-const verificacion = (id,event) => {
-    const parametro = document.getElementById(id).value.trim();
-    switch (id) {
-    case "nombre":
-        //expresion regular para validar que el usuario ingreso letras 
-        let regexNombre=/[a-zA-Z]\s[a-zA-Z]/g;
-        if (regexNombre.test(parametro)){
-            document.getElementById( `error-${id}`).classList.add("correcto");
-            document.getElementById( `error-${id}`).textContent = ` ${id} correcto`;
-            
-        }else{
-          document.getElementById( `error-${id}`).classList.remove("correcto");
-          
-            mensajeError(parametro,id,event);
-          
-        }
-//return constanteNombre;
-      break;
-
-    case "email":
-        //expresion regular para validar que el usuario ingreso correo correcto 
-        let regexCorreo=/[a-zA-Z0-9]@[a-zA-Z]/g;
-        if (regexCorreo.test(parametro)){
-            document.getElementById( `error-${id}`).classList.add("correcto");
-            document.getElementById( `error-${id}`).textContent = ` ${id} correcto`;
-            
-
-        }else{
-          document.getElementById( `error-${id}`).classList.remove("correcto");
-            mensajeError(parametro,id,event);
-         
-        }
-       
-      break;
-
-    case "telefono":
-         //expresion regular para validar que el usuario ingreso telefono correcto
-         let regexTelefono=/\d{10}/;
-         if (regexTelefono.test(parametro)){
-            document.getElementById( `error-${id}`).classList.add("correcto");
-             document.getElementById( `error-${id}`).textContent = ` ${id} correcto`;
- 
-         }else{
-          document.getElementById( `error-${id}`).classList.remove("correcto");
-             mensajeError(parametro,id,event);
-            
-         }
-         
-      break;
-
-    case "mensaje":
-        
-         let regexMensaje=/^.{1,200}$/gi;
-         if (regexMensaje.test(parametro) && parametro !==""){
-            document.getElementById( `error-${id}`).classList.add("correcto");
-             document.getElementById( `error-${id}`).textContent = ` ${id} correcto`;
- 
-         }else{
-          document.getElementById( `error-${id}`).classList.remove("correcto");
-             mensajeError(parametro,id,event);
-           
-         }
-         
-      break;
-      default:
-        
-       
-
+/**
+ * Función para mostrar mensajes de error o éxito.
+ * @param {string} id - ID del campo.
+ * @param {boolean} esValido - Indica si el campo es válido.
+ */
+function mostrarMensaje(id, esValido) {
+  const elementoError = document.getElementById(`error-${id}`);
+  if (esValido) {
+    elementoError.classList.add("correcto");
+    elementoError.textContent = `${id} correcto`;
+  } else {
+    elementoError.classList.remove("correcto");
+    elementoError.textContent = mensajesError[id];
   }
-
- 
-};
-//funcion que valida la entrada del usuario
-function mensajeError(parametro,id,event){
-
-if(id=="nombre"){
-    document.getElementById( `error-${id}`).textContent = `ingrese ${id} valido y completo.`;
-    event.preventDefault();
-}else if(id=="email"){
-    document.getElementById( `error-${id}`).textContent = `ingrese un ${id} válido.`;
-    event.preventDefault();
-      }else if(id=="telefono"){
-        document.getElementById( `error-${id}`).textContent = `ingrese un ${id} válido.`;
-        event.preventDefault();
-      }else if(id=="mensaje"){
-        document.getElementById( `error-${id}`).textContent = `Por favor, llena el campo ${id}`;
-        event.preventDefault();
-      }else if(parametro== ""){
-        document.getElementById( `error-${id}`).textContent = `Por favor, llena el campo ${id}`;
-        event.preventDefault();
-      }
-}
-//funcion que borra el mensaje de error al hacer click sobre el campo
-function borrarLeyenda(id){
-  document.getElementById( `error-${id}`).textContent = ``;
-  document.getElementById( `${id}`).value = ``;
- 
 }
 
+/**
+ * Función principal de verificación.
+ * @param {string} id - ID del campo.
+ * @param {Event} event - Evento del formulario.
+ */
+function verificacion(id, event) {
+  const valor = document.getElementById(id).value.trim();
+  const esValido = validarCampo(id, valor);
+  mostrarMensaje(id, esValido);
 
-// mediante la función de verificación, comprueba que el contenido no esté vacio, si cualquier elemento está vacio envia un preventDefault();
+  if (!esValido) {
+    event.preventDefault(); // Evita el envío del formulario si hay errores
+  }
+}
+
+/**
+ * Función para borrar el mensaje de error al hacer clic en el campo.
+ * @param {string} id - ID del campo.
+ */
+function borrarLeyenda(id) {
+  document.getElementById(`error-${id}`).textContent = "";
+  document.getElementById(id).value = "";
+}
+
+// Evento para validar el formulario al enviar
 document.getElementById("miFormulario").addEventListener("submit", function (event) {
-    verificacion(nombre,event);
-    verificacion(email,event);
-    verificacion(telefono,event);
-    verificacion(mensaje,event);
+  Object.values(campos).forEach((campo) => verificacion(campo, event));
+});
 
-   
-  });
-
+// Eventos para borrar mensajes de error al hacer clic en los campos
+Object.values(campos).forEach((campo) => {
+  document.getElementById(campo).addEventListener("click", () => borrarLeyenda(campo));
+});
   
