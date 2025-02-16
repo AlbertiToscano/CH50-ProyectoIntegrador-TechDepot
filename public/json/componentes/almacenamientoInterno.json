@@ -1,0 +1,181 @@
+[
+    {
+        "id": "alm1",
+        "titulo": "Forgeon Nimbus PRO Disco SSD 1TB 7400MB/S NVMe PCIe 4.0 M.2 Gen4",
+        "precio": 2099,
+        "descripcion": "Forgeon Nimbus PRO PCIe 4.0 ofrece una velocidad de lectura de hasta 7400 MB/s. Equipado con la última tecnología de controlador PCIe Gen4 y tecnología flash NAND de última generación, asegura un rendimiento excepcional. Ideal para entusiastas, jugadores y creadores de contenido, la Nimbus PRO también es compatible con PS5. Su diseño en formato M.2 2280 se adapta a ordenadores de escritorio, portátiles y PS5, facilitando la actualización del sistema.",
+        "caracteristicas": {
+            "marca": "Forgeon",
+            "modelo": "Forgeon Nimbus PRO",
+            "capacidad": "1TB",
+            "tipo": "SSD"
+        },
+        "imagen": "/public/img productos/alm1.webp",
+        "rating": {
+            "valoracion": 4.6,
+            "votos": 68
+        }
+    },
+    
+    {
+        "id": "alm2",
+        "titulo": "WD Black SN770 2TB Disco SSD 5150MB/S NVMe PCIe 4.0 M.2 Gen4 16GT/s",
+        "precio": 2589,
+        "descripcion": "Entra en acción al instante con el WD_BLACK™ SN770 NVMe™ SSD. Este disco se ha diseñado específicamente para jugar y cuenta con la interfaz PCIe® Gen4, que ofrece una velocidad impresionante de hasta 5150 MB/s (en los modelos de 1 TB y 2 TB).",
+        "caracteristicas": {
+            "marca": "WD",
+            "modelo": "WD Black SN770",
+            "capacidad": "2TB",
+            "tipo": "SSD"
+        },
+        "imagen": "/public/img productos/alm2.webp",
+        "rating": {
+            "valoracion": 4.8,
+            "votos": 1517
+        }
+    },
+    
+    {
+        "id": "alm3",
+        "titulo": "Kingston NV2 1TB Disco SSD 3500MB/S NVMe PCIe 4.0 M.2 Gen4",
+        "precio": 1199,
+        "descripcion": "El disco SSD NVMe PCIe 4.0 NV2 es una solución de almacenamiento de nueva generación mejorada basada en un controlador NVME Gen 4x4. NV2 alcanza velocidades de lectura/escritura de hasta 3.500/2.800 MB/s1, con menor consumo eléctrico y generando menos calor, con lo cual optimiza el rendimiento de su sistema y mejora su valor sin sacrificar nada. El compacto diseño de M.2 2280 de una cara (22 x 80 mm) amplía el almacenamiento hasta los 2 TB2, además de ahorrar espacio para otros componentes. Por ello, el NV2 es ideal para portátiles más delgados, sistemas de pequeño factor de forma (SFF) y placas base para integradores de sistemas.",
+        "caracteristicas": {
+            "marca": "Kingston",
+            "modelo": "Kingston NV2",
+            "capacidad": "1TB",
+            "tipo": "SSD"
+        },
+        "imagen": "/public/img productos/alm3.webp",
+        "rating": {
+            "valoracion": 4.7,
+            "votos": 4033
+        }
+    },
+    
+    {
+        "id": "alm4",
+        "titulo": "Samsung 870 QVO SSD 1TB SATA3",
+        "precio": 3259,
+        "descripcion": "Descubre el potente rendimiento con PCIe 4.0 y experimenta velocidades de vértigo para vencer al contrincante. La regulación térmica del controlador Samsung ofrece una alta eficiencia energética manteniendo el máximo rendimiento y altas velocidades.",
+        "caracteristicas": {
+            "marca": "Samsung",
+            "modelo": "Samsung 990 Pro",
+            "capacidad": "2TB",
+            "tipo": "SSD"
+        },
+        "imagen": "/public/img productos/alm4.webp",
+        "rating": {
+            "valoracion": 4.8,
+            "votos": 882
+        }
+    },
+
+    {
+        "id": "alm5",
+        "titulo": "Samsung 870 QVO SSD 1TB SATA3",
+        "precio": 1899,
+        "descripcion": "El 870 QVO es lo último de la segunda generación de Samsung. El SSD QLC es el tipo de SSD de mayor capacidad, ya que proporciona hasta 8 TB de almacenamiento. Este disco, ofrece opciones increíbles para los usuarios que quieren aumentar la memoria de su PC o portátil hasta el máximo disponible en el mercado, y sin comprometer el rendimiento.",
+        "caracteristicas": {
+            "marca": "Samsung",
+            "modelo": "Samsung 870 QVO",
+            "capacidad": "1TB",
+            "tipo": "SSD"
+        },
+        "imagen": "/public/img productos/alm5.webp",
+        "rating": {
+            "valoracion": 4.7,
+            "votos": 1871
+        }
+    },
+    
+    {
+        "id": "alm6",
+        "titulo": "Disco Duro Seagate BarraCuda 3.5 2TB SATA 3",
+        "precio": 1359,
+        "descripcion": "Impresionante versatilidad. Fiabilidad inigualable. Seagate incorpora más de 20 años de rendimiento y fiabilidad dignos de confianza a las unidades de disco duro Seagate® BarraCuda® de 3,5 pulgadas. ahora disponibles en diferentes capacidades.",
+        "caracteristicas": {
+            "marca": "Seagate",
+            "modelo": "Seagate BarraCuda",
+            "capacidad": "2TB",
+            "tipo": "HDD"
+        },
+        "imagen": "/public/img productos/alm6.webp",
+        "rating": {
+            "valoracion": 4.6,
+            "votos": 8106
+        }
+    },
+    
+    {
+        "id": "alm7",
+        "titulo": "Disco Duro Seagate Ironwolf NAS 4TB Disco interno HDD 3.5 SATA 3",
+        "precio": 2499,
+        "descripcion": "Tanto si eres un usuario doméstico como un profesional creativo, para la oficina o el hogar, el disco duro NAS IronWolf de 4 TB de Seagate es la solución de almacenamiento que necesitas. Es un AgileArray optimizado para soluciones NAS y adecuado para el uso de 1 a 8 bahías NAS.",
+        "caracteristicas": {
+            "marca": "Seagate",
+            "modelo": "Seagate Ironwolf NAS",
+            "capacidad": "4TB",
+            "tipo": "HDD"
+        },
+        "imagen": "/public/img productos/alm7.webp",
+        "rating": {
+            "valoracion": 4.6,
+            "votos": 705
+        }
+    },
+    
+    {
+        "id": "alm8",
+        "titulo": "Disco Duro WD Red Plus NAS 4TB Disco interno HDD 3.5 256MB SATA 3",
+        "precio": 2849,
+        "descripcion": "Los discos WD Red Plus se han diseñado para funcionar con las cargas de trabajo de los entornos NAS de pequeñas a medianas empresas y usuarios avanzados. Los discos WD Red Plus ofrecen la capacidad y velocidad necesarias para almacenar, proteger y compartir conjuntos de datos en crecimiento de sistemas NAS optimizados para RAID medianos con una eficiencia energética mejorada.",
+        "caracteristicas": {
+            "marca": "WD",
+            "modelo": "WD Red Plus NAS",
+            "capacidad": "4TB",
+            "tipo": "HDD"
+        },
+        "imagen": "/public/img productos/alm8.webp",
+        "rating": {
+            "valoracion": 4.6,
+            "votos": 749
+        }
+    },
+    
+    {
+        "id": "alm9",
+        "titulo": "Disco Duro Seagate SkyHawk ST4000VX016 4TB 3.5 SATA3",
+        "precio": 1959,
+        "descripcion": "SkyHawk™ saca partido a la amplia experiencia de Seagate en el diseño de unidades pensadas específicamente para aplicaciones de vigilancia.",
+        "caracteristicas": {
+            "marca": "Seagate",
+            "modelo": "Seagate SkyHawk",
+            "capacidad": "4TB",
+            "tipo": "HDD"
+        },
+        "imagen": "/public/img productos/alm9.webp",
+        "rating": {
+            "valoracion": 4.5,
+            "votos": 39
+        }
+    },
+    
+    {
+        "id": "alm10",
+        "titulo": "Disco Duro Synology Plus Series HAT3300 3.5 6TB SATA 3",
+        "precio": 3869,
+        "descripcion": "Discos duros fiables diseñados específicamente para los sistemas de Synology en entornos de oficinas domésticas y pequeñas.",
+        "caracteristicas": {
+            "marca": "Synology",
+            "modelo": "Synology Plus Series",
+            "capacidad": "6TB",
+            "tipo": "HDD"
+        },
+        "imagen": "/public/img productos/alm10.webp",
+        "rating": {
+            "valoracion": 4.6,
+            "votos": 30
+        }
+    }
+]
