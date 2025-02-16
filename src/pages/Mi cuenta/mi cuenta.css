@@ -329,3 +329,20 @@ a{
     font-family: 'Poppins', sans-serif; /* Fuente */
     text-align:left; /* Alineación de texto */
 }
+
+/* Estilos pagina Mis pedidos */
+.cartas-pedidos{
+    text-overflow: ellipsis; /* Texto que se desborda se muestra con puntos suspensivos */
+    white-space: nowrap; /* No se permite el salto de línea */
+    margin: 30px; /* Margen entre tarjetas */
+
+}
+
+/* Estilos pagina Mis pedidos */
+.cartas-pedidos{
+    text-overflow: ellipsis; /* Texto que se desborda se muestra con puntos suspensivos */
+    white-space: nowrap; /* No se permite el salto de línea */
+    margin: 30px; /* Margen entre tarjetas */
+
+
+}
