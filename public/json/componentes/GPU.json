@@ -10,7 +10,7 @@
           "modelo": "Gigabyte GeForce RTX 4060 Eagle OC 8G",
           "TDP": 115
         },
-        "imagen": "./public/img productos/gpu1.webp",
+        "imagen": "/public/img productos/gpu1.webp",
         "rating": {
           "valoracion": 4.8,
           "votos": 1715
@@ -28,7 +28,7 @@
           "modelo": "ZOTAC Gaming GeForce RTX 4060 Ti 8GB Twin Edge OC",
           "TDP": 115
         },
-        "imagen": "./public/img productos/gpu2.webp",
+        "imagen": "/public/img productos/gpu2.webp",
         "rating": {
           "valoracion": 4.7,
           "votos": 507
@@ -46,7 +46,7 @@
           "modelo": "MSI Geforce RTX 4070 Ventus 2X OC 12GB",
           "TDP": 200
         },
-        "imagen": "./public/img productos/gpu3.webp",
+        "imagen": "/public/img productos/gpu3.webp",
         "rating": {
           "valoracion": 4.8,
           "votos": 697
@@ -64,7 +64,7 @@
           "modelo": "Gigabyte GeForce RTX 4070 WindForce OC 12Gb",
           "TDP": 200
         },
-        "imagen": "./public/img productos/gpu4.webp",
+        "imagen": "/public/img productos/gpu4.webp",
         "rating": {
           "valoracion": 4.8,
           "votos": 1091
@@ -82,7 +82,7 @@
           "modelo": "ZOTAC NVIDIA GeForce RTX 3050 Twin",
           "TDP": 75
         },
-        "imagen": "./public/img productos/gpu5.webp",
+        "imagen": "/public/img productos/gpu5.webp",
         "rating": {
           "valoracion": 4.8,
           "votos": 2056
@@ -100,7 +100,7 @@
           "modelo": "Gigabyte NVIDIA GeForce RTX 3060 WINDFORCE OC 12G",
           "TDP": 170
         },
-        "imagen": "./public/img productos/gpu6.webp",
+        "imagen": "/public/img productos/gpu6.webp",
         "rating": {
           "valoracion": 4.7,
           "votos": 3984
@@ -118,7 +118,7 @@
           "modelo": "ZOTAC Gaming Trinity OC Geforce RTX 4080",
           "TDP": 320
         },
-        "imagen": "./public/img productos/gpu7.webp",
+        "imagen": "/public/img productos/gpu7.webp",
         "rating": {
           "valoracion": 4.8,
           "votos": 97
@@ -136,7 +136,7 @@
           "modelo": "Asus PROART RTX 4080 SUPER 16GB OC",
           "TDP": 320
         },
-        "imagen": "./public/img productos/gpu8.webp",
+        "imagen": "/public/img productos/gpu8.webp",
         "rating": {
           "valoracion": 4.8,
           "votos": 60
@@ -154,7 +154,7 @@
           "modelo": "Asus TUF Gaming Geforce RTX 4090",
           "TDP": 450
         },
-        "imagen": "./public/img productos/gpu9.webp",
+        "imagen": "/public/img productos/gpu9.webp",
         "rating": {
           "valoracion": 4.7,
           "votos": 152
@@ -172,7 +172,7 @@
           "modelo": "Gigabyte AMD Radeon RX 7600 GAMING OC 8G",
           "TDP": 165
         },
-        "imagen": "./public/img productos/gpu10.webp",
+        "imagen": "/public/img productos/gpu10.webp",
         "rating": {
           "valoracion": 4.6,
           "votos": 20
@@ -190,7 +190,7 @@
           "modelo": "Asus AMD Radeon DUAL-RX7700XT-O12G",
           "TDP": 245
         },
-        "imagen": "./public/img productos/gpu11.webp",
+        "imagen": "/public/img productos/gpu11.webp",
         "rating": {
           "valoracion": 4.4,
           "votos": 1069
@@ -208,7 +208,7 @@
           "modelo": "XFX Speedster MERC 310",
           "TDP": 300
         },
-        "imagen": "./public/img productos/gpu12.webp",
+        "imagen": "/public/img productos/gpu12.webp",
         "rating": {
           "valoracion": 4.4,
           "votos": 1069
@@ -226,7 +226,7 @@
           "modelo": "Gigabyte AMD Radeon RX 7700 XT GAMING OC",
           "TDP": 245
         },
-        "imagen": "./public/img productos/gpu13.webp",
+        "imagen": "/public/img productos/gpu13.webp",
         "rating": {
           "valoracion": 4.6,
           "votos": 164
@@ -244,7 +244,7 @@
           "modelo": "XFX RX 7600XT Speedster SWFT 210",
           "TDP": 190
         },
-        "imagen": "./public/img productos/gpu14.webp",
+        "imagen": "/public/img productos/gpu14.webp",
         "rating": {
           "valoracion": 4.6,
           "votos": 164
@@ -262,7 +262,7 @@
           "modelo": "Radeon RX 6600 XT 8GB GDDR6 Gigabyte Gaming OC PRO",
           "TDP": 160
         },
-        "imagen": "./public/img productos/gpu15.webp",
+        "imagen": "/public/img productos/gpu15.webp",
         "rating": {
           "valoracion": 4.5,
           "votos": 120
