@@ -13,11 +13,11 @@
   <!-- Sesion y Carrito (para íconos) -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
   <!-- Estilos generales -->
-  <link rel="stylesheet" href="./src/modules/styles.css">
+  <link rel="stylesheet" href="../modules/styles.css">
   <!-- Estilos de los módulos -->
-  <link rel="stylesheet" href="./src/modules/main-navbar.css">
-  <link rel="stylesheet" href="./src/modules/secondary-navbar.css">
-  <link rel="stylesheet" href="./src/modules/footer.css">
+  <link rel="stylesheet" href="../modules/main-navbar.css">
+  <link rel="stylesheet" href="../modules/secondary-navbar.css">
+  <link rel="stylesheet" href="../modules/footer.css">
 
 </head>
 
@@ -54,8 +54,8 @@
 
 
 
-    <h1>PAGINA PRINCIPAL</h1>
-    <p>eSTE VA A TENER UNA ESTRUTURA ESTRUCTURA DISTINTA A LAS DEMAS PAGINAS</p>
+    <h1>SESIÓN DE CATEGORÍAS</h1>
+    <p>Resto de nuestro código.</p>
 
 
 
@@ -69,20 +69,18 @@
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    fetch('../src/modules/main-navbar.html')
+    fetch('../modules/main-navbar.html')
       .then(response => response.text())
       .then(data => document.getElementById('main-navbar').innerHTML = data);
 
-    fetch('../src/modules/secondary-navbar.html')
+    fetch('../modules/secondary-navbar.html')
       .then(response => response.text())
       .then(data => document.getElementById('secondary-navbar').innerHTML = data);
 
-    fetch('../src/modules/footer.html')
+    fetch('../modules/footer.html')
       .then(response => response.text())
       .then(data => document.getElementById('footer').innerHTML = data);
   </script>
-  <script></script>
-
 </body>
 
 

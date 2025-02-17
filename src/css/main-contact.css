@@ -1,0 +1,86 @@
+/* Estilos personalizados */
+
+main {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 0px !important;
+}
+
+.forms-section {
+    background-color: #D6E1EC;
+    /* Color de fondo */
+    padding: 20px;
+    border-radius: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #386578;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+    padding: 9px;
+    border-radius: 20px;
+    /*position: absolute; /*Psición absoluta de los botones de redes*/
+
+}
+
+/* #whatsapp {
+    position: absolute;
+    bottom: 300px;
+    left: 375px;
+    color: #386578;
+
+}
+
+#mail {
+    position: absolute;
+    bottom: 200px;
+    left: 250px;
+    color: #386578;
+
+} */
+
+
+#facebook {
+    position: absolute;
+    bottom: 100px;
+    /*posicion absoluta de Y*/
+    left: 125px;
+    /*Posicion absoluta de X*/
+    color: #386578;
+}
+
+#instagram {
+    position: absolute;
+    bottom: 0px;
+    /*posicion absoluta de Y*/
+    left: 0px;
+    /*Posicion absoluta de X*/
+    color: #386578;
+}
+
+
+
+.btn-light:hover {
+    background-color: #f8f9fa;
+    border-color: #ccc;
+    color: #153B4C;
+}
+
+.container-bg-light {
+    background-color: #cddded !important;
+}
+
+#nombre,
+#email,
+#correo,
+#mensaje,
+#telefono {
+    background-color: #A2B8C9;
+}
+
+.shadow-sm {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
