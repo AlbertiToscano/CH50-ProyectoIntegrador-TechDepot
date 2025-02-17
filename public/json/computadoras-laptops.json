@@ -15,7 +15,7 @@
             "Tarjeta-madre": "Gigabyte B760M D3HP DDR4",
             "Almacenamiento": "WD Blue SN580 1TB SSD M.2 PCIe 4.0 NVMe"
         },
-        "imagen": "/public/img productos/com1.webp",
+        "imagen": "/public/img productos/comp1.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 1051
@@ -37,7 +37,7 @@
             "Tarjeta-madre": "ASUS PRIME B550M-A/CSM",
             "Almacenamiento": "WD Blue SN570 SSD 1TB M.2 NVMe"
         },
-        "imagen": "/public/img productos/com2.webp",
+        "imagen": "/public/img productos/comp2.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 888
@@ -59,7 +59,7 @@
             "Tarjeta-madre": "ASUS PRIME B550M-A/CSM",
             "Almacenamiento": "WD Blue SN570 SSD 1TB M.2 NVMe"
         },
-        "imagen": "/public/img productos/com3.webp",
+        "imagen": "/public/img productos/comp3.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 215
@@ -81,7 +81,7 @@
             "Tarjeta-madre": "MSI PRO H610M-G DDR4",
             "Almacenamiento": "Kioxia EXCERIA PLUS G3 1TB SSD M.2 2280 PCIe Gen4 x4 o similar - Según disponibilidad."
         },
-        "imagen": "/public/img productos/com4.webp",
+        "imagen": "/public/img productos/comp4.webp",
         "rating": {
             "valoracion": 4.5,
             "votos": 600
@@ -103,7 +103,7 @@
             "Tarjeta-madre": "MSI PRO B650-S WIFI",
             "Almacenamiento": " WD BLACK SN770 2TB NVMe SSD"
         },
-        "imagen": "/public/img productos/com5.webp",
+        "imagen": "/public/img productos/comp5.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 406
@@ -125,7 +125,7 @@
             "Tarjeta-madre": "Gigabyte B760M D3HP DDR4",
             "Almacenamiento": "WD Blue SN580 1TB SSD M.2 PCIe 4.0 NVMe"
         },
-        "imagen": "/public/img productos/com6.webp",
+        "imagen": "/public/img productos/comp6.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 1052
