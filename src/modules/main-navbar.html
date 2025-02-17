@@ -1,0 +1,48 @@
+<!-- main-navbar.html -->
+<nav class="navbar navbar-expand-lg bg-light py-3 shadow-sm">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="../../public/logo.png" alt="TechDepot Logo" class="logo" style="height: 35px; width: auto;">
+        </a>
+        <form class="d-flex flex-grow-1 mx-3">
+            <input class="form-control search-bar me-2" type="search" placeholder="¿Qué estás buscando?">
+            <button class="btn btn-primary search-btn" type="submit">
+                <i class="bi bi-search"></i>
+            </button>
+        </form>
+
+        <!-- <div class="d-flex align-items-center">
+            <a href="#" class="nav-link me-3 login-link">
+                <i class="bi bi-person-circle"></i> Iniciar Sesión
+            </a>
+            <a href="#" class="nav-link cart-link">
+                <i class="bi bi-cart3"></i> Mi Carrito
+            </a>
+        </div> -->
+
+        <!-- Menú de usuario y carrito -->
+        <div class="user-menu d-flex align-items-center">
+            <!-- Dropdown para Iniciar Sesión -->
+            <div class="dropdown">
+                <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+
+                    <a href="#" class="nav-link me-3 login-link">
+                        <i class="bi bi-person-circle"></i> Iniciar Sesión
+                    </a>
+                </button>
+                <ul class="dropdown-menu">
+                    <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>
+ -->
+                    <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                </ul>
+            </div>
+
+            <!-- Carrito -->
+
+            <a href="#" class="nav-link cart-link">
+                <i class="bi bi-cart3"></i> Mi Carrito
+            </a>
+
+        </div>
+    </div>
+</nav>
