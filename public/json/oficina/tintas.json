@@ -1,0 +1,123 @@
+[
+    {
+        "id": "tin1",
+        "titulo": "HP 305XL Cartucho de Tinta Original Alta Capacidad Negro",
+        "precio": 444,
+        "imagen": "/public/img productos/tin1.webp",
+        "raiting": {
+            "valoracion": 4.6,
+            "votos": 1663
+        }
+    },
+    {
+        "id": "tin2",
+        "titulo": "HP 305 Cartucho de Tinta Original Pack Negro/Tricolor",
+        "precio": 490,
+        "imagen": "/public/img productos/tin2.webp",
+        "raiting": {
+            "valoracion": 4.6,
+            "votos": 1663
+        }
+    },
+    {
+        "id": "tin3",
+        "titulo": "Brother TN243CMYK Multipack 4 Tóner",
+        "precio": 4247,
+        "imagen": "/public/img productos/tin3.webp",
+        "raiting": {
+            "valoracion": 4.5,
+            "votos": 122
+        }
+    },
+    {
+        "id": "tin4",
+        "titulo": "HP 305XL Cartucho de Tinta Original Alta Capacidad Tricolor",
+        "precio": 447,
+        "imagen": "/public/img productos/tin4.webp",
+        "raiting": {
+            "valoracion": 4.6,
+            "votos":1663
+        }
+    },
+   {
+    "id": "tin5",
+    "titulo": "Epson 104 Cartucho de Tinta Negro",
+    "precio": 192,
+    "imagen": "/public/img productos/tin5.webp",
+    "raiting": {
+        "valoracion": 4.8,
+        "votos":85
+    }
+},
+{
+    "id": "tin6",
+    "titulo": "Epson 104 Botella de Tinta Negro/Cian/Amarillo/Magenta",
+    "precio": 832,
+    "imagen": "/public/img productos/tin6.webp",
+    "raiting": {
+        "valoracion": 4.8,
+        "votos":85
+    }
+},
+{
+    "id": "tin6",
+    "titulo": "Epson 104 Botella de Tinta Negro/Cian/Amarillo/Magenta",
+    "precio": 832,
+    "imagen": "/public/img productos/tin6.webp",
+    "raiting": {
+        "valoracion": 4.8,
+        "votos":85
+    }
+},
+{
+    "id": "tin6",
+    "titulo": "Epson 104 Botella de Tinta Negro/Cian/Amarillo/Magenta",
+    "precio": 832,
+    "imagen": "/public/img productos/tin6.webp",
+    "raiting": {
+        "valoracion": 4.8,
+        "votos":85
+    }
+},
+   {
+    
+    "id": "tin7",
+    "titulo": "Cartuchos de Tinta Original HP 308 Negra/Tricolor Paquete de 2 Unidades",
+    "precio": 832,
+    "imagen": "/public/img productos/tin7.webp",
+    "raiting": {
+        "valoracion": 1,
+        "votos":0
+    }
+   },
+   {
+    "id": "tin8",
+    "titulo": "Epson 104 Cartucho de Tinta Amarillo",
+    "precio": 192,
+    "imagen": "/public/img productos/tin8.webp",
+    "raiting": {
+        "valoracion": 4.8,
+        "votos":85
+    }
+   },
+   {
+    "id": "tin9",
+    "titulo": "HP 304 Pack Cartucho Tinta Original Negro/Magenta/Cian/Amarillo",
+    "precio": 589,
+    "imagen": "/public/img productos/tin9.webp",
+    "raiting": {
+        "valoracion": 4.6,
+        "votos":2005
+    }
+   },
+   {
+    "id": "tin10",
+    "titulo": "Tóner Original HP 149X LaserJet Alta Capacidad Negro",
+    "precio": 4982,
+    "imagen": "/public/img productos/tin10.webp",
+    "raiting": {
+        "valoracion": 4.5,
+        "votos":2
+    }
+   }
+] 
