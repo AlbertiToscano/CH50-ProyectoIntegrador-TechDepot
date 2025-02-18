@@ -1,0 +1,112 @@
+[
+    {
+        "id": "mou1",
+        "titulo": "Energy Sistem Gaming Mouse ESG M2 Flash Ratón Gaming RGB 6400 DPI",
+        "precio":297.40 ,
+        "imagen": "/public/img productos/mou1.webp",
+        "raiting": {
+          "valoracion":4.3 ,
+          "votos": 51
+        }
+    },
+
+    {
+        "id": "mou2",
+        "titulo": "Sharkoon Skiller SGM2 Ratón Gaming RGB 6400DPI Negro",
+        "precio":446.21 ,
+        "imagen": "/public/img productos/mou2.webp",
+        "raiting": {
+          "valoracion":4.8 ,
+          "votos": 2
+        }
+    },
+
+    {
+        "id": "mou3",
+        "titulo": "Logitech G203 Lightsync 2nd Gen Ratón Gaming 8000DPI RGB Negro",
+        "precio":619.67 ,
+        "imagen": "/public/img productos/mou3.webp",
+        "raiting": {
+          "valoracion":4.7 ,
+          "votos": 6271
+        }
+    },
+
+    {
+        "id": "mou4",
+        "titulo": "Logitech G402 Hyperion Fury FPS Gaming",
+        "precio":974.68 ,
+        "imagen": "/public/img productos/mou4.webp",
+        "raiting": {
+          "valoracion":4.6 ,
+          "votos": 1558
+        }
+    },
+
+    {
+        "id": "mou5",
+        "titulo": "Tempest X20W Vigilant RGB Ratón Gaming Inalámbrico 16.000 DPI Negro",
+        "precio":701.09 ,
+        "imagen": "/public/img productos/mou5.webp",
+        "raiting": {
+          "valoracion":4.6 ,
+          "votos": 4736
+        }
+    },
+
+    {
+        "id": "mou6",
+        "titulo": "Tempest X8 Keeper RGB Ratón Gaming 10.000 DPI Negro",
+        "precio":297.40 ,
+        "imagen": "/public/img productos/mou6.webp",
+        "raiting": {
+          "valoracion":4.6 ,
+          "votos": 4736
+        }
+    },
+
+    {
+        "id": "mou7",
+        "titulo": "Newskill Atreo Ratón Gaming RGB 6200 DPI",
+        "precio":552.50 ,
+        "imagen": "/public/img productos/mou7.webp",
+        "raiting": {
+          "valoracion":4.7 ,
+          "votos": 251
+        }
+    },
+   
+    {
+        "id": "mou8",
+        "titulo": "Newskill Chiron PRO Ratón Gaming Inalámbrico RGB 16000DPI Blanco",
+        "precio":1061.84 ,
+        "imagen": "/public/img productos/mou8.webp",
+        "raiting": {
+          "valoracion":4.3 ,
+          "votos": 66
+        }
+    },
+   
+    {
+        "id": "mou9",
+        "titulo": "HyperX Pulsefire Haste 2 Core Wireless Ratón Gaming Inalámbrico 3200DPI Blanco",
+        "precio":1126.46 ,
+        "imagen": "/public/img productos/mou9.webp",
+        "raiting": {
+          "valoracion":4.4 ,
+          "votos": 17
+        }
+    },
+  
+    {
+        "id": "mou10",
+        "titulo": "Razer Orochi V2 Ratón Óptico Gaming 18000 DPI Blanco",
+        "precio":1275.27 ,
+        "imagen": "/public/img productos/mou10.webp",
+        "raiting": {
+          "valoracion":4.6 ,
+          "votos": 186
+        }
+    }
+
+]
