@@ -3,6 +3,7 @@
         "id": "ram1",
         "titulo": "Memoria RAM 16GB DDR4 Corsair Vengeance LPX 3000Mhz Negra / Kit 2x8GB",
         "precio": 799,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Memoria RAM 16GB DDR4 Corsair Vengeance LPX 3000Mhz Negra / Kit 2x8GB / CMK16GX4M2D3000C16",
         "caracteristicas": {
             "marca": "Corsair",
@@ -21,6 +22,7 @@
         "id": "ram2",
         "titulo": "Kit Memoria RAM Kingston Fury Beast DDR4 / 16GB (2x8 GB) / 3200MHz",
         "precio": 769,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Kit Memoria RAM Kingston Fury Beast DDR4 / 16GB (2x8 GB) / 3200MHz / CL16 / XMP / KF432C16BBK2/16",
         "caracteristicas": {
             "marca": "Kingston",
@@ -39,6 +41,7 @@
         "id": "ram3",
         "titulo": "Memoria RAM DDR4 16GB 3600MHz Corsair Vengeance RGB PRO SL 2x8GB / Blancas",
         "precio": 959,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Memoria RAM DDR4 16GB 3600MHz Corsair Vengeance RGB PRO SL 2x8GB / Blancas / CMH16GX4M2D3600C18W",
         "caracteristicas": {
             "marca": "Corsair",
@@ -57,6 +60,7 @@
         "id": "ram4",
         "titulo": "Memoria RAM 16GB DDR4 TeamGroup T-Force Delta RGB 3600Mhz Negras",
         "precio": 849,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Memoria RAM 16GB DDR4 TeamGroup T-Force Delta RGB 3600Mhz Negras / Kit 2x8GB / TF3D416G3600HC18JDC01",
         "caracteristicas": {
             "marca": "TeamGroup",
@@ -75,6 +79,7 @@
         "id": "ram5",
         "titulo": "Memoria RAM G.Skill Trident Z RGB DDR4 / 3600MHz / 32GB (2X16GB)",
         "precio": 1599,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Memoria RAM G.Skill Trident Z RGB DDR4 / 3600MHz / 32GB (2X16GB) / Non-ECC / CL18 / XMP / F4-3600C18D-32GTZR",
         "caracteristicas": {
             "marca": "G.Skill",
@@ -93,6 +98,7 @@
         "id": "ram6",
         "titulo": "Memoria RAM DDR4 16GB 2666MHz Corsair Vengeance LPX 2x8GB",
         "precio": 1099,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Memoria RAM DDR4 16GB 2666MHz Corsair Vengeance LPX 2x8GB / Black / CMK16GX4M2A2666C16",
         "caracteristicas": {
             "marca": "Corsair",
@@ -111,6 +117,7 @@
         "id": "ram7",
         "titulo": "Memoria RAM Corsair Vengeance / 32GB (2x16GB) / DDR5 / 6000MHz ",
         "precio": 1999,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Memoria RAM Corsair Vengeance / 32GB (2x16GB) / DDR5 / 6000MHz / CL36 / iCUE / Negro / CMK32GX5M2E6000C36",
         "caracteristicas": {
             "marca": "Corsair",
@@ -129,6 +136,7 @@
         "id": "ram8",
         "titulo": "Memoria RAM Team Group T-Force Delta Black RGB DDR5 / 5600MHz / 32GB (2x16GB)",
         "precio": 2199,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Memoria RAM Team Group T-Force Delta Black RGB DDR5 / 5600MHz / 32GB (2x16GB) / Non-ECC / CL36 / XMP / FF3D532G5600HC36BDC01",
         "caracteristicas": {
             "marca": "TeamGroup",
@@ -147,6 +155,7 @@
         "id": "ram9",
         "titulo": "Kit Memoria RAM Kingston FURY Beast DDR5 / 5200MHz / 64GB (2 x 32GB)",
         "precio": 3799,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Kit Memoria RAM Kingston FURY Beast DDR5 / 5200MHz / 64GB (2 x 32GB) / Non-ECC / CL40 / XMP / KF552C40BBK2-64",
         "caracteristicas": {
             "marca": "Kingston",
@@ -165,6 +174,7 @@
         "id": "ram10",
         "titulo": "Kit Memoria RAM Dominator Titanium Corsair / DDR5 / 7000MHz / 32GB (2x16GB)",
         "precio": 3899,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Kit Memoria RAM Dominator Titanium Corsair / DDR5 / 7000MHz / 32GB (2x16GB) / CL34 / XMP / Blanco / CMP32GX5M2X7000C34W",
         "caracteristicas": {
             "marca": "Corsair",
@@ -184,6 +194,7 @@
         "id": "ram11",
         "titulo": "Memoria RAM Corsair Vengeance RGB / 64GB (2x32GB) / DDR5 / 6400MHz",
         "precio": 5399,
+        "categoria": ["memoria RAM"] ,
         "descripcion": "Memoria RAM Corsair Vengeance RGB / 64GB (2x32GB) / DDR5 / 6400MHz / CL32 / iCUE / Blanco / CMH64GX5M2B6400C32W",
         "caracteristicas": {
             "marca": "Corsair",
