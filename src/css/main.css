@@ -1,5 +1,4 @@
 
-
 .search-bar {
     border-radius: 25px;
     border: 1px solid #A2B8C9;
@@ -120,3 +119,9 @@
 .footer nav a:hover {
     text-decoration: underline;
 }
+
+.bi-list-nav{
+    font-size: 2rem;
+    color: white;
+}
+
