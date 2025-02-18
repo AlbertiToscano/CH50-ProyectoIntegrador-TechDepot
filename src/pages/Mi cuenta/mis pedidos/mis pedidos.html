@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!--Links de bootstrap, estilos y Fuentes.-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Links de bootstrap, estilos y Fuentes.-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-<!-- incluir FontAwesome para el icono de menu desplagable (3 barras horizontales) -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- incluir FontAwesome para el icono de menu desplagable (3 barras horizontales) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-<link rel="stylesheet" href="/src/pages/Mi cuenta/mi cuenta.css">
-<title>Mis pedidos</title>
+  <link rel="stylesheet" href="/src/pages/Mi cuenta/mi cuenta.css">
+  <title>Mis pedidos</title>
 </head>
+
 <body>
 
-    <!--Header-->
-<header>
+  <!--Header-->
+  <header>
     <nav class="navbar navbar-expand-md">
       <div class="container d-flex align-items-center justify-content-between">
         <a class="navbar-brand d-flex align-items-center" href="#">
@@ -52,9 +54,9 @@
         </div>
       </div>
     </nav>
-    </header>
+  </header>
 
-     <!-- NavBar -->
+  <!-- NavBar -->
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -74,10 +76,13 @@
               <li><a class="dropdown-item" href="#">Opción 5</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Categorías</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="/src/pages/productos.html">Productos</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="../pages/construye-tu-pc.html" data-bs-toggle="dropdown">Construye tu máquina</a>
+            <a class="nav-link dropdown-toggle" href="/src/pages/construye-tu-pc.html"
+              data-bs-toggle="dropdown">Construye tu máquina
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../pages/construye-tu-pc.html" data-bs-toggle="dropdown">Construye
+              tu máquina</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Opción 1</a></li>
               <li><a class="dropdown-item" href="#">Opción 2</a></li>
@@ -94,55 +99,58 @@
   </nav>
 
 
-    <!-- Aqui comienza el contenido de la pagina -->
+  <!-- Aqui comienza el contenido de la pagina -->
 
-    <h1 class="text-center mt-5">Mis pedidos</h1>
-
-
-    <nav aria-label="...">
-      <ul class="pagination pagination-sm justify-content-center">
-        <li class="page-item active" aria-current="page">
-          <li class="page-item active"><a class="page-link" href="./mis pedidos.html">Pedidos en camino</a></li>
-        </li>
-        <li class="page-item"><a class="page-link" href="./mis pedidospag2.html">Comnprar de nuevo</a></li>
-      </ul>
-    </nav>
+  <h1 class="text-center mt-5">Mis pedidos</h1>
 
 
-    <!-- Aqui van las tarjetas de los pedidos -->
+  <nav aria-label="...">
+    <ul class="pagination pagination-sm justify-content-center">
+      <li class="page-item active" aria-current="page">
+      <li class="page-item active"><a class="page-link" href="./mis pedidos.html">Pedidos en camino</a></li>
+      </li>
+      <li class="page-item"><a class="page-link" href="./mis pedidospag2.html">Comnprar de nuevo</a></li>
+    </ul>
+  </nav>
 
- <div class="container d-flex justify-content-around mt-5">
-  <div class="card" style="width: 18rem;">
-    <img src="/public/img productos/moni1.webp" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Alurin CoreVision 27 FHD 27 LED IPS FullHD 100Hz</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+
+  <!-- Aqui van las tarjetas de los pedidos -->
+
+  <div class="container d-flex justify-content-around mt-5">
+    <div class="card" style="width: 18rem;">
+      <img src="/public/img productos/moni1.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Alurin CoreVision 27 FHD 27 LED IPS FullHD 100Hz</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="/public/img productos/tec2.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Forgeon Clutch Teclado Gaming RGB 60% Switch Blue</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="/public/img productos/pro1.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Procesador AMD Ryzen 7 9800X3D / AM5 </h5>
+        <p class="card-text">Procesador AMD Ryzen 7 9800X3D / AM5 / Up to 5.2 GHz / 8-Core / 96MB L3 Cache / AMD Radeon™
+          Graphics / No Incluye Disipador / 100-100001084WOF"</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
     </div>
   </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="/public/img productos/tec2.webp" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Forgeon Clutch Teclado Gaming RGB 60% Switch Blue</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
 
-  <div class="card" style="width: 18rem;">
-    <img src="/public/img productos/pro1.webp" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Procesador AMD Ryzen 7 9800X3D / AM5 </h5>
-      <p class="card-text">Procesador AMD Ryzen 7 9800X3D / AM5 / Up to 5.2 GHz / 8-Core / 96MB L3 Cache / AMD Radeon™ Graphics / No Incluye Disipador / 100-100001084WOF"</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
- </div>
 
-    
-  
-  
+
   <footer class="text-center py-3 mt-5">
     <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
     <nav>
@@ -150,4 +158,5 @@
     </nav>
   </footer>
 </body>
+
 </html>

@@ -9,7 +9,8 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         aboutUs: resolve(__dirname, 'src/pages/about/about.html'),
         contact: resolve(__dirname, 'src/pages/contacto/contacto.html'),
-        terminos: resolve(__dirname, 'src/pages/terminosCondiciones/terminosC.html')
+        terminos: resolve(__dirname, 'src/pages/terminosCondiciones/terminosC.html'),
+        productos: resolve(__dirname, 'src/pages/productos.html')
       },
     },
   },
