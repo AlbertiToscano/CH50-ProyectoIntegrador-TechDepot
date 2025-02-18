@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 
@@ -12,82 +13,94 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="/src/pages/contacto/contacto.css">
-  <link href="" link rel="">
+ <!--Estilo NavBar y Footer  -->
+ <link rel="stylesheet" href="/src/css/main.css">
 </head>
 
 <body> <!--  <header> <h1> Página de contacto </h1></header>-->
 
   <header>
-    <nav class="navbar navbar-expand-md">
-      <div class="container d-flex align-items-center justify-content-between">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="/public/logo.png" alt="TechDepot Logo" class="logo" style="height: 35px; width: auto;">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="search-container">
-            <input type="search" class="search-bar" placeholder="¿Qué estás buscando?" aria-label="Buscar">
-            <img src="https://cdn-icons-png.flaticon.com/16/3917/3917132.png" alt="Buscar" class="search-icon"></button>
-          </div>
-          <div class="user-menu d-flex align-items-center">
-            <div class="dropdown">
-              <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                <i class="bi bi-person-circle user-icon"></i> Iniciar Sesión
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Perfil</a></li>
-                <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
-              </ul>
-            </div>
-            <a href="#" class="cart-link">
-              <i class="bi bi-cart3 cart-icon"></i> Mi Carrito
-            </a>
+    <!-- Encabezado principal -->
+ <!-- main-navbar.html -->
+<nav class="navbar navbar-expand-lg bg-light py-3 shadow-sm">
+<div class="container-fluid">
+   <a class="navbar-brand d-flex align-items-center" href="#">
+       <img src="/public/logo.png" alt="TechDepot Logo" class="logo" style="height: 35px; width: auto;">
+   </a>
+   <form class="d-flex flex-grow-1 mx-3">
+       <input class="form-control search-bar me-2" type="search" placeholder="¿Qué estás buscando?">
+       <button class="btn btn-primary search-btn" type="submit">
+           <i class="bi bi-search"></i>
+       </button>
+   </form>
 
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
+   <!-- Menú de usuario y carrito -->
+   <div class="user-menu d-flex align-items-center">
+       <!-- Dropdown para Iniciar Sesión -->
+       <div class="dropdown">
+           <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
 
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav w-100 justify-content-between">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-              <i class="fas fa-bars"></i>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Opción 1</a></li>
-              <li><a class="dropdown-item" href="#">Opción 2</a></li>
-              <li><a class="dropdown-item" href="#">Opción 3</a></li>
-              <li><a class="dropdown-item" href="#">Opción 4</a></li>
-              <li><a class="dropdown-item" href="#">Opción 5</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="#">Categorías</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Construye tu máquina</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Opción 1</a></li>
-              <li><a class="dropdown-item" href="#">Opción 2</a></li>
-              <li><a class="dropdown-item" href="#">Opción 3</a></li>
-              <li><a class="dropdown-item" href="#">Opción 4</a></li>
-              <li><a class="dropdown-item" href="#">Opción 5</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Acerca de nosotros</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+               <a href="#" class="nav-link me-3 login-link">
+                   <i class="bi bi-person-circle"></i> Iniciar Sesión
+               </a>
+           </button>
+           <ul class="dropdown-menu">
+               <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>
+-->
+               <li><a class="dropdown-item" href="#">Registrarse</a></li>
+           </ul>
+       </div>
+
+       <!-- Carrito -->
+
+       <a href="#" class="nav-link cart-link">
+           <i class="bi bi-cart3"></i> Mi Carrito
+       </a>
+
+   </div>
+</div>
+</nav>
+</header>
+
+<!-- secondary-navbar.html -->
+<nav class="navbar navbar-expand-lg secondary-navbar">
+<div class="container">
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondaryNav">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="secondaryNav">
+       <ul class="navbar-nav w-100 justify-content-between">
+
+           <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categorías
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                   <li><a class="dropdown-item" href="#">Opción 2</a></li>
+                   <li><a class="dropdown-item" href="#">Opción 3</a></li>
+                   <li><a class="dropdown-item" href="#">Opción 4</a></li>
+                   <li><a class="dropdown-item" href="#">Opción 5</a></li>
+               </ul>
+           </li>
+           <li class="nav-item"><a class="nav-link" href="../pages/productos.html">Productos</a></li>
+           <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Construye tu máquina
+               </a>
+               <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                   <li><a class="dropdown-item" href="#">Opción 2</a></li>
+                   <li><a class="dropdown-item" href="#">Opción 3</a></li>
+                   <li><a class="dropdown-item" href="#">Opción 4</a></li>
+                   <li><a class="dropdown-item" href="#">Opción 5</a></li>
+               </ul>
+           </li>
+           <li class="nav-item"><a class="nav-link" href="/src/pages/contacto/contacto.html">Contacto</a></li>
+           <li class="nav-item"><a class="nav-link" href="/src/pages/about/about.html">Acerca de nosotros</a></li>
+       </ul>
+   </div>
+</div>
+</nav>
+ </header>
   <main> <br><br><br><br><br>
     <section>
       <!-- imagen -->
@@ -165,7 +178,16 @@
         </div>
       </div>
  
-    </section>
+    </section><br><br><br>
+
+
+      <!-- Pie de página -->
+  <footer class="text-center py-3 mt-0 footer">
+    <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
+    <nav>
+        <a href="/src/pages/terminosCondiciones/terminosC.html">Términos y condiciones</a> | <a href="#">Aviso de privacidad</a>
+    </nav>
+</footer>
 
 
 <!-- Codigo -->
@@ -176,4 +198,3 @@
 </body>
 
 </html>
-

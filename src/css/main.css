@@ -1,0 +1,122 @@
+
+
+.search-bar {
+    border-radius: 25px;
+    border: 1px solid #A2B8C9;
+    padding: 8px 15px;
+    /*width: 300px; /* Ajusta el ancho */
+
+}
+
+.search-btn {
+    border-radius: 25px;
+    background-color: #386578;
+    border: none;
+    color: white;
+}
+
+.search-btn:hover {
+    background-color: #4a859e;
+}
+
+.nav-link {
+    color: #153B4C !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #1F5673 !important;
+}
+
+.bg-light {
+    background-color: #F7F9FB !important;
+    border-bottom: 1px solid #D6E1EC;
+}
+
+
+
+
+/* Estilos generales para el menú de usuario */
+.user-menu {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el botón de usuario */
+.user-btn {
+    background-color: transparent;
+    border: none;
+    color: #153B4C;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-btn:hover {
+    color: #386578;
+}
+
+/* Estilos para el ícono de usuario */
+.user-icon {
+    font-size: 24px;
+    color: #153B4C;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+    background-color: #D6E1EC;
+    border: 1px solid #A2B8C9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #153B4C;
+    font-size: 14px;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #A2B8C9;
+    color: #153B4C;
+    border-radius: 5px;
+}
+
+/* Estilos para el menú de navegación secundario */
+.secondary-navbar {
+    background-color: #153B4C !important;
+    padding: 10px;
+}
+
+.secondary-navbar .navbar-nav .nav-link {
+    color: #F7F9FB !important;
+    font-weight: 500;
+    padding: 5px 50px;
+}
+
+.secondary-navbar .navbar-nav .nav-link:hover {
+    color: #D6E1EC !important;
+}
+
+
+/* Estilos para el footer */
+.footer {
+    background-color: #153B4C;
+    color: white;
+    padding: 15px;
+}
+
+.footer nav a {
+    color: #D6E1EC;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer nav a:hover {
+    text-decoration: underline;
+}
