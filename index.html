@@ -11,105 +11,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <!-- Font Awesome (para íconos) -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
- 
   <!--Estilo NavBar y Footer  -->
   <link rel="stylesheet" href="/src/css/main.css">
     <!--  -->
   </head>
+
+
   <body>
-    <header>
-       <!-- Encabezado principal -->
-    <!-- main-navbar.html -->
-<nav class="navbar navbar-expand-lg bg-light py-3 shadow-sm">
-  <div class="container-fluid">
-      <a class="navbar-brand d-flex align-items-center" href="/index.html">
-          <img src="/public/logo.png" alt="TechDepot Logo" class="logo" style="height: 35px; width: auto;">
-      </a>
-      <form class="d-flex flex-grow-1 mx-3">
-          <input class="form-control search-bar me-2" type="search" placeholder="¿Qué estás buscando?">
-          <button class="btn btn-primary search-btn" type="submit">
-              <i class="bi bi-search"></i>
-          </button>
-      </form>
+    <!--  NavBar -->
+    <header id="header"></header>
+    
 
-      <!-- Menú de usuario y carrito -->
-      <div class="user-menu d-flex align-items-center">
-          <!-- Dropdown para Iniciar Sesión -->
-          <div class="dropdown">
-              <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
 
-                  <a href="#" class="nav-link me-3 login-link">
-                      <i class="bi bi-person-circle"></i> Iniciar Sesión
-                  </a>
-              </button>
-              <ul class="dropdown-menu">
-                  <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>
--->
-                  <li><a class="dropdown-item" href="#">Registrarse</a></li>
-              </ul>
-          </div>
 
-          <!-- Carrito -->
-
-          <a href="#" class="nav-link cart-link">
-              <i class="bi bi-cart3"></i> Mi Carrito
-          </a>
-
-      </div>
-  </div>
-</nav>
-  </header>
-
-  <!-- secondary-navbar.html -->
-<nav class="navbar navbar-expand-lg secondary-navbar">
-  <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondaryNav">
-          <span class="navbar-toggler-icon"><i class="bi-list-nav bi-list"></i></span>
-      </button>
-      <div class="collapse navbar-collapse" id="secondaryNav">
-          <ul class="navbar-nav w-100 justify-content-between">
-   
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categorías
-                  </a>
-                  <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Opción 1</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 2</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 3</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 4</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 5</a></li>
-                  </ul>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="/src/pages/productos.html">Productos</a></li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Construye tu máquina
-                  </a>
-                  <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="/src/pages/construyeTuPc/construyeTuPc.html">Opción 1</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 2</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 3</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 4</a></li>
-                  </ul>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="/src/pages/contacto/contacto.html">Contacto</a></li>
-              <li class="nav-item"><a class="nav-link" href="/src/pages/about/about.html">Acerca de nosotros</a></li>
-          </ul>
-      </div>
-  </div>
-</nav>
-    </header>
+   <!--  Cuerpo de la página -->
     <main><br>
       <img src="/en construccion.png" alt="Logo de Teach Depot" />
     </main><br>
-  <!-- Pie de página -->
-  <footer class="text-center py-3 mt-0 footer">
-    <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
-    <nav>
-        <a href="/src/pages/terminosCondiciones/terminosC.html">Términos y condiciones</a> | <a href="#">Aviso de privacidad</a>
-    </nav>
-</footer>
+
+
+
+
+
+
+<footer id="footer"></footer>
     <!-- Bootstrap core JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <!--  header js y footer js -->
+     <script type="module" src="/src/modules/header/header.js"></script>
+    <script type="module" src="/src/modules/footer/footer.js"></script>
   </body>
 </html>
