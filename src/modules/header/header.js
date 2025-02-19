@@ -65,7 +65,7 @@ const insertHeader = ()=>{
                       <li><a class="dropdown-item" href="#">Opción 5</a></li>
                   </ul>
               </li>
-              <li class="nav-item"><a class="nav-link" href="/src/pages/productos.html">Productos</a></li>
+              <li class="nav-item"><a class="nav-link" href="/src/pages/Productos/productos.html">Productos</a></li>
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="/src/pages/construye-tu-pc.html" data-bs-toggle="dropdown">Construye tu máquina
                   </a>
