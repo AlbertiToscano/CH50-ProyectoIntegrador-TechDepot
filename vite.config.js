@@ -11,6 +11,7 @@ export default defineConfig({
         contact: resolve(__dirname, 'src/pages/contacto/contacto.html'),
         terminos: resolve(__dirname, 'src/pages/terminosCondiciones/terminosC.html'),
         productos: resolve(__dirname, 'src/pages/productos.html')
+        
       },
     },
   },
