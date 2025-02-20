@@ -1,0 +1,90 @@
+/*
+Font--'Poppins', sans-serif;
+Color Barra--#153B4C;
+Color Fondo--#D6E1EC;
+Color Tarjetas--#386578;
+*/
+/*  */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #D6E1EC;
+    color: #153B4C;
+}
+
+.valores-section {
+    background-color: #A2B8C9;
+    /* Color de fondo */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.valor-icon {
+    width: 50px;
+    /* Tamaño del ícono */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.valores-section p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #153B4C;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.form-control {
+    background-color: #A2B8C9;
+}
+
+.color-barra-busqueda{
+    background-color:#ffffff;
+}
+
+/* botones dentro de la imagen */
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;/* Ajusta según tu imagen */
+}
+.background {
+    width: 100%;
+    display: block;
+}
+.button {
+    position: absolute;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+
+}
+/* .whatsapp { top: 15%; right: 10%; }
+.email { top: 35%; right: 15%; } */
+.facebook { bottom: 35%; left: 30%; color: #386578;}
+.instagram { bottom: 15%; left: 10%; color: #386578;}
+
+
+
+
+
+
+
+
+
+
+.correcto#error-mensaje,
+.correcto#error-telefono,
+.correcto#error-nombre,
+.correcto#error-email
+{
+    color: rgb(36, 113, 36);
+    font-size: 0.9em;
+}
