@@ -1,0 +1,120 @@
+*{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar {
+    background-color: #153B4C !important;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: #D6E1EC !important;
+    font-weight: bold;
+}
+
+
+
+.banner__0{
+    background-image: url(/assets/imagenes/background1.webp);
+    background-size: contain;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 100px 100px 100px;
+    overflow: hidden;
+    gap: 200px; /* Espacio entre los campos */
+    text-align: left;
+
+
+    & .img__homme--0{
+
+        max-width: 68rem;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    & .banner__texto{
+
+        max-width: 500px;
+        flex-direction: column;
+        font-size: 18px;
+        width: 80%;
+        color: #D6E1EC !important;
+        margin-left: 40px;
+       
+    
+    }
+}
+
+
+
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#botónExploraAhora {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.activo {
+    background-color: #021E2A; /* Azul oscuro */
+    color: white;
+}
+
+.inactivo {
+    background-color: #153B4C; /* Gris */
+    color: #fff;
+}
+
+/* Asegura el cambio de color en hover */
+.activo:hover {
+    background-color: #021E2A ;
+}
+
+.inactivo:hover {
+    background-color: #153B4C;
+}
+
+
+/*
+
+.banner__0{
+   
+    width: 1000%;
+    height: 600px;
+    background-image: url(/assets/imagenes/background1.webp); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+

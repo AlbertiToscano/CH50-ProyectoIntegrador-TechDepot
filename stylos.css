@@ -11,11 +11,26 @@
     }
   }
 
-.baner{
-  margin: 5px;
-  padding: 5px;
+.banner0{
+
+  width: 100%;
 
 }
+
+.texto-overlay{
+  position: absolute;
+  left: 0;
+  top: 30%;
+  padding-left: 200px;
+  max-width: 500px;
+  display: block; 
+  font-size: 18px;
+  width: 80%;
+  color: #D6E1EC !important;
+  margin-left: 40px;
+        
+}
+
 .carousel-caption h5 {
 
  font-family: popins;
@@ -27,6 +42,19 @@
     font-family: popins;
     color: #FFF;
 
+}
+
+h5{
+  font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+   
+}
+
+p{
+  font-size: 24px;
+    text-align: left;
+ 
 }
 
 
