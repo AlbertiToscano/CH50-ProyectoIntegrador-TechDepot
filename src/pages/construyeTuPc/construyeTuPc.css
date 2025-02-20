@@ -80,5 +80,80 @@
    ESTILOS DE TARJETAS
    ============================== */
 .card{
-   margin-block-start: 1em;
+   margin-block-start: 1em; /* margen superior de las tarjetas */ 
+}
+.card-title{ /* estilos del titulo */
+    color: #153B4C;
+    font-weight: bold;
+    font-size:large;
+}
+.card-text{ /* estilos de la descripción */
+    color:#153B4C;
+    font-size: medium;
+    text-align: left;
+}
+.card-price{ /* estilos del precio */
+    color: #386578;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.btn{ /* estilos del botón en reposo */
+    color: #386578;
+    scale: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-color: #0E2A3A;
+}
+
+.btn:hover{ /* cuando pasas el mouse por encima */
+    background-color: #A2B8C9;
+}
+
+.btn:active{ /* cuando se hace clic */
+    background-color: #153B4C; 
+    color: #A2B8C9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================
+   ESTILOS DE ESTRELLAS
+   ============================== */
+.star-rating {
+    direction: rtl;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: #ddd;
+    font-size: 24px;
+    padding: 0 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.star-rating label:hover,
+.star-rating label:hover~label,
+.star-rating input:checked~label {
+    color: #ffc107;
 }
