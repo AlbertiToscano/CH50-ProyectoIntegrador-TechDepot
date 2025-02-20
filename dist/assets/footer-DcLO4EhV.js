@@ -1,4 +1,4 @@
-(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))n(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const r of a.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&n(r)}).observe(document,{childList:!0,subtree:!0});function t(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function n(e){if(e.ep)return;e.ep=!0;const a=t(e);fetch(e.href,a)}})();const i=()=>{const s=document.getElementById("header");s.innerHTML=`
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const r of a.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&t(r)}).observe(document,{childList:!0,subtree:!0});function n(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function t(e){if(e.ep)return;e.ep=!0;const a=n(e);fetch(e.href,a)}})();const i=()=>{const s=document.getElementById("header");s.innerHTML=`
         <!-- Encabezado principal -->
     <!-- main-navbar.html -->
 <nav class="navbar navbar-expand-lg bg-light py-3 shadow-sm">
@@ -61,16 +61,14 @@
                       <li><a class="dropdown-item" href="#">Opción 5</a></li>
                   </ul>
               </li>
-              <li class="nav-item"><a class="nav-link" href="/src/pages/productos.html">Productos</a></li>
+              <li class="nav-item"><a class="nav-link" href="/src/pages/Productos/productos.html">Productos</a></li>
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="/src/pages/construye-tu-pc.html" data-bs-toggle="dropdown">Construye tu máquina
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Construye tu PC
                   </a>
                   <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                      <li><a class="dropdown-item" href="/src/pages/construyeTuPc/construyeTuPc.html">Constructor interactivo de PC</a></li>
                       <li><a class="dropdown-item" href="#">Opción 2</a></li>
                       <li><a class="dropdown-item" href="#">Opción 3</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 4</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 5</a></li>
                   </ul>
               </li>
               <li class="nav-item"><a class="nav-link" href="/src/pages/contacto/contacto.html">Contacto</a></li>
