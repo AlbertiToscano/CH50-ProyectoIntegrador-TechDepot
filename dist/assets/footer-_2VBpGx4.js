@@ -1,30 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TechDepot</title>
-  <!--Links de bootstrap, estilos y Fuentes.-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <!-- Font Awesome (para íconos) -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
- 
-  <!--Estilo NavBar y Footer  -->
-  <link rel="stylesheet" href="/src/css/main.css">
-    <!--  -->
-  </head>
-  <body>
-    <header>
-       <!-- Encabezado principal -->
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))n(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const r of a.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&n(r)}).observe(document,{childList:!0,subtree:!0});function t(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function n(e){if(e.ep)return;e.ep=!0;const a=t(e);fetch(e.href,a)}})();const i=()=>{const s=document.getElementById("header");s.innerHTML=`
+        <!-- Encabezado principal -->
     <!-- main-navbar.html -->
 <nav class="navbar navbar-expand-lg bg-light py-3 shadow-sm">
   <div class="container-fluid">
       <a class="navbar-brand d-flex align-items-center" href="/index.html">
-          <img src="/public/logo.png" alt="TechDepot Logo" class="logo" style="height: 35px; width: auto;">
+          <img src="/logo.png" alt="TechDepot Logo" class="logo" style="height: 35px; width: auto;">
       </a>
       <form class="d-flex flex-grow-1 mx-3">
           <input class="form-control search-bar me-2" type="search" placeholder="¿Qué estás buscando?">
@@ -59,13 +39,13 @@
       </div>
   </div>
 </nav>
-  </header>
+
 
   <!-- secondary-navbar.html -->
 <nav class="navbar navbar-expand-lg secondary-navbar">
   <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#secondaryNav">
-        <span class="navbar-toggler-icon"><i class="bi-list-nav bi-list"></i></span>
+          <span class="navbar-toggler-icon"><i class="bi-list-nav bi-list"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="secondaryNav">
           <ul class="navbar-nav w-100 justify-content-between">
@@ -99,18 +79,14 @@
       </div>
   </div>
 </nav>
-    </header>
-    <main><br>
-      <img src="/en construccion.png" alt="Logo de Teach Depot" />
-    </main><br>
-  <!-- Pie de página -->
-  <footer class="text-center py-3 mt-0 footer">
-    <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
-    <nav>
-        <a href="/src/pages/terminosCondiciones/terminosC.html">Términos y condiciones</a> | <a href="#">Aviso de privacidad</a>
-    </nav>
+    
+    `};i();const l=()=>{const s=document.getElementById("footer");s.innerHTML=`
+<!-- Pie de página -->
+<footer class="text-center py-3 mt-0 footer">
+  <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
+  <nav>
+      <a href="/src/pages/terminosCondiciones/terminosC.html">Términos y condiciones</a> | <a href="#">Aviso de privacidad</a>
+  </nav>
 </footer>
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
+    
+    `};l();
