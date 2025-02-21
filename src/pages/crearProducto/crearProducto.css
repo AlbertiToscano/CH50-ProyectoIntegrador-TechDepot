@@ -1,0 +1,13 @@
+.correcto#error-descripcion,
+.correcto#error-precio,
+.correcto#error-nombre,
+.correcto#error-imagen
+{
+    color: rgb(36, 113, 36);
+    font-size: 0.9em;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
