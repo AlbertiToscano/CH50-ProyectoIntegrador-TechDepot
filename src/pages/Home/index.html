@@ -108,7 +108,7 @@
 
   <main>
     <div class="baner" class="container">
-      <div id="carruselEjemplo" class="carousel slide" data-bs-ride="carousel" class="container">
+      <div id="carruselEjemplo" class="carousel slide" data-bs-interval="10000" data-bs-ride="carousel" class="container">
         <!-- Indicadores -->
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carruselEjemplo" data-bs-slide-to="0" class="active"
@@ -118,36 +118,39 @@
         </div>
 
         <!-- Slides -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="public/home.webp" class="banner0" alt="banner de pagina principal">
-              <div class="texto-overlay">
-                <h5>¡Arma tu PC como un experto!</h5> <br>
-                <p>Descubre guías, tutoriales y comparaciones para elegir los mejores componentes. ¡Haz la mejor compra para tu setup! </p> <br>
-                <button id="botónExploraAhora" class="activo" onclick="cambiarEstado()">Explora ahora</button>
-              </div> 
-            </div>
-          </div>
-    
+          
+          <div class="carousel-inner carousel__container">
 
-          <div class="carousel-item">
-            <img src="public/home-2.webp" class="d-block w-100" alt="Imagen 2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Optimiza tu experiencia con la mejor tecnología </h5>
-              <p>tecnología inteligente, compras eficientes</p>
-              <button id="botónExploraAhora" class="activo" onclick="cambiarEstado()">Productos</button>
+            <div class="carousel-item active">
+                  <img src="public/home.webp" class="banner0" alt="banner de pagina principal">
+                <div class="texto-overlay">
+                  <h5>¡Arma tu PC como un experto!</h5> <br>
+                  <p>Descubre guías, tutoriales y comparaciones para elegir los mejores componentes. ¡Haz la mejor compra para tu setup! </p> <br>
+                  <button id="botónExploraAhora" class="activo" onclick="cambiarEstado()">Explora ahora</button>
+                </div> 
+            </div>
+            
+            <div class="carousel-item ">
+              <img src="public/home-2.webp" class="d-block w-100" alt="Imagen 2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Optimiza tu experiencia con la mejor tecnología </h5>
+                <p>tecnología inteligente, compras eficientes</p>
+                <button id="botónExploraAhora" class="activo" onclick="cambiarEstado()">Productos</button>
+              </div>
+            </div>
+            
+            <div class="carousel-item ">
+              <img src="public/home-2.webp" class="d-block w-100" alt="Imagen 3">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>¡Compra, acumula y gana!</h5>
+                <p>En techDepot, tus compras te recompensan. Compra y cajéalos por descuentos exclusivos en tu upgrade.
+                </p>
+                <button id="botónExploraAhora" class="activo" onclick="cambiarEstado()">Registrate ahora </button>
+                
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="public/home-2.webp" class="d-block w-100" alt="Imagen 3">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>¡Compra, acumula y gana!</h5>
-              <p>En techDepot, tus compras te recompensan. Compra y cajéalos por descuentos exclusivos en tu upgrade.
-              </p>
-              <button id="botónExploraAhora" class="activo" onclick="cambiarEstado()">Registrate ahora </button>
-              
-            </div>
-          </div>
+          
         </div>
 
         <!-- Controles -->
