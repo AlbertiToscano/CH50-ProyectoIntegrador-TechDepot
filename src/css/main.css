@@ -1,35 +1,35 @@
 
 .search-bar {
-    border-radius: 25px;
-    border: 1px solid #A2B8C9;
-    padding: 8px 15px;
+    border-radius: 25px;  /* Ajusta la curvatura de los bordes */
+    border: 1px solid #A2B8C9; /* Ajusta el color del borde */
+    padding: 8px 15px; /* Ajusta el espaciado interno */
     /*width: 300px; /* Ajusta el ancho */
 
 }
 
 .search-btn {
-    border-radius: 25px;
-    background-color: #386578;
-    border: none;
-    color: white;
+    border-radius: 25px; /* Ajusta la curvatura de los bordes */
+    background-color: #386578; /* Ajusta el color de fondo */
+    border: none; /* Elimina el borde */
+    color: white; /* Ajusta el color del texto */
 }
 
 .search-btn:hover {
-    background-color: #4a859e;
+    background-color: #4a859e; /* Ajusta el color de fondo al pasar el cursor */
 }
 
 .nav-link {
-    color: #153B4C !important;
-    font-weight: 500;
+    color: #153B4C !important; /* Ajusta el color del texto */
+    font-weight: 500; /* Ajusta el peso de la fuente */
 }
 
 .nav-link:hover {
-    color: #1F5673 !important;
+    color: #1F5673 !important; /* Ajusta el color del texto al pasar el cursor */
 }
 
 .bg-light {
-    background-color: #F7F9FB !important;
-    border-bottom: 1px solid #D6E1EC;
+    background-color: #F7F9FB !important; /* Ajusta el color de fondo */
+    border-bottom: 1px solid #D6E1EC; /* Ajusta el borde inferior */
 }
 
 
@@ -37,7 +37,7 @@
 
 /* Estilos generales para el menú de usuario */
 .user-menu {
-    display: flex;
+    display: flex; 
     align-items: center;
 }
 
@@ -125,3 +125,7 @@
     color: white;
 }
 
+
+.form-control {
+    background-color: white;
+}

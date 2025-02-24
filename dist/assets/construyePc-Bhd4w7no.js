@@ -1,0 +1,1 @@
+import"./footer-DcLO4EhV.js";document.querySelectorAll(".star-rating:not(.readonly) label").forEach(t=>{t.addEventListener("click",function(){this.style.transform="scale(1.2)",setTimeout(()=>{this.style.transform="scale(1)"},200)})});
