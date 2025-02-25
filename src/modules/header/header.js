@@ -31,6 +31,7 @@ const insertHeader = ()=>{
                   <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>
 -->
                   <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                  <li><a class="dropdown-item" href="/src/pages/agregarProductos/agregarP.html">Administrador</a></li>
               </ul>
           </div>
 
