@@ -3,6 +3,7 @@
         "id": "enf1",
         "titulo": "Cooler Master MasterLiquid 240 ATMOS Kit de Refrigeración Líquida 240mm",
         "precio": 2299,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados: LGA 1150 (Zócalo H3), LGA 1151 (Zócalo H4), LGA 1155 (Socket H2), LGA 1156 (Socket H), LGA 1200 (Socket H5), LGA 1700, Zócalo AM4, Zócalo AM5",
         "caracteristicas": {
             "marca": "Cooler Master",
@@ -21,6 +22,7 @@
         "id": "enf2",
         "titulo": "Tempest Liquid Cooler 360 ARGB Kit de Refrigeración Líquida 360mm Negro",
         "precio": 1899,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados: Intel: Socket LGA 775/1155/1156/1366/2011/1200/1700 AMD: AM4 / FM2 / FM1 / AM3 + / AM3 / AM2 + / AM2 / AM5",
         "caracteristicas": {
             "marca": "Tempest",
@@ -39,6 +41,7 @@
         "id": "enf3",
         "titulo": "Forgeon Azoth 240 ARGB Kit de Refrigeración Líquida 240mm Blanco",
         "precio": 1959,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados: Intel: Socket LGA 775/1155/1156/1366/2011/1200/1700 (CPU Core i3 / i5 / i7/i9) AMD: AM4 / FM2 / FM1 / AM3 + / AM3 / AM2 + / AM2 / AM5",
         "caracteristicas": {
             "marca": "Forgeon",
@@ -57,6 +60,7 @@
         "id": "enf4",
         "titulo": "Nfortec ATRIA X Kit de Refrigeración Líquida 360mm Negro",
         "precio": 1959,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados:  Intel LGA 17XX/12XX/115X/20xx/1366 AMD: AM5/AM4/AM3/AM3+/AM2+/TR4/TRX4/FM2+/FM2/FM1",
         "caracteristicas": {
             "marca": "Nfortec",
@@ -75,6 +79,7 @@
         "id": "enf5",
         "titulo": "Corsair NAUTILUS 360 RS ARGB Kit Refrigeración Líquida 360mm Negro",
         "precio": 2599,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados: LGA 1700, Zócalo AM4, Zócalo AM5",
         "caracteristicas": {
             "marca": "Corsair",
@@ -93,6 +98,7 @@
         "id": "enf6",
         "titulo": "Tempest Liquid Cooler 120 RGB Kit Refrigeración Líquida 120mm Blanco",
         "precio": 1099,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados: Intel: Socket LGA 775/1155/1156/1366/2011/1200/1700 (CPU Core i3 / i5 / i7/i9) AMD: AM4 / FM2 / FM1 / AM3 + / AM3 / AM2 + / AM2 / AM5",
         "caracteristicas": {
             "marca": "Tempest",
@@ -111,6 +117,7 @@
         "id": "enf7",
         "titulo": "Tempest Cooler 6Pipes Black A-RGB Ventilador CPU Dual Heatsink 2x120mm Negro",
         "precio": 1159,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados: Intel: Socket LGA 775/1155/1156/1366/2011/1200/1700 (CPU Core i3 / i5 / i7/i9) AMD: AM4 / FM2 / FM1 / AM3 + / AM3 / AM2 + / AM2 / AM5",
         "caracteristicas": {
             "marca": "Tempest",
@@ -129,6 +136,7 @@
         "id": "enf8",
         "titulo": "Forgeon Solarian Cooler 4Pipes 120mm ARGB Ventilador CPU Blanco",
         "precio": 1099,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados: Intel: Socket LGA 775/1155/1156/1366/2011/1200/1700 (CPU Core i3 / i5 / i7/i9) AMD: AM4 / FM2 / FM1 / AM3 + / AM3 / AM2 + / AM2 / AM5",
         "caracteristicas": {
             "marca": "Forgeon",
@@ -147,6 +155,7 @@
         "id": "enf9",
         "titulo": "Be Quiet! Dark Rock Pro 5 Ventilador CPU 7 Pipes 135mm Negro",
         "precio": 1769,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados: Intel: LGA 1150 (Zócalo H3), LGA 1151 (Zócalo H4), LGA 1155 (Socket H2), LGA 1200 (Socket H5), LGA 1700, Zócalo AM4, Zócalo AM5",
         "caracteristicas": {
             "marca": "Be Quiet!",
@@ -165,6 +174,7 @@
         "id": "enf10",
         "titulo": "Ventilador CPU Noctua NH-D15 G2 Ventilador CPU 140mm Marrón",
         "precio": 2999,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados: Intel: LGA 1150 (Zócalo H3), LGA 1151 (Zócalo H4), LGA 1155 (Socket H2), LGA 1156 (Socket H), LGA 1200 (Socket H5), LGA 1700, LGA 1851, Zócalo AM4, Zócalo AM5",
         "caracteristicas": {
             "marca": "Noctua",
@@ -183,6 +193,7 @@
         "id": "enf11",
         "titulo": "Corsair A115 Ventilador CPU Negro",
         "precio": 2259,
+        "categoria": ["enfriamiento"] ,
         "descripcion": "Sockets de procesador soportados: Intel: LGA 1150 (Zócalo H3), LGA 1151 (Zócalo H4), LGA 1155 (Socket H2), LGA 1156 (Socket H), LGA 1200 (Socket H5), LGA 1700, LGA 1851, Zócalo AM4, Zócalo AM5",
         "caracteristicas": {
             "marca": "Noctua",
