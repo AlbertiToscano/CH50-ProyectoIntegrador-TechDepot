@@ -10,8 +10,8 @@ export default defineConfig({
         aboutUs: resolve(__dirname, 'src/pages/about/about.html'),
         contact: resolve(__dirname, 'src/pages/contacto/contacto.html'),
         terminos: resolve(__dirname, 'src/pages/terminosCondiciones/terminosC.html'),
-        productos: resolve(__dirname, 'src/pages/productos.html')
-        
+        productos: resolve(__dirname, 'src/pages/Productos/productos.html'),
+        pagAdmin: resolve(__dirname, 'src/pages/agregarProductos/agregarP.html')
       },
     },
   },
