@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Nuevo Item</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!--Estilo NavBar y Footer  -->
+    <link rel="stylesheet" href="/src/css/main.css">
+    <link rel="stylesheet" href="./agregarP.css">
+
+</head>
+
+<body>
+    <!--   Header -->
+    <header id="header"></header>
+
+    <main class="container mt-5">
+        <section class="formulario p-4">
+            <h2 class="titulo text-center">Crear Nuevo Item</h2>
+
+            <form id="productoForm">
+                <fieldset class="form-group">
+                    <legend>Categoría*</legend>
+                    <select class="form-control" id="categoria" required>
+                        <option value="">Seleccione una categoría</option>
+                        <option value="computadoras">Computadoras</option>
+                        <option value="componentes">Componentes</option>
+                        <option value="perifericos">Periféricos</option>
+                        <option value="almacenamiento">Almacenamiento</option>
+                        <option value="redes">Redes</option>
+                        <option value="oficina">Oficina</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <legend>Información del Producto</legend>
+                    <label for="nombre">Nombre*</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese el nombre del producto">
+                    <div class="alert alert-danger" class="error" id="error-nombre" role="alert">
+                        <!-- <span class="error" id="error-nombre"></span> -->
+                      </div>
+
+                    <label for="descripcion" class="mt-3">Descripción*</label>
+                    <textarea class="form-control" id="descripcion" rows="3"
+                        placeholder="Ingrese la descripción"></textarea>
+                        <div class="alert alert-danger" class="error" id="error-descripcion" role="alert">  
+                   <!--  <span class="error" id="error-descripcion"></span> -->
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <legend>Precio*</legend>
+                    <input type="number" class="form-control" id="precio" placeholder="Ingrese el precio en MXN">
+
+                    <div class="alert alert-danger" id="error-precio" class="error" role="alert"></div>
+                   <!--  <span class="error" id="error-precio"></span> -->
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <legend>Variantes del Producto</legend>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead id="variantesHead">
+                                <tr>
+                                    <th>Atributo 1</th>
+                                    <th>Atributo 2</th>
+                                    <th>Atributo 3</th>
+                                    <th>Atributo 4</th>
+                                    <th>Stock</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="variantesBody">
+                                <tr>
+                                    <td colspan="6" class="text-center">Seleccione una categoría para ver las variantes
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div id="msj-variantes">
+                            <div  class="alert alert-success d-flex align-items-center" role="alert" >
+                                <i class="bi bi-balloon-heart">Agregado con exito</i>
+                          </div>
+                        </div>
+                    
+                        <div><button id="guardarDatos" type="button" class="btn btn-primary ">Guardar Caracteristicas</button>
+                        </div>
+                       
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <legend>Imagen del Producto*</legend>
+                    <input type="file" class="form-control-file" id="imagen">
+                    <img id="imagen" src="" class="mt-2 d-none img-fluid" width="150">
+
+                    <div class="alert alert-danger" id="error-imagen" class="error" role="alert"></div>
+                    <!-- <span class="error" id="error-imagen"></span> -->
+                </fieldset>
+
+                 <fieldset class="form-group">
+                    <legend>Contraseña Administrador*</legend>
+                    <input type="password" class="form-control" id="contraseña" placeholder="Ingrese su contraseña">
+                    <div class="alert alert-danger" id="error-contraseña" class="error" role="alert"></div>
+                </fieldset>  
+
+                <div id="msj-exito" >
+                    <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading">Well done!</h4>
+                        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                        <hr>
+                        <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                      </div>
+                  </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-principal">Crear Item</button>
+                    <button type="reset" class="btn btn-eliminar ">Limpiar Almacenamiento</button>
+                </div>
+            </form>
+            
+        </section>
+    </main><br><br><br>
+
+    <!-- Footer -->
+    <footer id="footer"></footer>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    
+     <!-- Scripts personalizados -->
+    <script type="module" src="./agregarP.js"></script>
+    
+    <!-- script header y footer -->
+     <script type="module" src="/src/modules/header/header.js"></script>
+    <script type="module" src="/src/modules/footer/footer.js"></script>
+ 
+</body>
+
+</html>

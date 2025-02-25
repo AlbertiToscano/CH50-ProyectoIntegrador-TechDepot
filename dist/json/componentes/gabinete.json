@@ -1,0 +1,200 @@
+[
+    {
+        "id": "gab1",
+        "titulo": "Tempest Shade RGB Torre ATX Negra",
+        "precio": 1399,
+        "categoria": ["gabinete"] ,
+        "descripcion": "La nueva torre de Tempest viene a revolucionar tu set up, con sus medidas compactas que la hacen perfecta para cualquier espacio, su cristal templado y su iluminación RGB, tiene todas las características gaming a un precio que no te esperas.",
+        "caracteristicas": {
+            "marca": "Tempest",
+            "modelo": "Tempest Shade RGB",
+            "tamaño": "ATX"
+        },
+        "imagen": "/public/img productos/gab1.webp",
+        "rating": {
+            "valoracion": 4.5,
+            "votos": 679
+        }
+    },
+    
+    {
+        "id": "gab2",
+        "titulo": "Nox Hummer Astra ARGB Cristal Templado USB 3.0 Blanca",
+        "precio": 2249,
+        "categoria": ["gabinete"] ,
+        "descripcion": "Nox Hummer Astra es una semitorre deluxe con un impactante diseño minimal que ofrece unas vistas panorámicas a su interior. Con doble cristal templado, este chasis es una mezcla de diseño moderno y arte. Esta caja de acero es compatible con gráficas de gran tamaño, de hasta 420 mm, y sistemas de refrigeración líquida de hasta 360 mm.",
+        "caracteristicas": {
+            "marca": "Nox",
+            "modelo": "Nox Hummer Astra ARGB",
+            "tamaño": "ATX"
+        },
+        "imagen": "/public/img productos/gab2.webp",
+        "rating": {
+            "valoracion": 4.8,
+            "votos": 422
+        }
+    },
+    
+    {
+        "id": "gab3",
+        "titulo": "Nfortec Ursa ARGB Mid Tower E-ATX Cristal Templado USB-C Negra",
+        "precio": 2959,
+        "categoria": ["gabinete"] ,
+        "descripcion": "Un escándalo de rendimiento. La torre gaming de doble cámara redefine la experiencia de juego con un diseño pensado para la máxima expansión y rendimiento. Compatible con placas EATX, ATX, Micro-ATX e ITX, esta caja combina un chasis de acero de 0,8 mm y paneles de cristal templado de 4 mm con bisagras para un acceso sencillo y elegante a todos los componentes. ",
+        "caracteristicas": {
+            "marca": "Nfortec",
+            "modelo": "Nfortec Ursa ARGB",
+            "tamaño": "E-ATX"
+        },
+        "imagen": "/public/img productos/gab3.webp",
+        "rating": {
+            "valoracion": 4.6,
+            "votos": 4
+        }
+    },
+    
+    {
+        "id": "gab4",
+        "titulo": "NZXT H9 Flow Semitorre ATX Cristal Templado USB-C/3.2 Negra",
+        "precio": 3289,
+        "categoria": ["gabinete"] ,
+        "descripcion": "Un escándalo de rendimiento. La torre gaming de doble cámara redefine la experiencia de juego con un diseño pensado para la máxima expansión y rendimiento. Compatible con placas EATX, ATX, Micro-ATX e ITX, esta caja combina un chasis de acero de 0,8 mm y paneles de cristal templado de 4 mm con bisagras para un acceso sencillo y elegante a todos los componentes. ",
+        "caracteristicas": {
+            "marca": "NZXT",
+            "modelo": "NZXT H9 Flow",
+            "tamaño": "ATX"
+        },
+        "imagen": "/public/img productos/gab4.webp",
+        "rating": {
+            "valoracion": 4.7,
+            "votos": 47
+        }
+    },
+    
+    {
+        "id": "gab5",
+        "titulo": "Be Quiet! Pure Base 500 Mid Tower USB 3.0 Negra",
+        "precio": 1659,
+        "categoria": ["gabinete"] ,
+        "descripcion": "La cubierta superior normal complementa a la perfección del diseño de la Pure Base 500. Una estera de aislamiento adjuntada por la parte inferior garantiza el funcionamiento silencioso. Es la opción ideal para sistemas refrigerados con aire y configuraciones de PC silenciosas normales. Unos potentes imanes garantizan que las cubiertas superiores se mantienen bien ceñidas. ",
+        "caracteristicas": {
+            "marca": "Be Quiet!",
+            "modelo": "Be Quiet! Pure Base 500",
+            "tamaño": "ATX"
+        },
+        "imagen": "/public/img productos/gab5.webp",
+        "rating": {
+            "valoracion": 4.5,
+            "votos": 38
+        }
+    },
+    
+    {
+        "id": "gab6",
+        "titulo": "Forgeon Kyber ARGB Cristal Templado USB 3.0 Negra",
+        "precio": 3799,
+        "categoria": ["gabinete"] ,
+        "descripcion": "Con un diseño elegante y moderno, esta torre te ofrece la combinación perfecta de estilo y rendimiento para llevar tus juegos al siguiente nivel. Disponible en dos atractivos colores: Negro y Blanco, la Forgeon Kyber ARGB es la elección ideal para los entusiastas de los juegos que buscan una torre que no solo sea visualmente impresionante, sino también funcional y versátil. ",
+        "caracteristicas": {
+            "marca": "Forgeon",
+            "modelo": "Forgeon Kyber ARGB",
+            "tamaño": "ATX"
+        },
+        "imagen": "/public/img productos/gab6.webp",
+        "rating": {
+            "valoracion": 4.7,
+            "votos": 58
+        }
+    },
+    
+    {
+        "id": "gab7",
+        "titulo": "NZXT H5 Flow RGB 2024 Midi Tower E-ATX Cristal Templado USB-C Negra",
+        "precio": 2999,
+        "categoria": ["gabinete"] ,
+        "descripcion": "La NZXT H5 Flow RGB en su versión black (negra) es una caja e-ATX de torre media compacta, diseñada para ofrecer un flujo de aire óptimo y una excelente refrigeración para la GPU. Su diseño incluye un recubrimiento de PSU perforado y paneles de malla ultrafina en la parte superior, frontal y lateral, lo que maximiza el flujo de aire mientras filtra el polvo.",
+        "caracteristicas": {
+            "marca": "NZXT",
+            "modelo": "NZXT H5 Flow RGB",
+            "tamaño": "E-ATX"
+        },
+        "imagen": "/public/img productos/gab7.webp",
+        "rating": {
+            "valoracion": 4.7,
+            "votos": 58
+        }
+    },
+    
+    {
+        "id": "gab8",
+        "titulo": "Mars Gaming MC-Vortex Micro ATX Cristal Templado 3x Ventiladores FRGB 12cm Blan",
+        "precio": 949,
+        "categoria": ["gabinete"] ,
+        "descripcion": "CAJA GAMING MINITORRE MC-VORTEX. La MC-VORTEX es la caja gaming perfecta para quienes buscan potencia en un formato compacto. Su diseño MicroATX con frontal Mesh, ventana de cristal templado y 3 ventiladores FRGB Rainbow ofrece un rendimiento térmico excelente y un look espectacular. Con capacidad para hasta 7 ventiladores, soporte para refrigeración líquida, diseño de doble cámara y espacio para los componentes más avanzados, la MC-VORTEX fusiona rendimiento, estilo y funcionalidad.",
+        "caracteristicas": {
+            "marca": "Mars",
+            "modelo": "Mars Gaming MC-Vortex",
+            "tamaño": "Micro-ATX"
+        },
+        "imagen": "/public/img productos/gab8.webp",
+        "rating": {
+            "valoracion": 3.9,
+            "votos": 6
+        }
+    },
+    
+    {
+        "id": "gab9",
+        "titulo": "Mars Gaming MC-3TCOREM Custom MicroATX Triple Cristal Templado Cámara Dual USB-",
+        "precio": 1699,
+        "categoria": ["gabinete"] ,
+        "descripcion": "CAJA CUSTOM MICRO-ATX MC-3TCOREM. La MC-3TCOREM transforma cualquier configuración en una combinación perfecta de diseño, versatilidad y rendimiento. Diseñada para maximizar el potencial de tu equipo, ofrece un estilo CUSTOM distintivo, tres paneles de cristal templado para una vista panorámica y una capacidad inigualable en refrigeración. Con soporte para hasta 9 ventiladores de 120mm o refrigeración líquida de hasta 360mm, es la elección ideal para quienes buscan estética, eficiencia y adaptabilidad en un mismo espacio.",
+        "caracteristicas": {
+            "marca": "Mars",
+            "modelo": "Mars Gaming MC-3TCOREM",
+            "tamaño": "Micro-ATX"
+        },
+        "imagen": "/public/img productos/gab9.webp",
+        "rating": {
+            "valoracion": 5,
+            "votos": 1
+        }
+    },
+
+    {
+        "id": "gab10",
+        "titulo": "UNYKAch UK1003 Caja Mini ITX USB 3.0 + Fuente de Alimentación 120W",
+        "precio": 589,
+        "categoria": ["gabinete"] ,
+        "descripcion": "El modelo UNYKAch UK 1003 es una caja con formato Mini ITX, que destaca por su diseño compacto (2 litros), sobrio y totalmente en negro. Su estructura y dimensiones la hacen muy versátil, ya que se puede colocar en posición horizontal o vertical, manteniendo su estabilidad mediante el soporte VESA que incluye. Además, cuenta con 2 conexiones USB en su parte frontal para una total conectividad.",
+        "caracteristicas": {
+            "marca": "UNYKAch",
+            "modelo": "UNYKAch UK1003",
+            "tamaño": "Mini-ITX"
+        },
+        "imagen": "/public/img productos/gab10.webp",
+        "rating": {
+            "valoracion": 4.9,
+            "votos": 5
+        }
+    },
+    
+    {
+        "id": "gab11",
+        "titulo": "NOX Hummer VAULT Mini-ITX USB 3.0 Negra",
+        "precio": 1249,
+        "categoria": ["gabinete"] ,
+        "descripcion": "Nox Hummer Vault presenta un cuidado diseño en un elegante gris metálico con acabado lateral mesh, que hace que encaje en cualquier setup o estancia, potenciando iluminación y refrigeración. Este chasis ha sido construido en acero SPCC de 0.8 mm, lo que proporciona una alta resistencia y una gran durabilidad, protegiendo los elementos del equipo de manera adecuada.",
+        "caracteristicas": {
+            "marca": "NOX",
+            "modelo": "NOX Hummer VAULT",
+            "tamaño": "Mini-ITX"
+        },
+        "imagen": "/public/img productos/gab11.webp",
+        "rating": {
+            "valoracion": 4.5,
+            "votos": 24
+        }
+    }
+
+]
