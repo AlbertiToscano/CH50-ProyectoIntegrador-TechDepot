@@ -160,7 +160,7 @@
           "RAM_compatible": "DDR5",
           "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/mot8.wepg",
+        "imagen": "/public/img productos/mot8.webp",
         "rating": {
           "valoracion": 4.8,
           "votos": 5
@@ -181,7 +181,7 @@
           "RAM_compatible": "DDR5",
           "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/mot9.wepg",
+        "imagen": "/public/img productos/mot9.webp",
         "rating": {
           "valoracion": 4.6,
           "votos": 148
@@ -202,7 +202,7 @@
           "RAM_compatible": "DDR5",
           "tamaño": "Micro-ATX"
         },
-        "imagen": "/public/img productos/mot10.wepg",
+        "imagen": "/public/img productos/mot10.webp",
         "rating": {
           "valoracion": 4.5,
           "votos": 941
@@ -223,7 +223,7 @@
           "RAM_compatible": "DDR5",
           "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/mot11.wepg",
+        "imagen": "/public/img productos/mot11.webp",
         "rating": {
           "valoracion": 4.6,
           "votos": 77
@@ -244,7 +244,7 @@
           "RAM_compatible": "DDR5",
           "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/mot12.wepg",
+        "imagen": "/public/img productos/mot12.webp",
         "rating": {
           "valoracion": 4.6,
           "votos": 416
@@ -265,7 +265,7 @@
           "RAM_compatible": "DDR5",
           "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/mot13.wepg",
+        "imagen": "/public/img productos/mot13.webp",
         "rating": {
           "valoracion": 5,
           "votos": 2
@@ -286,7 +286,7 @@
           "RAM_compatible": "DDR5",
           "tamaño": "Micro-ATX"
         },
-        "imagen": "/public/img productos/mot14.wepg",
+        "imagen": "/public/img productos/mot14.webp",
         "rating": {
           "valoracion": 4.6,
           "votos": 30
@@ -307,7 +307,7 @@
           "RAM_compatible": "DDR4",
           "tamaño": "Micro-ATX"
         },
-        "imagen": "/public/img productos/mot15.wepg",
+        "imagen": "/public/img productos/mot15.webp",
         "rating": {
           "valoracion": 4.7,
           "votos": 47
@@ -328,7 +328,7 @@
           "RAM_compatible": "DDR4",
           "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/mot16.wepg",
+        "imagen": "/public/img productos/mot16.webp",
         "rating": {
           "valoracion": 4.4,
           "votos": 46

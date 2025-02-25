@@ -4,8 +4,10 @@
 función para dibujar las estrellas
 **/
 
+import { addElementToLocalStorage } from "./funcionesLocalStorage";
+
 export const dibujarEstrellas = (rating) => {
-   let textoHtml = "";
+    let textoHtml = "";
     for (let i = 1; i <= 5; i++) {
 
         if (i <= rating) {
@@ -30,11 +32,12 @@ export const dibujarEstrellas = (rating) => {
 
 export class ProductCard {
 
-    constructor(id, titulo, descripcion, precio, imagen, rating) {
+    constructor(id, titulo, descripcion, precio, categoria, imagen, rating) {
         this.id = id;
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.precio = precio;
+        this.categoria = categoria;
         this.imagen = imagen;
         this.rating = rating;
     }
@@ -47,8 +50,12 @@ export class ProductCard {
             <div class="card" style="width: 18rem;">
                             <img src="${this.imagen}" class="card-img-top" alt="${this.titulo}">
                             <div class="card-body">
-                                <h5 class="card-title">${this.titulo} </h5>
-                                <p class="card-text">${this.descripcion} </p>
+                                <h5 class="card-title">
+                                ${this.titulo.length > 90 ? this.titulo.substring(0, 87) + "..." : this.titulo} 
+                                </h5>
+                                <p class="card-text">
+                                ${this.descripcion.length > 60 ? this.descripcion.substring(0, 57) + "..." : this.descripcion} 
+                                </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div>
                                     ${dibujarEstrellas(this.rating)}
@@ -69,32 +76,36 @@ export class ProductCard {
 
 }
 
-
 //función para generar las tarjetas a partir de objetos ProductCard
 
-export const generateCardsOfProducts = (productos) => {
+export const generateCardsOfProducts = (productos, id) => {
     const productosObj = productos.map((producto) => {
-      const newProducto = new ProductCard(
-        producto.id,
-        producto.titulo,
-        producto.descripcion,
-        producto.precio,
-        producto.imagen,
-        producto.rating.valoracion
-      );
-  
-      return newProducto.generateHTML();
+        const newProducto = new ProductCard(
+            producto.id,
+            producto.titulo,
+            producto.descripcion,
+            producto.precio,
+            producto.categoria,
+            producto.imagen,
+            producto.rating.valoracion
+        );
+        
+        return newProducto.generateHTML();
+        
+        
     });
-  
+    
+
     return productosObj.join("");
-  };
-  
+};
 
- //  función para extraer la referencia del DOM
-export const insertCardsToHTML = ( cards, id = "cards" ) => {
 
-    const section = document.getElementById( id );
+//  función para extraer la referencia del DOM
+export const insertCardsToHTML = (cards, id = "cards") => {
+
+    const section = document.getElementById(id);
     section.innerHTML = cards;
+    return section;
 }
 
 
@@ -102,14 +113,15 @@ export const insertCardsToHTML = ( cards, id = "cards" ) => {
 
 //función para obtener los productos desde los json
 
-export const getProducts = async( id, url ) => {
+export const getProducts = async (id, url) => {
     try {
-        const response = await fetch( url );
+        const response = await fetch(url);
         const productos = await response.json();
-        console.log(productos[0].imagen);
-        const cards = generateCardsOfProducts( productos );
-        insertCardsToHTML( cards, id );            
+        
+        const cards = generateCardsOfProducts(productos);
+        insertCardsToHTML(cards, id);
+
     } catch (error) {
-        console.error( error );
+        console.error(error);
     }
 }
