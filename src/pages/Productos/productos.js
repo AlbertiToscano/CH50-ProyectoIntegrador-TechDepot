@@ -2,8 +2,8 @@
 /* Función que hace la peticion a los archivos Json  */
 function fes(carpeta,iddelHTML){
    
-    //fetch("/public/json/componentes/almacenamientoInterno.json")
-    fetch("/public/json/"+carpeta+"/"+iddelHTML+".json")
+    //fetch("/json/componentes/almacenamientoInterno.json")
+    fetch("/json/"+carpeta+"/"+iddelHTML+".json")
     .then((response)=>response.json())
     .then((info)=>{
         document.getElementById(iddelHTML).innerHTML=separarinfoObjetos(info);
