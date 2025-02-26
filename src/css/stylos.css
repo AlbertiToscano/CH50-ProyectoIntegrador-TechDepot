@@ -1,0 +1,156 @@
+
+*{
+
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-size: 32px;
+  color:#153B4C;
+  text-align: center;
+}
+
+
+/*banner carrusel*/
+.carousel-caption{
+  width: 50%;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+
+  & > h5{
+    font-size: 32px;
+    font-weight: 600;
+    color: #021E2A;
+  }
+
+  & > p{
+    font-family: 16px;
+    color: #153B4C;
+
+  }
+  
+}
+
+
+
+#botónExploraAhora {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.activo {
+  background-color: #021E2A; /* Azul oscuro */
+  color: white;
+}
+
+.inactivo {
+  background-color: #153B4C; /* Gris */
+  color: #fff;
+}
+
+/* Asegura el cambio de color en hover */
+.activo:hover {
+  background-color: #021E2A ;
+}
+
+.inactivo:hover {
+  background-color: #153B4C;
+}
+
+.btn {
+    
+        background-color: #021E2A;
+        color: #fff; /* Blanco */
+        padding: 5px 15px; /* Ajusta el padding para el tamaño */
+        border: none;
+        border-radius: 30px;
+        font-size: 1em;
+        cursor: pointer;
+        transition:#1F5673 0.3s ease; 
+        box-shadow: #4a859e /* Sombra */
+      }
+      
+      .btn:hover {
+        background-color: #386578; 
+      }
+
+      /* Estilos generales para los botones */
+
+
+      /*Carrusel Logotipos*/
+
+      .slider{
+        width: 75vw;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+      }
+
+      .slider .slider-track{
+        display: flex;
+        animation: scroll 40s linear infinite;
+        -webkit-animation: scroll 40s linear infinite; /*para que la animación funcione en todos los navegadores*/
+        width: calc(200px * 24); /*calcular alguna operación que realicemos*/
+      }
+
+      .slider .slide{
+        width: 200px;
+      }
+
+      .slider .slide img {
+        width: 100%; /*valor que se tiene en su contenedor*/
+      }
+
+      @keyframes scroll {
+        0%{
+          -webkit-transform: translatex(0);
+          transform: translatex(0);
+
+        }
+        100%{
+          -webkit-transform: translatex(calc(-200px * 12)); 
+          transform: translatex(calc(-200px * 12));
+
+        }
+      }
+
+/*Banner de beneficios*/
+.beneficios{
+  display: flex;
+  width: 100%; 
+  background-color: #A2B8C9;
+  flex-direction: row-reverse;
+  padding: 5% 10%;
+}
+
+.texto{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+
+  & > h5{
+    font-size: 32px;
+    font-weight: 600;
+    color: #021E2A;
+  }
+
+  & > p{
+    font-family: 16px;
+    color: #153B4C;
+
+  }
+  
+}
+
+.imagenSobrepuesta{
+  width: 50%;  
+}
