@@ -237,6 +237,11 @@
     margin-inline: .2em;
     width: 30px;
 }
+#cantidad{
+    padding-inline: .6em;
+    padding-block: .20em;
+    border-radius: 10%;
+}
 
 #bote-basura{
     background-color:transparent;

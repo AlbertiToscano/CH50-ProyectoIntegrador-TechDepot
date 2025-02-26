@@ -10,7 +10,7 @@
             "modelo": "Tempest Shade RGB",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/gab1.webp",
+        "imagen": "/img productos/gab1.webp",
         "rating": {
             "valoracion": 4.5,
             "votos": 679
@@ -28,7 +28,7 @@
             "modelo": "Nox Hummer Astra ARGB",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/gab2.webp",
+        "imagen": "/img productos/gab2.webp",
         "rating": {
             "valoracion": 4.8,
             "votos": 422
@@ -46,7 +46,7 @@
             "modelo": "Nfortec Ursa ARGB",
             "tamaño": "E-ATX"
         },
-        "imagen": "/public/img productos/gab3.webp",
+        "imagen": "/img productos/gab3.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 4
@@ -64,7 +64,7 @@
             "modelo": "NZXT H9 Flow",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/gab4.webp",
+        "imagen": "/img productos/gab4.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 47
@@ -82,7 +82,7 @@
             "modelo": "Be Quiet! Pure Base 500",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/gab5.webp",
+        "imagen": "/img productos/gab5.webp",
         "rating": {
             "valoracion": 4.5,
             "votos": 38
@@ -100,7 +100,7 @@
             "modelo": "Forgeon Kyber ARGB",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/gab6.webp",
+        "imagen": "/img productos/gab6.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 58
@@ -118,7 +118,7 @@
             "modelo": "NZXT H5 Flow RGB",
             "tamaño": "E-ATX"
         },
-        "imagen": "/public/img productos/gab7.webp",
+        "imagen": "/img productos/gab7.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 58
@@ -136,7 +136,7 @@
             "modelo": "Mars Gaming MC-Vortex",
             "tamaño": "Micro-ATX"
         },
-        "imagen": "/public/img productos/gab8.webp",
+        "imagen": "/img productos/gab8.webp",
         "rating": {
             "valoracion": 3.9,
             "votos": 6
@@ -154,7 +154,7 @@
             "modelo": "Mars Gaming MC-3TCOREM",
             "tamaño": "Micro-ATX"
         },
-        "imagen": "/public/img productos/gab9.webp",
+        "imagen": "/img productos/gab9.webp",
         "rating": {
             "valoracion": 5,
             "votos": 1
@@ -172,7 +172,7 @@
             "modelo": "UNYKAch UK1003",
             "tamaño": "Mini-ITX"
         },
-        "imagen": "/public/img productos/gab10.webp",
+        "imagen": "/img productos/gab10.webp",
         "rating": {
             "valoracion": 4.9,
             "votos": 5
@@ -190,7 +190,7 @@
             "modelo": "NOX Hummer VAULT",
             "tamaño": "Mini-ITX"
         },
-        "imagen": "/public/img productos/gab11.webp",
+        "imagen": "/img productos/gab11.webp",
         "rating": {
             "valoracion": 4.5,
             "votos": 24

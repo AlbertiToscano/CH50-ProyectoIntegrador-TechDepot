@@ -11,7 +11,7 @@
             "tipo_de_enfriamiento": "liquida",
             "numero_de_ventiladores": 2
         },
-        "imagen": "/public/img productos/enf1.webp",
+        "imagen": "/img productos/enf1.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 8590
@@ -30,7 +30,7 @@
             "tipo_de_enfriamiento": "liquida",
             "numero_de_ventiladores": 3
         },
-        "imagen": "/public/img productos/enf2.webp",
+        "imagen": "/img productos/enf2.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 3173
@@ -49,7 +49,7 @@
             "tipo_de_enfriamiento": "liquida",
             "numero_de_ventiladores": 2
         },
-        "imagen": "/public/img productos/enf3.webp",
+        "imagen": "/img productos/enf3.webp",
         "rating": {
             "valoracion": 4.5,
             "votos": 672
@@ -68,7 +68,7 @@
             "tipo_de_enfriamiento": "liquida",
             "numero_de_ventiladores": 3
         },
-        "imagen": "/public/img productos/enf4.webp",
+        "imagen": "/img productos/enf4.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 55
@@ -87,7 +87,7 @@
             "tipo_de_enfriamiento": "liquida",
             "numero_de_ventiladores": 3
         },
-        "imagen": "/public/img productos/enf5.webp",
+        "imagen": "/img productos/enf5.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 32
@@ -106,7 +106,7 @@
             "tipo_de_enfriamiento": "liquida",
             "numero_de_ventiladores": 1
         },
-        "imagen": "/public/img productos/enf6.webp",
+        "imagen": "/img productos/enf6.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 3172
@@ -125,7 +125,7 @@
             "tipo_de_enfriamiento": "aire",
             "numero_de_ventiladores": 2
         },
-        "imagen": "/public/img productos/enf7.webp",
+        "imagen": "/img productos/enf7.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 3358
@@ -144,7 +144,7 @@
             "tipo_de_enfriamiento": "aire",
             "numero_de_ventiladores": 1
         },
-        "imagen": "/public/img productos/enf8.webp",
+        "imagen": "/img productos/enf8.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 321
@@ -163,7 +163,7 @@
             "tipo_de_enfriamiento": "aire",
             "numero_de_ventiladores": 2
         },
-        "imagen": "/public/img productos/enf9.webp",
+        "imagen": "/img productos/enf9.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 36
@@ -182,7 +182,7 @@
             "tipo_de_enfriamiento": "aire",
             "numero_de_ventiladores": 2
         },
-        "imagen": "/public/img productos/enf10.webp",
+        "imagen": "/img productos/enf10.webp",
         "rating": {
             "valoracion": 4.9,
             "votos": 8
@@ -201,7 +201,7 @@
             "tipo_de_enfriamiento": "aire",
             "numero_de_ventiladores": 2
         },
-        "imagen": "/public/img productos/enf11.webp",
+        "imagen": "/img productos/enf11.webp",
         "rating": {
             "valoracion": 4.9,
             "votos": 8
