@@ -4,6 +4,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+h1{
+  font-size: 32px;
+  color:#153B4C;
+  text-align: center;
+}
 
 .banner{
 
@@ -59,17 +64,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 #botónExploraAhora {
   padding: 10px 20px;
   font-size: 16px;
@@ -117,3 +111,60 @@
 
       /* Estilos generales para los botones */
 
+
+      /*Carrusel Logotipos*/
+
+      .slider{
+        width: 75vw;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+      }
+
+      .slider .slider-track{
+        display: flex;
+        animation: scroll 40s linear infinite;
+        -webkit-animation: scroll 40s linear infinite; /*para que la animación funcione en todos los navegadores*/
+        width: calc(200px * 24); /*calcular alguna operación que realicemos*/
+      }
+
+      .slider .slide{
+        width: 200px;
+      }
+
+      .slider .slide img {
+        width: 100%; /*valor que se tiene en su contenedor*/
+      }
+
+      @keyframes scroll {
+        0%{
+          -webkit-transform: translatex(0);
+          transform: translatex(0);
+
+        }
+        100%{
+          -webkit-transform: translatex(calc(-200px * 12)); 
+          transform: translatex(calc(-200px * 12));
+
+        }
+      }
+
+/*Banner de beneficios*/
+.beneficios{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/public/home/backgraund.png);
+  background-size: cover;
+  background-position: center;
+  padding: 229px;
+}
+
+.texto-overlay{
+  margin-right: 300px;
+}
+
+.imagenSobrepuesta{
+  width: 497px;
+  height: 437px;
+}
