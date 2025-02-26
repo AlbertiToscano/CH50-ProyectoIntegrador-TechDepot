@@ -15,7 +15,31 @@
   /*flex-direction: column;
   background-image:url(/assets/imagenes/background1.webp);
   background-size: cover;*/
- 
+}
+.carousel-caption{
+  text-align: left;
+  left: 10%;
+  right: auto;
+}
+h5{
+  text-align: left;
+  font-size: 2em;
+  margin-bottom: 15%;
+  
+}
+.carousel-caption p{
+  font-size: 1.2em;
+  
+
+}
+
+.section-title{
+  font-size: 2em;
+  text-align: center;
+}
+
+.servicios{
+  background-color: #D6E1EC;
 
 }
 
