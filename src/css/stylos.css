@@ -10,56 +10,27 @@ h1{
   text-align: center;
 }
 
-.banner{
 
+/*banner carrusel*/
+.carousel-caption{
+  width: 50%;
   display: block;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  background-image:url(/assets/imagenes/background1.webp);
-  /*flex-direction: column;
-  background-image:url(/assets/imagenes/background1.webp);
-  background-size: cover;*/
- 
-
-}
-
-.contenido{
-
-  flex-direction:column-reverse;
-  margin-right: 35px;
-  padding: 300px;
-  text-align: left;
-  justify-content: center;
-  /*display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 35%;
-  height: 50%;
-  text-align: left;*/
-  
-}
+  gap: 40px;
 
-#img_sobrepuesta{
-
-  width: 80%;
-  vertical-align: middle;
-
-  /*max-width: 68rem;
-  display: flex;
-  align-items: center;
-  width: 80%;
-  overflow: hidden;*/
- 
-  
- 
-}
-
-
-@media(max-width:768px){
-  .banner{
-    background-size: contain;
+  & > h5{
+    font-size: 32px;
+    font-weight: 600;
+    color: #021E2A;
   }
+
+  & > p{
+    font-family: 16px;
+    color: #153B4C;
+
+  }
+  
 }
 
 
@@ -152,19 +123,34 @@ h1{
 /*Banner de beneficios*/
 .beneficios{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(/public/home/backgraund.png);
-  background-size: cover;
-  background-position: center;
-  padding: 229px;
+  width: 100%; 
+  background-color: #A2B8C9;
+  flex-direction: row-reverse;
+  padding: 5% 10%;
 }
 
-.texto-overlay{
-  margin-right: 300px;
+.texto{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+
+  & > h5{
+    font-size: 32px;
+    font-weight: 600;
+    color: #021E2A;
+  }
+
+  & > p{
+    font-family: 16px;
+    color: #153B4C;
+
+  }
+  
 }
 
 .imagenSobrepuesta{
-  width: 497px;
-  height: 437px;
+  width: 50%;  
 }
