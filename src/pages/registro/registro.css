@@ -207,6 +207,7 @@ body {
     margin-left: 130px;
     font-size: 13px;
     color: rgb(146, 19, 19);
+    padding-bottom: 01px;
     display: none;
 }
 
@@ -223,9 +224,10 @@ body {
     width: 60%;
     text-align: center;
     margin-left: 130px;
-    font-size: 13px;
-    color: #A2B8C9;
-    display: none;
+    font-size: 15px;
+    color:#153B4C;
+    padding-bottom: 01px;
+    display: none; 
 }
 
 .registro-exitoso-activo {

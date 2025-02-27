@@ -97,14 +97,14 @@ formulario.addEventListener('submit', (e) => {
 
         
         document.getElementById('registro-exitoso').classList.add('registro-exitoso-activo');
-       
+        formulario.reset(); //Resetea el formulario una vez enviado
     } else {
 
         document.getElementById('error-registro').classList.add('error-registro-activo'); //Muestra el mensaje de error
 
     }
 
-    formulario.reset(); //Resetea el formulario una vez enviado
+    
 
     setTimeout(() => {
         document.getElementById('registro-exitoso').classList.remove('registro-exitoso-activo');
