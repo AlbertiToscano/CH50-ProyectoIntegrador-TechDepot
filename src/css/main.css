@@ -32,7 +32,11 @@
     border-bottom: 1px solid #D6E1EC; /* Ajusta el borde inferior */
 }
 
+.carousel-caption{
+    margin-block-end: 15em;
+    margin-inline-start: -8em;
 
+}
 
 
 /* Estilos generales para el menú de usuario */

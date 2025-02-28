@@ -1,6 +1,6 @@
 
 import { sumarTotal } from "./Tarjeta de producto/funcionesLocalStorage.js";
-import { generarTarjetas, } from "./Tarjeta de producto/TarjetasDeProducto2.js";
+import {crearProductosConstruyeTuPC, } from "./Tarjeta de producto/TarjetasDeProducto2.js";
 
 
 document.querySelectorAll('.star-rating:not(.readonly) label').forEach(star => {
@@ -13,13 +13,13 @@ document.querySelectorAll('.star-rating:not(.readonly) label').forEach(star => {
 });
 
 
-generarTarjetas("procesadores", "/json/componentes/procesadores.json");
-generarTarjetas("motherboard", "/json/componentes/motherboard.json");
-generarTarjetas("ram", "/json/componentes/memoriaRAM.json");
-generarTarjetas("Almacenamiento", "/json/componentes/almacenamientoInterno.json");
-generarTarjetas("enfriamiento", "/json/componentes/enfriamiento.json");
-generarTarjetas("gpu", "/json/componentes/GPU.json");
-generarTarjetas("gabinete", "/json/componentes/gabinete.json");
-generarTarjetas("fuente", "/json/componentes/fuenteDeAlimentacion.json");
+crearProductosConstruyeTuPC("procesadores", "/json/componentes/procesadores.json");
+crearProductosConstruyeTuPC("motherboard", "/json/componentes/motherboard.json");
+crearProductosConstruyeTuPC("ram", "/json/componentes/memoriaRAM.json");
+crearProductosConstruyeTuPC("Almacenamiento", "/json/componentes/almacenamientoInterno.json");
+crearProductosConstruyeTuPC("enfriamiento", "/json/componentes/enfriamiento.json");
+crearProductosConstruyeTuPC("gpu", "/json/componentes/GPU.json");
+crearProductosConstruyeTuPC("gabinete", "/json/componentes/gabinete.json");
+crearProductosConstruyeTuPC("fuente", "/json/componentes/fuenteDeAlimentacion.json");
 sumarTotal();
 

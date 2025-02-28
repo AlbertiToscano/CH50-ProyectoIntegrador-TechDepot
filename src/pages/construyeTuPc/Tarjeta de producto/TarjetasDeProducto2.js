@@ -1,4 +1,4 @@
-import { addElementToLocalStorage, obtenerProductoDeLocalStorage, restElementToLocalStorage, sumarTotal, verificarLocalStorage, } from "./funcionesLocalStorage";
+import { addElementToLocalStorage, deleteElementToLocalStorage, obtenerProductoDeLocalStorage, restElementToLocalStorage, sumarTotal, verificarLocalStorage, } from "./funcionesLocalStorage";
 
 /*
 función para dibujar las estrellas
@@ -27,6 +27,7 @@ export const dibujarEstrellas = (rating) => {
 
 export const generarCodigoHtml = (producto) => {
     return `
+                       
                             <img src="${producto.imagen}" class="card-img-top" alt="${producto.titulo}">
                             <div class="card-body">
                                 <h5 class="card-title">
@@ -48,13 +49,16 @@ export const generarCodigoHtml = (producto) => {
                                         </div>
                                     </div>
                             </div>
+                        
         `;
 
 }
 
+//función que retorna el formato de producto seleccionado
+
 export const generarProductoSeleccionado = (producto) => {
     return `
-                                   <img class="col-2 " src="${producto.imagen}" alt="${producto.titulo}">
+                                   <img class="col--xxl-2" src="${producto.imagen}" alt="${producto.titulo}">
                                     <!-- contenedor con titulo, descripcion, cantidad y borrar -->
                                     <div class="col-xxl-8 col-md-6 texto-botones">
                                         <h4>
@@ -66,7 +70,7 @@ export const generarProductoSeleccionado = (producto) => {
                                         <!-- Botones -->
                                         <div id="${producto.id}" class= "row-cols-4">
                                             <button type="button" class="btn btn-sm cuadro">-</button>
-                                            <span id="cantidad" class="cuadro">${producto.cantidad}</span>
+                                            <span id="cantidad${producto.id}" class="cuadro numeroCantidad">${producto.cantidad}</span>
                                             <button type="button" class="btn btn-sm cuadro">+</button>
                                             <button id="bote-basura" type="button" class="bi bi-trash-fill btn btn-sm cuadro"> </button>
                                         </div>
@@ -120,7 +124,7 @@ const borrarElementos = (contenedor) => {
  * Función que interactua con el boton de agregar al carrito, añadé el elemento seleccionado al local storage y luego elimina la lista de productos
  */
 
-export const eventoClick = (contenedor, nuevoProducto, producto,) => {
+export const eventoClick = (contenedor, nuevoProducto, producto) => {
     nuevoProducto.getElementsByClassName("btn")[0].addEventListener("click", () => {
         addElementToLocalStorage(producto)
         const indiceProducto = verificarLocalStorage(producto);
@@ -132,8 +136,8 @@ export const eventoClick = (contenedor, nuevoProducto, producto,) => {
 
 
 /* obtiene la referencia al contenedor de cantidad */
-const contenedorCantidad = () => {
-    const cantidad = document.getElementById("cantidad");
+const contenedorCantidad = (producto) => {
+    const cantidad = document.getElementById(`cantidad${producto.id}`);
     return cantidad;
 
 }
@@ -145,45 +149,69 @@ const contenedorCantidad = () => {
 export const botonRestar = (producto) => {
     const indice = verificarLocalStorage(producto);
     let pieza = obtenerProductoDeLocalStorage(indice);
-    const boton = document.getElementById(producto.id);
-    const cantidad = contenedorCantidad(boton);
-    boton.getElementsByClassName("btn")[0].addEventListener("click", () => {
+    const contenedorBoton = document.getElementById(producto.id);
+    const Cantidad = contenedorCantidad(producto);
+    contenedorBoton.getElementsByClassName("btn")[0].addEventListener("click", () => {
         if (pieza.cantidad > 1) {
             restElementToLocalStorage(producto);
             sumarTotal();
         }
         pieza = obtenerProductoDeLocalStorage(indice);
-        console.log(pieza.cantidad);
-        cantidad.innerText = pieza.cantidad;
+        Cantidad.innerText = pieza.cantidad;
     });
 }
+
+/**
+ * función que da funcionalidad al boton sumar
+ * @param {*} producto 
+ */
 
 export const botonSumar = (producto) => {
     const indice = verificarLocalStorage(producto);
     let pieza = obtenerProductoDeLocalStorage(indice);
-    const boton = document.getElementById(producto.id);
-    const cantidad = contenedorCantidad(boton);
-    boton.getElementsByClassName("btn")[1].addEventListener("click", () => {
+    const contenedorBoton = document.getElementById(producto.id);
+    const Cantidad = contenedorCantidad(producto);
+    contenedorBoton.getElementsByClassName("btn")[1].addEventListener("click", () => {
         if (pieza.cantidad >= 1) {
             addElementToLocalStorage(producto);
             sumarTotal();
         }
         pieza = obtenerProductoDeLocalStorage(indice);
-        console.log(pieza.cantidad);
-        cantidad.innerText = pieza.cantidad;
+        Cantidad.innerText = pieza.cantidad;
     });
 }
 
 
+export const botonBorrar = (producto) => {
+    const indice = verificarLocalStorage(producto);
+    let pieza = obtenerProductoDeLocalStorage(indice);
+    const contenedorBoton = document.getElementById(producto.id);
+    const Cantidad = contenedorCantidad(producto);
+    contenedorBoton.getElementsByClassName("btn")[2].addEventListener("click", () => {
+        if (pieza.cantidad >= 1) {
+            deleteElementToLocalStorage(producto);
+            sumarTotal();
+        }
+    });
+}
+
+/* export generarTarjetaDeProducto */
 
 
 
-export const generarTarjetas = async (id, json) => {
+/**
+ * Programa que despliega la lista de tarjetas de producto
+ * @param {*id comun de los productos} id 
+ * @param {*enlace al json} json 
+ */
+
+export const crearProductosConstruyeTuPC = async (id, json) => {
     const contenedorDeTarjetas = document.getElementById(id);
     try {
         const response = await fetch(json);
         const productos = await response.json();
         productos.forEach(producto => {
+            //////
             const nuevoProducto = crearTarjeta(producto, contenedorDeTarjetas);
             eventoClick(contenedorDeTarjetas, nuevoProducto, producto);
 

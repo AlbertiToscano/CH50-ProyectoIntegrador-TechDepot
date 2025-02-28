@@ -74,6 +74,7 @@
     padding: 30px; /* Espaciado interno dentro del acordeón */
     font-size: 18px; /* Tamaño del texto dentro del acordeón */
     text-align: justify; /* Justifica el contenido */
+    
 }
 
 .accordion-item {
@@ -86,17 +87,23 @@
    ESTILOS DE TARJETAS
    ============================== */
 
+
+
 .accordion .card{
    margin-top: 1em; /* margen superior de las tarjetas */ 
    margin-right: 1em;
    border-radius: 15px;
    background-color: #EEF5FC;
+   height:fit-content
+   
+   
    
    
 }
 
 .card img{ /* margen superior de las imagenes en las tarjetas */
     margin-top: 1em;
+    max-width: 15em;
 }
 
 
@@ -235,12 +242,14 @@
     color: #A2B8C9;
     padding: .4em;
     margin-inline: .2em;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
-#cantidad{
-    padding-inline: .6em;
-    padding-block: .20em;
+.producto-seleccionado .numeroCantidad{
+    padding-inline: 1em;
+    padding-block: .4em;
     border-radius: 10%;
+    
 }
 
 #bote-basura{
