@@ -12,11 +12,7 @@
             "velocidad": 3200,
             "capacidad": "16GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram1.webp",
-=======
-        "imagen": "/public/img productos/ram1.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.7,
             "votos": 8590
@@ -35,11 +31,7 @@
             "velocidad": 3200,
             "capacidad": "16GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram2.webp",
-=======
-        "imagen": "/public/img productos/ram2.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.8,
             "votos": 4102
@@ -58,11 +50,7 @@
             "velocidad": 3600,
             "capacidad": "16GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram3.webp",
-=======
-        "imagen": "/public/img productos/ram3.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.8,
             "votos": 442
@@ -81,11 +69,7 @@
             "velocidad": 3600,
             "capacidad": "16GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram4.webp",
-=======
-        "imagen": "/public/img productos/ram4.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.7,
             "votos": 620
@@ -104,11 +88,7 @@
             "velocidad": 3600,
             "capacidad": "32GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram5.webp",
-=======
-        "imagen": "/public/img productos/ram5.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.8,
             "votos": 4037
@@ -127,11 +107,7 @@
             "velocidad": 2666,
             "capacidad": "16GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram6.webp",
-=======
-        "imagen": "/public/img productos/ram6.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.7,
             "votos": 1736
@@ -150,11 +126,7 @@
             "velocidad": 6000,
             "capacidad": "32GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram7.webp",
-=======
-        "imagen": "/public/img productos/ram7.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.7,
             "votos": 904
@@ -173,11 +145,7 @@
             "velocidad": 5600,
             "capacidad": "32GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram8.webp",
-=======
-        "imagen": "/public/img productos/ram8.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.8,
             "votos": 189
@@ -196,11 +164,7 @@
             "velocidad": 5200,
             "capacidad": "32GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram9.webp",
-=======
-        "imagen": "/public/img productos/ram9.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.7,
             "votos": 84
@@ -219,11 +183,7 @@
             "velocidad": 7000,
             "capacidad": "32GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram10.webp",
-=======
-        "imagen": "/public/img productos/ram10.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.9,
             "votos": 17
@@ -243,11 +203,7 @@
             "velocidad": 6400,
             "capacidad": "64GB"
         },
-<<<<<<< HEAD
         "imagen": "/img productos/ram11.webp",
-=======
-        "imagen": "/public/img productos/ram11.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
         "rating": {
             "valoracion": 4.5,
             "votos": 3

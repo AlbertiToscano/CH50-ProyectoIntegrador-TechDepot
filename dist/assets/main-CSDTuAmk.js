@@ -1,0 +1,1 @@
+import"./footer-CkzLowea.js";const e=document.querySelectorAll(".imagen-animada");e.forEach(s=>{s.addEventListener("mouseover",()=>{s.style.transform="scale(1.1)",s.style.transition="transform 0.3s ease"}),s.addEventListener("mouseout",()=>{s.style.transform="scale(1)",s.style.transition="transform 0.3s ease"})});

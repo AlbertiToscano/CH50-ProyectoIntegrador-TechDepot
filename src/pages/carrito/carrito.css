@@ -1,0 +1,35 @@
+/* Importar fuente Poppins para todo el documento */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+html {
+    font-family: 'Poppins', sans-serif; /* Fuente principal del documento */
+}
+
+
+/* Cambiar el color de fondo del encabezado de la tabla */
+.table thead {
+    background-color: #386578;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  td, th {
+    border: none;
+  }
+
+  .table td {
+    background-color: #D6E1EC;
+    color: #153b4c;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+
+  
+
+  /* Agregar una sombra a la tabla */
+  .table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const o of a.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&t(o)}).observe(document,{childList:!0,subtree:!0});function n(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function t(e){if(e.ep)return;e.ep=!0;const a=n(e);fetch(e.href,a)}})();const i=()=>{const s=document.getElementById("header");s.innerHTML=`
-=======
-<<<<<<<< HEAD:dist/assets/footer-DcLO4EhV.js
-(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const r of a.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&t(r)}).observe(document,{childList:!0,subtree:!0});function n(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function t(e){if(e.ep)return;e.ep=!0;const a=n(e);fetch(e.href,a)}})();const i=()=>{const s=document.getElementById("header");s.innerHTML=`
-========
-(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const o of a.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&t(o)}).observe(document,{childList:!0,subtree:!0});function n(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function t(e){if(e.ep)return;e.ep=!0;const a=n(e);fetch(e.href,a)}})();const i=()=>{const s=document.getElementById("header");s.innerHTML=`
->>>>>>>> 33c528213701a90076ba26c90e92ffeedb62e51e:dist/assets/footer-yo8OtmSv.js
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
+(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const o of a.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&t(o)}).observe(document,{childList:!0,subtree:!0});function i(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function t(e){if(e.ep)return;e.ep=!0;const a=i(e);fetch(e.href,a)}})();const n=()=>{const s=document.getElementById("header");s.innerHTML=`
         <!-- Encabezado principal -->
     <!-- main-navbar.html -->
 <nav class="navbar navbar-expand-lg bg-light py-3 shadow-sm">
@@ -27,21 +19,22 @@
           <div class="dropdown">
               <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
 
-                  <a href="#" class="nav-link me-3 login-link">
+                  <a href="" class="nav-link me-3 login-link">
                       <i class="bi bi-person-circle"></i> Iniciar Sesión
                   </a>
               </button>
               <ul class="dropdown-menu">
                   <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>
--->
-                  <li><a class="dropdown-item" href="#">Registrarse</a></li>
+-->  
+             <li><a class="dropdown-item" href="/src/pages/inicioSesion/inicioSesion.html">Iniciar Sesión</a></li>
+                  <li><a class="dropdown-item" href="/src/pages/registro/registro.html">Registrarse</a></li>
                   <li><a class="dropdown-item" href="/src/pages/agregarProductos/agregarP.html">Administrador</a></li>
               </ul>
           </div>
 
           <!-- Carrito -->
 
-          <a href="#" class="nav-link cart-link">
+          <a href="/src/pages/carrito/carrito.html" class="nav-link cart-link">
               <i class="bi bi-cart3"></i> Mi Carrito
           </a>
 
@@ -87,7 +80,7 @@
   </div>
 </nav>
     
-    `};i();const l=()=>{const s=document.getElementById("footer");s.innerHTML=`
+    `};n();const l=()=>{const s=document.getElementById("footer");s.innerHTML=`
 <!-- Pie de página -->
 <footer class="text-center py-3 mt-0 footer">
   <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>

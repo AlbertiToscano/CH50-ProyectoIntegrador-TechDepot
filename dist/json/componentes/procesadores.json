@@ -13,11 +13,7 @@
       "graficos_integrados": "si",
       "TDP": 120
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro1.webp",
-=======
-    "imagen": "/public/img productos/pro1.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.6,
       "votos": 234
@@ -38,11 +34,7 @@
       "graficos_integrados": "si",
       "TDP": 105
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro2.webp",
-=======
-    "imagen": "/public/img productos/pro2.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.8,
       "votos": 915
@@ -63,11 +55,7 @@
       "graficos_integrados": "no",
       "TDP": 65
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro3.webp",
-=======
-    "imagen": "/public/img productos/pro3.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.7,
       "votos": 2033
@@ -88,11 +76,7 @@
       "graficos_integrados": "si",
       "TDP": 170
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro4.webp",
-=======
-    "imagen": "/public/img productos/pro4.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.7,
       "votos": 2033
@@ -113,11 +97,7 @@
       "graficos_integrados": "si",
       "TDP": 65
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro5.jpg",
-=======
-    "imagen": "/public/img productos/pro5.jpg",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.6,
       "votos": 54
@@ -138,11 +118,7 @@
       "graficos_integrados": "si",
       "TDP": 65
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro6.webp",
-=======
-    "imagen": "/public/img productos/pro6.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.7,
       "votos": 701
@@ -163,11 +139,7 @@
       "graficos_integrados": "si",
       "TDP": 105
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro7.webp",
-=======
-    "imagen": "/public/img productos/pro7.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.8,
       "votos": 913
@@ -188,11 +160,7 @@
       "graficos_integrados": "no",
       "TDP": 235
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro8.webp",
-=======
-    "imagen": "/public/img productos/pro8.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.7,
       "votos": 277
@@ -213,11 +181,7 @@
       "graficos_integrados": "no",
       "TDP": 60
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro9.webp",
-=======
-    "imagen": "/public/img productos/pro9.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.7,
       "votos": 124
@@ -237,11 +201,7 @@
       "graficos_integrados": "no",
       "TDP": 117
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro10.webp",
-=======
-    "imagen": "/public/img productos/pro10.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.7,
       "votos": 124
@@ -262,11 +222,7 @@
       "graficos_integrados": "no",
       "TDP": 89
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro11.webp",
-=======
-    "imagen": "/public/img productos/pro11.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.7,
       "votos": 183
@@ -287,11 +243,7 @@
       "graficos_integrados": "no",
       "TDP": 125
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro12.webp",
-=======
-    "imagen": "/public/img productos/pro12.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.5,
       "votos": 114
@@ -312,11 +264,7 @@
       "graficos_integrados": "si",
       "TDP": 65
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro13.webp",
-=======
-    "imagen": "/public/img productos/pro13.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.7,
       "votos": 799
@@ -337,11 +285,7 @@
       "graficos_integrados": "si",
       "TDP": 89
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro14.webp",
-=======
-    "imagen": "/public/img productos/pro14.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.5,
       "votos": 19
@@ -362,11 +306,7 @@
       "graficos_integrados": "si",
       "TDP": 219
     },
-<<<<<<< HEAD
     "imagen": "/img productos/pro14.webp",
-=======
-    "imagen": "/public/img productos/pro14.webp",
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
     "rating": {
       "valoracion": 4.6,
       "votos": 36
