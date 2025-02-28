@@ -15,7 +15,7 @@
             "Tarjeta-madre": "Gigabyte B760M D3HP DDR4",
             "Almacenamiento": "WD Blue SN580 1TB SSD M.2 PCIe 4.0 NVMe"
         },
-        "imagen": "/public/img productos/comp1.webp",
+        "imagen": "/img productos/comp1.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 1051
@@ -37,7 +37,7 @@
             "Tarjeta-madre": "ASUS PRIME B550M-A/CSM",
             "Almacenamiento": "WD Blue SN570 SSD 1TB M.2 NVMe"
         },
-        "imagen": "/public/img productos/comp2.webp",
+        "imagen": "/img productos/comp2.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 888
@@ -59,7 +59,7 @@
             "Tarjeta-madre": "ASUS PRIME B550M-A/CSM",
             "Almacenamiento": "WD Blue SN570 SSD 1TB M.2 NVMe"
         },
-        "imagen": "/public/img productos/comp3.webp",
+        "imagen": "/img productos/comp3.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 215
@@ -81,7 +81,7 @@
             "Tarjeta-madre": "MSI PRO H610M-G DDR4",
             "Almacenamiento": "Kioxia EXCERIA PLUS G3 1TB SSD M.2 2280 PCIe Gen4 x4 o similar - Según disponibilidad."
         },
-        "imagen": "/public/img productos/comp4.webp",
+        "imagen": "/img productos/comp4.webp",
         "rating": {
             "valoracion": 4.5,
             "votos": 600
@@ -103,7 +103,7 @@
             "Tarjeta-madre": "MSI PRO B650-S WIFI",
             "Almacenamiento": " WD BLACK SN770 2TB NVMe SSD"
         },
-        "imagen": "/public/img productos/comp5.webp",
+        "imagen": "/img productos/comp5.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 406
@@ -125,7 +125,7 @@
             "Tarjeta-madre": "Gigabyte B760M D3HP DDR4",
             "Almacenamiento": "WD Blue SN580 1TB SSD M.2 PCIe 4.0 NVMe"
         },
-        "imagen": "/public/img productos/comp6.webp",
+        "imagen": "/img productos/comp6.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 1052
@@ -148,7 +148,7 @@
             "RAM": "16 GB DDR5-SDRAM 4800 MHz",
             "Almacenamiento": "512 GB SSD"
         },
-        "imagen": "/public/img productos/lap1.webp",
+        "imagen": "/img productos/lap1.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 291
@@ -171,7 +171,7 @@
             "RAM": "16 GB RAM LPDDR4",
             "Almacenamiento": "SSD de 512 GB PCIe® NVMe™ M.2"
         },
-        "imagen": "/public/img productos/lap2.webp",
+        "imagen": "/img productos/lap2.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 533
@@ -194,7 +194,7 @@
             "RAM": "32 GB de RAM DDR5 (2 x 16 GB)",
             "Almacenamiento": "1TB SSD M.2 NVMe PCIe 4.0"
         },
-        "imagen": "/public/img productos/lap3.webp",
+        "imagen": "/img productos/lap3.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 128
@@ -217,7 +217,7 @@
             "RAM": "16GB Soldered LPDDR5-4800",
             "Almacenamiento": "512GB SSD M.2 2242 PCIe® 4.0x4 NVMe"
         },
-        "imagen": "/public/img productos/lap4.webp",
+        "imagen": "/img productos/lap4.webp",
         "rating": {
             "valoracion": 4.5,
             "votos": 229
@@ -240,7 +240,7 @@
             "RAM": "32 GB de RAM DDR5 (2x16GB)",
             "Almacenamiento": "1 TB SSD M.2 NVMe PCIe 4.0"
         },
-        "imagen": "/public/img productos/lap5.webp",
+        "imagen": "/img productos/lap5.webp",
         "rating": {
             "valoracion": 4.4,
             "votos": 1239
@@ -263,7 +263,7 @@
             "RAM": "16 GB de RAM DDR4",
             "Almacenamiento": " 1TB SSD M.2 NVMe PCIe 3.0"
         },
-        "imagen": "/public/img productos/lap6.webp",
+        "imagen": "/img productos/lap6.webp",
         "rating": {
             "valoracion": 4.4,
             "votos": 471

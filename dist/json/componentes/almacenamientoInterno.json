@@ -11,7 +11,7 @@
             "capacidad": "1TB",
             "tipo": "SSD"
         },
-        "imagen": "/public/img productos/alm1.webp",
+        "imagen": "/img productos/alm1.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 68
@@ -30,7 +30,7 @@
             "capacidad": "2TB",
             "tipo": "SSD"
         },
-        "imagen": "/public/img productos/alm2.webp",
+        "imagen": "/img productos/alm2.webp",
         "rating": {
             "valoracion": 4.8,
             "votos": 1517
@@ -49,7 +49,7 @@
             "capacidad": "1TB",
             "tipo": "SSD"
         },
-        "imagen": "/public/img productos/alm3.webp",
+        "imagen": "/img productos/alm3.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 4033
@@ -68,7 +68,7 @@
             "capacidad": "2TB",
             "tipo": "SSD"
         },
-        "imagen": "/public/img productos/alm4.webp",
+        "imagen": "/img productos/alm4.webp",
         "rating": {
             "valoracion": 4.8,
             "votos": 882
@@ -87,7 +87,7 @@
             "capacidad": "1TB",
             "tipo": "SSD"
         },
-        "imagen": "/public/img productos/alm5.webp",
+        "imagen": "/img productos/alm5.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 1871
@@ -106,7 +106,7 @@
             "capacidad": "2TB",
             "tipo": "HDD"
         },
-        "imagen": "/public/img productos/alm6.webp",
+        "imagen": "/img productos/alm6.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 8106
@@ -125,7 +125,7 @@
             "capacidad": "4TB",
             "tipo": "HDD"
         },
-        "imagen": "/public/img productos/alm7.webp",
+        "imagen": "/img productos/alm7.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 705
@@ -144,7 +144,7 @@
             "capacidad": "4TB",
             "tipo": "HDD"
         },
-        "imagen": "/public/img productos/alm8.webp",
+        "imagen": "/img productos/alm8.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 749
@@ -163,7 +163,7 @@
             "capacidad": "4TB",
             "tipo": "HDD"
         },
-        "imagen": "/public/img productos/alm9.webp",
+        "imagen": "/img productos/alm9.webp",
         "rating": {
             "valoracion": 4.5,
             "votos": 39
@@ -182,7 +182,7 @@
             "capacidad": "6TB",
             "tipo": "HDD"
         },
-        "imagen": "/public/img productos/alm10.webp",
+        "imagen": "/img productos/alm10.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 30
