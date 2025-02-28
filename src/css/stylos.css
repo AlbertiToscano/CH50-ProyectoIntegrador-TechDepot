@@ -4,40 +4,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
-.banner{
-
-  display: block;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  background-image:url(/assets/imagenes/background1.webp);
-  /*flex-direction: column;
-  background-image:url(/assets/imagenes/background1.webp);
-  background-size: cover;*/
-}
-.carousel-caption{
-  text-align: left;
-  left: 10%;
-  right: auto;
-}
-h5{
-  text-align: left;
-  font-size: 2em;
-  margin-bottom: 15%;
-  
-}
-.carousel-caption p{
-  font-size: 1.2em;
-  
-
-}
-
-.section-title{
-  font-size: 2em;
+h1{
+  font-size: 32px;
+  color:#153B4C;
   text-align: center;
 }
 
+<<<<<<< HEAD
 .servicios{
   background-color: #D6E1EC;
   
@@ -52,46 +25,30 @@ h5{
   text-align: left;
   justify-content: center;
   /*display: flex;
+=======
+
+/*banner carrusel*/
+.carousel-caption{
+  width: 50%;
+  display: block;
+>>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
   flex-direction: column;
   justify-content: center;
-  width: 35%;
-  height: 50%;
-  text-align: left;*/
-  
-}
+  gap: 40px;
 
-#img_sobrepuesta{
-
-  width: 80%;
-  vertical-align: middle;
-
-  /*max-width: 68rem;
-  display: flex;
-  align-items: center;
-  width: 80%;
-  overflow: hidden;*/
- 
-  
- 
-}
-
-
-@media(max-width:768px){
-  .banner{
-    background-size: contain;
+  & > h5{
+    font-size: 32px;
+    font-weight: 600;
+    color: #021E2A;
   }
+
+  & > p{
+    font-family: 16px;
+    color: #153B4C;
+
+  }
+  
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -142,3 +99,75 @@ h5{
 
       /* Estilos generales para los botones */
 
+
+      /*Carrusel Logotipos*/
+
+      .slider{
+        width: 75vw;
+        height: auto;
+        margin: auto;
+        overflow: hidden;
+      }
+
+      .slider .slider-track{
+        display: flex;
+        animation: scroll 40s linear infinite;
+        -webkit-animation: scroll 40s linear infinite; /*para que la animación funcione en todos los navegadores*/
+        width: calc(200px * 24); /*calcular alguna operación que realicemos*/
+      }
+
+      .slider .slide{
+        width: 200px;
+      }
+
+      .slider .slide img {
+        width: 100%; /*valor que se tiene en su contenedor*/
+      }
+
+      @keyframes scroll {
+        0%{
+          -webkit-transform: translatex(0);
+          transform: translatex(0);
+
+        }
+        100%{
+          -webkit-transform: translatex(calc(-200px * 12)); 
+          transform: translatex(calc(-200px * 12));
+
+        }
+      }
+
+/*Banner de beneficios*/
+.beneficios{
+  display: flex;
+  width: 100%; 
+  background-color: #A2B8C9;
+  flex-direction: row-reverse;
+  padding: 5% 10%;
+}
+
+.texto{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+
+  & > h5{
+    font-size: 32px;
+    font-weight: 600;
+    color: #021E2A;
+  }
+
+  & > p{
+    font-family: 16px;
+    color: #153B4C;
+
+  }
+  
+}
+
+.imagenSobrepuesta{
+  width: 50%;  
+}
