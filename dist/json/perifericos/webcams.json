@@ -1,113 +1,112 @@
 [
-    {
-        "id": "web1",
-        "titulo": "Logitech HD Webcam C270",
-        "precio":444.29 ,
-        "imagen": "/img productos/web1.webp",
-        "raiting": {
-          "valoracion":4.4 ,
-          "votos": 1774
-        }
-    },
-
-    {
-        "id": "web2",
-        "titulo": "Logitech HD Pro C920 Webcam FullHD",
-        "precio":1636.87 ,
-        "imagen": "/img productos/web2.webp",
-        "raiting": {
-          "valoracion":4.6 ,
-          "votos": 2219
-        }
-    },
-
-    {
-        "id": "web3",
-        "titulo": "Logitech Brio 100 Webcam FullHD Rosa",
-        "precio":828.85 ,
-        "imagen": "/img productos/web3.webp",
-        "raiting": {
-          "valoracion":4.7 ,
-          "votos": 100
-        }
-    },
-
-    {
-        "id": "web4",
-        "titulo": "Razer Kiyo X Webcam USB 1080P",
-        "precio":850.11 ,
-        "imagen": "/img productos/web4.webp",
-        "raiting": {
-          "valoracion":4.7 ,
-          "votos": 110
-        }
-    },
-
-    {
-        "id": "web5",
-        "titulo": "Razer Kiyo Webcam FullHD 1080p",
-        "precio":1062.69 ,
-        "imagen": "/img productos/web5.webp",
-        "raiting": {
-          "valoracion":4.5 ,
-          "votos": 457
-        }
-    },
-
-    {
-        "id": "web6",
-        "titulo": "Logitech Webcam C925e HD",
-        "precio": 1401.97,
-        "imagen": "/img productos/web6.webp",
-        "raiting": {
-          "valoracion":4.6 ,
-          "votos": 311
-        }
-    },
-
-    {
-        "id": "web7",
-        "titulo": "Logitech C920s Pro Webcam Full HD 1080p/30fps con Corrección de Iluminación Automática",
-        "precio":1537.59 ,
-        "imagen": "/img productos/web7.webp",
-        "raiting": {
-          "valoracion":4.6 ,
-          "votos": 475
-        }
-    },
-   
-    {
-        "id": "web8",
-        "titulo": "Owlotech Webcam Essential",
-        "precio":106.08 ,
-        "imagen": "/img productos/web8.webp",
-        "raiting": {
-          "valoracion":4.1 ,
-          "votos": 47
-        }
-    },
-   
-    {
-        "id": "web9",
-        "titulo": "Klack WEBK1080 Webcam 1080P",
-        "precio":360.32 ,
-        "imagen": "/img productos/web9.webp",
-        "raiting": {
-          "valoracion":3.4 ,
-          "votos": 16
-        }
-    },
-
-    
-    {
-        "id": "web10",
-        "titulo": "Logitech Brio 100 Webcam FullHD Negro",
-        "precio":828.85 ,
-        "imagen": "/img productos/web10.webp",
-        "raiting": {
-          "valoracion":4.7 ,
-          "votos": 100
-        }
+  {
+    "id": "web1",
+    "titulo": "Logitech HD Webcam C270",
+    "precio": 444.29,
+    "imagen": "/img productos/web1.webp",
+    "descripcion": "La Logitech HD Webcam C270 ofrece una resolución de video en HD 720p, ideal para videollamadas claras y nítidas. Su micrófono incorporado reduce el ruido, proporcionando una experiencia de comunicación óptima en ambientes ruidosos. Perfecta para quienes necesitan una opción económica y fiable para reuniones virtuales.",
+    "raiting": {
+      "valoracion": 4.4,
+      "votos": 1774
     }
-
+  },
+  {
+    "id": "web2",
+    "titulo": "Logitech HD Pro C920 Webcam FullHD",
+    "precio": 1636.87,
+    "imagen": "/img productos/web2.webp",
+    "descripcion": "La Logitech HD Pro C920 es una de las cámaras web más populares para videoconferencias y streaming, con una resolución Full HD 1080p que asegura una calidad de imagen excepcional. Cuenta con autoenfoque y corrección de iluminación automática, lo que la hace ideal para uso profesional y personal.",
+    "raiting": {
+      "valoracion": 4.6,
+      "votos": 2219
+    }
+  },
+  {
+    "id": "web3",
+    "titulo": "Logitech Brio 100 Webcam FullHD Rosa",
+    "precio": 828.85,
+    "imagen": "/img productos/web3.webp",
+    "descripcion": "La Logitech Brio 100 es una cámara web Full HD 1080p, ideal para quienes buscan una calidad de video profesional a un precio accesible. Su diseño compacto en color rosa le da un toque elegante, mientras que su micrófono integrado captura el sonido de forma clara, perfecta para videollamadas y grabaciones en vivo.",
+    "raiting": {
+      "valoracion": 4.7,
+      "votos": 100
+    }
+  },
+  {
+    "id": "web4",
+    "titulo": "Razer Kiyo X Webcam USB 1080P",
+    "precio": 850.11,
+    "imagen": "/img productos/web4.webp",
+    "descripcion": "La Razer Kiyo X es una cámara USB 1080p diseñada para streamers que necesitan una imagen de alta calidad. Con una iluminación integrada ajustable, te permite mantener un aspecto profesional incluso en condiciones de poca luz. Su diseño compacto y de fácil instalación es perfecto para aquellos que buscan mejorar su presencia en plataformas de streaming.",
+    "raiting": {
+      "valoracion": 4.7,
+      "votos": 110
+    }
+  },
+  {
+    "id": "web5",
+    "titulo": "Razer Kiyo Webcam FullHD 1080p",
+    "precio": 1062.69,
+    "imagen": "/img productos/web5.webp",
+    "descripcion": "La Razer Kiyo es la cámara definitiva para streamers, ofreciendo una resolución Full HD 1080p y una anilla de luz ajustable que te asegura una iluminación perfecta en todo momento. Ideal para quienes buscan una calidad visual superior en sus transmisiones en vivo, sin importar las condiciones de luz en su entorno.",
+    "raiting": {
+      "valoracion": 4.5,
+      "votos": 457
+    }
+  },
+  {
+    "id": "web6",
+    "titulo": "Logitech Webcam C925e HD",
+    "precio": 1401.97,
+    "imagen": "/img productos/web6.webp",
+    "descripcion": "La Logitech C925e es una cámara web HD perfecta para videoconferencias profesionales. Con soporte de 1080p a 30 fps y un micrófono integrado de cancelación de ruido, garantiza una comunicación clara y profesional en cualquier entorno. Su compatibilidad con todas las principales aplicaciones de videollamadas la hace ideal para el trabajo remoto.",
+    "raiting": {
+      "valoracion": 4.6,
+      "votos": 311
+    }
+  },
+  {
+    "id": "web7",
+    "titulo": "Logitech C920s Pro Webcam Full HD 1080p/30fps con Corrección de Iluminación Automática",
+    "precio": 1537.59,
+    "imagen": "/img productos/web7.webp",
+    "descripcion": "La Logitech C920s Pro es una cámara web Full HD que ofrece una calidad de imagen increíblemente nítida y clara. Con su corrección de iluminación automática, siempre tendrás el brillo perfecto en tus videollamadas o transmisiones en vivo, incluso en condiciones de baja iluminación. Además, su cubierta de privacidad proporciona mayor seguridad cuando no la estás utilizando.",
+    "raiting": {
+      "valoracion": 4.6,
+      "votos": 475
+    }
+  },
+  {
+    "id": "web8",
+    "titulo": "Owlotech Webcam Essential",
+    "precio": 106.08,
+    "imagen": "/img productos/web8.webp",
+    "descripcion": "La Owlotech Webcam Essential es una cámara web económica ideal para usuarios que buscan mejorar su experiencia en videollamadas sin gastar mucho. Ofrece una resolución de 720p y es perfecta para reuniones virtuales, clases en línea o chats casuales. Su facilidad de uso y configuración la convierte en una opción accesible para todo tipo de usuarios.",
+    "raiting": {
+      "valoracion": 4.1,
+      "votos": 47
+    }
+  },
+  {
+    "id": "web9",
+    "titulo": "Klack WEBK1080 Webcam 1080P",
+    "precio": 360.32,
+    "imagen": "/img productos/web9.webp",
+    "descripcion": "La Klack WEBK1080 es una cámara web con resolución 1080p ideal para videollamadas y grabaciones en HD. Su lente ajustable permite una mayor flexibilidad al capturar diferentes ángulos y su fácil instalación la hace adecuada tanto para usuarios novatos como para aquellos con más experiencia en tecnología.",
+    "raiting": {
+      "valoracion": 3.4,
+      "votos": 16
+    }
+  },
+  {
+    "id": "web10",
+    "titulo": "Logitech Brio 100 Webcam FullHD Negro",
+    "precio": 828.85,
+    "imagen": "/img productos/web10.webp",
+    "descripcion": "La Logitech Brio 100 es una webcam Full HD con un diseño elegante y compacto. Ideal para profesionales que buscan una cámara confiable y de calidad para videollamadas, con un rendimiento sólido y un enfoque en la facilidad de uso. Su micrófono integrado ofrece claridad en el sonido, complementando la alta calidad de su video.",
+    "raiting": {
+      "valoracion": 4.7,
+      "votos": 100
+    }
+  }
 ]

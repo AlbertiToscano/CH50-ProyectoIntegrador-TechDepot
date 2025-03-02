@@ -23,21 +23,27 @@ const insertHeader = ()=>{
           <div class="dropdown">
               <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
 
-                  <a href="#" class="nav-link me-3 login-link">
+                  <a href="" class="nav-link me-3 login-link">
                       <i class="bi bi-person-circle"></i> Iniciar Sesión
                   </a>
               </button>
               <ul class="dropdown-menu">
                   <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>
+<<<<<<< HEAD
 -->
                   <li><a class="dropdown-item" href="src/pages/registro/registro.html">Registrarse</a></li>
+=======
+-->  
+             <li><a class="dropdown-item" href="/src/pages/inicioSesion/inicioSesion.html">Iniciar Sesión</a></li>
+                  <li><a class="dropdown-item" href="/src/pages/registro/registro.html">Registrarse</a></li>
+>>>>>>> 8c18768a4cf5d89afb6c00a00e7bc62ab88656c5
                   <li><a class="dropdown-item" href="/src/pages/agregarProductos/agregarP.html">Administrador</a></li>
               </ul>
           </div>
 
           <!-- Carrito -->
 
-          <a href="#" class="nav-link cart-link">
+          <a href="/src/pages/carrito/carrito.html" class="nav-link cart-link">
               <i class="bi bi-cart3"></i> Mi Carrito
           </a>
 

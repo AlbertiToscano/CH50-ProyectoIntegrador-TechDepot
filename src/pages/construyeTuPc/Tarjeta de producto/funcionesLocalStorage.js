@@ -82,6 +82,10 @@ export function addElementToLocalStorage(producto) {
 
 }
 
+/**
+ * Función que resta uno a la cantidad de un objeto en el local storage
+ * @param {*} producto 
+ */
 
 export function restElementToLocalStorage(producto) {
     const memoria = memoriaLocalStorage();
@@ -95,6 +99,25 @@ export function restElementToLocalStorage(producto) {
 
         nuevaMemoria[indiceProducto].cantidad--;
         localStorage.setItem("piezaDePC", JSON.stringify(nuevaMemoria));
+    }
+
+
+}
+
+/**
+ * función que elimina un producto del local storage
+ * @param {} producto 
+ */
+export function deleteElementToLocalStorage(producto) {
+    const memoria = memoriaLocalStorage();
+
+    if (!memoria) {
+
+    } else {
+        const indiceProducto = verificarLocalStorage(producto);
+        const nuevaMemoria = memoria.splice(indiceProducto,1);
+        localStorage.setItem("piezaDePC", JSON.stringify(nuevaMemoria));
+        
     }
 
 

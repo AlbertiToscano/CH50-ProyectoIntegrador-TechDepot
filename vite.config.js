@@ -12,7 +12,10 @@ export default defineConfig({
         terminos: resolve(__dirname, 'src/pages/terminosCondiciones/terminosC.html'),
         productos: resolve(__dirname, 'src/pages/productos/productos.html'),
         construyePc: resolve(__dirname, 'src/pages/construyeTuPc/construyeTuPc.html'),
-        pagAdmin: resolve(__dirname, 'src/pages/agregarProductos/agregarP.html')
+        pagAdmin: resolve(__dirname, 'src/pages/agregarProductos/agregarP.html'),
+        pagRegistro: resolve(__dirname, `src/pages/registro/registro.html`),
+        pagInicioSesion: resolve(__dirname, `src/pages/inicioSesion/inicioSesion.html`),
+        pagCarrito: resolve(__dirname, `src/pages/carrito/carrito.html`),
       },
     },
   },

@@ -1,0 +1,167 @@
+/* ------------------ GENERAL ------------------ */
+body {
+    background-color: #f5f7fa; /* Color de fondo claro */
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50; /* Color de texto oscuro */
+} 
+/*-------------------NAV BAR-----------------*/
+.navbar {
+    background-color: #153B4C !important;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: #D6E1EC !important;
+    font-weight: bold;
+}
+/* ------------------ CONTENEDOR PRINCIPAL ------------------ */
+.container {
+    max-width: 900px;
+    padding: 20px;
+    margin-top: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------------ TITULOS ------------------ */
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #4b6677;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #5f6a72;
+    font-size: 16px;
+}
+
+/* ------------------ ACCORDION (DESPLEGABLES) ------------------ */
+.accordion {
+    margin-top: 20px;
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    background-color: #4b6677 !important; /* Color del encabezado del desplegable */
+    color: white !important;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* Mantener el color cuando el acordeón está abierto */
+.accordion-button:not(.collapsed) {
+    background-color: #3a5361 !important; /* Color cuando el desplegable está abierto */
+    color: white;
+}
+
+/* Cambiar color de las flechas del accordion a blanco */
+.accordion-button::after {
+    filter: invert(100%); /* Invierte el color de la flecha (de negro a blanco) */
+}
+
+/* Estilo del cuerpo del acordeón */
+.accordion-body {
+    background-color: #eef1f4;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* ------------------ LISTAS DENTRO DEL ACCORDION ------------------ */
+.accordion-body ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.accordion-body ul li {
+    padding: 5px 0;
+    color: #333;
+}
+
+/* ------------------ RESPONSIVE DESIGN ------------------ */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .accordion-button {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+
+/* ------------------ CUADRO INFORMATIVO ------------------ */
+.info-box {
+    background-color: #d8e4f0; /* Color azul claro */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50; /* Color de texto oscuro */
+    margin-bottom: 5px;
+}
+
+.info-box .date {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+/* ------------------ RESPONSIVE ------------------ */
+@media (max-width: 768px) {
+    .info-box {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .info-box h4 {
+        font-size: 16px;
+    }
+
+    .info-box p {
+        font-size: 13px;
+    }
+}
+
+/*---------FOOTER------------*/
+
+footer {
+    background-color: #153B4C;
+    color: white;
+    padding: 15px;
+}
+
+footer nav a {
+    color: #D6E1EC;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+} 
