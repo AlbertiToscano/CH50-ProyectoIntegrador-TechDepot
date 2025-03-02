@@ -1,0 +1,307 @@
+/* ==============================
+   ESTILOS GENERALES DEL DOCUMENTO
+   ============================== */
+   html, body {
+    font-family: 'Poppins', sans-serif; /* Fuente principal del documento */
+    background-color: #F8F9FA; /* Color de fondo general */
+    color: #153B4C; /* Color del texto principal */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el padding predeterminado */
+    /*font-size: 18px;  Define un tamaño de fuente base */
+    text-align: justify; /* Justifica todo el texto para mejor legibilidad */ 
+} 
+
+/* ==============================
+   ESTILOS DEL TÍTULO PRINCIPAL
+   ============================== */
+   .heading-title {
+    
+    color: #386578;
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.heading-title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #A2B8C9;
+    margin-top: 5px;
+    margin-bottom: 1em;
+}
+
+/* ==============================
+   ESTILOS DEL ACORDEÓN
+   ============================== */
+   
+   
+   .accordion{
+    margin: auto 8em autoem; /* Margen de los acordeones */
+    
+   }
+   
+   .accordion-button {
+    background-color: #153B4C; /* Color de fondo del botón del acordeón */
+    color: white; /* Color del texto */
+    font-weight: bold; /* Hace el texto más grueso */
+    border-radius: 0; /* Elimina bordes redondeados */
+    font-size: 22px; /* Ajusta el tamaño del texto dentro del botón */
+    
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #0E2A3A; /* Color del botón cuando está expandido */
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none; /* Elimina el resaltado al hacer clic */
+}
+
+.accordion-button::after {
+    filter: brightness(0) invert(1); /* Cambia el color del icono de flecha a blanco */
+}
+
+.accordion-body {
+    margin-inline-start:0%;
+    margin-inline-end:0%;
+    background-color: #FFFFFF; /* Color de fondo del contenido dentro del acordeón */
+    color: #153B4C; /* Color del texto dentro del acordeón */
+    padding: 30px; /* Espaciado interno dentro del acordeón */
+    font-size: 18px; /* Tamaño del texto dentro del acordeón */
+    text-align: justify; /* Justifica el contenido */
+}
+
+.accordion-item {
+    border: 1px solid #A2B8C9; /* Define un borde alrededor de cada elemento del acordeón */
+    border-radius: 0; /* Quita bordes redondeados */
+    margin-bottom: 10px; /* Espaciado entre elementos del acordeón */
+}
+
+/* ==============================
+   ESTILOS DE TARJETAS
+   ============================== */
+
+.accordion .card{
+   margin-top: 1em; /* margen superior de las tarjetas */ 
+   margin-right: 1em;
+   border-radius: 15px;
+   background-color: #EEF5FC;
+   
+   
+}
+
+.card img{ /* margen superior de las imagenes en las tarjetas */
+    margin-top: 1em;
+}
+
+
+.card-title{ /* estilos del titulo */
+    color: #153B4C;
+    font-weight: bold;
+    font-size:large;
+}
+.card-text{ /* estilos de la descripción */
+    color:#153B4C;
+    font-size: medium;
+    text-align: left;
+}
+.card-price{ /* estilos del precio */
+    color: #386578;
+    font-size: medium;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.card .btn{ /* estilos del botón en reposo */
+    color: #386578;
+    scale: 80%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-color: #0E2A3A;
+}
+
+.card .btn:hover{ /* cuando pasas el mouse por encima */
+    background-color: #A2B8C9;
+}
+
+.card .btn:active{ /* cuando se hace clic */
+    background-color: #153B4C; 
+    color: #A2B8C9;
+}
+
+
+
+
+/* ==============================
+   ESTILOS DE TOTAL
+   ============================== */
+
+.totalAcumulado .card{ /* Fijar el recuadro para que siga durante el desplazamiento */
+    border-color: transparent;
+    position: sticky;
+    top: 20px;
+}
+.totalAcumulado .card-body{   
+    background-color:#386578; /* color de fondo del total */
+    border-radius: 15px; /* borde redondeado del total */
+}
+.totalAcumulado h5{ /* texto total: */
+    
+    color: #FFFFFF; 
+    font-weight: bold;
+    font-size:x-large;
+
+}
+.totalAcumulado .card-text{ /* texto de cantidad */
+    color: #A2B8C9;
+    font-size: x-large;
+}
+.totalAcumulado .btn{ /* estilos del botón en reposo */
+    color: #FFFFFF;
+    scale: 100%;
+    background-color: #153B4C;
+    border-radius: 20px;
+    border-color: #0E2A3A;
+    max-width:15em;
+    margin: 0%;
+    
+}
+
+.totalAcumulado .btn:hover{ /* cuando pasas el mouse por encima */
+    background-color: #A2B8C9;
+    color: #153B4C;
+}
+
+.totalAcumulado .btn:active{ /* cuando se hace clic */
+    background-color:#ffffff; 
+    color: #153B4C;
+}
+
+.totalAcumulado label{ /* texto de boton check */
+    color:#A2B8C9 ;
+    text-align: start;
+    
+}
+
+
+/* ==============================
+   producto seleccionado
+   ============================== */
+
+.producto-seleccionado{ 
+    background-color: #386578;
+    margin-inline-start:0%;
+}
+.producto-seleccionado img{ /* tamaño de la imagen */
+    height:10%;
+    width:10%;
+    min-height:50px;
+    min-width:150px;
+}
+.producto-seleccionado h4{ /*color de titulo  */
+    color: #ffffff;
+    font-weight: bold;
+}
+.producto-seleccionado p{ /* color de descripcion */
+    color: #FFFFFF;
+}
+
+.producto-seleccionado h5{ /* titulo precio unitario */
+    font-weight: bold;
+}
+
+.producto-seleccionado .precio{  /* estilos precio unitario */
+    color: #A2B8C9;
+    font-weight: bold;
+    text-align: end;
+    margin-block-start: 1em;
+    font-size: x-large;
+
+}
+.producto-seleccionado span{ /* texto cantidad precio unitario */
+    color: #FFFFFF;
+}
+
+/* estilos de los botones */
+
+.producto-seleccionado .cuadro{
+    background-color: #153B4C;
+    font-weight: bold;
+    color: #A2B8C9;
+    padding: .4em;
+    margin-inline: .2em;
+    width: 30px;
+}
+#cantidad{
+    padding-inline: .6em;
+    padding-block: .20em;
+    border-radius: 10%;
+}
+
+#bote-basura{
+    background-color:transparent;
+    padding: 0%;
+    margin: 0%;
+    width: 1em;
+    padding-left: 0em;
+    padding-right: 1.7em;
+    
+
+}
+#bote-basura::before{
+    margin: 0em;
+    padding:0em;
+    height:0em;
+    width: 0em;
+    scale: 180%;
+    margin-block-end:2em;
+}
+
+
+.producto-seleccionado button:hover{
+    background-color: #A2B8C9;
+    color:#153B4C
+}
+
+.producto-seleccionado button:active{
+    background-color: #ffffff;
+    scale: 110%;
+    color:#153B4C
+}
+
+
+
+
+
+
+/* ==============================
+   ESTILOS DE ESTRELLAS
+   ============================== */
+.star-rating {
+    direction: rtl;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: #ddd;
+    font-size: 24px;
+    padding: 0 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.star-rating label:hover,
+.star-rating label:hover~label,
+.star-rating input:checked~label {
+    color: #ffc107;
+}

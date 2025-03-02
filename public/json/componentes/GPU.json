@@ -1,0 +1,286 @@
+[
+    {
+        "id":"gpu1",
+        "titulo": "Tarjeta de Video Gigabyte GeForce RTX 4060 Eagle OC 8G / Nvidia 8GB GDDR6",
+        "precio": 7699,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video Gigabyte GeForce RTX 4060 Eagle OC 8G / Nvidia 8GB GDDR6 / PCI Express / GV-N4060EAGLE OC-8GD",
+        "caracteristicas": {
+          "marca": "NVIDIA",
+          "ensamblador": "Gigabyte",
+          "modelo": "Gigabyte GeForce RTX 4060 Eagle OC 8G",
+          "TDP": 115
+        },
+        "imagen": "/img productos/gpu1.webp",
+        "rating": {
+          "valoracion": 4.8,
+          "votos": 1715
+        }
+      },
+
+    {
+        "id":"gpu2",
+        "titulo": "Tarjeta de Video ZOTAC Gaming GeForce RTX 4060 Ti 8GB Twin Edge OC ",
+        "precio": 9899,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video ZOTAC Gaming GeForce RTX 4060 Ti 8GB Twin Edge OC / DLSS 3 / 8GB GDDR6 128-bit / 18 Gbps / PCIE 4.0 / Iluminación Spectra RGG / ZT-D40610Q-1",
+        "caracteristicas": {
+          "marca": "NVIDIA",
+          "ensamblador": "ZOTAC",
+          "modelo": "ZOTAC Gaming GeForce RTX 4060 Ti 8GB Twin Edge OC",
+          "TDP": 115
+        },
+        "imagen": "/img productos/gpu2.webp",
+        "rating": {
+          "valoracion": 4.7,
+          "votos": 507
+        }
+      },
+
+      {
+        "id":"gpu3",
+        "titulo": "Tarjeta de Video MSI Geforce RTX 4070 Ventus 2X OC 12GB / 192-bit / 12GB GDDR6X ",
+        "precio": 9899,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video MSI Geforce RTX 4070 Ventus 2X OC 12GB / 192-bit / 12GB GDDR6X / PCI Express 4.0 / 912-V513-063",
+        "caracteristicas": {
+          "marca": "NVIDIA",
+          "ensamblador": "MSI",
+          "modelo": "MSI Geforce RTX 4070 Ventus 2X OC 12GB",
+          "TDP": 200
+        },
+        "imagen": "/img productos/gpu3.webp",
+        "rating": {
+          "valoracion": 4.8,
+          "votos": 697
+        }
+      },
+      
+      {
+        "id":"gpu4",
+        "titulo": "Tarjeta de Video Gigabyte GeForce RTX 4070 WindForce OC 12Gb Nvidia GDDR6X",
+        "precio": 14799,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video Gigabyte GeForce RTX 4070 WindForce OC 12Gb Nvidia GDDR6X PCI Express / GV-N4070WF3OC-12GD",
+        "caracteristicas": {
+          "marca": "NVIDIA",
+          "ensamblador": "Gigabyte",
+          "modelo": "Gigabyte GeForce RTX 4070 WindForce OC 12Gb",
+          "TDP": 200
+        },
+        "imagen": "/img productos/gpu4.webp",
+        "rating": {
+          "valoracion": 4.8,
+          "votos": 1091
+        }
+      },
+      
+      {
+        "id":"gpu5",
+        "titulo": "Tarjeta de Video Zotac NVIDIA GeForce RTX 3050 Twin / 8GB 128-bit GDDR6",
+        "precio": 4299,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video Zotac NVIDIA GeForce RTX 3050 Twin / 8GB 128-bit GDDR6 / PCI Express x8 4.0 / ZT-A30500H-10M",
+        "caracteristicas": {
+          "marca": "NVIDIA",
+          "ensamblador": "ZOTAC",
+          "modelo": "ZOTAC NVIDIA GeForce RTX 3050 Twin",
+          "TDP": 75
+        },
+        "imagen": "/img productos/gpu5.webp",
+        "rating": {
+          "valoracion": 4.8,
+          "votos": 2056
+        }
+      },
+
+      {
+        "id":"gpu6",
+        "titulo": "Tarjeta de Video Gigabyte NVIDIA GeForce RTX 3060 WINDFORCE OC 12G / 12GB",
+        "precio": 5999,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video Gigabyte NVIDIA GeForce RTX 3060 WINDFORCE OC 12G / 12GB / 192-bit GDDR6 / PCI Express x16 4.0 / GV-N3060WF2OC-12GD",
+        "caracteristicas": {
+          "marca": "NVIDIA",
+          "ensamblador": "Gigabyte",
+          "modelo": "Gigabyte NVIDIA GeForce RTX 3060 WINDFORCE OC 12G",
+          "TDP": 170
+        },
+        "imagen": "/img productos/gpu6.webp",
+        "rating": {
+          "valoracion": 4.7,
+          "votos": 3984
+        }
+      },
+      
+      {
+        "id":"gpu7",
+        "titulo": "Tarjeta de Video NVIDIA GeForce RTX 4080 16GB / Zotac Gaming Trinity OC Geforce RTX 4080 / 16GB / GDDR6X ",
+        "precio": 22999,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video NVIDIA GeForce RTX 4080 16GB / Zotac Gaming Trinity OC Geforce RTX 4080 / 16GB / GDDR6X / PCI Express 4.0 / ZT-D40810J-10P",
+        "caracteristicas": {
+          "marca": "NVIDIA",
+          "ensamblador": "ZOTAC",
+          "modelo": "ZOTAC Gaming Trinity OC Geforce RTX 4080",
+          "TDP": 320
+        },
+        "imagen": "/img productos/gpu7.webp",
+        "rating": {
+          "valoracion": 4.8,
+          "votos": 97
+        }
+      },
+      
+      {
+        "id":"gpu8",
+        "titulo": "Tarjeta de Video ASUS PROART RTX 4080 SUPER 16GB OC / 16GB GDDR6 OC",
+        "precio": 25999,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video ASUS PROART RTX 4080 SUPER 16GB OC / 16GB GDDR6 OC / OpenGL®4.6 / PROART-RTX4080S-O16G",
+        "caracteristicas": {
+          "marca": "NVIDIA",
+          "ensamblador": "Asus",
+          "modelo": "Asus PROART RTX 4080 SUPER 16GB OC",
+          "TDP": 320
+        },
+        "imagen": "/img productos/gpu8.webp",
+        "rating": {
+          "valoracion": 4.8,
+          "votos": 60
+        }
+      },
+      
+      {
+        "id":"gpu9",
+        "titulo": "Tarjeta de video NVIDIA GeForce RTX 4090 24GB / ASUS TUF Gaming Geforce RTX 4090/ 24GB GDDR6X ",
+        "precio": 34999,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de video NVIDIA GeForce RTX 4090 24GB / ASUS TUF Gaming Geforce RTX 4090 / 24GB GDDR6X / TUF-RTX4090-24G-GAMING",
+        "caracteristicas": {
+          "marca": "NVIDIA",
+          "ensamblador": "Asus",
+          "modelo": "Asus TUF Gaming Geforce RTX 4090",
+          "TDP": 450
+        },
+        "imagen": "/img productos/gpu9.webp",
+        "rating": {
+          "valoracion": 4.7,
+          "votos": 152
+        }
+      },
+      
+      {
+        "id":"gpu10",
+        "titulo": "Tarjeta de Video Gigabyte AMD Radeon RX 7600 GAMING OC 8G / 8GB",
+        "precio": 5699,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video Gigabyte AMD Radeon RX 7600 GAMING OC 8G / 8GB / 256-bit GDDR6 / PCI Express 4.0 / GV-R76GAMING OC-8GD",
+        "caracteristicas": {
+          "marca": "AMD Radeon",
+          "ensamblador": "Gigabyte",
+          "modelo": "Gigabyte AMD Radeon RX 7600 GAMING OC 8G",
+          "TDP": 165
+        },
+        "imagen": "/img productos/gpu10.webp",
+        "rating": {
+          "valoracion": 4.6,
+          "votos": 20
+        }
+      },
+      
+      {
+        "id":"gpu11",
+        "titulo": "Tarjeta de Video Asus AMD Radeon DUAL-RX7700XT-O12G",
+        "precio": 10699,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video Asus AMD Radeon DUAL-RX7700XT-O12G / Hasta 2599 MHz Boost Clock / Tecnología Auto-Extreme / Placa Posterior Protectora / DUAL-RX7700XT-O12G",
+        "caracteristicas": {
+          "marca": "AMD Radeon",
+          "ensamblador": "Asus",
+          "modelo": "Asus AMD Radeon DUAL-RX7700XT-O12G",
+          "TDP": 245
+        },
+        "imagen": "/img productos/gpu11.webp",
+        "rating": {
+          "valoracion": 4.4,
+          "votos": 1069
+        }
+      },
+      
+      {
+        "id":"gpu12",
+        "titulo": "Tarjeta de Video XFX Speedster MERC 310 AMD Radeon RX 7900 XT ",
+        "precio": 16799,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video XFX Speedster MERC 310 AMD Radeon RX 7900 XT / 20GB 320-bit GDDR6 / PCI Express 4.0 / RX-79TMERCU9",
+        "caracteristicas": {
+          "marca": "AMD Radeon",
+          "ensamblador": "XFX",
+          "modelo": "XFX Speedster MERC 310",
+          "TDP": 300
+        },
+        "imagen": "/img productos/gpu12.webp",
+        "rating": {
+          "valoracion": 4.4,
+          "votos": 1069
+        }
+      },
+
+      {
+        "id":"gpu13",
+        "titulo": "Tarjeta de Video Gigabyte AMD Radeon RX 7700 XT GAMING OC 12G",
+        "precio": 9599,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video Gigabyte AMD Radeon RX 7700 XT GAMING OC 12G / 12GB 192-bit GDDR6 / PCI Express 4.0 / GV-R77XTGAMING OC-12GD",
+        "caracteristicas": {
+          "marca": "AMD Radeon",
+          "ensamblador": "Gigabyte",
+          "modelo": "Gigabyte AMD Radeon RX 7700 XT GAMING OC",
+          "TDP": 245
+        },
+        "imagen": "/img productos/gpu13.webp",
+        "rating": {
+          "valoracion": 4.6,
+          "votos": 164
+        }
+      },
+      
+      {
+        "id":"gpu14",
+        "titulo": "Tarjeta de Video AMD Radeon XFX RX 7600XT Speedster SWFT 210",
+        "precio": 7899,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de Video AMD Radeon XFX RX 7600XT Speedster SWFT 210 / 16GB / 128-bit GDDR6 / PCI Express 4.0 / RX-76TSWFTFP",
+        "caracteristicas": {
+          "marca": "AMD Radeon",
+          "ensamblador": "XFX",
+          "modelo": "XFX RX 7600XT Speedster SWFT 210",
+          "TDP": 190
+        },
+        "imagen": "/img productos/gpu14.webp",
+        "rating": {
+          "valoracion": 4.6,
+          "votos": 164
+        }
+      },
+      
+      {
+        "id":"gpu15",
+        "titulo": "Tarjeta de video Radeon RX 6600 XT 8GB GDDR6 / Gigabyte Gaming OC PRO ",
+        "precio": 10500,
+        "categoria": ["tarjeta de video"] ,
+        "descripcion": "Tarjeta de video Radeon RX 6600 XT 8GB GDDR6 / Gigabyte Gaming OC PRO / HDMI, DP/ PCI-e 4.0 / Nuevo Chip RDNA 2 / GV-R66XTGAMINGOC-PRO",
+        "caracteristicas": {
+          "marca": "AMD Radeon",
+          "ensamblador": "Gigabyte",
+          "modelo": "Radeon RX 6600 XT 8GB GDDR6 Gigabyte Gaming OC PRO",
+          "TDP": 160
+        },
+        "imagen": "/img productos/gpu15.webp",
+        "rating": {
+          "valoracion": 4.5,
+          "votos": 120
+        }
+      }
+]
