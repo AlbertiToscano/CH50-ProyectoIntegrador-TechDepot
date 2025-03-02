@@ -3,7 +3,7 @@
     "id": "imp1",
     "titulo": "HP LaserJet M209dw Impresora Láser Wifi Monocromo",
     "precio": 1869,
-    "imagen": "/public/img productos/imp1.webp",
+    "imagen": "/img productos/imp1.webp",
     "descripcion": "La HP LaserJet M209dw es una impresora láser monocromo compacta y rápida. Con conectividad Wi-Fi, permite imprimir desde tus dispositivos móviles con facilidad. Ideal para oficinas pequeñas o usuarios que necesitan una impresora eficiente para tareas diarias.",
     "raiting": {
       "valoracion": 4.5,
@@ -14,7 +14,7 @@
     "id": "imp2",
     "titulo": "HP LaserJet Enterprise M611dn Impresora Láser Monocromo Dúplex",
     "precio": 13778,
-    "imagen": "/public/img productos/imp2.webp",
+    "imagen": "/img productos/imp2.webp",
     "descripcion": "Diseñada para entornos empresariales con alto volumen de trabajo, la HP LaserJet Enterprise M611dn ofrece impresión a doble cara, mayor velocidad de impresión y eficiencia energética. Con su conectividad Ethernet, se adapta perfectamente a oficinas que necesitan una impresora robusta y rápida.",
     "raiting": {
       "valoracion": 4.5,
@@ -25,7 +25,7 @@
     "id": "imp3",
     "titulo": "Brother HL-L2445DW Impresora Láser Monocromo WiFi Dúplex",
     "precio": 2899,
-    "imagen": "/public/img productos/imp3.webp",
+    "imagen": "/img productos/imp3.webp",
     "descripcion": "La Brother HL-L2445DW es una impresora láser monocromo ideal para usuarios que necesitan imprimir documentos de forma rápida y eficiente. Su conectividad Wi-Fi y soporte para impresión dúplex la hacen perfecta para oficinas que buscan optimizar el consumo de papel y mejorar la productividad.",
     "raiting": {
       "valoracion": 4.6,
@@ -36,7 +36,7 @@
     "id": "imp4",
     "titulo": "HP Color LaserJet Pro MFP 3302sdw Multifunción Láser Color WiFi Dúplex",
     "precio": 6580,
-    "imagen": "/public/img productos/imp4.webp",
+    "imagen": "/img productos/imp4.webp",
     "descripcion": "Impresora multifuncional láser color que ofrece impresión, escaneo, copiado y envío de faxes. Con Wi-Fi y tecnología de impresión a doble cara, es ideal para oficinas medianas que requieren un dispositivo versátil y de alta calidad para diversas tareas de impresión y comunicación.",
     "raiting": {
       "valoracion": 4.5,
@@ -47,7 +47,7 @@
     "id": "imp5",
     "titulo": "HP Smart Tank 5106 Impresora Multifunción Color WiFi con Depósito Recargable + 3 Años de Tinta",
     "precio": 4075,
-    "imagen": "/public/img productos/imp5.webp",
+    "imagen": "/img productos/imp5.webp",
     "descripcion": "Con tecnología de depósito recargable, la HP Smart Tank 5106 es una impresora multifuncional ideal para hogares y pequeñas oficinas. Su rendimiento superior en términos de coste por página y su conectividad Wi-Fi permiten imprimir documentos de alta calidad a bajo costo durante todo el año.",
     "raiting": {
       "valoracion": 4.5,
@@ -58,7 +58,7 @@
     "id": "imp6",
     "titulo": "HP Color LaserJet Pro 4202dn Impresora Láser Color Dúplex",
     "precio": 6345,
-    "imagen": "/public/img productos/imp6.webp",
+    "imagen": "/img productos/imp6.webp",
     "descripcion": "La HP Color LaserJet Pro 4202dn es una impresora láser color perfecta para oficinas que necesitan impresiones a alta calidad a doble cara. Con una velocidad de impresión rápida y tecnología de impresión a doble cara automática, es ideal para la producción de documentos profesionales en color.",
     "raiting": {
       "valoracion": 4.6,
@@ -69,7 +69,7 @@
     "id": "imp7",
     "titulo": "HP DesignJet T650 36 Impresora de Inyección Gran Formato",
     "precio": 21743,
-    "imagen": "/public/img productos/imp7.webp",
+    "imagen": "/img productos/imp7.webp",
     "descripcion": "La HP DesignJet T650 es una impresora de inyección de tinta de gran formato, ideal para diseñadores, arquitectos y fotógrafos que necesitan impresiones precisas y detalladas en gran escala. Su capacidad para imprimir en tamaños A1 y A0 la convierte en la opción perfecta para profesionales que buscan calidad y versatilidad.",
     "raiting": {
       "valoracion": 4.3,
@@ -80,7 +80,7 @@
     "id": "imp8",
     "titulo": "HP LaserJet Pro Impresora 4002dn Impresora Láser Monocromo Dúplex Ethernet",
     "precio": 3361,
-    "imagen": "/public/img productos/imp8.webp",
+    "imagen": "/img productos/imp8.webp",
     "descripcion": "La HP LaserJet Pro 4002dn es una impresora láser monocromo con funciones de impresión a doble cara y conectividad Ethernet. Es ideal para oficinas de tamaño mediano que requieren una solución eficiente y confiable para sus necesidades diarias de impresión a gran escala.",
     "raiting": {
       "valoracion": 4.4,
@@ -91,7 +91,7 @@
     "id": "imp9",
     "titulo": "HP Color Laserjet MFP M775f Multifunción Láser Color Dúplex Fax A3 Reacondicionado",
     "precio": 21743,
-    "imagen": "/public/img productos/imp9.webp",
+    "imagen": "/img productos/imp9.webp",
     "descripcion": "Impresora multifuncional láser color A3 que ofrece impresión, escaneo, copiado y envío de faxes. Con soporte para impresión a doble cara y tecnología de alto rendimiento, es ideal para empresas que necesitan un dispositivo robusto y versátil para manejar grandes volúmenes de trabajo.",
     "raiting": {
       "valoracion": 4.3,
@@ -102,7 +102,7 @@
     "id": "imp10",
     "titulo": "HP LaserJet Tank 2504dw Impresora Láser Monocromo WiFi",
     "precio": 6345,
-    "imagen": "/public/img productos/imp10.webp",
+    "imagen": "/img productos/imp10.webp",
     "descripcion": "La HP LaserJet Tank 2504dw es una impresora monocromo ideal para oficinas que requieren impresiones rápidas y económicas. Con tecnología de tanque de tinta, ofrece un bajo costo por página, y su conectividad Wi-Fi permite imprimir de forma remota desde diversos dispositivos.",
     "raiting": {
       "valoracion": 4.5,

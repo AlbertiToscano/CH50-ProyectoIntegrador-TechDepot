@@ -3,7 +3,7 @@
     "id": "usb1",
     "titulo": "Intenso Basic Line 8GB USB 2.0",
     "precio": 80,
-    "imagen": "/public/img productos/usb1.webp",
+    "imagen": "/img productos/usb1.webp",
     "descripcion": "El Intenso Basic Line 8GB USB 2.0 es una unidad flash sencilla y económica, perfecta para almacenar archivos pequeños como documentos o fotos. Con una velocidad de transferencia moderada, es ideal para uso cotidiano en PCs o portátiles con puertos USB 2.0.",
     "raiting": {
       "valoracion": 4.5,
@@ -14,7 +14,7 @@
     "id": "usb2",
     "titulo": "Intenso Alu Line 8GB USB 2.0 Antracita",
     "precio": 75,
-    "imagen": "/public/img productos/usb2.webp",
+    "imagen": "/img productos/usb2.webp",
     "descripcion": "El Intenso Alu Line 8GB USB 2.0 es una opción compacta y elegante para usuarios que buscan un pendrive sencillo pero funcional. Con un diseño de aluminio en color antracita, esta unidad es resistente y ideal para transportar documentos y archivos pequeños con facilidad.",
     "raiting": {
       "valoracion": 4.5,
@@ -25,7 +25,7 @@
     "id": "usb3",
     "titulo": "Kingston DataTraveler Exodia M Unidad Flash USB 64GB",
     "precio": 100,
-    "imagen": "/public/img productos/usb3.webp",
+    "imagen": "/img productos/usb3.webp",
     "descripcion": "El Kingston DataTraveler Exodia M de 64GB es una unidad flash USB 3.2 que ofrece un rendimiento superior y una gran capacidad de almacenamiento. Ideal para quienes necesitan transferir archivos grandes o hacer copias de seguridad de manera rápida, con una velocidad de lectura y escritura rápida.",
     "raiting": {
       "valoracion": 5,
@@ -36,7 +36,7 @@
     "id": "usb4",
     "titulo": "Kingston DataTraveler Exodia 128GB USB 3.2",
     "precio": 170,
-    "imagen": "/public/img productos/usb4.webp",
+    "imagen": "/img productos/usb4.webp",
     "descripcion": "El Kingston DataTraveler Exodia de 128GB es una unidad USB 3.2 que proporciona un amplio espacio de almacenamiento y una velocidad de transferencia rápida. Perfecto para usuarios que necesitan llevar grandes volúmenes de datos, desde archivos multimedia hasta programas completos.",
     "raiting": {
       "valoracion": 4.5,
@@ -47,7 +47,7 @@
     "id": "usb5",
     "titulo": "Kingston DataTraveler Exodia Onyx 128GB USB 3.2 Gen1",
     "precio": 200,
-    "imagen": "/public/img productos/usb5.webp",
+    "imagen": "/img productos/usb5.webp",
     "descripcion": "El Kingston DataTraveler Exodia Onyx de 128GB con USB 3.2 Gen1 es una unidad flash de gran capacidad y rendimiento excelente. Con un diseño elegante y un alto rendimiento en transferencias de archivos, es ideal para usuarios que necesitan almacenar y mover grandes cantidades de datos de manera eficiente.",
     "raiting": {
       "valoracion": 4.0,
@@ -58,7 +58,7 @@
     "id": "usb6",
     "titulo": "Kingston DataTraveler Max 256GB USB 3.2 Gen 2 Rojo",
     "precio": 740,
-    "imagen": "/public/img productos/usb6.webp",
+    "imagen": "/img productos/usb6.webp",
     "descripcion": "La Kingston DataTraveler Max 256GB USB 3.2 Gen 2 ofrece una velocidad de transferencia ultra rápida, lo que la convierte en la opción perfecta para usuarios que requieren almacenar y mover grandes volúmenes de datos a velocidades muy altas. Su diseño elegante en rojo le da un toque distintivo a la funcionalidad avanzada.",
     "raiting": {
       "valoracion": 5,
@@ -69,7 +69,7 @@
     "id": "usb7",
     "titulo": "Kingston DataTraveler Kyson 256GB USB 3.2",
     "precio": 465,
-    "imagen": "/public/img productos/usb7.webp",
+    "imagen": "/img productos/usb7.webp",
     "descripcion": "El Kingston DataTraveler Kyson 256GB USB 3.2 es una unidad flash de gran capacidad y rendimiento sólido. Perfecta para usuarios que requieren transferencias rápidas y almacenamiento adicional para multimedia o copias de seguridad, con una interfaz USB 3.2 que asegura rapidez en las transferencias.",
     "raiting": {
       "valoracion": 4.3,
@@ -80,7 +80,7 @@
     "id": "usb8",
     "titulo": "Dahua Technology S806 Pendrive 512GB USB 3.2 Negro",
     "precio": 1200,
-    "imagen": "/public/img productos/usb8.webp",
+    "imagen": "/img productos/usb8.webp",
     "descripcion": "El Dahua Technology S806 de 512GB es una unidad flash USB 3.2 de alta capacidad, ideal para usuarios que necesitan almacenar enormes cantidades de datos de manera eficiente. Con su velocidad de transferencia rápida, esta unidad es perfecta para profesionales que requieren alta capacidad y fiabilidad.",
     "raiting": {
       "valoracion": 5,
@@ -91,7 +91,7 @@
     "id": "usb9",
     "titulo": "Pen Drive PNY Elite-X Memoria USB 256 GB USB Tipo C Negro",
     "precio": 850,
-    "imagen": "/public/img productos/usb9.webp",
+    "imagen": "/img productos/usb9.webp",
     "descripcion": "El PNY Elite-X de 256GB con USB Tipo C es ideal para usuarios que buscan una opción versátil y de alto rendimiento. Compatible con dispositivos USB-C, esta unidad permite transferencias rápidas de datos, siendo perfecta para profesionales y usuarios que requieren almacenar y mover grandes archivos multimedia de forma rápida.",
     "raiting": {
       "valoracion": 5,
@@ -102,7 +102,7 @@
     "id": "usb10",
     "titulo": "Intenso cMobile 64GB USB 3.0/USB-C Plata",
     "precio": 215,
-    "imagen": "/public/img productos/usb10.webp",
+    "imagen": "/img productos/usb10.webp",
     "descripcion": "El Intenso cMobile 64GB es un pendrive versátil con conexiones USB 3.0 y USB-C, ideal para usuarios que necesitan conectar sus dispositivos tanto a puertos tradicionales como a los más modernos. Su diseño compacto y velocidad de transferencia rápida lo hacen perfecto para almacenar documentos, fotos y vídeos de manera eficiente.",
     "raiting": {
       "valoracion": 4.5,

@@ -1,102 +1,112 @@
 [
-    {
-      "id": "boci1",
-      "titulo": "JBL PartyBox Stage 320 con Karaoke 240W Negro",
-      "precio": 9159,
-      "imagen": "/public/img productos/boci1.webp",
-      "raiting": {
-        "valoracion": 4.5,
-        "votos": 56
-      }
-    },
-    {
-      "id": "boci2",
-      "titulo": "Tempest M20 RGB Master 2.0",
-      "precio": 320,
-      "imagen": "/public/img productos/boci2.webp",
-      "raiting": {
-        "valoracion": 3,
-        "votos": 9
-      }
-    },
-    {
-      "id": "boci3",
-      "titulo": "Mars Gaming MS-OM",
-      "precio": 425,
-      "imagen": "/public/img productos/boci3.webp",
-      "raiting": {
-        "valoracion": 5,
-        "votos": 500
-      }
-    },
-    {
-      "id": "boci4",
-      "titulo": "Polk Monitor XT70 Pareja Altavoces de Suelo Hi-Fi Negros ",
-      "precio": 10000,
-      "imagen": "/public/img productos/boci4.webp",
-      "raiting": {
-        "valoracion": 4.5,
-        "votos": 33
-      }
-    },
-    {
-      "id": "boci5",
-      "titulo": "Creative Pebble V2 Altavoces 2.0 USB-C Negros",
-      "precio": 550,
-      "imagen": "/public/img productos/boci5.webp",
-      "raiting": {
-        "valoracion": 4.0,
-        "votos": 750
-      }
-    },
-    {
-      "id": "boci6",
-      "titulo": "Altavoz Woxter Dynamic Line DL- 410 150W Negro",
-      "precio": 931,
-      "imagen": "/public/img productos/boci6.webp",
-      "raiting": {
-        "valoracion": 4.6,
-        "votos": 45
-      }
-    },
-    {
-      "id": "boci7",
-      "titulo": "LG XBOOM XL9T La Bestia Altavoz Inalámbrico con Funciones DJ ",
-      "precio": 9875,
-      "imagen": "/public/img productos/boci7.webp",
-      "raiting": {
-        "valoracion": 4.3,
-        "votos": 26
-      }
-    },
-    {
-      "id": "boci8",
-      "titulo": "Mars Gaming MS-ECO Altavoz Portátil Bluetooth 5.1 Ecológico Wheat Straw",
-      "precio": 300,
-      "imagen": "/public/img productos/boci8.webp",
-      "raiting": {
-        "valoracion": 4.8,
-        "votos": 200
-      }
-    },
-    {
-      "id": "boci9",
-      "titulo": "Klipsch The Three Plus Altavoz Bluetooth Retro USB-C 120W RMS",
-      "precio": 800,
-      "imagen": "/public/img productos/boci9.webp",
-      "raiting": {
-        "valoracion": 5,
-        "votos": 120
-      }
-    },
-    {
-      "id": "boci10",
-      "titulo": "Polk Reserve R200 Altavoz de Estantería Blancos",
-      "precio": 8955,
-      "imagen": "/public/img productos/boci10.webp",
-      "raiting": {
-        "valoracion": 4.5,
-        "votos": 55
-      }
+  {
+    "id": "boci1",
+    "titulo": "JBL PartyBox Stage 320 con Karaoke 240W Negro",
+    "precio": 9159,
+    "imagen": "/img productos/boci1.webp",
+    "descripcion": "El JBL PartyBox Stage 320 es un altavoz potente con 240W de potencia. Su función de karaoke y efectos de luces lo hacen perfecto para cualquier fiesta. Con conectividad Bluetooth, puedes llevar la música a cualquier parte y disfrutar de un sonido de calidad superior. Ideal para eventos grandes o celebraciones al aire libre.",
+    "raiting": {
+      "valoracion": 4.5,
+      "votos": 56
     }
-  ]
+  },
+  {
+    "id": "boci2",
+    "titulo": "Tempest M20 RGB Master 2.0",
+    "precio": 320,
+    "imagen": "/img productos/boci2.webp",
+    "descripcion": "Los altavoces Tempest M20 RGB Master 2.0 cuentan con iluminación RGB personalizable que crea una atmósfera única. Con una calidad de sonido clara y nítida, son ideales para sesiones de juego o escuchar música en tu escritorio. Además, son compatibles con la mayoría de dispositivos y fáciles de usar.",
+    "raiting": {
+      "valoracion": 3,
+      "votos": 9
+    }
+  },
+  {
+    "id": "boci3",
+    "titulo": "Mars Gaming MS-OM",
+    "precio": 425,
+    "imagen": "/img productos/boci3.webp",
+    "descripcion": "Los altavoces Mars Gaming MS-OM ofrecen una experiencia de sonido envolvente con una potencia destacable. Con un diseño robusto y elegante, son perfectos para gamers y amantes de la música. Con tecnología avanzada, estos altavoces proporcionan bajos profundos y agudos nítidos.",
+    "raiting": {
+      "valoracion": 5,
+      "votos": 500
+    }
+  },
+  {
+    "id": "boci4",
+    "titulo": "Polk Monitor XT70 Pareja Altavoces de Suelo Hi-Fi Negros",
+    "precio": 10000,
+    "imagen": "/img productos/boci4.webp",
+    "descripcion": "La pareja de altavoces de suelo Polk Monitor XT70 ofrecen un sonido de calidad Hi-Fi para audiófilos. Con tecnología avanzada y diseño elegante, estos altavoces proporcionan una experiencia auditiva envolvente, ideal para escuchar música de alta fidelidad o disfrutar de una experiencia cinematográfica en casa.",
+    "raiting": {
+      "valoracion": 4.5,
+      "votos": 33
+    }
+  },
+  {
+    "id": "boci5",
+    "titulo": "Creative Pebble V2 Altavoces 2.0 USB-C Negros",
+    "precio": 550,
+    "imagen": "/img productos/boci5.webp",
+    "descripcion": "Los Creative Pebble V2 son altavoces compactos con un sonido sorprendentemente potente para su tamaño. Con conexión USB-C, son fáciles de conectar a computadoras o dispositivos móviles, lo que los convierte en la opción ideal para mejorar la calidad de sonido en tu escritorio sin ocupar mucho espacio.",
+    "raiting": {
+      "valoracion": 4.0,
+      "votos": 750
+    }
+  },
+  {
+    "id": "boci6",
+    "titulo": "Altavoz Woxter Dynamic Line DL-410 150W Negro",
+    "precio": 931,
+    "imagen": "/img productos/boci6.webp",
+    "descripcion": "El altavoz Woxter Dynamic Line DL-410 ofrece una potencia de 150W que garantiza un sonido claro y fuerte. Perfecto para disfrutar de música o películas, este altavoz también incluye conectividad Bluetooth, lo que te permite conectarlo de forma inalámbrica a tus dispositivos y disfrutar de tu música favorita.",
+    "raiting": {
+      "valoracion": 4.6,
+      "votos": 45
+    }
+  },
+  {
+    "id": "boci7",
+    "titulo": "LG XBOOM XL9T La Bestia Altavoz Inalámbrico con Funciones DJ",
+    "precio": 9875,
+    "imagen": "/img productos/boci7.webp",
+    "descripcion": "El LG XBOOM XL9T es un altavoz inalámbrico potente y versátil, ideal para fiestas y eventos. Con efectos de sonido de DJ y una calidad de audio impresionante, es perfecto para los amantes de la música que buscan crear un ambiente animado. Su conectividad Bluetooth y su diseño robusto lo hacen perfecto para el uso al aire libre.",
+    "raiting": {
+      "valoracion": 4.3,
+      "votos": 26
+    }
+  },
+  {
+    "id": "boci8",
+    "titulo": "Mars Gaming MS-ECO Altavoz Portátil Bluetooth 5.1 Ecológico Wheat Straw",
+    "precio": 300,
+    "imagen": "/img productos/boci8.webp",
+    "descripcion": "El altavoz Mars Gaming MS-ECO es una opción ecológica fabricada con material de trigo, lo que lo convierte en una opción sostenible sin sacrificar la calidad del sonido. Con Bluetooth 5.1, ofrece una conectividad estable y de largo alcance, mientras que su diseño portátil lo hace fácil de llevar a cualquier lugar.",
+    "raiting": {
+      "valoracion": 4.8,
+      "votos": 200
+    }
+  },
+  {
+    "id": "boci9",
+    "titulo": "Klipsch The Three Plus Altavoz Bluetooth Retro USB-C 120W RMS",
+    "precio": 800,
+    "imagen": "/img productos/boci9.webp",
+    "descripcion": "El Klipsch The Three Plus es un altavoz de diseño retro que combina tecnología moderna con un sonido de alta calidad. Con 120W RMS de potencia y conectividad Bluetooth y USB-C, es perfecto para los amantes de la música que buscan estilo y rendimiento. Su sonido envolvente te sumergirá en una experiencia auditiva única.",
+    "raiting": {
+      "valoracion": 5,
+      "votos": 120
+    }
+  },
+  {
+    "id": "boci10",
+    "titulo": "Polk Reserve R200 Altavoz de Estantería Blancos",
+    "precio": 8955,
+    "imagen": "/img productos/boci10.webp",
+    "descripcion": "El Polk Reserve R200 es un altavoz de estantería compacto que ofrece una excelente calidad de sonido en cualquier espacio. Con un diseño elegante en blanco, se adapta a cualquier entorno y es ideal para quienes buscan una experiencia de audio premium en su hogar o estudio de grabación.",
+    "raiting": {
+      "valoracion": 4.5,
+      "votos": 55
+    }
+  }
+]

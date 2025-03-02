@@ -78,13 +78,15 @@
     <section id="aquiBocina">
       <div class="accordion-item">
             <h2 class="accordion-header">
-                <button onclick="fes('componentes','almacenamientoInterno')"
+                <button 
+                        id="BotonBarraalmacenamientointerno"
+                        
                         class="Productos accordion-button collapsed" type="button" 
                         data-bs-toggle="collapse"
                         data-bs-target="#barraAlmacenamientoInterno" aria-expanded="false"
                         aria-controls="barraAlmacenamientoInterno" 
                         data-bs-parent="#accordionPanelsStayOpenExample">
-                    Almacenamiento interno
+                    Almacenamiento interno<!-- onclick="fes('componentes','almacenamientoInterno')" -->
                 </button>
             </h2>
             <div id="barraAlmacenamientoInterno" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
@@ -234,7 +236,7 @@
     </section>
 
     <!-- Impresoras -->
-    <section>
+    <section id="aquilaptops">
       <div class="accordion-item">
         <h2 class="accordion-header">
             <button id="BotonBarraImpresoras"
@@ -256,14 +258,14 @@
     </section>
 
     <!-- Laptops -->
-    <section>
+    <section id="aquimemoriaRAM">
       <div class="accordion-item">
         <h2 class="accordion-header">
-            <button onclick="fes('oficina','laptops')"
+            <button id="BotonBarraLaptops"
                 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#barraLaptops" aria-expanded="false"
                 aria-controls="barraLaptops" data-bs-parent="#accordionPanelsStayOpenExample">
-                CPU y Laptops
+                CPU y Laptops<!-- onclick="fes('oficina','laptops')" -->
             </button>
         </h2>
         <div id="barraLaptops" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
@@ -277,14 +279,15 @@
     </section>
 
     <!-- Memoria ram -->
-    <section>
+    <section id="aquimonitores">
       <div class="accordion-item">
         <h2 class="accordion-header">
-            <button onclick="fes('componentes','memoriaRAM')"
+            <button 
+            id="BottonBarraMemoriaRam"
                 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#barraRam" aria-expanded="false"
                 aria-controls="barraRam" data-bs-parent="#accordionPanelsStayOpenExample">
-                Memoria RAM
+                Memoria RAM <!-- onclick="fes('componentes','memoriaRAM')" -->
             </button>
         </h2>
         <div id="barraRam" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
@@ -298,14 +301,15 @@
     </section>
 
     <!-- Monitores -->
-    <section>
+    <section id="aquimouse">
       <div class="accordion-item">
         <h2 class="accordion-header">
-            <button onclick="fes('perifericos','monitores')"
+            <button id="BotonBarraMonitores"
+            
                 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#barraMonitores" aria-expanded="false"
                 aria-controls="barraMonitores" data-bs-parent="#accordionPanelsStayOpenExample">
-                Monitores
+                Monitores <!-- onclick="fes('perifericos','monitores')" -->
             </button>
         </h2>
         <div id="barraMonitores" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
@@ -319,10 +323,11 @@
     </section>
 
     <!-- Mouse -->
-    <section>
+    <section id="aquimotherboard">
       <div class="accordion-item">
         <h2 class="accordion-header">
-            <button onclick="fes('perifericos','mouse')"
+            <button 
+            id="BotonBarraMouse"
                 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#barraMouse" aria-expanded="false"
                 aria-controls="barraMouse" data-bs-parent="#accordionPanelsStayOpenExample">
@@ -340,14 +345,15 @@
     </section>
 
     <!-- Motherboard -->
-    <section>
+    <section id="aquiprocesadores">
       <div class="accordion-item">
         <h2 class="accordion-header">
-            <button onclick="fes('componentes','motherboard')"
+            <button 
+                id="BotonBarraMother"
                 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#barraMother" aria-expanded="false"
                 aria-controls="barraMother" data-bs-parent="#accordionPanelsStayOpenExample">
-                Motherboard
+                Motherboard<!-- onclick="fes('componentes','motherboard')" -->
             </button>
         </h2>
         <div id="barraMother" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
@@ -361,14 +367,14 @@
     </section>
 
     <!-- Procesadores -->
-    <section>
+    <section id="aquiteclados">
       <div class="accordion-item">
         <h2 class="accordion-header">
-            <button onclick="fes('componentes','procesadores')" 
+            <button id="BotonBarraProcesadores"
                 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#barraProcesadores" aria-expanded="false"
                 aria-controls="barraProcesadores" data-bs-parent="#accordionPanelsStayOpenExample">
-                Procesadores
+                Procesadores<!-- onclick="fes('componentes','procesadores')"  -->
             </button>
         </h2>
         <div id="barraProcesadores" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
@@ -382,14 +388,14 @@
     </section>
 
     <!-- Teclados -->
-    <section>
+    <section id="aquitintas">
       <div class="accordion-item">
         <h2 class="accordion-header">
-            <button onclick="fes('perifericos','teclados')"
+            <button id="BotonBarraTeclados"
                 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#barraTeclados" aria-expanded="false"
                 aria-controls="barraTeclados" data-bs-parent="#accordionPanelsStayOpenExample">
-                Teclados
+                Teclados<!-- onclick="fes('perifericos','teclados')" -->
             </button>
         </h2>
         <div id="barraTeclados" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
@@ -403,14 +409,14 @@
     </section>
 
     <!-- Tintas -->
-    <section>
+    <section id="aquiusb">
       <div class="accordion-item">
         <h2 class="accordion-header">
-            <button onclick="fes('oficina','tintas')"
+            <button id="BotonBarrasTintas"
                 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#barraTintas" aria-expanded="false"
                 aria-controls="barraTintas" data-bs-parent="#accordionPanelsStayOpenExample">
-                Tintas
+                Tintas<!-- onclick="fes('oficina','tintas')" -->
             </button>
         </h2>
         <div id="barraTintas" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
@@ -424,15 +430,15 @@
     </section>
 
     <!-- usb -->
-    <section>
+    <section id="aquiwebcams">
       <div class="accordion-item">
         <h2 class="accordion-header">
-            <button onclick="fes('perifericos','usb')"
+            <button id="BarraBotonUsb"
                 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#barraUsb" aria-expanded="false"
                 aria-controls="barraUsb" data-bs-parent="#accordionPanelsStayOpenExample">
                 USB
-            </button>
+            </button><!-- onclick="fes('perifericos','usb')" -->
         </h2>
         <div id="barraUsb" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
             <div class="accordion-body">
@@ -448,12 +454,12 @@
     <section>
       <div class="accordion-item">
         <h2 class="accordion-header">
-            <button onclick="fes('perifericos','webcams')"
+            <button id="BotonBarraWeb"
                 class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#barraWeb" aria-expanded="false"
                 aria-controls="barraWeb" data-bs-parent="#accordionPanelsStayOpenExample">
                 Webcams
-            </button>
+            </button><!-- onclick="fes('perifericos','webcams')" -->
         </h2>
         <div id="barraWeb" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
             <div class="accordion-body">
@@ -470,16 +476,18 @@
   
 
 </main>
+
+
     <!-- Fin del Cuerpo de la pagina -->
 <!-- Pagina JavaScript -->
- <script  src="/src/pages/Productos/productos.js"></script>
+ <script type="module" src="/src/pages/Productos/productos.js" defer></script>
  <!-- extraer las funciones al objeto window para que esten disponibles -->
 
 
 
      <!-- Pie de página -->
      <footer id="footer"></footer>
-
+     //
 
   <!--  header js y footer js -->
   <script type="module" src="/src/modules/header/header.js"></script>

@@ -13,7 +13,7 @@
             "certificacion": "gold",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/fue1.webp",
+        "imagen": "/img productos/fue1.webp",
         "rating": {
             "valoracion": 4.8,
             "votos": 275
@@ -34,7 +34,7 @@
             "certificacion": "bronze",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/fue2.webp",
+        "imagen": "/img productos/fue2.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 122
@@ -55,7 +55,7 @@
             "certificacion": "bronze",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/fue3.webp",
+        "imagen": "/img productos/fue3.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 548
@@ -76,7 +76,7 @@
             "certificacion": "gold",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/fue4.webp",
+        "imagen": "/img productos/fue4.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 253
@@ -97,7 +97,7 @@
             "certificacion": "gold",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/fue5.webp",
+        "imagen": "/img productos/fue5.webp",
         "rating": {
             "valoracion": 4.6,
             "votos": 32
@@ -118,7 +118,7 @@
             "certificacion": "gold",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/fue6.webp",
+        "imagen": "/img productos/fue6.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 53
@@ -139,7 +139,7 @@
             "certificacion": "gold",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/fue7.webp",
+        "imagen": "/img productos/fue7.webp",
         "rating": {
             "valoracion": 4.7,
             "votos": 53
@@ -160,7 +160,7 @@
             "certificacion": "platinum",
             "tamaño": "ATX"
         },
-        "imagen": "/public/img productos/fue8.webp",
+        "imagen": "/img productos/fue8.webp",
         "rating": {
             "valoracion": 4.9,
             "votos": 49
@@ -181,7 +181,7 @@
             "certificacion": "no",
             "tamaño": "Mini-ITX"
         },
-        "imagen": "/public/img productos/fue9.webp",
+        "imagen": "/img productos/fue9.webp",
         "rating": {
             "valoracion": 3.9,
             "votos": 8
@@ -202,7 +202,7 @@
             "certificacion": "no",
             "tamaño": "Mini-ITX"
         },
-        "imagen": "/public/img productos/fue10.webp",
+        "imagen": "/img productos/fue10.webp",
         "rating": {
             "valoracion": 4.4,
             "votos": 47
@@ -223,7 +223,7 @@
             "certificacion": "platinum",
             "tamaño": "Micro-ATX"
         },
-        "imagen": "/public/img productos/fue11.webp",
+        "imagen": "/img productos/fue11.webp",
         "rating": {
             "valoracion": 4.9,
             "votos": 4
@@ -244,7 +244,7 @@
             "certificacion": "bronze",
             "tamaño": "Micro-ATX"
         },
-        "imagen": "/public/img productos/fue12.webp",
+        "imagen": "/img productos/fue12.webp",
         "rating": {
             "valoracion": 4.8,
             "votos": 10
@@ -265,7 +265,7 @@
             "certificacion": "bronze",
             "tamaño": "Micro-ATX"
         },
-        "imagen": "/public/img productos/fue13.webp",
+        "imagen": "/img productos/fue13.webp",
         "rating": {
             "valoracion": 4.3,
             "votos": 15

@@ -3,7 +3,7 @@
     "id":"pro1",
     "titulo": "Procesador AMD Ryzen 7 9800X3D / AM5 / Up to 5.2 GHz / 8-Core / 96MB L3 Cache / AMD Radeon™ Graphics",
     "precio": 11999,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador AMD Ryzen 7 9800X3D / AM5 / Up to 5.2 GHz / 8-Core / 96MB L3 Cache / AMD Radeon™ Graphics / No Incluye Disipador / 100-100001084WOF",
     "caracteristicas": {
       "marca": "AMD",
@@ -13,7 +13,7 @@
       "graficos_integrados": "si",
       "TDP": 120
     },
-    "imagen": "/public/img productos/pro1.webp",
+    "imagen": "/img productos/pro1.webp",
     "rating": {
       "valoracion": 4.6,
       "votos": 234
@@ -24,7 +24,7 @@
     "id":"pro2",
     "titulo": "Procesador AMD Ryzen 5 7600X / Socket AM5 / 4.7GHz / 6 núcleos / 12 hilos / Gráficos Integrados",
     "precio": 4599,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador AMD Ryzen 7 9800X3D / AM5 / Up to 5.2 GHz / 8-Core / 96MB L3 Cache / AMD Radeon™ Graphics / No Incluye Disipador / 100-100001084WOF",
     "caracteristicas": {
       "marca": "AMD",
@@ -34,7 +34,7 @@
       "graficos_integrados": "si",
       "TDP": 105
     },
-    "imagen": "/public/img productos/pro2.webp",
+    "imagen": "/img productos/pro2.webp",
     "rating": {
       "valoracion": 4.8,
       "votos": 915
@@ -45,7 +45,7 @@
     "id":"pro3",
     "titulo": "Procesador AMD Ryzen 5 5500 / 6 Core / 12 Thread / 3.6GHz / 4.2GHz Boost / TDP 65W / Incluye Disipador Wraith Stealth",
     "precio": 1599,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador",
     "descripcion": "Procesador AMD Ryzen 5 5500 / 6 Core / 12 Thread / 3.6GHz / 4.2GHz Boost / TDP 65W / Incluye Disipador Wraith Stealth / (Requiere Tarjeta de Video) /  100-100000457BOX",
     "caracteristicas": {
       "marca": "AMD",
@@ -55,7 +55,7 @@
       "graficos_integrados": "no",
       "TDP": 65
     },
-    "imagen": "/public/img productos/pro3.webp",
+    "imagen": "/img productos/pro3.webp",
     "rating": {
       "valoracion": 4.7,
       "votos": 2033
@@ -66,7 +66,7 @@
     "id":"pro4",
     "titulo": "Procesador AMD RYZEN 9 7900X3D / 5.6 GHZ / 12 Núcleos / Socket AM5 / AMD Radeon Graphics",
     "precio": 9599,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador AMD RYZEN 9 7900X3D / 5.6 GHZ / 12 Núcleos / Socket AM5 / AMD Radeon™ Graphics / 7000 Series",
     "caracteristicas": {
       "marca": "AMD",
@@ -76,7 +76,7 @@
       "graficos_integrados": "si",
       "TDP": 170
     },
-    "imagen": "/public/img productos/pro4.webp",
+    "imagen": "/img productos/pro4.webp",
     "rating": {
       "valoracion": 4.7,
       "votos": 2033
@@ -87,7 +87,7 @@
     "id":"pro5",
     "titulo": "ROCESADOR AMD RYZEN 5 3400G APU 3.7GHZ / 4.2GHZ / 4CORE / AM4 / Con disipador Wraith Spire",
     "precio": 4399,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador",
     "descripcion": "PROCESADOR AMD RYZEN 5 3400G APU 3.7GHZ / 4.2GHZ / 4CORE / AM4 / Con disipador Wraith Spire / Radeon VEGA 11 Integrada / YD3400C5FHBOX",
     "caracteristicas": {
       "marca": "AMD",
@@ -97,7 +97,7 @@
       "graficos_integrados": "si",
       "TDP": 65
     },
-    "imagen": "/public/img productos/pro5.jpg",
+    "imagen": "/img productos/pro5.jpg",
     "rating": {
       "valoracion": 4.6,
       "votos": 54
@@ -108,7 +108,7 @@
     "id":"pro6",
     "titulo": "PROCESADOR AMD RYZEN 3 3200G APU 3.6GHZ / 4GHZ / 4CORE / AM4 / Con disipador Wraith Stealth",
     "precio": 1399,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "PROCESADOR AMD RYZEN 3 3200G APU 3.6GHZ / 4GHZ / 4CORE / AM4 / Con disipador Wraith Stealth / Radeon VEGA 8 Integrada / YD3200C5FHBOX",
     "caracteristicas": {
       "marca": "AMD",
@@ -118,7 +118,7 @@
       "graficos_integrados": "si",
       "TDP": 65
     },
-    "imagen": "/public/img productos/pro6.webp",
+    "imagen": "/img productos/pro6.webp",
     "rating": {
       "valoracion": 4.7,
       "votos": 701
@@ -129,7 +129,7 @@
     "id":"pro7",
     "titulo": "Procesador AMD Ryzen 5 7600X / Socket AM5 / 4.7GHz / 6 núcleos / 12 hilos / Gráficos Integrados",
     "precio": 4599,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador AMD Ryzen 5 7600X / Socket AM5 / 4.7GHz / 6 núcleos / 12 hilos / Gráficos Integrados / REQUIERE DISIPADOR / 100-100000593WOF",
     "caracteristicas": {
       "marca": "AMD",
@@ -139,7 +139,7 @@
       "graficos_integrados": "si",
       "TDP": 105
     },
-    "imagen": "/public/img productos/pro7.webp",
+    "imagen": "/img productos/pro7.webp",
     "rating": {
       "valoracion": 4.8,
       "votos": 913
@@ -150,7 +150,7 @@
     "id":"pro8",
     "titulo": "Procesador Intel Core i7-14700KF / Core i7 14th Gen / 20-Core (8P+12E) / LGA 1700",
     "precio": 7999,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador Intel Core i7-14700KF / Core i7 14th Gen / 20-Core (8P+12E) / LGA 1700 / Requiere Tarjeta de Video / BX8071514700KF",
     "caracteristicas": {
       "marca": "Intel",
@@ -160,7 +160,7 @@
       "graficos_integrados": "no",
       "TDP": 235
     },
-    "imagen": "/public/img productos/pro8.webp",
+    "imagen": "/img productos/pro8.webp",
     "rating": {
       "valoracion": 4.7,
       "votos": 277
@@ -171,7 +171,7 @@
     "id":"pro9",
     "titulo": "Procesador Intel Core i5-14400F / Core i5 14th Gen / 10-Core (6P+4E) / 2.50GHz / LGA 1700 / 60W",
     "precio": 3899,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador Intel Core i5-14400F / Core i5 14th Gen / 10-Core (6P+4E) / 2.50GHz / LGA 1700 / 60W / Requiere Tarjeta de Video / BX8071514400F",
     "caracteristicas": {
       "marca": "Intel",
@@ -181,7 +181,7 @@
       "graficos_integrados": "no",
       "TDP": 60
     },
-    "imagen": "/public/img productos/pro9.webp",
+    "imagen": "/img productos/pro9.webp",
     "rating": {
       "valoracion": 4.7,
       "votos": 124
@@ -191,7 +191,7 @@
     "id":"pro10",
     "titulo": "Procesador Intel Core i5-12400F 2.5GHz / 4.3GHz / 6 Nucleos / 12 Hilos / Socket LGA1700 - Intel 12TH Generación ",
     "precio": 3899,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador Intel Core i5-12400F 2.5GHz / 4.3GHz / 6 Nucleos / 12 Hilos / Socket LGA1700 - Intel 12TH Generación / Requiere Tarjeta de Video / BX8071512400F",
     "caracteristicas": {
       "marca": "Intel",
@@ -201,7 +201,7 @@
       "graficos_integrados": "no",
       "TDP": 117
     },
-    "imagen": "/public/img productos/pro10.webp",
+    "imagen": "/img productos/pro10.webp",
     "rating": {
       "valoracion": 4.7,
       "votos": 124
@@ -212,7 +212,7 @@
     "id":"pro11",
     "titulo": "Procesador Intel Core i3-12100F 3.3GHz / 4.3GHz / 4 Nucleos / 8 Hilos / Socket LGA1700 - Intel 12TH Generación",
     "precio": 1799,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador Intel Core i3-12100F 3.3GHz / 4.3GHz / 4 Nucleos / 8 Hilos / Socket LGA1700 - Intel 12TH Generación / Requiere Tarjeta de Video / BX8071512100F",
     "caracteristicas": {
       "marca": "Intel",
@@ -222,7 +222,7 @@
       "graficos_integrados": "no",
       "TDP": 89
     },
-    "imagen": "/public/img productos/pro11.webp",
+    "imagen": "/img productos/pro11.webp",
     "rating": {
       "valoracion": 4.7,
       "votos": 183
@@ -233,7 +233,7 @@
     "id":"pro12",
     "titulo": "Procesador Intel Core i9-14900KF / Core i9 14th Gen 24-Core (8P+16E) / LGA 1700 125W",
     "precio": 9999,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador Intel Core i9-14900KF / Core i9 14th Gen 24-Core (8P+16E) / LGA 1700 125W / Requiere Tarjeta de Video / BX8071514900KF",
     "caracteristicas": {
       "marca": "Intel",
@@ -243,7 +243,7 @@
       "graficos_integrados": "no",
       "TDP": 125
     },
-    "imagen": "/public/img productos/pro12.webp",
+    "imagen": "/img productos/pro12.webp",
     "rating": {
       "valoracion": 4.5,
       "votos": 114
@@ -254,7 +254,7 @@
     "id":"pro13",
     "titulo": "Procesador Intel Core i5-10400 2.90GHz / 4.30GHz / 6 Nucleos / 12 Hilos / Socket LGA1200",
     "precio": 2899,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador",
     "descripcion": "Procesador Intel Core i5-10400 2.90GHz / 4.30GHz / 6 Nucleos / 12 Hilos / Socket LGA1200 - Intel 10TH Generación / BX8070110400",
     "caracteristicas": {
       "marca": "Intel",
@@ -264,7 +264,7 @@
       "graficos_integrados": "si",
       "TDP": 65
     },
-    "imagen": "/public/img productos/pro13.webp",
+    "imagen": "/img productos/pro13.webp",
     "rating": {
       "valoracion": 4.7,
       "votos": 799
@@ -275,7 +275,7 @@
     "id":"pro14",
     "titulo": "Procesador Intel Core I3-13100 / Intel Uhd Graphics 730 / Socket 1700 3.40ghz / BX8071513100",
     "precio": 2899,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador Intel Core I3-13100 / Intel Uhd Graphics 730 / Socket 1700 3.40ghz / BX8071513100",
     "caracteristicas": {
       "marca": "Intel",
@@ -285,7 +285,7 @@
       "graficos_integrados": "si",
       "TDP": 89
     },
-    "imagen": "/public/img productos/pro14.webp",
+    "imagen": "/img productos/pro14.webp",
     "rating": {
       "valoracion": 4.5,
       "votos": 19
@@ -296,7 +296,7 @@
     "id":"pro15",
     "titulo": "Procesador Intel Core i7-13700 Intel Graphics UHD 770 / Socket LGA 1700 2.10GHz 16-Core 30MB",
     "precio": 6599,
-    "categoria": ["procesador"] ,
+    "categoria": "procesador" ,
     "descripcion": "Procesador Intel Core i7-13700 Intel Graphics UHD 770 / Socket LGA 1700 2.10GHz 16-Core 30MB / 13 Generación Raptor Lake / BX8071513700",
     "caracteristicas": {
       "marca": "Intel",
@@ -306,7 +306,7 @@
       "graficos_integrados": "si",
       "TDP": 219
     },
-    "imagen": "/public/img productos/pro14.webp",
+    "imagen": "/img productos/pro14.webp",
     "rating": {
       "valoracion": 4.6,
       "votos": 36

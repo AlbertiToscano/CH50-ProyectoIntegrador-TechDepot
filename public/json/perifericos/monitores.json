@@ -3,7 +3,7 @@
     "id": "moni1",
     "titulo": "Alurin CoreVision 27 FHD 27 LED IPS FullHD 100Hz",
     "precio": 2347,
-    "imagen": "/public/img productos/moni1.webp",
+    "imagen": "/img productos/moni1.webp",
     "descripcion": "El monitor Alurin CoreVision de 27 pulgadas con resolución FullHD es ideal para trabajos de oficina, edición de contenido y entretenimiento. Su pantalla LED IPS garantiza colores vivos y un ángulo de visión amplio. Además, su frecuencia de actualización de 100Hz ofrece una experiencia fluida tanto en juegos como en películas, lo que lo convierte en una excelente opción para usuarios que buscan calidad visual a un precio accesible.",
     "raiting": {
       "valoracion": 4.5,
@@ -14,7 +14,7 @@
     "id": "moni2",
     "titulo": "Monitor PcCom Monitor Gaming 27 VA FHD 180Hz Adaptive Sync Curva",
     "precio": 2778,
-    "imagen": "/public/img productos/moni2.webp",
+    "imagen": "/img productos/moni2.webp",
     "descripcion": "El Monitor PcCom Gaming de 27 pulgadas con curvatura y resolución FullHD es ideal para jugadores que buscan una experiencia de inmersión total. Su frecuencia de actualización de 180Hz y la tecnología Adaptive Sync eliminan el desgarro de pantalla, brindando una jugabilidad suave y sin interrupciones. La curva 1800R también mejora el campo de visión y reduce la fatiga ocular durante largas sesiones de juego.",
     "raiting": {
       "valoracion": 4.6,
@@ -25,7 +25,7 @@
     "id": "moni3",
     "titulo": "HP OMEN 34c 34 WQHD 165Hz FreeSync Premium Curva",
     "precio": 9132,
-    "imagen": "/public/img productos/moni3.webp",
+    "imagen": "/img productos/moni3.webp",
     "descripcion": "El HP OMEN 34c es un monitor de 34 pulgadas con resolución WQHD y una frecuencia de actualización de 165Hz, diseñado para gamers de alto rendimiento. Con soporte para FreeSync Premium, garantiza un juego sin interrupciones y una experiencia visual fluida. Su diseño curvado 1500R maximiza la inmersión, y su tamaño de pantalla ultrapanorámico es perfecto para multitarea o para disfrutar de videojuegos y películas en alta calidad.",
     "raiting": {
       "valoracion": 4.7,
@@ -36,7 +36,7 @@
     "id": "moni4",
     "titulo": "HP OMEN 34c 34 WQHD 165Hz FreeSync Premium Curva",
     "precio": 3963,
-    "imagen": "/public/img productos/moni4.webp",
+    "imagen": "/img productos/moni4.webp",
     "descripcion": "Este monitor HP OMEN 34c ofrece una pantalla curva de 34 pulgadas con resolución WQHD y frecuencia de actualización de 165Hz, ideal para jugadores y creadores de contenido. Su tecnología FreeSync Premium garantiza una experiencia de juego fluida y sin tearing, mientras que la pantalla curva proporciona un campo de visión más envolvente, reduciendo la fatiga visual durante sesiones largas.",
     "raiting": {
       "valoracion": 4.5,
@@ -47,7 +47,7 @@
     "id": "moni5",
     "titulo": "Monitor LG UltraGear 27GS50F-B 27 LED VA FullHD 180Hz FreeSync",
     "precio": 2994,
-    "imagen": "/public/img productos/moni5.webp",
+    "imagen": "/img productos/moni5.webp",
     "descripcion": "El LG UltraGear 27GS50F-B es un monitor gaming de 27 pulgadas que ofrece una frecuencia de actualización de 180Hz y soporte para FreeSync, lo que garantiza un rendimiento sin interrupciones en juegos de alta velocidad. Su panel LED VA proporciona colores vibrantes y un contraste profundo, mientras que el diseño ultradelgado y las opciones de conectividad hacen que sea perfecto para los jugadores que buscan rendimiento y estética.",
     "raiting": {
       "valoracion": 4.7,
@@ -58,7 +58,7 @@
     "id": "moni6",
     "titulo": "MSI PRO MP273AW 27 LED IPS FullHD 100Hz",
     "precio": 2347,
-    "imagen": "/public/img productos/moni6.webp",
+    "imagen": "/img productos/moni6.webp",
     "descripcion": "El MSI PRO MP273AW es un monitor profesional de 27 pulgadas con panel IPS FullHD que ofrece una excelente calidad de imagen con colores precisos y amplios ángulos de visión. Con una frecuencia de actualización de 100Hz, es ideal para quienes buscan un equilibrio entre trabajo, entretenimiento y juegos casuales. Su diseño minimalista y funcional hace que sea fácil integrarlo en cualquier espacio de trabajo o hogar.",
     "raiting": {
       "valoracion": 4.7,
@@ -69,7 +69,7 @@
     "id": "moni7",
     "titulo": "Monitor MSI PRO MP251 24.5 IPS FullHD 100Hz",
     "precio": 1809,
-    "imagen": "/public/img productos/moni7.webp",
+    "imagen": "/img productos/moni7.webp",
     "descripcion": "El MSI PRO MP251 es un monitor de 24.5 pulgadas con panel IPS FullHD y frecuencia de actualización de 100Hz. Perfecto para profesionales y estudiantes, ofrece imágenes claras y vibrantes con una excelente relación calidad-precio. Su tamaño compacto lo hace ideal para escritorios pequeños o configuraciones multitarea, y su diseño ergonómico asegura comodidad durante largas horas de uso.",
     "raiting": {
       "valoracion": 4.7,
@@ -80,7 +80,7 @@
     "id": "moni8",
     "titulo": "Monitor MSI MAG 345CQR 34 LED UWDQHD 180Hz FreeSync Premium Compatible Curvo",
     "precio": 6440,
-    "imagen": "/public/img productos/moni8.webp",
+    "imagen": "/img productos/moni8.webp",
     "descripcion": "El MSI MAG 345CQR es un monitor curvo ultra panorámico de 34 pulgadas con resolución UWDQHD y una frecuencia de actualización de 180Hz. Equipado con FreeSync Premium, este monitor está diseñado para gamers que buscan una experiencia visual fluida, envolvente y de alta calidad. Su curvatura 1500R mejora la inmersión en juegos y películas, y su amplia pantalla permite realizar multitarea de forma eficiente.",
     "raiting": {
       "valoracion": 4.7,
@@ -91,7 +91,7 @@
     "id": "moni9",
     "titulo": "Monitor MSI MPG 321URX QD-OLED 31.5 QD-OLED UltraHD 4K 240Hz FreeSync Premium Pro USB-C",
     "precio": 21518,
-    "imagen": "/public/img productos/moni9.webp",
+    "imagen": "/img productos/moni9.webp",
     "descripcion": "El MSI MPG 321URX es un monitor de 31.5 pulgadas con tecnología QD-OLED, resolución 4K y frecuencia de actualización de 240Hz. Con soporte para FreeSync Premium Pro, es ideal para juegos de alta gama y visualización de contenido 4K. Su capacidad para mostrar colores vibrantes y negros profundos, junto con su conectividad USB-C, lo convierte en una excelente opción tanto para gamers como para creadores de contenido de nivel profesional.",
     "raiting": {
       "valoracion": 4.8,
@@ -102,7 +102,7 @@
     "id": "moni10",
     "titulo": "Monitor Acer Nitro ED270X2bmiipx 27 LED VA FullHD 240Hz Altavoces FreeSync Premium Curva",
     "precio": 3424,
-    "imagen": "/public/img productos/moni10.webp",
+    "imagen": "/img productos/moni10.webp",
     "descripcion": "El Acer Nitro ED270X2bmiipx es un monitor curvado de 27 pulgadas con resolución FullHD y frecuencia de actualización de 240Hz, diseñado para ofrecer una experiencia de juego fluida y sin interrupciones. Su panel VA garantiza negros profundos y un alto contraste, mientras que los altavoces integrados y la compatibilidad con FreeSync Premium hacen que este monitor sea perfecto para quienes buscan calidad y conveniencia en su experiencia gaming.",
     "raiting": {
       "valoracion": 4.6,

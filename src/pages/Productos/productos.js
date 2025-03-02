@@ -1,9 +1,9 @@
 
 /* Función que hace la peticion a los archivos Json  */
-function fes(carpeta,iddelHTML){
+export function fes(carpeta,iddelHTML){
    
     //fetch("/public/json/componentes/almacenamientoInterno.json")
-    fetch("/public/json/"+carpeta+"/"+iddelHTML+".json")
+    fetch("/json/"+carpeta+"/"+iddelHTML+".json")
     .then((response)=>response.json())
     .then((info)=>{
         document.getElementById(iddelHTML).innerHTML=separarinfoObjetos(info);
@@ -70,17 +70,17 @@ IdescripcionB.classList.add("descripcionCortabase");
 
 }
 //funcion para alidear los acordeonesn 
-document.getElementById("BotonBarraGabinete").addEventListener("click",  () => {
-let barraSelecionada = document.getElementById("aquiGabinetes");
 
-barraSelecionada.scrollIntoView({
-    behavior: "smooth",  // Desplazamiento suave
-    block: "start"      // Asegura que el contenido se vea en la parte superior
-});
-//fes('componentes', 'gabinete');
+/* temporal almacenamientointerno*/
+document.getElementById("BotonBarraalmacenamientointerno").addEventListener("click",  () => {
+    
+    fes('componentes','almacenamientoInterno');
+    
+    
+    });
+/* temporal */
 
 
-});
 
 /* temporal bocinas*/
 document.getElementById("BotonBarraBocina").addEventListener("click",  () => {
@@ -162,6 +162,7 @@ document.getElementById("BotonBarraGpu").addEventListener("click",  () => {
     
     });
 /* temporal */
+
 /* temporal Impresoras*/
 document.getElementById("BotonBarraImpresoras").addEventListener("click",  () => {
     let barraSelecionada = document.getElementById("aquiImpresora");
@@ -171,12 +172,118 @@ document.getElementById("BotonBarraImpresoras").addEventListener("click",  () =>
         block: "start"      // Asegura que el contenido se vea en la parte superior
     });
     fes('oficina','impresoras');
-    
-    
     });
-/* temporal */
+//funcion
+/* temporal laptops*/
+document.getElementById("BotonBarraLaptops").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquilaptops");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('oficina','laptops');
+    });
+//funcion
 
-
+/* temporal ram*/
+document.getElementById("BottonBarraMemoriaRam").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquimemoriaRAM");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('componentes','memoriaRAM');
+    });
+//funcion
+/* temporal Monitores*/
+document.getElementById("BotonBarraMonitores").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquimonitores");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('perifericos','monitores');
+    });
+//funcion
+/* temporal Mouse*/
+document.getElementById("BotonBarraMouse").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquimouse");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('perifericos','mouse');
+    });
+//funcion
+/* temporal MotherBoard*/
+document.getElementById("BotonBarraMother").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquimotherboard");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('componentes','motherboard');
+    });
+//funcion
+/* temporal Procesadores*/
+document.getElementById("BotonBarraProcesadores").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquiprocesadores");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('componentes','procesadores');
+    });
+//funcion
+/* temporal Teclados*/
+document.getElementById("BotonBarraTeclados").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquiteclados");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('perifericos','teclados');
+    });
+//funcion
+/* temporal Tintas*/
+document.getElementById("BotonBarrasTintas").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquitintas");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('oficina','tintas');
+    });
+//funcion
+/* temporal usb*/
+document.getElementById("BarraBotonUsb").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquiusb");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('perifericos','usb');
+    });
+//funcion
+/* temporal web*/
+document.getElementById("BotonBarraWeb").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquiwebcams");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('perifericos','webcams');
+    });
 //funcion
 
 
@@ -221,3 +328,4 @@ return card;
 };
 
 
+//window.fes = fes;
