@@ -286,12 +286,12 @@ document.getElementById("BotonBarraWeb").addEventListener("click",  () => {
     });
 //funcion
 
-
+/* style="width: 18rem;" */
 
 /* LLenar las tarjetas con los datos */
 
 const productCard=(cadaobjeto,descripcionCorta)=>{
-const card= `<div class="card" style="width: 18rem;">
+const card= `<div class="card" >
                             <img src="${cadaobjeto.imagen}" class="card-img-top" alt="Imagen de producto TeachDepot">
                             <div class="card-body">
                                <div>

@@ -118,7 +118,13 @@ section{
    ESTILOS DE TARJETAS
    ============================== */
 .card{
+    display: flex;
    margin-block-start: 1em; /* margen superior de las tarjetas */ 
+   width: 18rem;
+
+   justify-content: center; /* Centrado horizontal */
+  align-items: center;  
+  height: 100vh;
 }
 .card-title{ /* estilos del titulo */
     color: #153B4C;
@@ -242,3 +248,151 @@ border-radius: 40rem;
     line-height: 1.6; 
   }
   
+  /* ESTILO PARA LA PARTE DE LOS COMENTARIOS */
+
+  .espacioParaComentario{
+height: 10rem;
+width: 20rem;
+background-color: #386578;
+color: white;
+border-radius: 1rem;
+resize: none;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    line-height: 2.2rem;
+
+  }
+  .espacioParaComentario::placeholder{
+    color:white;
+   text-transform: capitalize;
+   text-align:center ;
+   
+  }
+  #BotonEnviarComentario{
+    color: #386578;
+    height: 2rem;
+    width: 5rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border-color: #0E2A3A;
+    box-shadow:0 0 2rem -1rem rgb(0,0,0, 0.5) ;
+   
+    
+  }
+  #BotonEnviarComentario:hover{
+    transform: scale(1.1);/* para que se agranden un poco al pasar el mouse */
+    
+   
+   }
+
+   
+   .divPublicarComentarios{
+    /* background-color: #4a859e; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    flex-direction: column;
+   }
+   .todo{
+    /* background-color: red; */
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+    gap: 2rem;
+  
+   }
+   .recuadroAtras{
+    background-color:#A2B8C9;
+    position: relative;
+    
+    width: 11rem;
+    height: 10rem;
+    
+   }
+   .reseña{
+    left: 0.5rem;
+    top: 0.5rem;
+    position: absolute;
+    display: flex;
+    background-color: #386578;
+    width: 10rem;
+    height: 9rem;
+    padding: 0.5px;
+   
+    align-items: flex-start;
+   
+
+    }
+.estrellas{
+     
+     top: 0.4rem;
+     right: -0.9rem;
+     display: flex;
+     position: relative;
+    font-size: 0.5rem;
+     margin-left:0.5rem;
+   
+     flex-direction: row;
+    }
+.icono{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+   
+}
+.textReseña{
+    color: white;
+    font-size: 10px;
+    line-height: 0.80rem;
+    font-weight:lighter;
+    position: absolute;
+    align-items: center;
+    top:45px;
+    
+}
+
+#idBotonVerMasComentario{
+font-size: 10px;
+
+height: 1rem;
+color: #042736;
+border-width: 0.01rem;
+border-color: #153B4C;
+background-color: #ffffff;
+border-radius: 20px;
+
+transition: transform 0.1s ease;   
+align-items: center;
+}
+
+#idBotonVerMasComentario:hover{
+   
+    transform: scale(1.1);/* para que se agranden un poco al pasar el mouse */
+    transform-origin: center;
+    
+    color:white;
+    background-color:#2f3b40 ;
+}
+.contenedorBoton {
+    
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    
+  }
+  .textestrella{
+    position: absolute;
+    left: 2.6rem;
+    top: 0.05rem;
+color: white;
+
+  }
