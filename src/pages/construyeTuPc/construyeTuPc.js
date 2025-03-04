@@ -1,9 +1,10 @@
 
-import { sumarTotal } from "./Tarjeta de producto/funcionesLocalStorage.js";
-import {crearProductosConstruyeTuPC, } from "./Tarjeta de producto/TarjetasDeProducto2.js";
+import { pagarCheck } from "./Tarjeta de producto/filtrosParaConstruyeTuPc.js";
+import { comprobarVentilaciónNecesaria, obtenerIndiceParaFiltro, sumarTotal } from "./Tarjeta de producto/funcionesLocalStorage.js";
+import {crearProductosConstruyeTuPC, crearTienda, } from "./Tarjeta de producto/TarjetasDeProducto2.js";
 
 
-document.querySelectorAll('.star-rating:not(.readonly) label').forEach(star => {
+/* document.querySelectorAll('.star-rating:not(.readonly) label').forEach(star => {
     star.addEventListener('click', function() {
         this.style.transform = 'scale(1.2)';
         setTimeout(() => {
@@ -11,15 +12,10 @@ document.querySelectorAll('.star-rating:not(.readonly) label').forEach(star => {
         }, 200);
     });
 });
+ */
 
 
-crearProductosConstruyeTuPC("procesadores", "/json/componentes/procesadores.json");
-crearProductosConstruyeTuPC("motherboard", "/json/componentes/motherboard.json");
-crearProductosConstruyeTuPC("ram", "/json/componentes/memoriaRAM.json");
-crearProductosConstruyeTuPC("Almacenamiento", "/json/componentes/almacenamientoInterno.json");
-crearProductosConstruyeTuPC("enfriamiento", "/json/componentes/enfriamiento.json");
-crearProductosConstruyeTuPC("gpu", "/json/componentes/GPU.json");
-crearProductosConstruyeTuPC("gabinete", "/json/componentes/gabinete.json");
-crearProductosConstruyeTuPC("fuente", "/json/componentes/fuenteDeAlimentacion.json");
+crearTienda();
 sumarTotal();
-
+pagarCheck();
+comprobarVentilaciónNecesaria();

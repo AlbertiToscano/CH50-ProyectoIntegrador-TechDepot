@@ -19,65 +19,73 @@
     </header>
 
     <!-- Inicia sección de inicio de sesión -->
-        <section class="container text-center" id="loginMain">
-            <div class="row">
+    <main>
+        <section class="container-fluid" id="loginMain">
+            <div class="row align-items-center">
                 <!-- Formulario de inicio de sesión -->
-                <div class="col-md-6" id="login">
-                    <div class="col-md-12">
-                        <img src="../../../public/icons/users.png" class="img-thumbnail" alt="Icono de usuario" id="icono_users">
+                <div class="col-md-6 col-12 order-md-1 order-2 ps-5 pe-5" id="login">
+                    <div class="text-center">
+                        <img src="/icons/users.png" class="img-thumbnail" alt="Icono de usuario"
+                            id="icono_users">
                         <p id="titulo-login">Inicio de Sesión</p>
                         <p id="bienvenido">Bienvenido a <strong>TechDepot</strong></p>
-                        <p id="instrucciones">Inicia sesión para acceder a tu cuenta y disfrutar de beneficios exclusivos.</p>
+                        <p id="instrucciones">Inicia sesión para acceder a tu cuenta y disfrutar de beneficios
+                            exclusivos.</p>
                     </div>
-    
-                    <div class="col-md-12" id="grupoCorreo">
-                        <label for="correo" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" placeholder="techdepot@gmail.com" id="correo" name="correo">
-                        <p class="error" id="error-correo">Formato no válido.</p>
-                    </div>
-    
-                    <div class="col-md-12" id="grupoContraseña">
-                        <label for="contraseña" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" placeholder="Introduce tu contraseña" id="contraseña" name="contraseña">
-                        <p class="error" id="error-contraseña">La contraseña debe tener al menos 8 caracteres.</p>
-                    </div>
-    
-                    <button type="submit" class="btn btn-primary" id="boton_iniciar_sesion">INICIAR SESIÓN</button>
-    
-                    <!-- Opción de "Iniciar sesión con Google" -->
-                    <div class="col-md-12" id="google-login">
+
+                    <form class="ps-5 pe-5">
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" placeholder="techdepot@gmail.com" id="correo"
+                                name="correo">
+                            <p class="error" id="error-correo">Formato no válido.</p>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="contraseña" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" placeholder="Introduce tu contraseña"
+                                id="contraseña" name="contraseña">
+                            <p class="error" id="error-contraseña">La contraseña debe tener al menos 8 caracteres.</p>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100" id="boton_iniciar_sesion">INICIAR
+                            SESIÓN</button>
+                    </form>
+
+                    <!--                     <div class="text-center mt-3 ps-5 pe-5">
                         <p id="o-inicia-con">O inicia con</p>
-                        <button type="button" class="btn btn-outline-light" id="boton_google">
-                            <img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="Google Logo" id="google-icon">
+                        <button type="button" class="btn btn-outline-light w-100" id="boton_google">
+                            <img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="Google Logo"
+                                id="google-icon">
                             Iniciar con Google
                         </button>
-                    </div>
-    
-                    <p id="no_tienes_cuenta">¿No tienes una cuenta? <a href="/src/pages/registro/registro.html" id="link-registrarse"><strong>Regístrate</strong></a></p>
-                    <div class="alert alert-danger" role="alert" id="mensaje-error">
-                        Completa los campos correctamente.
-                    </div>
-                    <p class="login-exitoso" id="login-exitoso">Inicio de sesión exitoso</p>
+                    </div> -->
+
+                    <p id="no_tienes_cuenta" class="text-center mt-3">¿No tienes una cuenta? <a
+                            href="/src/pages/registro/registro.html"
+                            id="link-registrarse"><strong>Regístrate</strong></a></p>
                 </div>
-    
+
                 <!-- Imagen de inicio de sesión -->
-                <div class="col-md-6" id="img-login">
-                    <img src="../../../public/Imagen-registro.png" alt="Persona usando una computadora" class="background">
+                <div class="col-md-6 col-12 order-md-2 order-1" id="img-login">
+                    <img src="Imagen-registro.png" alt="Persona usando una computadora" class="img-fluid">
                 </div>
             </div>
         </section>
+    </main>
+
 
     <!-- Pie de página -->
     <footer id="footer">
         <!-- Aquí puedes incluir el pie de página si es necesario -->
     </footer>
 
-  <!--  header js y footer js -->
-  <script type="module" src="/src/modules/header/header.js"></script>
-  <script type="module" src="/src/modules/footer/footer.js"></script>
+    <!--  header js y footer js -->
+    <script type="module" src="/src/modules/header/header.js"></script>
+    <script type="module" src="/src/modules/footer/footer.js"></script>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/src/pages/login/login.js"></script>
+    <script src="./inicioSesion.js"></script>
 </body>
 
 </html>

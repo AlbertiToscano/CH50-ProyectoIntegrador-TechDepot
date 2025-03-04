@@ -239,7 +239,7 @@
         "caracteristicas": {
           "marca": "Asus",
           "modelo": "Asus ATX TUF GAMING Z790-PLUS WIFI",
-          "socket": "LGA1700",
+          "socket": "LGA 1700",
           "chipset": "Z790",
           "RAM_compatible": "DDR5",
           "tamaño": "ATX"
@@ -260,7 +260,7 @@
         "caracteristicas": {
           "marca": "ASRock",
           "modelo": "ASRock Z790 PRO RS WIFI",
-          "socket": "LGA1700",
+          "socket": "LGA 1700",
           "chipset": "Z790",
           "RAM_compatible": "DDR5",
           "tamaño": "ATX"
@@ -281,7 +281,7 @@
         "caracteristicas": {
           "marca": "Gigabyte",
           "modelo": "Gigabyte B760M Aorus Elite AX",
-          "socket": "LGA1700",
+          "socket": "LGA 1700",
           "chipset": "B760M",
           "RAM_compatible": "DDR5",
           "tamaño": "Micro-ATX"
@@ -302,7 +302,7 @@
         "caracteristicas": {
           "marca": "Asus",
           "modelo": "Asus PRIME H510M-K R2.0",
-          "socket": "LGA1200",
+          "socket": "LGA 1200",
           "chipset": "H470",
           "RAM_compatible": "DDR4",
           "tamaño": "Micro-ATX"
@@ -323,7 +323,7 @@
         "caracteristicas": {
           "marca": "Asus",
           "modelo": " Asus Prime Z590-A",
-          "socket": "LGA1200",
+          "socket": "LGA 1200",
           "chipset": "Z590",
           "RAM_compatible": "DDR4",
           "tamaño": "ATX"

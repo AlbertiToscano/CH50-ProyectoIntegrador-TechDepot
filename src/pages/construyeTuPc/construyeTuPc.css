@@ -94,11 +94,8 @@
    margin-right: 1em;
    border-radius: 15px;
    background-color: #EEF5FC;
-   height:fit-content
-   
-   
-   
-   
+   height:fit-content;
+   width: 15em;
 }
 
 .card img{ /* margen superior de las imagenes en las tarjetas */
@@ -110,11 +107,11 @@
 .card-title{ /* estilos del titulo */
     color: #153B4C;
     font-weight: bold;
-    font-size:large;
+    font-size:medium;
 }
 .card-text{ /* estilos de la descripción */
     color:#153B4C;
-    font-size: medium;
+    font-size: small;
     text-align: left;
 }
 .card-price{ /* estilos del precio */
@@ -175,8 +172,6 @@
     border-radius: 20px;
     border-color: #0E2A3A;
     max-width:15em;
-    margin: 0%;
-    
 }
 
 .totalAcumulado .btn:hover{ /* cuando pasas el mouse por encima */
@@ -192,8 +187,24 @@
 .totalAcumulado label{ /* texto de boton check */
     color:#A2B8C9 ;
     text-align: start;
+    font-size: small;
+    margin-bottom: 1em;
     
 }
+
+#switch-boton{
+    margin-inline: .1em;
+}
+
+.alert{
+    background-color: #EEF5FC;
+    border-color:#153B4C;
+    border-width: 3px;
+    color: #ff0000;
+}
+
+
+
 
 
 /* ==============================
@@ -205,6 +216,7 @@
     margin-inline-start:0%;
 }
 .producto-seleccionado img{ /* tamaño de la imagen */
+    margin-bottom: 1em;
     height:10%;
     width:10%;
     min-height:50px;
@@ -232,6 +244,7 @@
 }
 .producto-seleccionado span{ /* texto cantidad precio unitario */
     color: #FFFFFF;
+    margin-right: 1.5em;
 }
 
 /* estilos de los botones */

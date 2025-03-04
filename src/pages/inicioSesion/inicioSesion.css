@@ -8,113 +8,57 @@ body {
     font-size: 22px;
     color: white;
     text-align: center;
-    margin-left: 25px;
 }
 
 #icono_users {
     background-color: transparent;
-    border: #386578;
+    border: none;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 25px;
 }
 
 #boton_iniciar_sesion {
-    border: 15px #639CC7;
     background: #021E2A;
     font-family: 'Poppins';
     font-size: 18px;
     border-radius: 53px;
-    width: 180px;
-    margin-top: 10px;
     height: 47px;
-    margin-bottom: 15px;
 }
 
 #boton_iniciar_sesion:hover {
     box-shadow: 0 0 10px #639CC7;
 }
 
-#correo, #contraseña {
+#correo,
+#contraseña {
     background: #A2B8C9;
     border-radius: 63.41px;
     border-color: #A8AEB4;
-    margin-bottom: 30px;
     font-size: 13px;
     height: 40px;
-    width: 90%;
-    margin-left: 25px;
 }
 
 .form-label {
     color: white;
     font-size: 13px;
     text-align: left;
-    display: block;
-    margin-left: 25px;
 }
 
 #bienvenido {
     color: white;
     font-size: 18px;
     text-align: center;
-    display: block;
-    margin-left: 25px;
 }
 
 #instrucciones {
     color: white;
     font-size: 14px;
-    text-align: justify;
-    display: block;
+    text-align: center;
     margin-bottom: 30px;
-    margin-left: 25px;
 }
 
-.img-login, .background {
-    width: 117%;
-    height: 100%;
-    padding: 0%;
-    margin: 0%;
-}
-
-@media (max-width: 768px) {
-    .img-login, .background {
-        flex-direction: column;
-        order: 1;
-        width: 100%;
-        height: 300px;
-    }
-
-    #login {
-        flex-direction: column;
-        order: 2;
-        margin-top: -100px;
-        left: 0;
-        width: 90%;
-    }
-
-    #correo, #contraseña {
-        align-content: center;
-        height: 40px;
-        width: 100%;
-    }
-
-    #icono_users, #boton_iniciar_sesion, #no_tienes_cuenta, #titulo-login {
-        margin-left: 40px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .img-login, .background {
-        width: 100%;
-        height: 100%;
-        padding: 0%;
-        margin: 0%;
-    }
-}
-
-#link-registrarse, #no_tienes_cuenta {
+#link-registrarse,
+#no_tienes_cuenta {
     color: white;
     text-decoration: none;
     text-align: center;
@@ -125,7 +69,7 @@ body {
     text-decoration: underline;
 }
 
-.error {
+/* .error {
     font-size: 12px;
     margin-top: -25px;
     display: none;
@@ -133,17 +77,14 @@ body {
 
 .error-activo {
     display: block;
-}
+} */
 
-/* Estilos para el botón de Google */
 #boton_google {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     width: 100%;
-    max-width: 300px;
-    margin: 10px auto;
     padding: 10px;
     border-radius: 53px;
     background-color: white;
@@ -164,4 +105,64 @@ body {
     color: white;
     font-size: 14px;
     margin: 10px 0;
+}
+
+/* Estilos para la sección de la imagen en dispositivos móviles */
+#img-login {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    /* Ajusta esta altura según lo que desees mostrar */
+}
+
+#img-login img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilos para dispositivos más grandes (tablets y escritorios) */
+@media (min-width: 768px) {
+    #img-login {
+        height: auto;
+        /* Restaura la altura automática en dispositivos más grandes */
+        overflow: visible;
+        /* Muestra la imagen completa */
+    }
+
+    #img-login img {
+        position: static;
+        transform: none;
+    }
+}
+
+
+/* Estilos para campos válidos */
+.campo-valido {
+    border: 2px solid #28a745 !important;
+    /* Verde */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/* Estilos para campos inválidos */
+.campo-invalido {
+    border: 2px solid #dc3545 !important;
+    /* Rojo */
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+}
+
+/* Estilos para los mensajes de error */
+.error {
+    font-size: 12px;
+    color: #dc3545;
+    /* Rojo */
+    margin-top: 5px;
+    display: none;
+}
+
+.error-activo {
+    display: block;
 }
