@@ -41,7 +41,7 @@
    
    .accordion{
     margin: auto 8em autoem; /* Margen de los acordeones */
-    
+    min-width: 19.5em;
    }
    
    .accordion-button {
@@ -50,6 +50,7 @@
     font-weight: bold; /* Hace el texto más grueso */
     border-radius: 0; /* Elimina bordes redondeados */
     font-size: 22px; /* Ajusta el tamaño del texto dentro del botón */
+    
     
 }
 
@@ -75,6 +76,7 @@
     font-size: 18px; /* Tamaño del texto dentro del acordeón */
     text-align: justify; /* Justifica el contenido */
     
+    
 }
 
 .accordion-item {
@@ -95,7 +97,8 @@
    border-radius: 15px;
    background-color: #EEF5FC;
    height:fit-content;
-   width: 15em;
+   width: 14em;
+   min-width:14em;
 }
 
 .card img{ /* margen superior de las imagenes en las tarjetas */
@@ -118,15 +121,21 @@
     color: #386578;
     font-size: medium;
     font-weight: bold;
-    margin-right: auto;
+    margin-right:1em;
+    margin-left: 1em;
 }
 
+#precio-btn{
+    margin-inline-start: -1em;
+    min-width: 14em;
+}
 .card .btn{ /* estilos del botón en reposo */
     color: #386578;
     scale: 80%;
     background-color: #ffffff;
     border-radius: 20px;
     border-color: #0E2A3A;
+    margin-right: .5em;
 }
 
 .card .btn:hover{ /* cuando pasas el mouse por encima */

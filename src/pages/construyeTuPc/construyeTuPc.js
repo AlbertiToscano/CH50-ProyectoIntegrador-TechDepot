@@ -18,4 +18,4 @@ import {crearProductosConstruyeTuPC, crearTienda, } from "./Tarjeta de producto/
 crearTienda();
 sumarTotal();
 pagarCheck();
-comprobarVentilaciónNecesaria();
+

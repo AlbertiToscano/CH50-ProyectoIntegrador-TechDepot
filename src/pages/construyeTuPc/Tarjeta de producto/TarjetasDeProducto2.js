@@ -30,9 +30,9 @@ export const generarCodigoHtml = (producto) => {
     return `
                        
                             <img src="${producto.imagen}" class="card-img-top" alt="${producto.titulo}">
-                            <div class="card-body">
+                            <div class="card-body container-fluid ">
                                 <h5 class="card-title">
-                                ${producto.titulo.length > 85 ? producto.titulo.substring(0, 82) + "..." : producto.titulo} 
+                                ${producto.titulo.length > 65 ? producto.titulo.substring(0, 62) + "..." : producto.titulo} 
                                 </h5>
                                 <p class="card-text">
                                 ${producto.descripcion.length > 55 ? producto.descripcion.substring(0, 52) + "..." : producto.descripcion} 
@@ -43,7 +43,7 @@ export const generarCodigoHtml = (producto) => {
                                         <small class="text-muted">(${producto.rating.valoracion})</small>
                                     </div>
                                 </div>
-                                    <div class="d-flex justify-content-between align-items-center">
+                                    <div id="precio-btn" class="d-flex justify-content-between align-items-center ">
                                         <span class="h5 mb-0 card-price">$${producto.precio} </span>
                                         <div>
                                             <a  class="btn">Añadir al carrito</a>
