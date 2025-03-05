@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //Accediendo al registro e inputs
     const formulario = document.getElementById('formulario');
     const inputs = document.querySelectorAll('#formulario input');
+
     
 // Obteniendo los Id del formulario
 const campos = {
@@ -18,6 +19,9 @@ const expresiones = {
     correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
     telefono: /^\d{10}$/
 }
+
+//Arreglo para guardar usuarios
+const usuarios = [];
 
 //Validación de los campos del formulario de registro
 const validarRegistro = (e) => {
@@ -90,14 +94,15 @@ formulario.addEventListener('submit', (e) => {
     if (todosCamposValidos() && terminos.checked) {
         //Guarda los datos de usuario ingresados en el formulario de registro
         const datos = new FormData(e.target);
-        const claveUsuario = `usuario${Date.now()}`;
-        const datosCompletos = Object.fromEntries(datos.entries());        
-        localStorage.setItem(claveUsuario, JSON.stringify(datosCompletos));//Guarda los datos en local storage
-        console.log(claveUsuario, datosCompletos); 
+        const datosUsuario = Object.fromEntries(datos.entries());   
+        const nuevoUsuario = {datosUsuario};
+        usuarios.push(nuevoUsuario);
+        localStorage.setItem("usuarios", JSON.stringify(usuarios));//Guarda los datos en local storage
+        console.log("Usuario nuevo agregado" , datosUsuario); 
 
-        
         document.getElementById('registro-exitoso').classList.add('registro-exitoso-activo');
         formulario.reset(); //Resetea el formulario una vez enviado
+
     } else {
 
         document.getElementById('error-registro').classList.add('error-registro-activo'); //Muestra el mensaje de error
