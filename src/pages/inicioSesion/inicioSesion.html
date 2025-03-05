@@ -33,20 +33,19 @@
                             exclusivos.</p>
                     </div>
 
-                    <form class="ps-5 pe-5">
+                    <form id="formInicio" class="ps-5 pe-5">
                         <div class="mb-3">
                             <label for="correo" class="form-label">Correo electrónico</label>
                             <input type="email" class="form-control" placeholder="techdepot@gmail.com" id="correo"
-                                name="correo">
-                            <p class="error" id="error-correo">Formato no válido.</p>
+                                name="correo" required>
                         </div>
 
                         <div class="mb-3">
                             <label for="contraseña" class="form-label">Contraseña</label>
                             <input type="password" class="form-control" placeholder="Introduce tu contraseña"
-                                id="contraseña" name="contraseña">
-                            <p class="error" id="error-contraseña">La contraseña debe tener al menos 8 caracteres.</p>
+                                id="contraseña" name="contraseña" required>
                         </div>
+                        <p class="error alert alert-danger"  id="error-inicio" role="alert">Correo o contraseña incorrectos.</p>
 
                         <button type="submit" class="btn btn-primary w-100" id="boton_iniciar_sesion">INICIAR
                             SESIÓN</button>
@@ -68,7 +67,7 @@
 
                 <!-- Imagen de inicio de sesión -->
                 <div class="col-md-6 col-12 order-md-2 order-1" id="img-login">
-                    <img src="Imagen-registro.png" alt="Persona usando una computadora" class="img-fluid">
+                    <img src="/Imagen-registro.png" alt="Persona usando una computadora" class="img-fluid">
                 </div>
             </div>
         </section>
@@ -85,7 +84,7 @@
     <script type="module" src="/src/modules/footer/footer.js"></script>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./inicioSesion.js"></script>
+    <script type="module" src="./inicioSesion.js"></script>
 </body>
 
 </html>

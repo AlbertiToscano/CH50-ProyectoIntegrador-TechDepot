@@ -16,6 +16,7 @@ export default defineConfig({
         pagRegistro: resolve(__dirname, `src/pages/registro/registro.html`),
         pagInicioSesion: resolve(__dirname, `src/pages/inicioSesion/inicioSesion.html`),
         pagCarrito: resolve(__dirname, `src/pages/carrito/carrito.html`),
+        registro: resolve(__dirname, 'src/pages/registro/registro.html')
       },
     },
   },
