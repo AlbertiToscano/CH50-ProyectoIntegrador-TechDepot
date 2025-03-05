@@ -11,6 +11,8 @@ const campos = {
     contraseña: false,
 };
 
+const usuarios = [];
+
 // Expresiones regulares para la validación de los datos
 const expresiones = {
     nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
@@ -90,14 +92,16 @@ formulario.addEventListener('submit', (e) => {
     if (todosCamposValidos() && terminos.checked) {
         //Guarda los datos de usuario ingresados en el formulario de registro
         const datos = new FormData(e.target);
-        const claveUsuario = `usuario${Date.now()}`;
-        const datosCompletos = Object.fromEntries(datos.entries());        
-        localStorage.setItem(claveUsuario, JSON.stringify(datosCompletos));//Guarda los datos en local storage
-        console.log(claveUsuario, datosCompletos); 
+        const datosUsuario = Object.fromEntries(datos.entries());   
+        const nuevoUsuario = {datosUsuario};
+        usuarios.push(nuevoUsuario);
+        localStorage.setItem("usuarios", JSON.stringify(usuarios));//Guarda los datos en local storage
+        console.log("Usuario nuevo agregado" , datosUsuario); 
 
         
         document.getElementById('registro-exitoso').classList.add('registro-exitoso-activo');
         formulario.reset(); //Resetea el formulario una vez enviado
+        window.location.href = "src/pages/inicioSesion/inicioSesion.html";
     } else {
 
         document.getElementById('error-registro').classList.add('error-registro-activo'); //Muestra el mensaje de error
