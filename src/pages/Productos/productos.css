@@ -75,7 +75,7 @@ section{
    ============================== */
    
    .accordion{
-    margin: auto 8em 4em; /* Margen de los acordeones */
+    margin: auto 7rem 4rem; /* Margen de los acordeones */
    }
    
    .accordion-button {
@@ -106,6 +106,7 @@ section{
     padding: 30px; /* Espaciado interno dentro del acordeón */
     font-size: 18px; /* Tamaño del texto dentro del acordeón */
     text-align: justify; /* Justifica el contenido */
+     
 }
 
 .accordion-item {
@@ -119,17 +120,19 @@ section{
    ============================== */
 .card{
     display: flex;
-   margin-block-start: 1em; /* margen superior de las tarjetas */ 
+   margin-block-start: 1rem; /* margen superior de las tarjetas */ 
    width: 18rem;
-
+   margin-bottom: 10px;
    justify-content: center; /* Centrado horizontal */
   align-items: center;  
-  height: 100vh;
+  
+  /* height: 100vh;  */
 }
 .card-title{ /* estilos del titulo */
     color: #153B4C;
     font-weight: bold;
     font-size:large;
+    margin-bottom: 0px;
 }
 .card-text{ /* estilos de la descripción */
     color:#153B4C;
@@ -142,6 +145,8 @@ section{
     font-weight: bold;
     margin-right: auto;
 }
+
+
 
 .btn{ /* estilos del botón en reposo */
     color: #386578;
@@ -159,7 +164,22 @@ section{
     background-color: #153B4C; 
     color: #A2B8C9;
 }
+.cardEstrellas{
+    display:flex;
+    padding: 0.5rem;;
+    margin-bottom: 0px;
+    width;
+}
 /*  */
+.card-body{
+    position: relative;
+}
+.contPrice{
+   
+    /* position: absolute; */
+    bottom: 0;
+}
+
 
 /* ==============================
    ESTILOS DE TARJETAS

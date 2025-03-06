@@ -91,7 +91,7 @@
             </h2>
             <div id="barraAlmacenamientoInterno" class="accordion-collapse collapse" data-bs-parent="#accordionPanelsStayOpenExample">
                 <div class="accordion-body">
-                    <div class="accordion-body row row-cols-1 row-cols-md-2 g-4" id="almacenamientoInterno">
+                    <div class="accordion-body row row-cols-1 row-cols-md-2 g-4" id="almacenamientoInterno" >
                       <!-- aquiva la tarjeta -->
                       
                        <!--  -->
@@ -475,53 +475,23 @@
   <section>
     <!-- SECCION PARA LOS COMENTARIOS DEL CLIENTE -->
     <h2 class="textoH1">Compartenos tu experiencia </h2>
-    <div class="todo">
-      <!-- aqui empiueza el bloque para mostrar la reseña del cliente -->
-         <div class="recuadroAtras">
-          <div class="reseña">
-            <i class="icono bi bi-person-circle" >Usuario</i>
-            <div class="estrellas">
-              <i class="bi bi-star-fill text-warning "></i>
-              <i class="bi bi-star-fill text-warning"></i>
-              <i class="bi bi-star-fill text-warning"></i>
-              <i class="bi bi-star-half text-warning"></i>
-              <i class="bi bi-star text-warning"></i>
-              <small class="textestrella">(3.5)</small>
-              
-                        </div><!-- ESTRELLAS -->
-            
-                   <p class="textReseña">Esta es la super reseña de juanito banana. Ayer compre el nuevo teclago de la marca Kensington  </p>
-                 <div class="contenedorBoton" ><button id="idBotonVerMasComentario">Ver más</button></div>
+    <div class="todo" id="colocarTarjetaResena">
+      
+  
 
-          </div><!-- RESEÑA -->
-         </div>
-         <!-- aqui termina el bloque para mostrar la reseña del cliente -->
-         <div class="recuadroAtras">
-          <div class="reseña">
-            <i class="icono bi bi-person-circle" >Usuario</i>
-            <div class="estrellas">
-              <i class="bi bi-star-fill text-warning "></i>
-              <i class="bi bi-star-fill text-warning"></i>
-              <i class="bi bi-star-fill text-warning"></i>
-              <i class="bi bi-star-half text-warning"></i>
-              <i class="bi bi-star text-warning"></i>
-              <small class="textestrella">(3.5)</small>
-              
-                        </div><!-- ESTRELLAS -->
-            
-                   <p class="textReseña">Esta es la super reseña de juanito banana. Ayer compre el nuevo teclago de la marca Kensington  </p>
-                 <div class="contenedorBoton" ><button id="idBotonVerMasComentario">Ver más</button></div>
 
-          </div><!-- RESEÑA -->
-         </div>
-        </div>
+
+         
+        </div><!-- Aqui termina el bloque de tarjeta de reseña de usuario -->
+
+        
          <!-- RECUADRO ATRAS -->
               <div class="divPublicarComentarios" ><!-- comentarios del cliente -->
-               <textarea class="espacioParaComentario" type="text" name="" id="" 
+               <textarea class="espacioParaComentario" type="text" name="resenaU" id="textResenaUsuario" 
                        placeholder="¡Tu opinión es valiosa! Comparte tu experiencia con otros y ayúdanos a mejorar.¡Deja tu reseña y sé parte de nuestra comunidad!"
                         cols="40" 
                              rows="6" ></textarea>
-                        <button type="submit" id="BotonEnviarComentario">Publicar</button>
+                        <button type="button" id="BotonEnviarComentario">Publicar</button>
     </div>
     <div><!-- ingreso de texto del usuario -->
 
