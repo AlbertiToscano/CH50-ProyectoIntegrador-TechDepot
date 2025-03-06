@@ -1,0 +1,216 @@
+/* Estilos generales del cuerpo del documento */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6edf4; /* Color de fondo principal */
+    color: #153B4C; /* Color de texto predeterminado */
+}
+
+/* Contenedor principal */
+.container-productos {
+    background: #e6edf4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1100px; /* Ajuste para mejor visualización en computadoras */
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Caja de la imagen y detalles del producto */
+.product-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 50%; /* Ajuste para que la imagen y la info tengan el mismo ancho */
+    text-align: center;
+    margin-bottom: 15px; /* Espacio adicional debajo de la imagen */
+}
+
+/* Estilos de la imagen del producto */
+.product-image {
+    text-align: center;
+    margin-bottom: 20px; /* Aumenta la separación entre la imagen y el título */
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos de la información del producto */
+.product-info {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+}
+
+/* Título del producto */
+.product-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px; /* Aumenta la separación con la imagen */
+}
+
+/* Precio del producto */
+.price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #386578;
+}
+
+/* Descripción del producto */
+.description {
+    font-size: 16px;
+    color: #4a859e;
+}
+
+/* Contenedor del selector de cantidad */
+.quantity-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Estilos del selector de cantidad */
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.quantity-selector .btn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/* Contenedor de los botones de acción */
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Estilos generales para los botones */
+.buttons .btn {
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-align: center;
+    min-width: 180px;
+}
+
+/* Línea separadora entre secciones */
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #677a8c;
+    margin: 15px 0;
+    opacity: 0.5;
+}
+
+/* Ajustes responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+    .container-productos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-box, .product-info {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .buttons .btn {
+        width: 100%;
+    }
+    .quantity-container {
+        flex-direction: column;
+    }
+    .product-title, .price, .description {
+        text-align: center;
+    }
+    .product-image {
+        margin-bottom: 25px; /* Ajuste de separación en vista móvil */
+    }
+}
+
+@media (max-width: 375px) {
+    .product-title {
+        font-size: 20px;
+        margin-bottom: 10px; /* Ajuste adicional para pantallas más pequeñas */
+    }
+    .price {
+        font-size: 18px;
+    }
+    .buttons .btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .quantity-selector {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .quantity-selector .btn {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Estilos de los botones primarios */
+.btn-primary {
+    background-color: #386578;
+    border-color: #386578;
+}
+
+.btn-primary:hover {
+    background-color: #2e5261;
+    border-color: #2e5261;
+}
+
+/* Estilos de los botones de compra */
+.btn-success {
+    background-color: #153B4C;
+    border-color: #153B4C;
+}
+
+.btn-success:hover {
+    background-color: #0e2835;
+    border-color: #0e2835;
+}
+
+/* Estilos de las categorías y etiquetas del producto */
+.category, .tag {
+    font-size: 14px;
+    color: #677a8c;
+    text-align: center;
+}
+
+/* Alineación a la izquierda de la categoría y etiqueta */
+.category-container {
+    text-align: left !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+

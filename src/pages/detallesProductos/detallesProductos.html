@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="detallesProductos.css">
+</head>
+
+<body>
+    <div class="container-productos mt-5">
+        <div class="row align-items-center">
+            <!-- Sección de la imagen del producto -->
+            <div class="col-md-6 text-center">
+                <div class="product-image">
+                    <img id="productImage" src="/public/img productos/alm1.webp" alt="Producto" class="img-fluid">
+                </div>
+            </div>
+            <!-- Sección de la información del producto -->
+            <div class="col-md-6">
+                <h1 id="productName" class="product-title">AMD Ryzen 5 7600X</h1>
+                <p id="productPrice" class="price">$4,799.00</p>
+                <div class="separator"></div>
+                <p id="productDescription" class="description">Socket AM5 / 4.7GHz / 6 núcleos / 12 hilos / Gráficos
+                    Integrados / REQUIERE DISIPADOR</p>
+
+                <!-- Sección de selección de cantidad -->
+                <section class="quantity-container">
+                    <label for="productQuantity"></label>
+                    <div class="quantity-selector d-flex align-items-center">
+                        <button class="btn btn-outline-secondary" onclick="decreaseQuantity()">-</button>
+                        <input type="number" id="productQuantity" value="1" class="form-control text-center mx-2"
+                            style="width: 60px;">
+                        <button class="btn btn-outline-secondary" onclick="increaseQuantity()">+</button>
+                    </div>
+                </section>
+
+                <!-- Sección de botones de compra -->
+                <section class="buttons mt-3 d-flex flex-column flex-md-row justify-content-md-start">
+                    <button class="btn btn-primary me-md-2">Añadir al carrito</button>
+                    <button class="btn btn-success">Comprar ahora</button>
+                </section>
+
+                <div class="separator"></div>
+
+                <div class="category-container mt-3 text-start">
+                    <p class="category"><strong>Categoría:</strong> <span id="productCategory">Procesadores</span></p>
+                    <p class="tag"><strong>Etiqueta:</strong> <span id="productTag">Computadoras portátiles y de escritorio</span></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="detallesProductos.js"></script>
+</body>
+
+</html>
