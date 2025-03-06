@@ -4,11 +4,15 @@
     "titulo": "Alurin CoreVision 27 FHD 27 LED IPS FullHD 100Hz",
     "precio": 2347,
     "imagen": "/img productos/moni1.webp",
+<<<<<<< HEAD
     "descripcion": "El monitor Alurin CoreVision de 27 pulgadas con resolución FullHD es ideal para trabajos de oficina, edición de contenido y entretenimiento. Su pantalla LED IPS garantiza colores vivos y un ángulo de visión amplio. Además, su frecuencia de actualización de 100Hz ofrece una experiencia fluida tanto en juegos como en películas, lo que lo convierte en una excelente opción para usuarios que buscan calidad visual a un precio accesible.",
+=======
+>>>>>>> 02c5133c1f7d7c40390018c18601f8fe331c797b
     "raiting": {
       "valoracion": 4.5,
       "votos": 634
     }
+<<<<<<< HEAD
   },
   {
     "id": "moni2",
@@ -19,6 +23,100 @@
     "raiting": {
       "valoracion": 4.6,
       "votos": 1036
+=======
+    },
+    {
+        "id": "moni2",
+        "titulo": "Monitor PcCom Monitor Gaming 27 VA FHD 180Hz Adaptive Sync Curva",
+        "precio":2778 ,
+        "imagen": "/img productos/moni2.webp",
+        "raiting": {
+          "valoracion":4.6 ,
+          "votos": 1036
+        }
+    },
+    {
+        "id": "moni3",
+        "titulo": "HP OMEN 34c 34 WQHD 165Hz FreeSync Premium Curva",
+        "precio": 9132,
+        "imagen": "/img productos/moni3.webp",
+        "raiting": {
+          "valoracion":4.7 ,
+          "votos": 60
+        }
+    }, 
+    {
+        "id": "moni4",
+        "titulo": "HP OMEN 34c 34 WQHD 165Hz FreeSync Premium Curva",
+        "precio":3963 ,
+        "imagen": "/img productos/moni4.webp",
+        "raiting": {
+          "valoracion": 4.5,
+          "votos": 4
+        }
+    },
+    {
+        "id": "moni5",
+        "titulo": "Monitor LG UltraGear 27GS50F-B 27 LED VA FullHD 180Hz FreeSync",
+        "precio":2994 ,
+        "imagen": "/img productos/moni5.webp",
+        "raiting": {
+          "valoracion":4.7 ,
+          "votos": 3332
+        }
+    },
+    
+    {
+        "id": "moni6",
+        "titulo": "MSI PRO MP273AW 27 LED IPS FullHD 100Hz",
+        "precio": 2347,
+        "imagen": "/img productos/moni6.webp",
+        "raiting": {
+          "valoracion":4.7 ,
+          "votos": 878
+        }
+    },
+    {
+        "id": "moni7",
+        "titulo": "Monitor MSI PRO MP251 24.5 IPS FullHD 100Hz ",
+        "precio": 1809,
+        "imagen": "/img productos/moni7.webp",
+        "raiting": {
+          "valoracion": 4.7,
+          "votos": 288
+        }
+    },
+    {
+        "id": "moni8",
+        "titulo": "Monitor MSI MAG 345CQR 34 LED UWDQHD 180Hz FreeSync Premium Compatible Curvo",
+        "precio":6440 ,
+        "imagen": "/img productos/moni8.webp",
+        "raiting": {
+          "valoracion":4.7 ,
+          "votos":294 
+        }
+    },
+    {
+        "id": "moni9",
+        "titulo": "Monitor MSI MPG 321URX QD-OLED 31.5 QD-OLED UltraHD 4K 240Hz FreeSync Premium Pro USB-C",
+        "precio": 21518,
+        "imagen": "/img productos/moni9.webp",
+        "raiting": {
+          "valoracion": 4.8,
+          "votos": 180
+        }
+    },
+
+    {
+        "id": "moni10",
+        "titulo": "Monitor Acer Nitro ED270X2bmiipx 27 LED VA FullHD 240Hz Altavoces FreeSync Premium Curva",
+        "precio":3424 ,
+        "imagen": "/img productos/moni.webp",
+        "raiting": {
+          "valoracion": 4.6,
+          "votos": 1355
+        }
+>>>>>>> 02c5133c1f7d7c40390018c18601f8fe331c797b
     }
   },
   {
