@@ -214,3 +214,144 @@ body {
     align-items: flex-start;
 }
 
+/* Estilos para el acordeón principal de detalles del producto */
+/* Estilos generales de la página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Estilos para el título del producto */
+.product-title {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+/* Estilos para el precio del producto */
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Estilos para la descripción del producto */
+.product-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contenedor de selección de cantidad del producto */
+.product-quantity-container {
+    margin-top: 10px;
+}
+
+/* Botones de selección de cantidad */
+.product-quantity-selector button {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+}
+
+/* Contenedor de categoría y etiquetas del producto */
+.product-category-container p {
+    margin: 5px 0;
+}
+
+/* ----------- Ajustes para alinear el acordeón con la imagen ----------- */
+.product-accordion-container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.product-accordion {
+    width: 100%;
+    max-width: 90%; 
+    margin: 0 auto; 
+}
+
+@media (min-width: 768px) {
+    .product-accordion {
+        max-width: 550px; 
+    }
+}
+
+/* ----------- Estilos del acordeón ----------- */
+
+.accordion-item {
+    border: none; 
+    border-radius: 0px;
+    margin-bottom: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Botón del acordeón */
+.accordion-button {
+    position: relative;
+    border-radius: 0;
+}
+
+/* Botón cuando el acordeón está cerrado */
+.accordion-button.collapsed {
+    background-color: #e6edf4;
+    color: #153B4C;
+    border-radius: 0;
+}
+
+/* Botón cuando el acordeón está abierto */
+.accordion-button:not(.collapsed) {
+    background-color: #153B4C;
+    color: white;
+}
+
+/* Quita el borde azul al hacer clic */
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* Flecha del acordeón */
+.accordion-button::after {
+    content: "\f078"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #153B4C; 
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+    display: none !important;
+}
+
+/* Rotar el icono cuando el acordeón está abierto */
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(-180deg);
+}
+
+/* Cuerpo del acordeón */
+.accordion-body {
+    background-color: #ffffff;
+    padding: 15px;
+    color: #333;
+    border-radius: 0;
+
+}
+
+/* Agregar una flecha personalizada */
+.accordion-button::before {
+    content: "\f078"; /* Código del icono de Font Awesome (chevron-down) */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 14px;
+    position: absolute;
+    right: 20px; 
+    color: #153B4C;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Rotar la flecha cuando el acordeón está abierto */
+.accordion-button:not(.collapsed)::before {
+    transform: rotate(-180deg);
+}
+
+
