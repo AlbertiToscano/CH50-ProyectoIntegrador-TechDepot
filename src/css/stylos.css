@@ -1,65 +1,175 @@
-
 *{
-
   font-family: 'Poppins', sans-serif;
+  padding: 0%;
+  margin: 0%;
 }
 
-h1{
-  font-size: 32px;
-  color:#153B4C;
+/* banner principal */
+.carousel-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  min-height: 500px; /* Ajusta la altura del carrusel */
+}
+/* banner principal */
+.text-content {
+  padding: 20px;
   text-align: center;
+
+}
+/* estilos primer slice */
+.carousel-item:nth-child(1) {
+  background-color: #386578; /* Azul oscuro */
+  color: white;
+  min-height: 500px;
+}
+/*  estilos segundo slice banner  */
+.carousel-item:nth-child(2) {
+  background-color: #4a859e; /* Azul medio */
+  color: white;
+  min-height: 500px;
+}
+/* estilos tercer slice banner */
+.carousel-item:nth-child(3) {
+  background-color: #A2B8C9; /* Azul claro */
+  color: white;
+  min-height: 500px;
 }
 
-<<<<<<< HEAD
-.servicios{
-  background-color: #D6E1EC;
-  
+.image-content img {
+  max-height: 100%;
+   
+  object-fit: cover;
 }
 
-
-.contenido{
-
-  flex-direction:column-reverse;
-  margin-right: 35px;
-  padding: 300px;
-  text-align: left;
-  justify-content: center;
-  /*display: flex;
-=======
-
-/*banner carrusel*/
-.carousel-caption{
-  width: 50%;
-  display: block;
->>>>>>> 1ed2233b77d0666cbb79bb53b50409cbc068db86
-  flex-direction: column;
-  justify-content: center;
-  gap: 40px;
-
-  & > h5{
-    font-size: 32px;
-    font-weight: 600;
-    color: #021E2A;
+/* Estilos para móvil */
+@media (max-width: 768px) {
+  .carousel-content {
+      flex-direction: column;
+      text-align: center;
   }
-
-  & > p{
-    font-family: 16px;
-    color: #153B4C;
-
+  .text-content {
+      order: 1;
   }
-  
+  .image-content {
+      order: 2;
+  }
 }
+/* boton banner  */
+.btn-custom {
 
-
-
-#botónExploraAhora {
-  padding: 10px 20px;
+   display: inline-block;
+  padding: 12px 24px;
   font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-align: center;
+  text-decoration: none;
   border: none;
-  border-radius: 20px;
   cursor: pointer;
-  transition: background 0.3s, color 0.3s;
+  transition: background 0.3s, opacity 0.3s; 
 }
+
+/* Estilos de los tres botones */
+.btn-dark {
+  background-color: #153B4C; /* Azul oscuro */
+  color: white;
+}
+
+.btn-light {
+  background-color: #0c0d0e; /* Azul grisáceo */
+  color: white;
+  opacity: 0.6; /* Simulación de estado deshabilitado */
+}
+
+.btn-medium {
+  background-color: #4A718B; /* Azul intermedio */
+  color: white;
+}
+
+/* Efecto hover (solo para los botones activos)  banner */
+.btn-dark:hover,
+.btn-medium:hover {
+  opacity: 0.8;
+}
+.services{
+  margin-top: 10px;
+  background-color: #A2B8C9;
+}
+.services h2{
+  font-size: 20px;
+  color: #153B4C;
+}
+
+/* .servicios {
+  background-color: #A2B8C9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */
+
+.icon {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.btn {
+  background-color: #021E2A;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #386578;
+}
+
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    width: 100%; 
+    align-items: center;
+    text-align: center;
+  }
+
+  .texto-banner {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .pa-banner {
+    font-size: 14px;
+  }
+
+  #botónExploraAhora {
+    font-size: 14px;
+    margin-top: 10px;
+    width: auto;
+    text-align: center;
+  }
+
+  .servicios {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    max-width: 120px;
+  }
+}
+
+
+
+
+
+
 
 .activo {
   background-color: #021E2A; /* Azul oscuro */
@@ -77,14 +187,14 @@ h1{
 }
 
 .inactivo:hover {
-  background-color: #153B4C;
+  background-color: #153B4C;
 }
 
 .btn {
     
         background-color: #021E2A;
         color: #fff; /* Blanco */
-        padding: 5px 15px; /* Ajusta el padding para el tamaño */
+        padding: 5px 15px; /* Ajusta el padding para el tamaño */
         border: none;
         border-radius: 30px;
         font-size: 1em;
@@ -100,7 +210,7 @@ h1{
       /* Estilos generales para los botones */
 
 
-      /*Carrusel Logotipos*/
+      /Carrusel Logotipos/
 
       .slider{
         width: 75vw;
@@ -112,8 +222,8 @@ h1{
       .slider .slider-track{
         display: flex;
         animation: scroll 40s linear infinite;
-        -webkit-animation: scroll 40s linear infinite; /*para que la animación funcione en todos los navegadores*/
-        width: calc(200px * 24); /*calcular alguna operación que realicemos*/
+        -webkit-animation: scroll 40s linear infinite; /para que la animación funcione en todos los navegadores/
+        width: calc(200px * 24); /calcular alguna operación que realicemos/
       }
 
       .slider .slide{
@@ -121,7 +231,7 @@ h1{
       }
 
       .slider .slide img {
-        width: 100%; /*valor que se tiene en su contenedor*/
+        width: 100%; /valor que se tiene en su contenedor/
       }
 
       @keyframes scroll {
@@ -137,7 +247,7 @@ h1{
         }
       }
 
-/*Banner de beneficios*/
+/Banner de beneficios/
 .beneficios{
   display: flex;
   width: 100%; 

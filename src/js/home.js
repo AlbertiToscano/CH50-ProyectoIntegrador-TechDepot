@@ -8,7 +8,7 @@
 
     imagenesAnimadas.forEach(imagen => {
       imagen.addEventListener('mouseover', () => {
-        imagen.style.transform = 'scale(1.1)'; // Aumenta el tamaño al 110%
+        imagen.style.transform = 'scale(1.5)'; // Aumenta el tamaño al 110%
         imagen.style.transition = 'transform 0.3s ease'; // Transición suave
       });
     
