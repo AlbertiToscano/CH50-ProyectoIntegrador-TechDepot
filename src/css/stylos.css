@@ -1,42 +1,15 @@
-
 *{
-
   font-family: 'Poppins', sans-serif;
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-
 h1{
   font-size: 32px;
+  font-weight: 600;
   color:#153B4C;
   text-align: center;
 }
-
-
-/*banner carrusel*/
-.carousel-caption{
-  width: 50%;
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  gap: 40px;
-
-  & > h5{
-    font-size: 32px;
-    font-weight: 600;
-    color: #021E2A;
-  }
-
-  & > p{
-    font-family: 16px;
-    color: #153B4C;
-
-  }
-  
-}
-
-
 
 
 #botónExploraAhora {
@@ -57,117 +30,94 @@ h1{
   background-color: #153B4C; /* Gris */
   color: #fff;
 }
-
-/* Asegura el cambio de color en hover */
-.activo:hover {
-  background-color: #021E2A ;
-}
-
-.inactivo:hover {
-  background-color: #153B4C;
-}
-
+/* Estilos generales para los botones */
 .btn {
     
-        background-color: #021E2A;
-        color: #fff; /* Blanco */
-        padding: 5px 15px; /* Ajusta el padding para el tamaño */
-        border: none;
-        border-radius: 30px;
-        font-size: 1em;
-        cursor: pointer;
-        transition:#1F5673 0.3s ease; 
-        box-shadow: #4a859e /* Sombra */
-      }
-      
-      .btn:hover {
-        background-color: #386578; 
-      }
+  background-color: #021E2A;
+  color: #fff; /* Blanco */
+  padding: 5px 15px; /* Ajusta el padding para el tamaño */
+  border: none;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition:#1F5673 0.3s ease; 
+  box-shadow: #4a859e /* Sombra */
+}
 
-      /* Estilos generales para los botones */
+.btn:hover {
+  background-color: #386578; 
+}
 
+/*Carrusel Logotipos*/
 
-      /*Carrusel Logotipos*/
+.slider{
+  width: 75vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
 
-      .slider{
-        width: 75vw;
-        height: auto;
-        margin: auto;
-        overflow: hidden;
-      }
-
-      .slider .slider-track{
-        display: flex;
-        animation: scroll 40s linear infinite;
-        -webkit-animation: scroll 40s linear infinite; /*para que la animación funcione en todos los navegadores*/
-        width: calc(200px * 24); /*calcular alguna operación que realicemos*/
-      }
-
-      .slider .slide{
-        width: 200px;
-      }
-
-      .slider .slide img {
-        width: 100%; /*valor que se tiene en su contenedor*/
-      }
-
-      @keyframes scroll {
-        0%{
-          -webkit-transform: translatex(0);
-          transform: translatex(0);
-
-        }
-        100%{
-          -webkit-transform: translatex(calc(-200px * 12)); 
-          transform: translatex(calc(-200px * 12));
-
-        }
-      }
-
-
-
-/* Banner de beneficios */
-.beneficios {
+.slider .slider-track{
   display: flex;
-  width: 100%;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite; /para que la animación funcione en todos los navegadores/
+  width: calc(200px * 24); /calcular alguna operación que realicemos/
+}
+
+.slider .slide{
+  width: 200px;
+}
+
+.slider .slide img {
+  width: 100%; /valor que se tiene en su contenedor/
+}
+
+@keyframes scroll {
+  0%{
+    -webkit-transform: translatex(0);
+    transform: translatex(0);
+
+  }
+  100%{
+    -webkit-transform: translatex(calc(-200px * 12)); 
+    transform: translatex(calc(-200px * 12));
+
+  }
+}
+
+/*Banner de beneficios*/
+.beneficios{
+  display: flex;
+  width: 100%; 
   background-color: #A2B8C9;
   flex-direction: row-reverse;
   padding: 5% 10%;
 }
 
-/* Contenedor de texto */
-.texto {
+.txt{
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 40px;
+
+  & > h5{
+    font-size: 32px;
+    font-weight: 600;
+    color: #021e2a;
+  }
+  & > p{
+    font-size: 20px;
+    color: #153B4C;
+  }
 }
 
-.texto h5 {
-  font-size: 32px;
-  font-weight: 600;
-  color: #021E2A;
+.imagenSobrepuesta{
+  width: 50%;  
 }
 
-.texto p {
-  font-size: 16px;
-  color: #153B4C;
-}
-
-.imagenSobrepuesta {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-}
-
-.imagenSobrepuesta img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Responsividad */
+/* Responsividad banner-beneficios*/
 @media (max-width: 1024px) {
   .beneficios {
     position: relative;
@@ -180,11 +130,11 @@ h1{
     gap: 1rem;
   }
 
-  .texto {
+  .txt {
     width: 100%;
     align-items: left;
     text-align: left;
-    gap: 10px;
+    gap: 1rem;
   }
 
   #botónExploraAhora{
@@ -202,11 +152,12 @@ h1{
 }
 
 @media (max-width: 768px) {
-  .texto h5 {
+  
+    & > h5 {
     font-size: 24px;
   }
 
-  .texto p {
+   & > p {
     font-size: 14px;
   }
 
@@ -221,51 +172,28 @@ h1{
 }
 
 @media (max-width: 480px) {
-  .texto h5 {
+  & > h5 {
     font-size: 20px;
   }
 
-  .texto p {
+  & > p {
     font-size: 12px;
   }
-
-  #botónExploraAhora{
-    padding: 6px 14px;
-    font-size: 10px;
-  }
-
-  .imagenSobrepuesta img {
-    max-width: 100%;
-  }
 }
 
-
-/*testimonios*/
-
-.container{
-  max-width: 1170px;
-  margin: auto;
-  padding:0;
-}
-
-/*header-testimonios*/
-.section-header{
-  text-align: center;
-  margin-bottom: 50px;
-
-}
-.section-header .title{
-  font-family: 32px;
-  font-weight: 600;
-  color: #021E2A;
-  text-transform: capitalize;
-  line-height: 1.2;
-}
 /*testimonios*/
 
 .testimonios{
   position: relative;
   padding: 100px 0;
+  gap: 40px;
+}
+.title{
+    font-size: 32px;
+    font-weight: 600;
+    color:#153B4C;
+    text-align: center;
+    
 }
 
 .testimonials-item{
@@ -321,3 +249,141 @@ h1{
   transition: background-color 0.3 ease; 
 }
 
+/*productos nuevos*/
+.ContainerproductosNuevos{
+  display: flex;
+  overflow: scroll;
+  padding: 24px;
+  width: 300px;
+  height: 360px;
+  scroll-snap-type: x mandatory ;
+  scroll-padding: 24px;
+  border-radius: 16px;
+  gap: 12px;
+  margin: 2rem auto;
+}
+
+.ContainerproductosNuevos .slider-item{
+  flex: 0 0 100%;
+  padding: 24px;
+  border-radius: 16px;
+  scroll-snap-align: start;
+  }
+
+  *{
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  /* banner principal */
+  .carousel-content {
+    display: flex;
+    width: 100%; 
+    padding: 5% 10%;
+  }
+  /* banner principal */
+  .text-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+  
+    & > h2{
+      font-size: 32px;
+      font-weight: 600;
+      color: #dde7ee;
+    }
+    & > p{
+      font-size: 20px;
+      color: #dde7ee;
+    }
+  
+  }
+  /* estilos primer slice */
+  .carousel-item:nth-child(1) {
+    background-color: #386578; 
+    color: white;
+    min-height: 500px;
+  }
+  /*  estilos segundo slice banner  */
+  .carousel-item:nth-child(2) {
+    background-color: #153B4C; 
+    color: white;
+    min-height: 500px;
+  }
+  /* estilos tercer slice banner */
+  .carousel-item:nth-child(3) {
+    background-color: #A2B8C9; 
+    color: white;
+    min-height: 500px;    
+  }
+  
+  .image-content img {
+    max-height: 100%; 
+    object-fit: cover;
+    width: 50%; 
+  }
+  
+  /* Estilos para móvil */
+  @media (max-width: 768px) {
+    .carousel-content {
+    position: relative;
+    height: auto;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 5% 5%;
+    gap: 1rem;
+    }
+    .text-content {
+    order: 1;
+    width: 100%;
+    align-items: left;
+    text-align: left;
+    gap: 1rem;
+    }
+    .image-content {
+        order: 2;
+    }
+  }
+  /* boton banner  */
+  .btn-custom {
+  
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s, opacity 0.3s; 
+  }
+  
+  /* Estilos de los tres botones */
+  .btn-dark {
+    background-color: #021E2A; /* Azul oscuro */
+    color: white;
+  }
+  
+  .btn-light {
+    background-color: #0c0d0e; /* Azul grisáceo */
+    color: white;
+    opacity: 0.6; /* Simulación de estado deshabilitado */
+  }
+  
+  .btn-medium {
+    background-color: #153B4C; /* Azul intermedio */
+    color: white;
+  }
+  
+  /* Efecto hover (solo para los botones activos)  banner */
+  .btn-dark:hover,
+  .btn-medium:hover {
+    opacity: 0.8;
+  }
