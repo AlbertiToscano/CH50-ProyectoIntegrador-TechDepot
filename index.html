@@ -13,7 +13,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/src/css/stylos.css">
   <!-- Font Awesome (para íconos) -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <!--Estilo NavBar y Footer  -->
    <link rel="stylesheet" href="/src/css/main.css"> 
   <!--  -->
@@ -187,25 +189,116 @@
         <div class="texto">
       <h5>¡Compra, acumula y gana!</h5>
       <p>TechDepot premia tu lealtad con beneficios únicos. ¡No te lo pierdas!</p>
-      <button id="botónExploraAhora" class="activo" onclick="cambiarEstado()">Registrate ahora</button>
+      <a href="pages/contacto.html" id="botónExploraAhora" class="activo" onclick="irAPagina()">Regístrate ahora</a>
     </div>
     <figure class="imagenSobrepuesta">
       <img src="/public/home/Beneficios-Registrate.png" alt="beneficios">
     </figure>
   </section>
-
+<!--productos nuevos-->
+<div id="carrusel-slider">
+  <section>
+    <div class="productosNuevos">
+      <!--background imagenes-->
+      <div class="slider-item productosNuevos" data-herf="#"></div>
+      <div class="slider-item productosNuevos" data-herf="#"></div>
+      <div class="slider-item productosNuevos" data-herf="#"></div>
+      <div class="slider-item productosNuevos" data-herf="#"></div>
+      <div class="slider-item productosNuevos" data-herf="#"></div>
+      <div class="slider-item productosNuevos" data-herf="#"></div>
+      <div class="slider-item productosNuevos" data-herf="#"></div>
+      <div class="slider-item productosNuevos" data-herf="#"></div>
+      <div class="slider-item productosNuevos" data-herf="#"></div>
+    </div>
+  </section>
+</div>
 
   <!--Carrusel tarjetas/comentarios-->
+  
+  <section class="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="title">Algunos de nuestros clientes</h2>
+      </div>
+      <div class="testimonios-contenido">
+        <div class="swiper testimonials-slider js-testimonials-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide testimonials-item">
+              <div class="info">
+                <img src="/public/home/beatriz.png" alt="Beatriz">
+                <div class="text-box">
+                  <h3>Beatriz Pinzón</h3>
+                </div>
+              </div>
+              <p>Siempre quise armar mi propia PC, pero no sabía por donde empezar. Despues de investigar un poco encontre TechDepot, y desde el primer momento, la experiencia fue increíble. 
+                Encontré todo lo que necesitaba, con guías claras y un proceso de compra sencillo. Además, acumulé puntos para mi próxima compra. ¡Definitivamente volveré!</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <div class="swiper-slide testimonials-item">
+              <div class="info">
+                <img src="/public/home/Mario.png" alt="Mario">
+                <div class="text-box">
+                  <h3>Mario Calderón</h3>
+                </div>
+              </div>
+              <p>La página es súper intuitiva y fácil de navegar. Pude comparar diferentes procesadores, tarjetas gráficas y otros componentes sin complicaciones. Además, las guías y tutoriales me ayudaron a entender qué piezas eran compatibles entre sí, lo que me dio mucha más confianza al elegir</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <div class="swiper-slide testimonials-item">
+              <div class="info">
+                <img src="/public/home/armando.png" alt="Armando">
+                <div class="text-box">
+                  <h3>Armando Mendoza</h3>
+                </div>
+              </div>
+              <p>El proceso de pago fue rápido y seguro, y el envío llegó en tiempo récord. Todo perfectamente empacado y listo para ensamblar. Ahora tengo una PC poderosa y optimizada para mis necesidades, y sé que cuando necesite actualizar algún componente, TechDepot será mi primera opción.</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <div class="swiper-slide testimonials-item">
+              <div class="info">
+                <img src="/public/home/marcela.png" alt="Marcela">
+                <div class="text-box">
+                  <h3>Marcela Valencia</h3>
+                </div>
+              </div>
+              <p>Una de las cosas que más me gustó fue el programa de recompensas. Al registrarme, empecé a acumular puntos con mi compra, que después podré usar en futuros pedidos. ¡Un plus que no esperaba!</p>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
 
-  <div class="card">
-    <div class="card-body">
-      <p class="card-text">Siempre quise armar mi propia PC, pero no sabía por donde empezar. Despues de investigar un poco encontre TechDepot, y desde el primer momento, la experiencia fue increíble. 
-        Encontré todo lo que necesitaba, con guías claras y un proceso de compra sencillo. Además, acumulé puntos para mi próxima compra. ¡Definitivamente volveré!</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="swiper-pagination js-testimonials-pagination"></div>
+      </div>
     </div>
-    <img src="/public/home/Frame 1000005257.png" class="card-img-bottom" alt="...">
-  </div>
+  </section>
 
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
   <!-- Pie de página -->
   <footer id="footer"></footer>
   <!-- Bootstrap core JavaScript -->
@@ -217,7 +310,8 @@
   <script type="module" src="/src/js/home.js"></script>
     
 
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
 </body>
 
 </html>
