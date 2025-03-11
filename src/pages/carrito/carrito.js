@@ -1,8 +1,9 @@
+
 document.addEventListener('DOMContentLoaded', function() {
     // Rutas al archivo JSON con productos
     Promise.all([
       fetch("/public/json/componentes/almacenamientoInterno.json"),
-      fetch("/public/json/componentes/discoDuroExterno.json"),
+/*       fetch("/public/json/componentes/discoDuroExterno.json"),
       fetch("/public/json/componentes/fuenteDeAlimentacion.json"),
       fetch("/public/json/componentes/gabinete.json"),
       fetch("/public/json/componentes/GPU.json"),
@@ -17,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       fetch("/public/json/perifericos/mouse.json"),
       fetch("/public/json/perifericos/teclados.json"),
       fetch("/public/json/perifericos/usb.json"),
-      fetch("/public/json/perifericos/webcams.json")
+      fetch("/public/json/perifericos/webcams.json") */
     ])
     .then(responses => Promise.all(responses.map(response => response.json())))
     .then(data => cargarProductos(data.flat()));  // .flat() para aplanar el array de respuestas de múltiples JSONs
@@ -80,3 +81,27 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
+
+
+
+  /**
+ * función que extrae los elementos almacenados en el local storage a partir de una key
+ * @returns 
+ */
+  const generarMemoria = (key) => {
+    const memoria = JSON.parse(localStorage.getItem(key));
+    return memoria;
+  }
+
+ const generarListaCarrito = (key) => {
+    const productosEnCarrito = generarMemoria(key);
+    if (productosEnCarrito && productosEnCarrito.length > 0) {
+      productosEnCarrito.forEach(producto => {
+        console.log(producto);
+      });
+  }
+}
+
+  generarListaCarrito("piezaDePC");
+
+
