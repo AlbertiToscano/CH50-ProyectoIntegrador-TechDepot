@@ -1,5 +1,4 @@
 [
-<<<<<<< HEAD
   {
     "id": "tec1",
     "titulo": "Owlotech MK500 Combo Teclado y Ratón Wireless Negro",
@@ -9,108 +8,6 @@
     "raiting": {
       "valoracion": 4.2,
       "votos": 41
-=======
-    {
-        "id": "tec1",
-        "titulo": " Owlotech MK500 Combo Teclado y Ratón Wireless Negro",
-        "precio":409 ,
-        "imagen": "/img productos/tec1.webp",
-        "raiting": {
-          "valoracion":4.2 ,
-          "votos": 41
-        }
-    },
-
-    {
-        "id": "tec2",
-        "titulo": "Forgeon Clutch Teclado Gaming RGB 60% Switch Blue ",
-        "precio":1486 ,
-        "imagen": "/img productos/tec2.webp",
-        "raiting": {
-          "valoracion":4.7 ,
-          "votos": 244
-        }
-    },
-    {
-        "id": "tec3",
-        "titulo": "SteelSeries Apex 3 TKL Teclado Gaming RGB US",
-        "precio":840 ,
-        "imagen": "/img productos/tec3.webp",
-        "raiting": {
-          "valoracion": 4.7,
-          "votos": 347
-        }
-    },
-    {
-        "id": "tec4",
-        "titulo": "Newskill Pyros PRO Teclado Gaming Inalámbrico Mecánico 75% Hotswap Blanco ",
-        "precio":1486 ,
-        "imagen": "/img productos/tec4.webp",
-        "raiting": {
-          "valoracion":4.7 ,
-          "votos": 45
-        }
-    },
-    {
-        "id": "tec5",
-        "titulo": "Krom Kernel Teclado Mecánico Gaming RGB Negro",
-        "precio":667 ,
-        "imagen": "/img productos/tec5.webp",
-        "raiting": {
-          "valoracion" :4.4,
-          "votos": 3105
-        }
-    },
-    {
-        "id": "tec6",
-        "titulo": "Tempest Oblivion Combo Gaming Teclado + Ratón + Auriculares + Alfombrilla ",
-        "precio":603 ,
-        "imagen": "/img productos/tec6.webp",
-        "raiting": {
-          "valoracion": 4.6,
-          "votos": 4250
-        }
-    },
-    {
-        "id": "tec7",
-        "titulo": "Tempest K20 Beast Teclado Mecánico Inalámbrico Gaming RGB TKL Mini Blanco",
-        "precio": 861,
-        "imagen": "/img productos/tec7.webp",
-        "raiting": {
-          "valoracion":4.6 ,
-          "votos": 7128
-        }
-    },
-    {
-        "id": "tec8",
-        "titulo": "Ozone Tactical Teclado Mini Mecánico RGB USB/Bluetooth Switch Outemu Red",
-        "precio":947 ,
-        "imagen": "/img productos/tec8.webp",
-        "raiting": {
-          "valoracion":4.5,
-          "votos": 512
-        }
-    },
-    {
-        "id": "tec9",
-        "titulo":"Owlotech Analog01 Teclado Wireless con Knob",
-        "precio":516 ,
-        "imagen": "/img productos/tec9.webp",
-        "raiting": {
-          "valoracion":3.7 ,
-          "votos": 32
-        }
-    },
-    {
-        "id": "tec10",
-        "titulo":"Owlotech EK500 Teclado Wireless Ergonómico Negro",
-        "precio": 538,
-        "imagen":"/img productos/tec10.webp",
-        "raiting": {
-          "valoracion":4.2,
-          "votos":41
-        }
->>>>>>> 02c5133c1f7d7c40390018c18601f8fe331c797b
     }
   },
   {
