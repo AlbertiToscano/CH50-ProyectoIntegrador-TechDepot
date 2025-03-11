@@ -277,6 +277,25 @@ h1{
 /*aqui terminan los testimonios*/
 
 /*productos nuevos*/
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+h1{
+  margin: 0;
+}
+
+.boton-texto{
+  background: none;
+  border: none;
+  color: #4a859e;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
 .ContainerproductosNuevos{
   display: flex;
   overflow-x: auto;
@@ -365,8 +384,8 @@ h1{
 }
 /* banner principal */
 .text-content {
-  padding: 20px;
-  text-align: center;
+  padding: 18px;
+  text-align: left;
 
 }
 /* estilos primer slice */
@@ -377,7 +396,7 @@ h1{
 }
 /*  estilos segundo slice banner  */
 .carousel-item:nth-child(2) {
-  background-color: #4a859e; /* Azul medio */
+  background-color: #153B4C; /* Azul medio */
   color: black;
   min-height: 500px;
 }
@@ -532,17 +551,19 @@ h1{
 
 
 
+
    /* metodo de pago */
    .payment-methods {
     text-align: center;
     padding: 20px;
+    margin-bottom: 100px;
   }
   
   .payment-logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px; /* Espacio entre imágenes */
+    gap: 100px; /* Espacio entre imágenes */
   }
   
   .payment-logos img {
