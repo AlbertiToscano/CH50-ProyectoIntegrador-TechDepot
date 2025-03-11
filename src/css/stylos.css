@@ -287,7 +287,7 @@ h1{
     display: flex;
     max-width: 100%; 
     padding: 5% 10%;
-    height: 1000px;
+    height: 500px;
   }
 
   .text-content {
@@ -309,30 +309,48 @@ h1{
     }
   
   }
-  /* estilos primer slice */
-  .carousel-item:nth-child(1) {
-    background-color: #386578; 
-    color: white;
-    min-height: 500px;
-  }
-  /*  estilos segundo slice banner  */
-  .carousel-item:nth-child(2) {
-    background-color: #153B4C; 
-    color: white;
-    min-height: 500px;
-  }
-  /* estilos tercer slice banner */
-  .carousel-item:nth-child(3) {
-    background-color: #A2B8C9; 
-    color: white;
-    min-height: 500px;    
-  }
+
+/* banner principal */
+.carousel-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  min-height: 500px; /* Ajusta la altura del carrusel */
+}
+/* banner principal */
+.text-content {
+  padding: 20px;
+  text-align: center;
+
+}
+/* estilos primer slice */
+.carousel-item:nth-child(1) {
+  background-color: #386578; /* Azul oscuro */
+  color: white;
+  min-height: 500px;
+}
+/*  estilos segundo slice banner  */
+.carousel-item:nth-child(2) {
+  background-color: #4a859e; /* Azul medio */
+  color: black;
+  min-height: 500px;
+}
+/* estilos tercer slice banner */
+.carousel-item:nth-child(3) {
+  background-color: #A2B8C9; /* Azul claro */
+  color: white;
+  min-height: 500px;
+}
+
+.image-content img {
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.negrita{
   
-  .image-content img {
-    max-height: 100%; 
-    object-fit: cover;
-    width: 50%; 
-  }
+  color: black;
+}
   
   /* Estilos para móvil */
   @media (max-width: 768px) {
@@ -396,3 +414,81 @@ h1{
   }
 
    /* aqui termina el  banner principal*/
+
+/* servicio */
+
+.servicios{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente (si el contenedor tiene altura definida) */
+    flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias líneas */
+    gap: 20px; /* Espacio entre tarjetas */
+
+
+}
+.servicios{
+  
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 1fr)); /* Columnas flexibles en PC */
+  gap: 10px; /* Espacio entre tarjetas */
+  text-align: center;
+  padding: 20px;
+}
+  
+  /* Estilo de las tarjetas */
+  .imagen-animada {
+    background: #f0f0f0;
+    padding: 40px; /* Tamaño grande en PC */
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out; /* Transición suave */
+  }
+  
+  /* Versión móvil */
+  @media (max-width: 800px) {
+    .servicios {
+      grid-template-columns: repeat(2, minmax(110px, 1fr)); /* 2 columnas en móvil */
+      gap: 10px;
+    }
+  
+    .imagen-animada {
+      padding: 5px; /* Reducimos el tamaño en móvil */
+      font-size: 1rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
+     
+    }
+  }
+  
+
+
+   /* metodo de pago */
+   .payment-methods {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .payment-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Espacio entre imágenes */
+  }
+  
+  .payment-logos img {
+    width: 120px; /* Tamaño base en PC */
+    height: auto;
+    max-width: 100%;
+    transition: all 0.3s ease-in-out; /* Efecto suave */
+  }
+  
+  /* Versión móvil */
+  @media (max-width: 768px) {
+    .payment-logos img {
+      width: 50px; /* Reducimos tamaño en móviles */
+    }
+  }
+  
+  
+ /* aqui termina metodo de pago  */
