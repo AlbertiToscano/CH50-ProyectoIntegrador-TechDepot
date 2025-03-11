@@ -79,6 +79,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 10px;
 }
 
 /* Estilos del selector de cantidad */
@@ -117,15 +118,6 @@ body {
     min-width: 180px;
 }
 
-/* Línea separadora entre secciones */
-.separator {
-    width: 100%;
-    height: 1px;
-    background-color: #677a8c;
-    margin: 15px 0;
-    opacity: 0.5;
-}
-
 /* Ajustes responsivos para dispositivos móviles */
 @media (max-width: 768px) {
     .container-productos {
@@ -154,27 +146,6 @@ body {
     }
 }
 
-@media (max-width: 375px) {
-    .product-title {
-        font-size: 20px;
-        margin-bottom: 10px; /* Ajuste adicional para pantallas más pequeñas */
-    }
-    .price {
-        font-size: 18px;
-    }
-    .buttons .btn {
-        font-size: 14px;
-        padding: 10px;
-    }
-    .quantity-selector {
-        flex-direction: column;
-        gap: 5px;
-    }
-    .quantity-selector .btn {
-        width: 30px;
-        height: 30px;
-    }
-}
 
 /* Estilos de los botones primarios */
 .btn-primary {
@@ -198,6 +169,8 @@ body {
     border-color: #0e2835;
 }
 
+
+
 /* Estilos de las categorías y etiquetas del producto */
 .category, .tag {
     font-size: 14px;
@@ -214,38 +187,6 @@ body {
     align-items: flex-start;
 }
 
-/* Estilos para el acordeón principal de detalles del producto */
-/* Estilos generales de la página */
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-}
-
-/* Estilos para el título del producto */
-.product-title {
-    font-weight: 600;
-    font-size: 1.8rem;
-}
-
-/* Estilos para el precio del producto */
-.product-price {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #28a745;
-}
-
-/* Estilos para la descripción del producto */
-.product-description {
-    font-size: 1rem;
-    color: #555;
-}
-
-/* Contenedor de selección de cantidad del producto */
-.product-quantity-container {
-    margin-top: 10px;
-}
-
 /* Botones de selección de cantidad */
 .product-quantity-selector button {
     width: 35px;
@@ -258,25 +199,6 @@ body {
     margin: 5px 0;
 }
 
-/* ----------- Ajustes para alinear el acordeón con la imagen ----------- */
-.product-accordion-container {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-}
-
-.product-accordion {
-    width: 100%;
-    max-width: 90%; 
-    margin: 0 auto; 
-}
-
-@media (min-width: 768px) {
-    .product-accordion {
-        max-width: 550px; 
-    }
-}
 
 /* ----------- Estilos del acordeón ----------- */
 
@@ -354,4 +276,148 @@ body {
     transform: rotate(-180deg);
 }
 
+/****************** Opiniones del Producto *****************/
+
+.product-reviews {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.section-title {
+    color: #153B4C;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+}
+
+/************* Barras de calificación *****************/
+
+
+.rating-overview {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px; 
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #153B4C;
+    margin-bottom: 10px;
+}
+
+.overall-rating {
+    font-size: 2rem; 
+    font-weight: bold;
+    color: #153B4C;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.stars {
+    font-size: 1.5rem; 
+    color: gold;
+    display: flex;
+    gap: 2px;
+}
+
+.half-star {
+    position: relative;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.half-star::before {
+    content: '\2605'; 
+    position: absolute;
+    color: #cbd5e1; 
+    font-size: 1.5rem;
+    left: 0;
+    top: 0;
+}
+
+.half-star::after {
+    content: '\2605'; 
+    position: absolute;
+    color: gold;
+    font-size: 1.5rem;
+    left: 0;
+    top: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+.rating-count {
+    font-size: 14px; 
+    color: #547aa5;
+    margin-top: 2px; 
+}
+
+
+
+/* Barras de calificación */
+.rating-bars {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rating-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #153B4C;
+    width: 100%;
+}
+
+.rating-bar span {
+    white-space: nowrap;
+    color: #153B4C;
+    font-weight: 600;
+}
+
+/* Contenedor de la barra */
+.rating-bar .bar-container {
+    background: #dde5ec;
+    width: 100%;
+    height: 6px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+/* Barra de progreso */
+.rating-bar .bar {
+    background: #547aa5;
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Estrellas a la derecha */
+.rating-bar .stars-text {
+    color: gold;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .rating-bars {
+        max-width: 100%;
+    }
+    .rating-bar {
+        font-size: 12px;
+    }
+}
 
