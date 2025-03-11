@@ -90,11 +90,14 @@ h1{
 
 /*Banner de beneficios*/
 .beneficios{
+  position: relative;
   display: flex;
-  width: 100%; 
-  background-color: #A2B8C9;
   flex-direction: row-reverse;
-  padding: 5% 10%;
+  width: 100%;
+  height: 500px;
+  max-width: 1512px;
+  background-color: #dde7ee;
+  justify-content: center;
 }
 
 .txt{
@@ -104,6 +107,7 @@ h1{
   justify-content: center;
   align-items: flex-start;
   gap: 40px;
+  max-width: 490px;
 
   & > h5{
     font-size: 32px;
@@ -111,21 +115,35 @@ h1{
     color: #021e2a;
   }
   & > p{
-    font-size: 20px;
+    font-size: 18px;
     color: #153B4C;
   }
 }
 
-.imagenSobrepuesta{
-  width: 50%;  
+.imagenSobrepuesta {
+  width: 40%;
+  max-width: 497px;  /* Limitamos el tamaño máximo */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 229px;
 }
+
+.imagenSobrepuesta img {
+  width: 100%;  /* La imagen ocupa todo el ancho del contenedor */
+  max-width: 497px;  /* Tamaño máximo para evitar imágenes muy grandes */
+  height: auto;  /* Mantiene la proporción */
+  object-fit: contain;
+}
+
 
 /* Responsividad banner-beneficios*/
 @media (max-width: 1024px) {
   .beneficios {
     position: relative;
     height: auto;
-    margin: 2rem;
+    margin: auto;
     display: flex;
     flex-direction: column;
     text-align: left;
