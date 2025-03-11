@@ -468,31 +468,54 @@ h1{
 }
   
   /* Estilo de las tarjetas */
-  .imagen-animada {
-    background: #f0f0f0;
-    padding: 40px; /* Tamaño grande en PC */
-    border-radius: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out; /* Transición suave */
+  
+
+/* Ajuste para las tarjetas */
+/* Diseño móvil: 2x2 con espacio */
+@media (max-width: 767px) {
+  .servicios {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+      gap: 15px; /* Espacio entre tarjetas */
+      justify-content: center;
+      padding: 10px;
   }
-  
-  /* Versión móvil */
-  @media (max-width: 800px) {
-    .servicios {
-      grid-template-columns: repeat(2, minmax(110px, 1fr)); /* 2 columnas en móvil */
-      gap: 10px;
-    }
-  
-    .imagen-animada {
-      padding: 5px; /* Reducimos el tamaño en móvil */
-      font-size: 1rem;
-      margin-top: 10px;
-      margin-bottom: 10px;
-     
-    }
+
+  /* Ajuste para cada tarjeta */
+  .servicios .col-6 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
+
+  /* Imagen dentro de la tarjeta */
+  .icon {
+      max-width: 80px;
+      height: auto;
+  }
+}
+
+/* Diseño en pantallas más grandes */
+@media (min-width: 768px) {
+  .servicios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+  }
+
+  .servicios .col-6 {
+      flex: 1 1 20%;
+      max-width: 200px;
+  }
+}
+
+
 
 
    /* metodo de pago */
