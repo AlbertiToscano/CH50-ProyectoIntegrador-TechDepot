@@ -55,6 +55,7 @@ h1{
   height: auto;
   margin: auto;
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 .slider .slider-track{
@@ -98,6 +99,7 @@ h1{
   max-width: 1512px;
   background-color: #dde7ee;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .txt{
@@ -149,6 +151,7 @@ h1{
     text-align: left;
     padding: 5% 5%;
     gap: 1rem;
+    margin-bottom: 25px;
   }
 
   .txt {
@@ -209,6 +212,7 @@ h1{
   position: relative;
   padding: 100px 0;
   gap: 40px;
+  margin-bottom: 100px;
 }
 .title{
     font-size: 32px;
@@ -275,22 +279,32 @@ h1{
 /*productos nuevos*/
 .ContainerproductosNuevos{
   display: flex;
-  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
   padding: 24px;
-  width: 300px;
-  height: 360px;
+ max-width: 1250px;
+  height: 600px;
   scroll-snap-type: x mandatory ;
-  scroll-padding: 24px;
+  scroll-padding: 2px;
   border-radius: 16px;
   gap: 12px;
   margin: 2rem auto;
+  margin-bottom: 100px;
 }
 
 .ContainerproductosNuevos .slider-item{
-  flex: 0 0 100%;
+  flex: 0 0 calc(100% / 3);
+  max-width: calc(100% / 3);
+  width: 357px;
   padding: 24px;
   border-radius: 16px;
   scroll-snap-align: start;
+  }
+
+  .slider-item img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
 
   *{
@@ -305,7 +319,7 @@ h1{
     display: flex;
     max-width: 100%; 
     padding: 5% 10%;
-    height: 1000px;
+    height: 600px;
   }
 
   .text-content {
@@ -322,7 +336,7 @@ h1{
       color: #dde7ee;
     }
     & > p{
-      font-size: 20px;
+      font-size: 18px;
       color: #dde7ee;
     }
   
