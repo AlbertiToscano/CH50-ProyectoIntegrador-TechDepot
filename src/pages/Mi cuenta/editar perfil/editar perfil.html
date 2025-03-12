@@ -1,112 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--Links de bootstrap, estilos y Fuentes.-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-  <!-- incluir FontAwesome para el icono de menu desplagable (3 barras horizontales) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-  <link rel="stylesheet" href="/src/pages/Mi cuenta/mi cuenta.css">
-  <title>Editar perfil</title>
-</head>
-
-<body>
-
-  <!--Header-->
-  <header>
-    <nav class="navbar navbar-expand-md">
-      <div class="container d-flex align-items-center justify-content-between">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <!--Logo TechDepot en la barra de Navegacion-->
-          <img src="/public/logo.png" alt="TechDepot Logo" class="logo" style="height: 35px; width: auto;">
-        </a>
-        <!--Botones de la barra de navegacion-->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="search-container">
-            <input type="search" class="search-bar" placeholder="¿Qué estás buscando?" aria-label="Buscar">
-            <img src="https://cdn-icons-png.flaticon.com/16/3917/3917132.png" alt="Buscar" class="search-icon"></button>
-          </div>
-          <div class="user-menu d-flex align-items-center">
-            <div class="dropdown">
-              <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                <i class="bi bi-person-circle user-icon"></i> Iniciar Sesión
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Perfil</a></li>
-                <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
-              </ul>
-            </div>
-            <a href="#" class="cart-link">
-              <i class="bi bi-cart3 cart-icon"></i> Mi Carrito
-            </a>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap, íconos y fuentes -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome para el ícono de menú -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="/src/pages/Mi cuenta/mi cuenta.css" />
+    <title>Editar perfil</title>
+  </head>
+  <body>
+    <!-- Header con navbar -->
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <div class="container d-flex align-items-center justify-content-between">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/public/logo.png"
+              alt="TechDepot Logo"
+              class="logo"
+              style="height: 35px;"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Aquí podrías incluir el resto del contenido del navbar -->
           </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav w-100 justify-content-between">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-              <i class="fas fa-bars"></i> <!-- Icono para el menú desplegable -->
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Opción 1</a></li>
-              <li><a class="dropdown-item" href="#">Opción 2</a></li>
-              <li><a class="dropdown-item" href="#">Opción 3</a></li>
-              <li><a class="dropdown-item" href="#">Opción 4</a></li>
-              <li><a class="dropdown-item" href="#">Opción 5</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="/src/pages/productos.html">Productos</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/src/pages/construye-tu-pc.html"
-              data-bs-toggle="dropdown">Construye tu máquina
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Construye tu máquina</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Opción 1</a></li>
-              <li><a class="dropdown-item" href="#">Opción 2</a></li>
-              <li><a class="dropdown-item" href="#">Opción 3</a></li>
-              <li><a class="dropdown-item" href="#">Opción 4</a></li>
-              <li><a class="dropdown-item" href="#">Opción 5</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Acerca de nosotros</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- Contenido principal -->
+    <main class="container mt-5">
+      <h1 class="mb-4">Editar Perfil</h1>
+      <form id="editar-perfil-form">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" required />
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="correo" required />
+        </div>
+        <div class="mb-3">
+          <label for="telefono" class="form-label">Teléfono</label>
+          <input type="text" class="form-control" id="telefono" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar cambios</button>
+      </form>
+    </main>
 
+    <!-- Footer -->
+    <footer class="text-center py-3 mt-5">
+      <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
+      <nav>
+        <a href="#">Términos y condiciones</a> | <a href="#">Aviso de privacidad</a>
+      </nav>
+    </footer>
 
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Al cargar la página, rellenar el formulario con los datos del usuario desde localStorage
+      window.addEventListener("load", () => {
+        const usuario = JSON.parse(localStorage.getItem("usuario"));
+        if (usuario) {
+          document.getElementById("nombre").value = usuario.nombre;
+          document.getElementById("correo").value = usuario.email;
+          document.getElementById("telefono").value = usuario.telefono;
+        } else {
+          alert("No has iniciado sesión");
+          window.location.href = "login.html"; // Ajusta la ruta según tu proyecto
+        }
+      });
 
-  <footer class="text-center py-3 mt-5">
-    <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
-    <nav>
-      <a href="#">Términos y condiciones</a> | <a href="#">Aviso de privacidad</a>
-    </nav>
-  </footer>
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+      // Al enviar el formulario, guardar los cambios en localStorage y redirigir a "Mi cuenta"
+      document.getElementById("editar-perfil-form").addEventListener("submit", (event) => {
+        event.preventDefault(); // Evitar recarga de la página
+        const nombre = document.getElementById("nombre").value;
+        const correo = document.getElementById("correo").value;
+        const telefono = document.getElementById("telefono").value;
 
+        const usuario = { nombre, email: correo, telefono };
+        localStorage.setItem("usuario", JSON.stringify(usuario));
+        alert("Perfil actualizado exitosamente");
+        window.location.href = "mi-cuenta.html"; // Ajusta la ruta según corresponda
+      });
+    </script>
+  </body>
 </html>
