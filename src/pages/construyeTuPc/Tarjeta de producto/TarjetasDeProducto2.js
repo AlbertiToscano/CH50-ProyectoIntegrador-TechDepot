@@ -1,4 +1,4 @@
-import { aplicarFiltros, filtroProcesador } from "./filtrosParaConstruyeTuPc";
+import { aplicarFiltros} from "./filtrosParaConstruyeTuPc";
 import { addElementToLocalStorage, deleteElementToLocalStorage, obtenerIndiceParaFiltro, obtenerProductoDeLocalStorage, restElementToLocalStorage, sumarTotal, verificarLocalStorage, } from "./funcionesLocalStorage";
 
 /*

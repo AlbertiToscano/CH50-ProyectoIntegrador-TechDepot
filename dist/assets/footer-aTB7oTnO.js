@@ -1,8 +1,4 @@
-
-
-const insertHeader = ()=>{
-    const header = document.getElementById("header");
-    header.innerHTML = `
+(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))o(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const t of a.addedNodes)t.tagName==="LINK"&&t.rel==="modulepreload"&&o(t)}).observe(document,{childList:!0,subtree:!0});function i(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function o(e){if(e.ep)return;e.ep=!0;const a=i(e);fetch(e.href,a)}})();const n=()=>{const s=document.getElementById("header");s.innerHTML=`
         <!-- Encabezado principal -->
     <!-- main-navbar.html -->
 <nav class="navbar navbar-expand-lg bg-light py-3 shadow-sm">
@@ -66,7 +62,13 @@ const insertHeader = ()=>{
   </div>
 </nav>
     
-    `;
-}
-
-insertHeader();
+    `};n();const c=()=>{const s=document.getElementById("footer");s.innerHTML=`
+<!-- Pie de página -->
+<footer class="text-center py-3 mt-0 footer">
+  <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
+  <nav>
+      <a href="/src/pages/terminosCondiciones/terminosC.html">Términos y condiciones</a> | <a href="/src/pages/avisoPrivacidad/avisoPrivacidad.html">Aviso de privacidad</a>
+  </nav>
+</footer>
+    
+    `};c();
