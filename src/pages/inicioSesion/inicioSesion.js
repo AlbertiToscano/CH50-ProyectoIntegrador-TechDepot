@@ -18,6 +18,7 @@ document.getElementById("formInicio").addEventListener("submit", function(event)
     if (usuarioEncontrado) {
         alert("Inicio de sesión correcto");
         window.location.href = "/index.html"; // Redirigir a la página de inicio
+        localStorage.setItem("sesionIniciada" , "true");
     } else {
         document.getElementById('error-inicio').classList.add('error-activo');//Si no sale aviso de error
     };

@@ -1,5 +1,4 @@
-
-
+import { actualizarNavBar } from "../sesion/sesionIniciada";
 const insertHeader = ()=>{
     const header = document.getElementById("header");
     header.innerHTML = `
@@ -20,19 +19,17 @@ const insertHeader = ()=>{
       <!-- Menú de usuario y carrito -->
       <div class="user-menu d-flex align-items-center">
           <!-- Dropdown para Iniciar Sesión -->
-          <div class="dropdown">
+          <div id='icono-usuario' class="dropdown">
               <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
-
+                
                   <a href="" class="nav-link me-3 login-link">
                       <i class="bi bi-person-circle"></i> Iniciar Sesión
                   </a>
               </button>
-              <ul class="dropdown-menu">
-                  <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>
--->
-                  <li><a class="dropdown-item" href="/src/pages/inicioSesion/inicioSesion.html">Iniciar sesion</a></li>
-                  <li><a class="dropdown-item" href="/src/pages/registro/registro.html">Registrarse</a></li>
-                  <li><a class="dropdown-item" href="/src/pages/agregarProductos/agregarP.html">Administrador</a></li>
+              <ul id='menu-perfil' class="dropdown-menu">
+                    <li></li>
+                  <li></li>
+                  <li></li>
               </ul>
           </div>
 
@@ -69,4 +66,6 @@ const insertHeader = ()=>{
     `;
 }
 
+
 insertHeader();
+window.onload = actualizarNavBar();
