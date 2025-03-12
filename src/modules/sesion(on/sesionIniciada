@@ -1,0 +1,6 @@
+
+document.addEventListener("DOMContentLoaded", function () {
+
+   localStorage.getItem("sesionIniciada").addEventListener("change", actualizarVariantes);
+})
+
