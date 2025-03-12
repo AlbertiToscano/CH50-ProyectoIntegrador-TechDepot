@@ -28,9 +28,10 @@ const insertHeader = ()=>{
                   </a>
               </button>
               <ul class="dropdown-menu">
-                  <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>
--->
-                  <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>-->
+                  <li><a class="dropdown-item" href="/src/pages/inicioSesion/inicioSesion.html">Iniciar sesion</a></li>
+                  <li><a class="dropdown-item" href="/src/pages/registro/registro.html">Registrarse</a></li>
+                  <li><a class="dropdown-item" href="/src/pages/agregarProductos/agregarP.html">Administrador</a></li>
               </ul>
           </div>
 
@@ -65,16 +66,14 @@ const insertHeader = ()=>{
                       <li><a class="dropdown-item" href="#">Opción 5</a></li>
                   </ul>
               </li>
-              <li class="nav-item"><a class="nav-link" href="/src/pages/productos.html">Productos</a></li>
+              <li class="nav-item"><a class="nav-link" href="/src/pages/Productos/productos.html">Productos</a></li>
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="/src/pages/construye-tu-pc.html" data-bs-toggle="dropdown">Construye tu máquina
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Construye tu PC
                   </a>
                   <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Opción 1</a></li>
+                      <li><a class="dropdown-item" href="/src/pages/construyeTuPc/construyeTuPc.html">Constructor interactivo de PC</a></li>
                       <li><a class="dropdown-item" href="#">Opción 2</a></li>
                       <li><a class="dropdown-item" href="#">Opción 3</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 4</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 5</a></li>
                   </ul>
               </li>
               <li class="nav-item"><a class="nav-link" href="/src/pages/contacto/contacto.html">Contacto</a></li>

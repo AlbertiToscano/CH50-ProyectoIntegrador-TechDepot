@@ -1,0 +1,298 @@
+[
+    {
+        "id": "fue1",
+        "titulo": "Forgeon Bolt PSU 850W 80+ Gold Full Modular Fuente de Alimentación",
+        "precio": 3199,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "Presentamos desde FORGEON la nueva fuente de alimentación 80+ Gold Modular. Tienes disponible sus tres modelos de 850W, 750W y 650W de potencia respectivamente para que puedas elegir la que mejor se adapte a ti. Todo ello sumado a sus diferentes accesorios entre ellos cables modulares, puertos y conectores hacen que esta fuente sea la ideal para instalarla en tu nuevo PC.",
+        "caracteristicas": {
+            "marca": "Forgeon",
+            "modelo": "Forgeon Bolt PSU 850W",
+            "capacidad": "850W",
+            "tipo": "modular",
+            "certificacion": "gold",
+            "tamaño": "ATX"
+        },
+        "imagen": "/img productos/fue1.webp",
+        "rating": {
+            "valoracion": 4.8,
+            "votos": 275
+        }
+    },
+    
+    {
+        "id": "fue2",
+        "titulo": "Nfortec Scutum X 650W 80 Plus Bronze Semi Modular",
+        "precio": 919,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "Evolución sostenible. La nueva Nfortec Scutum X llega para estar a la altura de los requisitos de las nuevas generaciones de ordenadores, con la capacidad de mantener su rendimiento al 100% con una eficiencia energética de más del 85%. La fuente de alimentación para PC Scutum X llega con una estética mejorada adaptada a las tendencias, con todas las mejoras que hacen de ella una apuesta segura para alimentar cualquier setup.",
+        "caracteristicas": {
+            "marca": "Nfortec",
+            "modelo": "Nfortec Scutum X 650W",
+            "capacidad": "650W",
+            "tipo": "semi-modular",
+            "certificacion": "bronze",
+            "tamaño": "ATX"
+        },
+        "imagen": "/img productos/fue2.webp",
+        "rating": {
+            "valoracion": 4.6,
+            "votos": 122
+        }
+    },
+    
+    {
+        "id": "fue3",
+        "titulo": "Corsair CX750 750 W 80 Plus Bronze",
+        "precio": 1359,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "Las fuentes de alimentación CORSAIR CX Series cuentan con la certificación 80 PLUS Bronze y ofrecen hasta un 88 % de eficiencia operativa para reducir el calor y el consumo de energía. Su suministro de energía continuo y completo garantiza un rendimiento constante, mientras que el ventilador de refrigeración silenciosa y control térmico de 120 mm garantiza un funcionamiento silencioso. Las fuentes de alimentación CX Series, que se adaptan fácilmente a la mayoría de chasis de PC modernos, con su longitud compacta de 125 mm, cuenta con cables con fundas negras y una carcasa con recubrimiento en negro pulverizado que se adapta al estilo de su PC.",
+        "caracteristicas": {
+            "marca": "Corsair",
+            "modelo": "Corsair CX750",
+            "capacidad": "750W",
+            "tipo": "no-modular",
+            "certificacion": "bronze",
+            "tamaño": "ATX"
+        },
+        "imagen": "/img productos/fue3.webp",
+        "rating": {
+            "valoracion": 4.6,
+            "votos": 548
+        }
+    },
+    
+    {
+        "id": "fue4",
+        "titulo": "Gigabyte GP-UD750GM 750W 80 Plus Gold Modular",
+        "precio": 1959,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "La fuente de alimentación GP-UD750GM hereda el espíritu de diseño de producto de GIGABYTE Ultra Durable, introduciendo así una variedad de materiales y diseños de alta calidad. Ultra Durable combina condensadores japoneses principales de alta calidad, una solución térmica mejorada, un ventilador de cojinete hidráulico inteligente (HYB) de 120 mm y seis diseños de protección de circuitos. Proporciona a los consumidores una fuente de alimentación estable y de alta calidad, y se puede utilizar durante mucho tiempo.",
+        "caracteristicas": {
+            "marca": "Gigabyte",
+            "modelo": "Gigabyte GP-UD750GM",
+            "capacidad": "750W",
+            "tipo": "modular",
+            "certificacion": "gold",
+            "tamaño": "ATX"
+        },
+        "imagen": "/img productos/fue4.webp",
+        "rating": {
+            "valoracion": 4.7,
+            "votos": 253
+        }
+    },
+    
+    {
+        "id": "fue5",
+        "titulo": "Forgeon Bolt PSU 1000W 80+ Gold Full Modular Blanca",
+        "precio": 4199,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "Su certificado proporciona una gran eficiencia energética que es determinante para garantizar un consumo ideal para tu equipo. Esta fuente fue fabricada con estándar certificado 80+ GOLD que se otorga a los productos que tienen más de un 80% de eficiencia de conversión energética con el objetivo de facilitar un gran ahorro.",
+        "caracteristicas": {
+            "marca": "Forgeon",
+            "modelo": "Forgeon Bolt PSU 1000W",
+            "capacidad": "1000W",
+            "tipo": "modular",
+            "certificacion": "gold",
+            "tamaño": "ATX"
+        },
+        "imagen": "/img productos/fue5.webp",
+        "rating": {
+            "valoracion": 4.6,
+            "votos": 32
+        }
+    },
+    
+    {
+        "id": "fue6",
+        "titulo": "Corsair RMx Series RM1000x PCIe 5.1 ATX 3.1 1000W 80 Plus Gold Modular",
+        "precio": 4259,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "Las fuentes de alimentación completamente modulares y silenciosas CORSAIR RMx Series ofrecen una alimentación silenciosa y fiable con eficiencia 80 PLUS Gold para su PC. Los cables totalmente modulares facilitan el ensamblaje de los PC, ya que solo tiene que conectar los cables que necesita el sistema. Las fuentes de alimentación RMx, compatibles con el estándar de alimentación ATX 3.1 de Intel®, disponen de las conexiones necesarias para suministrar alimentación al exigente hardware de PC actual, incluido un conector nativo 12 V-2×6.",
+        "caracteristicas": {
+            "marca": "Corsair",
+            "modelo": "Corsair RMx Series RM1000x",
+            "capacidad": "1000W",
+            "tipo": "modular",
+            "certificacion": "gold",
+            "tamaño": "ATX"
+        },
+        "imagen": "/img productos/fue6.webp",
+        "rating": {
+            "valoracion": 4.7,
+            "votos": 53
+        }
+    },
+    
+    {
+        "id": "fue7",
+        "titulo": "MSI MAG A850GL PCIE5 II ATX 3.1 850W 80 Plus Gold Modular",
+        "precio": 2249,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "La serie MSI MAG A850GL lucha junto a los jugadores en pos del honor. Con elementos de inspiración militar añadidos a estos productos para juegos, renacieron como símbolo de robustez y durabilidad. Tiene un puerto de salida compatible con PCIe 5.1 e Intel PSDG (Guía de diseño de fuente de alimentación) ATX 3.1, además la fuente de alimentación puede soportar hasta 2x de excursión de energía total y 3x de excursión de energía de GPU.",
+        "caracteristicas": {
+            "marca": "MSI",
+            "modelo": "MSI MAG A850GL PCIE5 II",
+            "capacidad": "850W",
+            "tipo": "modular",
+            "certificacion": "gold",
+            "tamaño": "ATX"
+        },
+        "imagen": "/img productos/fue7.webp",
+        "rating": {
+            "valoracion": 4.7,
+            "votos": 53
+        }
+    },
+
+    {
+        "id": "fue8",
+        "titulo": "Corsair HXi Series HX1500i 1500W 80 Plus Platinum Modular",
+        "precio": 6459,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "Las fuentes de alimentación totalmente modulares y de nivel sonoro ultrarreducido CORSAIR HXi Series ofrecen una potencia eficiente y excepcional 80 PLUS Platinum, así como un rendimiento de ventilador de rodamiento dinámico fluido de bajo nivel sonoro.",
+        "caracteristicas": {
+            "marca": "Corsair",
+            "modelo": "Corsair HXi Series HX1500i",
+            "capacidad": "1500W",
+            "tipo": "modular",
+            "certificacion": "platinum",
+            "tamaño": "ATX"
+        },
+        "imagen": "/img productos/fue8.webp",
+        "rating": {
+            "valoracion": 4.9,
+            "votos": 49
+        }
+    },
+    
+    {
+        "id": "fue9",
+        "titulo": "UNYKAch Fuente de Alimentación Mini ITX 150W",
+        "precio": 649,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "La fuente de alimentación 51991 de UNYKAch, tiene formato mini ITX y una potencia de 150W. Ofrece un alto rendimiento con un consumo inferior a 0,5w. Incorpora un ventilador de 40 mm con control inteligente de velocidad a través de sensor de temperatura, para generar una refrigeración más eficiente. Sus múltiples sistemas de protección, demuestran su seguridad y estabilidad.",
+        "caracteristicas": {
+            "marca": "UNYKAch",
+            "modelo": "UNYKAch Mini ITX 150W",
+            "capacidad": "150W",
+            "tipo": "no-modular",
+            "certificacion": "no",
+            "tamaño": "Mini-ITX"
+        },
+        "imagen": "/img productos/fue9.webp",
+        "rating": {
+            "valoracion": 3.9,
+            "votos": 8
+        }
+    },
+    
+    {
+        "id": "fue10",
+        "titulo": "Phoenix 250 Fuente de alimentación Tipo Flex 200W",
+        "precio": 789,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "Te presentamos la  Fuente de alimentación Tipo Flex de Phoenix con 200W de potencia. Ideal para aplicaciones Mini ITX, TPV (terminales punto de venta), servidores y aplicaciones industriales)",
+        "caracteristicas": {
+            "marca": "Phoenix",
+            "modelo": "Phoenix 250 Mini ITX",
+            "capacidad": "250W",
+            "tipo": "no-modular",
+            "certificacion": "no",
+            "tamaño": "Mini-ITX"
+        },
+        "imagen": "/img productos/fue10.webp",
+        "rating": {
+            "valoracion": 4.4,
+            "votos": 47
+        }
+    },
+    
+    {
+        "id": "fue11",
+        "titulo": "Fuente Alimentación Corsair SF850 850W SFX 80 Plus Platinum Modular",
+        "precio": 4249,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "La fuente de alimentación SFX CORSAIR SF850 80 PLUS Platinum es una PSU con una con enorme capacidad energética, lista para alimentar los equipos pequeños más vanguardistas con 750 W continuos.",
+        "caracteristicas": {
+            "marca": "Corsair",
+            "modelo": "Corsair SF850",
+            "capacidad": "850W",
+            "tipo": "modular",
+            "certificacion": "platinum",
+            "tamaño": "Micro-ATX"
+        },
+        "imagen": "/img productos/fue11.webp",
+        "rating": {
+            "valoracion": 4.9,
+            "votos": 4
+        }
+    },
+    
+    {
+        "id": "fue12",
+        "titulo": "Silverstone ST30SF V2 SFX 300W",
+        "precio": 1649,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "Como los referentes en carcasas y fuentes de alimentación SFX SFF (factor de forma pequeño), SilverStone ha lanzado un diseño de fuente de alimentación de referencia para las masas con la ST30SF, una unidad SFX de 300W diseñada para ser muy asequible y tener un gran rendimiento. Tiene una eficiencia 80 PLUS Bronce y un ventilador silencioso de para una eficiencia de primera clase y baja sonoridad.Para permitir a los usuarios aprovechar fácilmente esta excelente fuente de alimentación SFX, se incluye un adaptador para hacer que la ST30SF pueda montarse en cualquier carcasa ATX además de las que solo aceptan SFX.",
+        "caracteristicas": {
+            "marca": "Silverstone",
+            "modelo": "Silverstone ST30SF V2",
+            "capacidad": "300W",
+            "tipo": "no-modular",
+            "certificacion": "bronze",
+            "tamaño": "Micro-ATX"
+        },
+        "imagen": "/img productos/fue12.webp",
+        "rating": {
+            "valoracion": 4.8,
+            "votos": 10
+        }
+    },
+    
+    {
+        "id": "fue13",
+        "titulo": "Tacens Anima APSIII500 SFX MATX 500W",
+        "precio": 569,
+        "categoria": ["Fuente de alimentacion"],
+        "descripcion": "FUENTE DE ALIMENTACIÓN SFX 500W APSIII500. La fuente de alimentación SFX APSIII500 de Tacens Anima, con una potencia de 500W, alcanza un nivel de eficiencia Bronze del 85% gracias a la última tecnología de fabricación SMD con componentes de alta calidad y fiabilidad, su tecnología de rail único de 12V y su placa PCB de doble capa de fibra de carbono.",
+        "caracteristicas": {
+            "marca": "Tacens",
+            "modelo": "Tacens Anima APSIII500",
+            "capacidad": "500W",
+            "tipo": "no-modular",
+            "certificacion": "bronze",
+            "tamaño": "Micro-ATX"
+        },
+        "imagen": "/img productos/fue13.webp",
+        "rating": {
+            "valoracion": 4.3,
+            "votos": 15
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

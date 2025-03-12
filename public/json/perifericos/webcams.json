@@ -1,0 +1,113 @@
+[
+    {
+        "id": "web1",
+        "titulo": "Logitech HD Webcam C270",
+        "precio":444.29 ,
+        "imagen": "/img productos/web1.webp",
+        "raiting": {
+          "valoracion":4.4 ,
+          "votos": 1774
+        }
+    },
+
+    {
+        "id": "web2",
+        "titulo": "Logitech HD Pro C920 Webcam FullHD",
+        "precio":1636.87 ,
+        "imagen": "/img productos/web2.webp",
+        "raiting": {
+          "valoracion":4.6 ,
+          "votos": 2219
+        }
+    },
+
+    {
+        "id": "web3",
+        "titulo": "Logitech Brio 100 Webcam FullHD Rosa",
+        "precio":828.85 ,
+        "imagen": "/img productos/web3.webp",
+        "raiting": {
+          "valoracion":4.7 ,
+          "votos": 100
+        }
+    },
+
+    {
+        "id": "web4",
+        "titulo": "Razer Kiyo X Webcam USB 1080P",
+        "precio":850.11 ,
+        "imagen": "/img productos/web4.webp",
+        "raiting": {
+          "valoracion":4.7 ,
+          "votos": 110
+        }
+    },
+
+    {
+        "id": "web5",
+        "titulo": "Razer Kiyo Webcam FullHD 1080p",
+        "precio":1062.69 ,
+        "imagen": "/img productos/web5.webp",
+        "raiting": {
+          "valoracion":4.5 ,
+          "votos": 457
+        }
+    },
+
+    {
+        "id": "web6",
+        "titulo": "Logitech Webcam C925e HD",
+        "precio": 1401.97,
+        "imagen": "/img productos/web6.webp",
+        "raiting": {
+          "valoracion":4.6 ,
+          "votos": 311
+        }
+    },
+
+    {
+        "id": "web7",
+        "titulo": "Logitech C920s Pro Webcam Full HD 1080p/30fps con Corrección de Iluminación Automática",
+        "precio":1537.59 ,
+        "imagen": "/img productos/web7.webp",
+        "raiting": {
+          "valoracion":4.6 ,
+          "votos": 475
+        }
+    },
+   
+    {
+        "id": "web8",
+        "titulo": "Owlotech Webcam Essential",
+        "precio":106.08 ,
+        "imagen": "/img productos/web8.webp",
+        "raiting": {
+          "valoracion":4.1 ,
+          "votos": 47
+        }
+    },
+   
+    {
+        "id": "web9",
+        "titulo": "Klack WEBK1080 Webcam 1080P",
+        "precio":360.32 ,
+        "imagen": "/img productos/web9.webp",
+        "raiting": {
+          "valoracion":3.4 ,
+          "votos": 16
+        }
+    },
+
+    
+    {
+        "id": "web10",
+        "titulo": "Logitech Brio 100 Webcam FullHD Negro",
+        "precio":828.85 ,
+        "imagen": "/img productos/web10.webp",
+        "raiting": {
+          "valoracion":4.7 ,
+          "votos": 100
+        }
+    }
+
+]

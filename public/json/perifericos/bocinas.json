@@ -1,0 +1,102 @@
+[
+    {
+      "id": "boci1",
+      "titulo": "JBL PartyBox Stage 320 con Karaoke 240W Negro",
+      "precio": 9159,
+      "imagen": "/img productos/boci1.webp",
+      "raiting": {
+        "valoracion": 4.5,
+        "votos": 56
+      }
+    },
+    {
+      "id": "boci2",
+      "titulo": "Tempest M20 RGB Master 2.0",
+      "precio": 320,
+      "imagen": "/img productos/boci2.webp",
+      "raiting": {
+        "valoracion": 3,
+        "votos": 9
+      }
+    },
+    {
+      "id": "boci3",
+      "titulo": "Mars Gaming MS-OM",
+      "precio": 425,
+      "imagen": "/img productos/boci3.webp",
+      "raiting": {
+        "valoracion": 5,
+        "votos": 500
+      }
+    },
+    {
+      "id": "boci4",
+      "titulo": "Polk Monitor XT70 Pareja Altavoces de Suelo Hi-Fi Negros ",
+      "precio": 10000,
+      "imagen": "/img productos/boci4.webp",
+      "raiting": {
+        "valoracion": 4.5,
+        "votos": 33
+      }
+    },
+    {
+      "id": "boci5",
+      "titulo": "Creative Pebble V2 Altavoces 2.0 USB-C Negros",
+      "precio": 550,
+      "imagen": "/img productos/boci5.webp",
+      "raiting": {
+        "valoracion": 4.0,
+        "votos": 750
+      }
+    },
+    {
+      "id": "boci6",
+      "titulo": "Altavoz Woxter Dynamic Line DL- 410 150W Negro",
+      "precio": 931,
+      "imagen": "/img productos/boci6.webp",
+      "raiting": {
+        "valoracion": 4.6,
+        "votos": 45
+      }
+    },
+    {
+      "id": "boci7",
+      "titulo": "LG XBOOM XL9T La Bestia Altavoz Inalámbrico con Funciones DJ ",
+      "precio": 9875,
+      "imagen": "/img productos/boci7.webp",
+      "raiting": {
+        "valoracion": 4.3,
+        "votos": 26
+      }
+    },
+    {
+      "id": "boci8",
+      "titulo": "Mars Gaming MS-ECO Altavoz Portátil Bluetooth 5.1 Ecológico Wheat Straw",
+      "precio": 300,
+      "imagen": "/img productos/boci8.webp",
+      "raiting": {
+        "valoracion": 4.8,
+        "votos": 200
+      }
+    },
+    {
+      "id": "boci9",
+      "titulo": "Klipsch The Three Plus Altavoz Bluetooth Retro USB-C 120W RMS",
+      "precio": 800,
+      "imagen": "/img productos/boci9.webp",
+      "raiting": {
+        "valoracion": 5,
+        "votos": 120
+      }
+    },
+    {
+      "id": "boci10",
+      "titulo": "Polk Reserve R200 Altavoz de Estantería Blancos",
+      "precio": 8955,
+      "imagen": "/img productos/boci10.webp",
+      "raiting": {
+        "valoracion": 4.5,
+        "votos": 55
+      }
+    }
+  ]

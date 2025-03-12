@@ -2,73 +2,121 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="/src/pages/registro/registro.css">
-    <link href="" link rel="">
-    <link rel="stylesheet" href="/src/css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="/src/pages/registro/registro.css">
+  <link href="" link rel="">
+  <link rel="stylesheet" href="/src/css/main.css">
 </head>
 
-   
+
 <body>
-    <header id="header">
-    </header>
+  <header id="header">
+  </header>
+  <main>
+    <!-- Inicia registro -->
+    <form id="formulario" class="container text-center">
+      <div class="row">
+        <!-- Formulario -->
+        <div class="col-md-6" id="registro">
+          <div class="col-md-12">
+            <img src="/icons/users.png" class="img-thumbnail" alt="..." id="icono_users">
 
- <!-- Inicia registro -->
-    <section class="container text-center" id="registro">
 
-      <div class="row" >
-            <!-- Formulario -->
-            <div class="col-md-4" id="izquierda">
-                
-                <img src="../../../public/icons/users.png" class="img-thumbnail" alt="..." id="icono_users">
-                
-                <p id="titulo-registro"> Registro</p>
-                <p>Forma parte de la comunidad <strong>TechDepot</strong></p>
-             
-                <label for="nombre" class="form-label">Nombre completo</label>
-                <input type="text" class="form-control" placeholder="TechDepot" aria-label="nombre" id="nombre">
-              
-                
-                <label for="correo" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" placeholder="techdepot@gmail.com" id="correo">
-              
-              
-                <label for="contraseña" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" placeholder="Introduce tu contraseña" id="contraseña">
-               
-                
-                <button type="crear-cuenta" class="btn btn-primary" id="boton_crear_cuenta">Crear cuenta</button>
-                <p>¿Ya tienes una cuenta?
-                <a href="/src/pages/terminosCondiciones/terminosC.html" id="link-iniciar-sesión"><strong>INICIAR SESIÓN</strong></a>
-                </p>  
+            <p id="titulo-registro"> Registro</p>
+            <p id="forma-parte">Forma parte de la comunidad <strong>TechDepot</strong></p>
+            <p id="copy">Regístrate y lleva tu experiencia al siguiente nivel, obten beneficios exclusivos, acumula
+              puntos en cada compra y descubre sorpresas especiales en cada compra.</p>
+          </div>
+
+          <div class="col-md-12" class="alert alert-warning" role="alert" id="grupoNombre">
+            <label for="nombre" class="form-label">Nombre completo</label>
+            <input type="text" class="form-control" placeholder="TechDepot" aria-label="nombre" id="nombre"
+              name="nombre" required>
+            <p class="error" id="error-nombre">El nombre solo puede contener letras.</p>
+          </div>
+
+          <div class="col-md-12" class="alert alert-warning" role="alert" id="grupoNumero">
+            <label for="numero_de_telefono" class="form-label">Número de teléfono</label>
+            <input type="tel" class="form-control" name="telefono" placeholder="55-5555-5555"
+              aria-label="numero_de_telefono" pattern="[0-9]{10}" id="numero_de_telefono" required>
+            <p class="error" id="error-telefono">El número de teléfono sólo puede contener números. Máximo 10 dígitos.
+            </p>
+          </div>
+
+          <div class="col-md-12" class="alert alert-warning" role="alert" id="grupoCorreo">
+            <label for="correo" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" placeholder="techdepot@gmail.com" id="correo" name="correo" required>
+            <p class="error" id="error-correo">Formato no válido.</p>
+          </div>
+
+          <div class="col-md-12" class="alert alert-warning" role="alert" id="grupoContraseña">
+            <label for="contraseña" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" placeholder="Introduce tu contraseña" id="contraseña"
+              name="contraseña" required>
+            <p class="error" id="error-contraseña">La contraseña debe tener al menos 8 a 16 caracteres, una letra
+              mayúscula,<br> un dígito, 1 caracter especial</p>
+          </div>
+
+          <div class="col-md-12" class="alert alert-warning" role="alert" id="grupoConfirmación">
+            <label for="ConfirmaContraseña" class="form-label">Confirmar contraseña</label>
+            <input type="password" class="form-control" placeholder="Confirma tu contraseña" id="ConfirmaContraseña"
+              name="ConfirmaContraseña" required>
+            <p class="error " id="error-coincide">La contraseña no coincide.</p>
+          </div>
+
+          <div class="col-md-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="terminos">
+              <label class="form-check-label" for="gridCheck">
+                Acepto los Terminos y Condiciones
+              </label>
             </div>
-   
-            <!-- Imagen-registro -->
-            <div  class="col-md-8" id="img-registro" >
-
-                    <img src="../../../public/Imagen-registro.png" alt="persona armando una maquina" class="img-fluid">
-
-            </div>
-         </div> 
-    </section> 
+          </div>
+          
+          <div class="error-registro alert alert-danger"  id="error-registro" role="alert">
+           
+            <p>Completa los campos correctamente.</p>
     
-   <!-- Pie de página -->
- <footer id="footer">>
-</footer>
+          </div>
+
+          <div class="registro-exitoso alert alert-success" id="registro-exitoso" role="alert">
+            <p >Registro exitoso</p>
+          </div>
+
+          
+
+          <button type="submit" class="btn btn-primary" id="boton_crear_cuenta">Crear cuenta</button>
+          <p id="ya_tienes_cuenta">¿Ya tienes una cuenta?
+            <a href="" id="link-iniciar-sesión"><strong>INICIAR SESIÓN</strong></a>
+          </p>
+        </div>
+        <!-- Imagen-registro -->
+        <div class="col-md-6" id="img-registro">
+          <img src="/Imagen-registro.png" alt="persona armando una maquina" class="background">
+        </div>
+      </div>
+    </form>
+
+
+  </main>
+  <!-- Pie de página -->
+  <footer id="footer">
+  </footer>
 
 
   <!--  header js y footer js -->
+
   <script type="module" src="/src/modules/header/header.js"></script>
   <script type="module" src="/src/modules/footer/footer.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="/src/pages/registro/registro.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="/src/pages/registro/registro.js" ></script>
 </body>
 
 </html>
