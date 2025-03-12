@@ -6,6 +6,7 @@ export function fes(carpeta,iddelHTML){
     fetch("/json/"+carpeta+"/"+iddelHTML+".json")
     .then((response)=>response.json())
     .then((info)=>{
+        console.log(info);
         document.getElementById(iddelHTML).innerHTML=separarinfoObjetos(info);
     })
 .catch((error)=>console.log(error));
@@ -285,16 +286,31 @@ document.getElementById("BotonBarraWeb").addEventListener("click",  () => {
     });
     fes('perifericos','webcams');
     });
-//funcion
+//funcion renderizar informacion de tarjeta en pagiuna individual
+function mostrarInfoTarjeta(titulo,precio,imagen,descripcion){
+ 
+ localStorage.clear;
+ console.log(titulo);
+ console.log(precio);
+ console.log(imagen);
+ console.log(descripcion);
+ localStorage.setItem("titulo",titulo);
+ localStorage.setItem("precio",precio);
+ localStorage.setItem("imagen",imagen);
+ localStorage.setItem("descripcion",descripcion);
+ 
+
+}
 
 /* style="width: 18rem;" */
 
 /* LLenar las tarjetas con los datos */
 
 const productCard=(cadaobjeto,descripcionCorta)=>{
-const card= `<div class="card"  >
-                            <img src="${cadaobjeto.imagen}" class="card-img-top" alt="Imagen de producto TeachDepot">
-                        
+const card= `<div class="card">
+                            <a href="/src/pages/Productos/tarjeta.html">
+                            <img onclick="mostrarInfoTarjeta('${cadaobjeto.titulo}','${cadaobjeto.precio}','${cadaobjeto.imagen}','${cadaobjeto.descripcion}')" src="${cadaobjeto.imagen}" class="card-img-top" id="IdImagen${cadaobjeto.id}" alt="Imagen de producto TeachDepot">
+                            </a>
                         
                             <div class="card-body">
                                <div >
@@ -381,3 +397,4 @@ document.getElementById("BotonEnviarComentario").addEventListener("click",  () =
 
 window.expandirDescripcionProducto = expandirDescripcionProducto;
 window.contraerDescripcionProducto = contraerDescripcionProducto;
+window.mostrarInfoTarjeta=mostrarInfoTarjeta;
