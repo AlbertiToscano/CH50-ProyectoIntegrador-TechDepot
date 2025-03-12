@@ -4,13 +4,13 @@ window.addEventListener("load", () => {
   
     if (usuario) {
       // Asigna los datos a los inputs usando .value
-      document.getElementById("nombre-usuario").value = usuario.nombre;
-      document.getElementById("correo-usuario").value = usuario.email;
-      document.getElementById("telefono-usuario").value = usuario.telefono;
+      document.getElementById('nombre-usuario').textContent = usuario.datosUsuario.nombre;
+      document.getElementById('email-usuario').textContent = usuario.datosUsuario.email;
+      document.getElementById('telefono-usuario').textContent = usuario.datosUsuario.telefono;
     } else {
       // Si no hay usuario logueado, redirige al login
-      alert("No has iniciado sesión");
-      window.location.href = "login.html"; // Ajusta la ruta si es necesario
+      /* alert("No has iniciado sesión");
+      window.location.href = "login.html"; // Ajusta la ruta si es necesario */
     }
     });
 

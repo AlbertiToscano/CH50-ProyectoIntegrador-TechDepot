@@ -15,26 +15,7 @@ body{
   overflow-x: hidden;
 }
 
-#botónExploraAhora {
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background 0.3s, color 0.3s;
-}
-
-.activo {
-  background-color: #021E2A; /* Azul oscuro */
-  color: white;
-}
-
-.inactivo {
-  background-color: #153B4C; /* Gris */
-  color: #fff;
-}
-/* Estilos generales para los botones */
-.btn {
+.botonbanner {
     
   background-color: #021E2A;
   color: #fff; /* Blanco */
@@ -47,9 +28,7 @@ body{
   box-shadow: #4a859e /* Sombra */
 }
 
-.btn:hover {
-  background-color: #386578; 
-}
+
 
 /*Carrusel Logotipos*/
 
