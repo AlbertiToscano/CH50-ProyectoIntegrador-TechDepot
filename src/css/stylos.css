@@ -11,6 +11,9 @@ h1{
   text-align: center;
 }
 
+body{
+  overflow-x: hidden;
+}
 
 #botónExploraAhora {
   padding: 10px 20px;
@@ -52,14 +55,16 @@ h1{
 
 .slider{
   width: 150vw;
+  overflow: hidden;
+  position: relative;
   height: auto;
   margin: auto;
-  overflow: hidden;
   margin-bottom: 100px;
 }
 
 .slider .slider-track{
   display: flex;
+  margin-right: 36px;
   gap: 2rem;
   animation: scroll 40s linear infinite;
   -webkit-animation: scroll 40s linear infinite; 
@@ -159,11 +164,13 @@ h1{
     align-items: left;
     text-align: left;
     gap: 1rem;
+    
   }
 
   #botónExploraAhora{
     padding: 10px 20px;
     font-size: 14px;
+    
   }
 
   .imagenSobrepuesta {
@@ -174,7 +181,9 @@ h1{
     max-width: 80%;
   }
 }
-
+.activo{
+  text-decoration: none;
+}
 @media (max-width: 768px) {
   
     & > h5 {
@@ -301,7 +310,7 @@ h1{
   overflow-x: auto;
   overflow-y: hidden;
   padding: 24px;
- max-width: 1250px;
+  max-width: 1250px;
   height: 600px;
   scroll-snap-type: x mandatory ;
   scroll-padding: 2px;
@@ -412,10 +421,7 @@ h1{
   object-fit: cover;
 }
 
-.negrita{
-  
-  color: black;
-}
+
   
   /* Estilos para móvil */
   @media (max-width: 768px) {
@@ -443,112 +449,81 @@ h1{
   /* boton banner  */
   .btn-custom {
   
-    display: inline-block;
-    padding: 12px 24px;
+    padding: 10px 20px;
     font-size: 16px;
-    font-weight: bold;
-    border-radius: 30px;
-    text-align: center;
-    text-decoration: none;
     border: none;
+    border-radius: 20px;
     cursor: pointer;
-    transition: background 0.3s, opacity 0.3s; 
+    transition: background 0.3s, color 0.3s;
   }
   
-  /* Estilos de los tres botones */
-  .btn-dark {
+  .activo {
     background-color: #021E2A; /* Azul oscuro */
     color: white;
+  
   }
   
-  .btn-light {
-    background-color: #0c0d0e; /* Azul grisáceo */
-    color: white;
-    opacity: 0.6; /* Simulación de estado deshabilitado */
+  .inactivo {
+    background-color: #153B4C; /* Gris */
+  color: #fff;
   }
   
-  .btn-medium {
-    background-color: #153B4C; /* Azul intermedio */
-    color: white;
-  }
-  
-  /* Efecto hover (solo para los botones activos)  banner */
-  .btn-dark:hover,
-  .btn-medium:hover {
-    opacity: 0.8;
-  }
+
 
    /* aqui termina el  banner principal*/
 
-/* servicio */
-
-.servicios{
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente (si el contenedor tiene altura definida) */
-    flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias líneas */
-    gap: 20px; /* Espacio entre tarjetas */
-
-
+/*servicios*/
+.containerServicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 115px;
+  background-color: #D6E1EC;
+  background-size: 1512px 300px;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 100px; 
 }
-.servicios{
-  
-  display: grid;
-  grid-template-columns: repeat(4, minmax(200px, 1fr)); /* Columnas flexibles en PC */
-  gap: 10px; /* Espacio entre tarjetas */
-  text-align: center;
+
+.card {
+  background-color: #fff;
+  width: 219px;
+  height: 166px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-content {
   padding: 20px;
-}
-  
-  /* Estilo de las tarjetas */
-  
-
-/* Ajuste para las tarjetas */
-/* Diseño móvil: 2x2 con espacio */
-@media (max-width: 767px) {
-  .servicios {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); /* 2 columnas */
-      gap: 15px; /* Espacio entre tarjetas */
-      justify-content: center;
-      padding: 10px;
-  }
-
-  /* Ajuste para cada tarjeta */
-  .servicios .col-6 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background: #f8f9fa;
-      padding: 15px;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  /* Imagen dentro de la tarjeta */
-  .icon {
-      max-width: 80px;
-      height: auto;
-  }
+  text-align: center;
 }
 
-/* Diseño en pantallas más grandes */
-@media (min-width: 768px) {
-  .servicios {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-  }
+.card img {
+  width: 65px;
+  height: 70px;
+  margin-bottom: 25px;
+}
 
-  .servicios .col-6 {
-      flex: 1 1 20%;
-      max-width: 200px;
-  }
+.card h3 {
+  font-size: 14px;
+  color: #1F5673;
+  font-weight: 600;
 }
 
 
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+ @media (max-width: 768px) {
+    .card img {
+      width: 50px; /* Reducimos tamaño en móviles */
+    }
+  }
+/*aqui terminan los servicios*/  
 
 
 
@@ -570,7 +545,7 @@ h1{
     width: 120px; /* Tamaño base en PC */
     height: auto;
     max-width: 100%;
-    transition: all 0.3s ease-in-out; /* Efecto suave */
+    
   }
   
   /* Versión móvil */
