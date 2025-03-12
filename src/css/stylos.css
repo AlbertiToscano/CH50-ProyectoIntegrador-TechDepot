@@ -11,6 +11,9 @@ h1{
   text-align: center;
 }
 
+body{
+  overflow-x: hidden;
+}
 
 #botónExploraAhora {
   padding: 10px 20px;
@@ -52,14 +55,16 @@ h1{
 
 .slider{
   width: 150vw;
+  overflow: hidden;
+  position: relative;
   height: auto;
   margin: auto;
-  overflow: hidden;
   margin-bottom: 100px;
 }
 
 .slider .slider-track{
   display: flex;
+  margin-right: 36px;
   gap: 2rem;
   animation: scroll 40s linear infinite;
   -webkit-animation: scroll 40s linear infinite; 
@@ -301,7 +306,7 @@ h1{
   overflow-x: auto;
   overflow-y: hidden;
   padding: 24px;
- max-width: 1250px;
+  max-width: 1250px;
   height: 600px;
   scroll-snap-type: x mandatory ;
   scroll-padding: 2px;
@@ -412,10 +417,7 @@ h1{
   object-fit: cover;
 }
 
-.negrita{
-  
-  color: black;
-}
+
   
   /* Estilos para móvil */
   @media (max-width: 768px) {
@@ -480,52 +482,58 @@ h1{
 
    /* aqui termina el  banner principal*/
 
-/* servicio */
-
-.servicios{
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente (si el contenedor tiene altura definida) */
-    flex-wrap: wrap; /* Permite que las tarjetas se acomoden en varias líneas */
-    gap: 20px; /* Espacio entre tarjetas */
-
-
+/*servicios*/
+.containerServicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 115px;
+  background-color: #D6E1EC;
+  background-size: 1512px 300px;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 100px; 
 }
-.servicios{
-  
-  display: grid;
-  grid-template-columns: repeat(4, minmax(200px, 1fr)); /* Columnas flexibles en PC */
-  gap: 10px; /* Espacio entre tarjetas */
-  text-align: center;
+
+.card {
+  background-color: #fff;
+  width: 219px;
+  height: 166px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-content {
   padding: 20px;
+  text-align: center;
 }
-  
-  /* Estilo de las tarjetas */
-  .imagen-animada {
-    background: #f0f0f0;
-    padding: 40px; /* Tamaño grande en PC */
-    border-radius: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out; /* Transición suave */
-  }
-  
-  /* Versión móvil */
-  @media (max-width: 800px) {
-    .servicios {
-      grid-template-columns: repeat(2, minmax(110px, 1fr)); /* 2 columnas en móvil */
-      gap: 10px;
-    }
-  
-    .imagen-animada {
-      padding: 5px; /* Reducimos el tamaño en móvil */
-      font-size: 1rem;
-      margin-top: 10px;
-      margin-bottom: 10px;
-     
+
+.card img {
+  width: 65px;
+  height: 70px;
+  margin-bottom: 25px;
+}
+
+.card h3 {
+  font-size: 14px;
+  color: #1F5673;
+  font-weight: 600;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+ @media (max-width: 768px) {
+    .card img {
+      width: 50px; /* Reducimos tamaño en móviles */
     }
   }
-  
+/*aqui terminan los servicios*/  
 
 
 
@@ -547,7 +555,7 @@ h1{
     width: 120px; /* Tamaño base en PC */
     height: auto;
     max-width: 100%;
-    transition: all 0.3s ease-in-out; /* Efecto suave */
+    
   }
   
   /* Versión móvil */
