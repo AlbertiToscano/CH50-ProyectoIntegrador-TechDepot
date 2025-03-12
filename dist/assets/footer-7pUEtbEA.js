@@ -1,4 +1,4 @@
-(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const o of a.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&t(o)}).observe(document,{childList:!0,subtree:!0});function i(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function t(e){if(e.ep)return;e.ep=!0;const a=i(e);fetch(e.href,a)}})();const n=()=>{const s=document.getElementById("header");s.innerHTML=`
+(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const n of a.addedNodes)n.tagName==="LINK"&&n.rel==="modulepreload"&&r(n)}).observe(document,{childList:!0,subtree:!0});function o(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function r(e){if(e.ep)return;e.ep=!0;const a=o(e);fetch(e.href,a)}})();function t(){const s=localStorage.getItem("sesionIniciada"),i=document.getElementById("icono-usuario");let o="";switch(s){case"true":o="<button class='btn user-btn dropdown-toggle' type='button' data-bs-toggle='dropdown'> <a href='/src/pages/miCuenta/miCuenta.html' class='nav-link me-3 login-link'> <i class='bi bi-person-circle'></i> Mi Cuenta</a></button><ul class='dropdown-menu'><li><a class='dropdown-item' href='/src/pages/miCuenta/miCuenta.html'>Mi cuenta</a></li> <li><a class='dropdown-item' href='/src/pages/miCuenta/misPedidos/misPedidos.html'>Mis pedidos</a></li> <li><a class='dropdown-item' href='/src/pages/agregarProductos/agregarP.html'>Administrador</a></li></ul>";break;default:o="<button class='btn user-btn dropdown-toggle' type='button' data-bs-toggle='dropdown'> <a href='#' class='nav-link me-3 login-link'> <i class='bi bi-person-circle'></i> Iniciar Sesión</a></button><ul id='menu-perfil' class='dropdown-menu'><li><a class='dropdown-item' href='/src/pages/inicioSesion/inicioSesion.html'>Iniciar Sesion</a></li> <li><a class='dropdown-item' href='/src/pages/registro/registro.html'>Registrarse</a></li> <li><a class='dropdown-item' href='/src/pages/agregarProductos/agregarP.html'>Administrador</a></li></ul>"}i.innerHTML=o}const l=()=>{const s=document.getElementById("header");s.innerHTML=`
         <!-- Encabezado principal -->
     <!-- main-navbar.html -->
 <nav class="navbar navbar-expand-lg bg-light py-3 shadow-sm">
@@ -16,19 +16,17 @@
       <!-- Menú de usuario y carrito -->
       <div class="user-menu d-flex align-items-center">
           <!-- Dropdown para Iniciar Sesión -->
-          <div class="dropdown">
+          <div id='icono-usuario' class="dropdown">
               <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
 
                   <a href="#" class="nav-link me-3 login-link">
                       <i class="bi bi-person-circle"></i> Iniciar Sesión
                   </a>
               </button>
-              <ul class="dropdown-menu">
-                  <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>
--->
-                  <li><a class="dropdown-item" href="/src/pages/inicioSesion/inicioSesion.html">Iniciar sesion</a></li>
-                  <li><a class="dropdown-item" href="src/pages/registro/registro.html">Registrarse</a></li>
-                  <li><a class="dropdown-item" href="/src/pages/agregarProductos/agregarP.html">Administrador</a></li>
+              <ul id='menu-perfil' class="dropdown-menu">
+                    <li></li>
+                  <li></li>
+                  <li></li>
               </ul>
           </div>
 
@@ -80,7 +78,7 @@
   </div>
 </nav>
     
-    `};n();const l=()=>{const s=document.getElementById("footer");s.innerHTML=`
+    `};l();window.onload=t();const c=()=>{const s=document.getElementById("footer");s.innerHTML=`
 <!-- Pie de página -->
 <footer class="text-center py-3 mt-0 footer">
   <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
@@ -89,4 +87,4 @@
   </nav>
 </footer>
     
-    `};l();
+    `};c();

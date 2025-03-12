@@ -24,7 +24,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
     <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="/src/pages/Mi cuenta/mi cuenta.css" />
+    <link rel="stylesheet" href="/src/pages/miCuenta/miCuenta.css" />
     <title>Editar perfil</title>
   </head>
   <body>
@@ -99,7 +99,7 @@
         }
       });
 
-      // Al enviar el formulario, guardar los cambios en localStorage y redirigir a "Mi cuenta"
+      // Al enviar el formulario, guardar los cambios en localStorage y redirigir a "miCuenta"
       document.getElementById("editar-perfil-form").addEventListener("submit", (event) => {
         event.preventDefault(); // Evitar recarga de la página
         const nombre = document.getElementById("nombre").value;

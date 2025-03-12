@@ -9,7 +9,7 @@ export function actualizarNavBar() {
 
     switch (sesionIniciada) {
         case "true":
-            perfil = "<button class='btn user-btn dropdown-toggle' type='button' data-bs-toggle='dropdown'> <a href='/src/pages/Mi cuenta/mi cuenta.html' class='nav-link me-3 login-link'> <i class='bi bi-person-circle'></i> Mi cuenta</a></button><ul class='dropdown-menu'><li><a class='dropdown-item' href='/src/pages/Mi cuenta/mi cuenta.html'>Mi cuenta</a></li> <li><a class='dropdown-item' href='/src/pages/Mi cuenta/mis pedidos/mis pedidos.html'>Mis pedidos</a></li> <li><a class='dropdown-item' href='/src/pages/agregarProductos/agregarP.html'>Administrador</a></li></ul>";
+            perfil = "<button class='btn user-btn dropdown-toggle' type='button' data-bs-toggle='dropdown'> <a href='/src/pages/miCuenta/miCuenta.html' class='nav-link me-3 login-link'> <i class='bi bi-person-circle'></i> Mi Cuenta</a></button><ul class='dropdown-menu'><li><a class='dropdown-item' href='/src/pages/miCuenta/miCuenta.html'>Mi cuenta</a></li> <li><a class='dropdown-item' href='/src/pages/miCuenta/misPedidos/misPedidos.html'>Mis pedidos</a></li> <li><a class='dropdown-item' href='/src/pages/agregarProductos/agregarP.html'>Administrador</a></li></ul>";
             break;
 
         default:
