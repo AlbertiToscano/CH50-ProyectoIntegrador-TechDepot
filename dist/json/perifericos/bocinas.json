@@ -3,7 +3,11 @@
     "id": "boci1",
     "titulo": "JBL PartyBox Stage 320 con Karaoke 240W Negro",
     "precio": 9159,
+<<<<<<< HEAD
     "imagen": "/img productos/Boci1.webp",
+=======
+    "imagen": "/img productos/boci1.webp",
+>>>>>>> 1bc1e5098326683d733ff6593e7d8a299b49f169
     "descripcion": "El JBL PartyBox Stage 320 es un altavoz potente con 240W de potencia. Su función de karaoke y efectos de luces lo hacen perfecto para cualquier fiesta. Con conectividad Bluetooth, puedes llevar la música a cualquier parte y disfrutar de un sonido de calidad superior. Ideal para eventos grandes o celebraciones al aire libre.",
     "raiting": {
       "valoracion": 4.5,

@@ -1,8 +1,12 @@
 
 /* Función que hace la peticion a los archivos Json  */
-function fes(carpeta,iddelHTML){
+export function fes(carpeta,iddelHTML){
    
+<<<<<<< HEAD
     //fetch("/json/componentes/almacenamientoInterno.json")
+=======
+    //fetch("/public/json/componentes/almacenamientoInterno.json")
+>>>>>>> 1bc1e5098326683d733ff6593e7d8a299b49f169
     fetch("/json/"+carpeta+"/"+iddelHTML+".json")
     .then((response)=>response.json())
     .then((info)=>{
@@ -56,6 +60,7 @@ function expandirDescripcionProducto(cadaobjetoid){
 
 }
 
+
 //Mostrar Descripcion corta de producto al presionar el boton varriba
 function contraerDescripcionProducto(cadaobjetoid){
    let IdescripcionE=document.getElementById("IDescripcionExpandida"+cadaobjetoid);
@@ -70,17 +75,17 @@ IdescripcionB.classList.add("descripcionCortabase");
 
 }
 //funcion para alidear los acordeonesn 
-document.getElementById("BotonBarraGabinete").addEventListener("click",  () => {
-let barraSelecionada = document.getElementById("aquiGabinetes");
 
-barraSelecionada.scrollIntoView({
-    behavior: "smooth",  // Desplazamiento suave
-    block: "start"      // Asegura que el contenido se vea en la parte superior
-});
-//fes('componentes', 'gabinete');
+/* temporal almacenamientointerno*/
+document.getElementById("BotonBarraalmacenamientointerno").addEventListener("click",  () => {
+    
+    fes('componentes','almacenamientoInterno');
+    
+    
+    });
+/* temporal */
 
 
-});
 
 /* temporal bocinas*/
 document.getElementById("BotonBarraBocina").addEventListener("click",  () => {
@@ -162,6 +167,7 @@ document.getElementById("BotonBarraGpu").addEventListener("click",  () => {
     
     });
 /* temporal */
+
 /* temporal Impresoras*/
 document.getElementById("BotonBarraImpresoras").addEventListener("click",  () => {
     let barraSelecionada = document.getElementById("aquiImpresora");
@@ -171,53 +177,211 @@ document.getElementById("BotonBarraImpresoras").addEventListener("click",  () =>
         block: "start"      // Asegura que el contenido se vea en la parte superior
     });
     fes('oficina','impresoras');
-    
-    
     });
-/* temporal */
-
-
+//funcion
+/* temporal laptops*/
+document.getElementById("BotonBarraLaptops").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquilaptops");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('oficina','laptops');
+    });
 //funcion
 
+/* temporal ram*/
+document.getElementById("BottonBarraMemoriaRam").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquimemoriaRAM");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('componentes','memoriaRAM');
+    });
+//funcion
+/* temporal Monitores*/
+document.getElementById("BotonBarraMonitores").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquimonitores");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('perifericos','monitores');
+    });
+//funcion
+/* temporal Mouse*/
+document.getElementById("BotonBarraMouse").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquimouse");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('perifericos','mouse');
+    });
+//funcion
+/* temporal MotherBoard*/
+document.getElementById("BotonBarraMother").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquimotherboard");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('componentes','motherboard');
+    });
+//funcion
+/* temporal Procesadores*/
+document.getElementById("BotonBarraProcesadores").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquiprocesadores");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('componentes','procesadores');
+    });
+//funcion
+/* temporal Teclados*/
+document.getElementById("BotonBarraTeclados").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquiteclados");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('perifericos','teclados');
+    });
+//funcion
+/* temporal Tintas*/
+document.getElementById("BotonBarrasTintas").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquitintas");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('oficina','tintas');
+    });
+//funcion
+/* temporal usb*/
+document.getElementById("BarraBotonUsb").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquiusb");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('perifericos','usb');
+    });
+//funcion
+/* temporal web*/
+document.getElementById("BotonBarraWeb").addEventListener("click",  () => {
+    let barraSelecionada = document.getElementById("aquiwebcams");
+    
+    barraSelecionada.scrollIntoView({
+        behavior: "smooth",  // Desplazamiento suave
+        block: "start"      // Asegura que el contenido se vea en la parte superior
+    });
+    fes('perifericos','webcams');
+    });
+//funcion
 
+/* style="width: 18rem;" */
 
 /* LLenar las tarjetas con los datos */
 
 const productCard=(cadaobjeto,descripcionCorta)=>{
-const card= `<div class="card" style="width: 18rem;">
+const card= `<div class="card"  >
                             <img src="${cadaobjeto.imagen}" class="card-img-top" alt="Imagen de producto TeachDepot">
+                        
+                        
                             <div class="card-body">
-                               <div>
-                                <h5 class="card-title">${cadaobjeto.titulo}</h5>
-                                <div id="contenedorDescripcion">
-                                <p class="card-text " id="IDescripcionContraidabase${cadaobjeto.id}">${descripcionCorta}</p>
-                                <p class="card-text descripcionExpandida" id="IDescripcionExpandida${cadaobjeto.id}">${cadaobjeto.descripcion}</p>
-                                <p class="card-text descripcionCorta" id="IDescripcionContraida${cadaobjeto.id}">${descripcionCorta}</p>
+                               <div >
+                                        <h5 class="card-title">${cadaobjeto.titulo}</h5>
+                                            <div id="contenedorDescripcion">
+                                            <p class="card-text " id="IDescripcionContraidabase${cadaobjeto.id}">${descripcionCorta}</p>
+                                            <p class="card-text descripcionExpandida" id="IDescripcionExpandida${cadaobjeto.id}">${cadaobjeto.descripcion}</p>
+                                            <p class="card-text descripcionCorta" id="IDescripcionContraida${cadaobjeto.id}">${descripcionCorta}</p>
+                                            </div>
+                                        
+                                        <i class="bi bi-arrow-down-square vabajo" onclick="expandirDescripcionProducto('${cadaobjeto.id}')" ></i>
+                                        <i class="bi bi-arrow-up-square varriba" onclick="contraerDescripcionProducto('${cadaobjeto.id}')"></i>
                                 </div>
-                                
-                                <i class="bi bi-arrow-down-square vabajo" onclick="expandirDescripcionProducto('${cadaobjeto.id}')" ></i>
-                                <i class="bi bi-arrow-up-square varriba" onclick="contraerDescripcionProducto('${cadaobjeto.id}')"></i>
-                                </div>
-                                <div class="d-flex justify-content-between align-items-center">
                                     <div>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-fill text-warning"></i>
-                                        <i class="bi bi-star-half text-warning"></i>
-                                        <i class="bi bi-star text-warning"></i>
-                                        <small class="text-muted">(3.5)</small>
+                                    
                                     </div>
-                                </div>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <span class="h5 mb-0 card-price">${cadaobjeto.precio}</span>
-                                        <div>
-                                            <a href="#" class="btn">Añadir al carrito</a>
-                                        </div>
-                                    </div>
-                            </div>
+                              
+                                              
+                                                <div class="d-flex justify-content-between align-items-center cardEstrellas">
+                                                        <div>
+                                                            <i class="bi bi-star-fill text-warning"></i>
+                                                            <i class="bi bi-star-fill text-warning"></i>
+                                                            <i class="bi bi-star-fill text-warning"></i>
+                                                            <i class="bi bi-star-half text-warning"></i>
+                                                            <i class="bi bi-star text-warning"></i>
+                                                            <small class="text-muted">(3.5)</small>
+                                                        </div>
+                                                </div>
+                                
+                                   
+                                                <div  class="d-flex justify-content-between align-items-center contPrice">
+                                                        <span class="h5 mb-0 card-price">$${cadaobjeto.precio}</span>
+                                                            <div>
+                                                                <a href="#" class="btn">Añadir al carrito</a>
+                                                            </div>
+                                                 </div>
+                                         
+                        </div>
+          
+          
+          
                         </div>`;
 return card;
 
 };
+/* Colocar la Tarjeta de reseña del usuario*/
+
+const resenaCard=(texto)=>{
+   const card=` 
+      <!-- aqui empiueza el bloque para mostrar la reseña del cliente -->
+         <div class="recuadroAtras">
+          <div class="reseña">
+            <i class="icono bi bi-person-circle" >Usuario</i>
+            <div class="estrellas">
+              <i class="bi bi-star-fill text-warning "></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-half text-warning"></i>
+              <i class="bi bi-star text-warning"></i>
+              <small class="textestrella">(3.5)</small>
+              
+                        </div><!-- ESTRELLAS -->
+            
+                   <p class="textReseña">${texto}</p>
+                 <div class="contenedorBoton" ><button id="idBotonVerMasComentario">Ver más</button></div>
+
+          </div><!-- RESEÑA -->
+         </div>`
+
+return card;
+};
+
+/* Capturar la reseña del usuario */
+document.getElementById("BotonEnviarComentario").addEventListener("click",  () => {
+   // let colocarReseña = document.getElementById("colocarTarjetaReseña");
+  let texto=document.getElementById("textResenaUsuario").value;
+    document.getElementById("colocarTarjetaResena").innerHTML+=resenaCard(texto);
+    document.getElementById("textResenaUsuario").value = "";
+    
+    });
 
 
+
+
+window.expandirDescripcionProducto = expandirDescripcionProducto;
+window.contraerDescripcionProducto = contraerDescripcionProducto;

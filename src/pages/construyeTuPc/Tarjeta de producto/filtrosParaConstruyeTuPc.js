@@ -314,7 +314,7 @@ export const pagarCheck = () => {
             </div>`;
         } else {
          tarjetaTotal.removeChild(tarjetaTotal.firstChild);
-         window.location.href = "/src/pages/carrito/carrito.html"
+         /* window.location.href = "/src/pages/carrito/carrito.html" */
         }
     })
 }
