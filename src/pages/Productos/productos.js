@@ -302,13 +302,18 @@ function mostrarInfoTarjeta(titulo,precio,imagen,descripcion){
 
 }
 
+function productoComprado(idProductoComprado){
+   
+    localStorage.setItem("productoAgregado",idProductoComprado);
+}
+
 /* style="width: 18rem;" */
 
 /* LLenar las tarjetas con los datos */
 
 const productCard=(cadaobjeto,descripcionCorta)=>{
 const card= `<div class="card">
-                            <a href="/src/pages/Productos/tarjeta.html">
+                            <a href="/src/pages/detallesProductos/detallesProductos.html">
                             <img onclick="mostrarInfoTarjeta('${cadaobjeto.titulo}','${cadaobjeto.precio}','${cadaobjeto.imagen}','${cadaobjeto.descripcion}')" src="${cadaobjeto.imagen}" class="card-img-top" id="IdImagen${cadaobjeto.id}" alt="Imagen de producto TeachDepot">
                             </a>
                         
@@ -344,7 +349,9 @@ const card= `<div class="card">
                                                 <div  class="d-flex justify-content-between align-items-center contPrice">
                                                         <span class="h5 mb-0 card-price">$${cadaobjeto.precio}</span>
                                                             <div>
-                                                                <a href="#" class="btn">Añadir al carrito</a>
+                                                                <button onclick="productoComprado('${cadaobjeto.id}')" class="btn">Añadir al carrito</button>
+                                                                
+                                                               
                                                             </div>
                                                  </div>
                                          
@@ -398,3 +405,4 @@ document.getElementById("BotonEnviarComentario").addEventListener("click",  () =
 window.expandirDescripcionProducto = expandirDescripcionProducto;
 window.contraerDescripcionProducto = contraerDescripcionProducto;
 window.mostrarInfoTarjeta=mostrarInfoTarjeta;
+Window.productoComprado=productoComprado;
