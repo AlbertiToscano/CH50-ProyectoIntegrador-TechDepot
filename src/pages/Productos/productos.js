@@ -2,11 +2,7 @@
 /* Función que hace la peticion a los archivos Json  */
 export function fes(carpeta,iddelHTML){
    
-<<<<<<< HEAD
-    //fetch("/json/componentes/almacenamientoInterno.json")
-=======
     //fetch("/public/json/componentes/almacenamientoInterno.json")
->>>>>>> 1bc1e5098326683d733ff6593e7d8a299b49f169
     fetch("/json/"+carpeta+"/"+iddelHTML+".json")
     .then((response)=>response.json())
     .then((info)=>{
