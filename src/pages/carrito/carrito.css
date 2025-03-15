@@ -116,6 +116,7 @@ h2, h4 {
     justify-content: center;
     align-items: center;
     width: 100%; /* Asegura que ocupe el 100% del contenedor disponible */
+    
 }
 
 /* Estilo para los botones */
@@ -182,4 +183,14 @@ h2, h4 {
     padding: 0;         /* Elimina padding adicional */
     border: none;       /* Elimina borde del botón */
     background: transparent;  /* Hace el fondo transparente para ver solo el icono */
+}
+
+
+.imgProducto{
+    max-width: 6em;
+}
+
+
+.descripcion{
+    
 }
