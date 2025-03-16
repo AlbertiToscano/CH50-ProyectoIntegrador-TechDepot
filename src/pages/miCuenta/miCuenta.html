@@ -68,8 +68,11 @@
           </div>
         </div>
         <div class="col-sm-2 col-md-10 col-lg-8">
-          <a href="/src/pages/miCuenta/editarPerfil/editarPerfil.html" class="btn-informacion btn-primary" role="button"
-            data-bs-toggle="button">Editar perfil</a>
+          <a  href="/src/pages/miCuenta/editarPerfil/editarPerfil.html" class="btn-informacion btn-primary" role="button">Editar perfil</a>
+          <button id="btn-cerrar" class="btn-bd-primary" type="button">Cerrar sesion</button>
+         
+          
+          
         </div>
       </div>
     </section>
@@ -126,6 +129,8 @@
           </div>
         </div>
       </a>
+
+     
     </section>
   </main>
 
@@ -137,32 +142,7 @@
   <script type="module" src="/src/modules/footer/footer.js"></script>
   <!-- Script para cargar datos de usuario -->
   <script type="module" src="/src/pages/miCuenta/miCuenta.js"></script>
-  <script>
-    document.getElementById("cambiar-foto").addEventListener("click", function () {
-      document.getElementById("file-input").click(); // Activa la selección de archivos
-    });
+ 
 
-    document.getElementById("file-input").addEventListener("change", function (event) {
-      const file = event.target.files[0]; // Obtener el archivo seleccionado
-      if (file) {
-        const reader = new FileReader(); // Crear un lector de archivos
-        reader.onload = function (e) {
-          document.getElementById("imagen-usuario").src = e.target.result; // Cambiar la imagen
-          localStorage.setItem("imagenPerfil", e.target.result); // Guardar en localStorage
-        };
-        reader.readAsDataURL(file); // Leer la imagen como URL
-      }
-    });
-
-    // Cargar la imagen guardada en localStorage al abrir la página
-    window.addEventListener("load", function () {
-      const imagenGuardada = localStorage.getItem("imagenPerfil");
-      if (imagenGuardada) {
-        document.getElementById("imagen-usuario").src = imagenGuardada;
-      }
-    });
-
-  </script>
-</body>
 
 </html>

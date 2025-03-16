@@ -19,7 +19,8 @@ export default defineConfig({
         direcciones: resolve(__dirname, 'src/pages/miCuenta/direcciones/direcciones.html'),
         misPedidos: resolve(__dirname, 'src/pages/miCuenta/misPedidos/misPedidos.html'),
         misPedidos2: resolve(__dirname, 'src/pages/miCuenta/misPedidos/misPedidospag2.html'),
-        metodosPago: resolve(__dirname, 'src/pages/miCuenta/metodosPago/metodosPago.html')
+        metodosPago: resolve(__dirname, 'src/pages/miCuenta/metodosPago/metodosPago.html'),
+        editarPerfil: resolve(__dirname, 'src/pages/miCuenta/editarPerfil/editarPerfil.html')
       },
     },
   },
