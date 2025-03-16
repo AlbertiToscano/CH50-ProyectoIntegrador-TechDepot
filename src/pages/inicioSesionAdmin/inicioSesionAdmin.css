@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #386578;
+    color: #153B4C;
+}
+
+#titulo-login {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+#icono_users {
+    background-color: transparent;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#boton_iniciar_sesion {
+    border: 15px #639CC7;
+    background: #021E2A;
+    font-family: 'poppins';
+    font-size: 18px;
+    border-radius: 53px;
+    width: 10px;
+    margin-top: 10px;
+    height: 47px;
+    margin-bottom: 15px;
+
+}
+
+#boton_iniciar_sesion:hover {
+    box-shadow: 0 0 10px #639CC7;
+}
+
+#correo,
+#contraseña {
+    background: #A2B8C9;
+    border-radius: 63.41px;
+    border-color: #A8AEB4;
+    font-size: 13px;
+    height: 40px;
+}
+
+.form-label {
+    color: white;
+    font-size: 13px;
+    text-align: left;
+}
+
+#bienvenido {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#instrucciones {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* .error {
+    font-size: 12px;
+    margin-top: -25px;
+    display: none;
+}
+
+.error-activo {
+    display: block;
+} */
+
+
+
+/* Estilos para la sección de la imagen en dispositivos móviles */
+#img-login {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+#img-login img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilos para dispositivos más grandes (tablets y escritorios) */
+@media (min-width: 768px) {
+    #img-login {
+        height: 100vh;
+        /* Restaura la altura automática en dispositivos más grandes */
+        overflow: flex;
+        /* Muestra la imagen completa */
+    }
+
+    #img-login img {
+        position: static;
+        transform: none;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+
+/* Estilos para campos válidos */
+.campo-valido {
+    border: 2px solid #28a745 !important;
+    /* Verde */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+/* Estilos para campos inválidos */
+.campo-invalido {
+    border: 2px solid #dc3545 !important;
+    /* Rojo */
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+}
+
+/* Estilos para los mensajes de error */
+.error {
+    font-size: 12px;
+    color: #dc3545;
+    /* Rojo */
+    margin-top: 5px;
+    display: none;
+}
+
+.error-activo {
+    display: block;
+}
+

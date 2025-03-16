@@ -28,11 +28,11 @@ const insertHeader = ()=>{
                   </a>
               </button>
               <ul class="dropdown-menu">
-                  <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>s
 -->
                   <li><a class="dropdown-item" href="/src/pages/inicioSesion/inicioSesion.html">Iniciar sesion</a></li>
                   <li><a class="dropdown-item" href="src/pages/registro/registro.html">Registrarse</a></li>
-                  <li><a class="dropdown-item" href="/src/pages/agregarProductos/agregarP.html">Administrador</a></li>
+                  <li><a class="dropdown-item" href="src/pages/inicioSesionAdmin/inicioSesionAdmin.html">Administrador</a></li>
               </ul>
           </div>
 

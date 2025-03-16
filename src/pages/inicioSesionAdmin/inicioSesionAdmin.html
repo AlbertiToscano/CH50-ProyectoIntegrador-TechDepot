@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión - TechDepot</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/pages/InicioSesionAdmin/inicioSesionAdmin.css">
+    <link rel="stylesheet" href="/src/css/main.css">
+</head>
+
+<body>
+    <header id="header">
+    </header>
+    <!-- Inicia sección de inicio de sesión -->
+    <main>
+        <section class="container-fluid" id="loginMain">
+            <div class="row align-items-center">
+                <!-- Formulario de inicio de sesión -->
+                <div class="col-md-6 col-12 order-md-1 order-2 ps-5 pe-5" id="login">
+                    <div class="text-center">
+                        <img src="../../../public/icons/users.png" class="img-thumbnail" alt="Icono de usuario"
+                            id="icono_users">
+                        <p id="titulo-login">Inicio de Sesión del Administrador</p>
+                        <p id="bienvenido">Bienvenido a <strong>TechDepot</strong></p>
+                    </div>
+
+                    <form id="formInicio" class="ps-5 pe-5">
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" placeholder="techdepot@gmail.com" id="correo"
+                                name="correo" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="contraseña" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" placeholder="Introduce tu contraseña"
+                                id="contraseña" name="contraseña" required>
+                        </div>
+                        <p class="error alert alert-danger"  id="error-inicio" role="alert">Correo o contraseña incorrectos.</p>
+
+                        <button type="submit" class="btn btn-primary w-100" id="boton_iniciar_sesion">Iniciar
+                            Sesión</button>
+                    </form>
+                </div>
+
+                <!-- Imagen de inicio de sesión -->
+                <div class="col-md-6 col-12 order-md-2 order-1" id="img-login">
+                    <img src="../../../public/ImagenInicioSesionAdmin.png" alt="Persona usando una computadora" class="img-fluid">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="footer">
+    </footer>
+
+    <!--  header js y footer js -->
+    <script type="module" src="/src/modules/header/header.js"></script>
+    <script type="module" src="/src/modules/footer/footer.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./inicioSesionAdmin.js"></script>
+</body>
+</html>
