@@ -1,123 +1,113 @@
 [
     {
-        "id": "tin1",
-        "titulo": "HP 305XL Cartucho de Tinta Original Alta Capacidad Negro",
-        "precio": 444,
-        "imagen": "/img productos/tin1.webp",
-        "raiting": {
-            "valoracion": 4.6,
-            "votos": 1663
-        }
-    },
-    {
-        "id": "tin2",
-        "titulo": "HP 305 Cartucho de Tinta Original Pack Negro/Tricolor",
-        "precio": 490,
-        "imagen": "/img productos/tin2.webp",
-        "raiting": {
-            "valoracion": 4.6,
-            "votos": 1663
-        }
-    },
-    {
-        "id": "tin3",
-        "titulo": "Brother TN243CMYK Multipack 4 Tóner",
-        "precio": 4247,
-        "imagen": "/img productos/tin3.webp",
-        "raiting": {
-            "valoracion": 4.5,
-            "votos": 122
-        }
-    },
-    {
-        "id": "tin4",
-        "titulo": "HP 305XL Cartucho de Tinta Original Alta Capacidad Tricolor",
-        "precio": 447,
-        "imagen": "/img productos/tin4.webp",
-        "raiting": {
-            "valoracion": 4.6,
-            "votos":1663
-        }
-    },
-   {
-    "id": "tin5",
-    "titulo": "Epson 104 Cartucho de Tinta Negro",
-    "precio": 192,
-    "imagen": "/img productos/tin5.webp",
-    "raiting": {
-        "valoracion": 4.8,
-        "votos":85
-    }
-},
-{
-    "id": "tin6",
-    "titulo": "Epson 104 Botella de Tinta Negro/Cian/Amarillo/Magenta",
-    "precio": 832,
-    "imagen": "/img productos/tin6.webp",
-    "raiting": {
-        "valoracion": 4.8,
-        "votos":85
-    }
-},
-{
-    "id": "tin6",
-    "titulo": "Epson 104 Botella de Tinta Negro/Cian/Amarillo/Magenta",
-    "precio": 832,
-    "imagen": "/img productos/tin6.webp",
-    "raiting": {
-        "valoracion": 4.8,
-        "votos":85
-    }
-},
-{
-    "id": "tin6",
-    "titulo": "Epson 104 Botella de Tinta Negro/Cian/Amarillo/Magenta",
-    "precio": 832,
-    "imagen": "/img productos/tin6.webp",
-    "raiting": {
-        "valoracion": 4.8,
-        "votos":85
-    }
-},
-   {
-    
-    "id": "tin7",
-    "titulo": "Cartuchos de Tinta Original HP 308 Negra/Tricolor Paquete de 2 Unidades",
-    "precio": 832,
-    "imagen": "/img productos/tin7.webp",
-    "raiting": {
-        "valoracion": 1,
-        "votos":0
-    }
-   },
-   {
-    "id": "tin8",
-    "titulo": "Epson 104 Cartucho de Tinta Amarillo",
-    "precio": 192,
-    "imagen": "/img productos/tin8.webp",
-    "raiting": {
-        "valoracion": 4.8,
-        "votos":85
-    }
-   },
-   {
-    "id": "tin9",
-    "titulo": "HP 304 Pack Cartucho Tinta Original Negro/Magenta/Cian/Amarillo",
-    "precio": 589,
-    "imagen": "/img productos/tin9.webp",
-    "raiting": {
+      "id": "tin1",
+      "titulo": "HP 305XL Cartucho de Tinta Original Alta Capacidad Negro",
+      "precio": 444,
+      "imagen": "/img productos/tin1.webp",
+      "descripcion": "El HP 305XL Cartucho de Tinta Original de Alta Capacidad Negro es ideal para usuarios que buscan imprimir grandes volúmenes de texto en negro con una excelente calidad. Su alta capacidad garantiza una mayor cantidad de impresiones, haciendo que sea una opción económica a largo plazo para oficinas y hogares.",
+      "raiting": {
         "valoracion": 4.6,
-        "votos":2005
-    }
-   },
-   {
-    "id": "tin10",
-    "titulo": "Tóner Original HP 149X LaserJet Alta Capacidad Negro",
-    "precio": 4982,
-    "imagen": "/img productos/tin10.webp",
-    "raiting": {
+        "votos": 1663
+      }
+    },
+    {
+      "id": "tin2",
+      "titulo": "HP 305 Cartucho de Tinta Original Pack Negro/Tricolor",
+      "precio": 490,
+      "imagen": "/img productos/tin2.webp",
+      "descripcion": "Este pack de cartuchos de tinta HP 305 Original incluye tanto el cartucho negro como los cartuchos tricolor. Perfecto para quienes necesitan imprimir documentos en blanco y negro y color con una calidad excepcional. Su rendimiento equilibrado lo convierte en una opción versátil para el hogar o la oficina.",
+      "raiting": {
+        "valoracion": 4.6,
+        "votos": 1663
+      }
+    },
+    {
+      "id": "tin3",
+      "titulo": "Brother TN243CMYK Multipack 4 Tóner",
+      "precio": 4247,
+      "imagen": "/img productos/tin3.webp",
+      "descripcion": "El Brother TN243CMYK Multipack incluye cuatro tóneres (negro, cian, magenta, y amarillo) de alta capacidad. Ideal para quienes requieren un alto rendimiento de impresión colorida, este paquete está diseñado para garantizar impresiones de calidad superior en cada página, especialmente en oficinas de alto volumen.",
+      "raiting": {
         "valoracion": 4.5,
-        "votos":2
+        "votos": 122
+      }
+    },
+    {
+      "id": "tin4",
+      "titulo": "HP 305XL Cartucho de Tinta Original Alta Capacidad Tricolor",
+      "precio": 447,
+      "imagen": "/img productos/tin4.webp",
+      "descripcion": "El HP 305XL Cartucho de Tinta Original Alta Capacidad Tricolor ofrece una excelente calidad de impresión para documentos en color. Ideal para quienes necesitan imprimir gráficos y fotos con colores vivos, este cartucho de alta capacidad es perfecto para obtener más impresiones a un menor costo por página.",
+      "raiting": {
+        "valoracion": 4.6,
+        "votos": 1663
+      }
+    },
+    {
+      "id": "tin5",
+      "titulo": "Epson 104 Cartucho de Tinta Negro",
+      "precio": 192,
+      "imagen": "/img productos/tin5.webp",
+      "descripcion": "El Epson 104 Cartucho de Tinta Negro es una opción confiable para impresoras Epson, proporcionando una excelente calidad de impresión en documentos de texto. Ideal para quienes necesitan realizar impresiones frecuentes de manera económica.",
+      "raiting": {
+        "valoracion": 4.8,
+        "votos": 85
+      }
+    },
+    {
+      "id": "tin6",
+      "titulo": "Epson 104 Botella de Tinta Negro/Cian/Amarillo/Magenta",
+      "precio": 832,
+      "imagen": "/img productos/tin6.webp",
+      "descripcion": "La Epson 104 Botella de Tinta incluye negro, cian, amarillo y magenta, ideal para impresoras Epson con sistema de tanque de tinta. Esta opción proporciona una mayor eficiencia y economía en comparación con los cartuchos tradicionales, y es perfecta para imprimir fotografías y documentos coloridos con alta calidad.",
+      "raiting": {
+        "valoracion": 4.8,
+        "votos": 85
+      }
+    },
+    {
+      "id": "tin7",
+      "titulo": "Cartuchos de Tinta Original HP 308 Negra/Tricolor Paquete de 2 Unidades",
+      "precio": 832,
+      "imagen": "/img productos/tin7.webp",
+      "descripcion": "El paquete de Cartuchos de Tinta Original HP 308 incluye una combinación de tinta negra y tricolor, perfecto para quienes buscan imprimir documentos tanto en blanco y negro como en color con facilidad y calidad. Este pack ofrece una excelente relación calidad-precio para usuarios de impresoras HP.",
+      "raiting": {
+        "valoracion": 1,
+        "votos": 0
+      }
+    },
+    {
+      "id": "tin8",
+      "titulo": "Epson 104 Cartucho de Tinta Amarillo",
+      "precio": 192,
+      "imagen": "/img productos/tin8.webp",
+      "descripcion": "El Epson 104 Cartucho de Tinta Amarillo es una excelente opción para quienes necesitan reponer el color amarillo en sus impresoras Epson. Este cartucho ofrece un rendimiento confiable para impresión de documentos coloridos y fotos con una calidad excepcional.",
+      "raiting": {
+        "valoracion": 4.8,
+        "votos": 85
+      }
+    },
+    {
+      "id": "tin9",
+      "titulo": "HP 304 Pack Cartucho Tinta Original Negro/Magenta/Cian/Amarillo",
+      "precio": 589,
+      "imagen": "/img productos/tin9.webp",
+      "descripcion": "El HP 304 Pack Cartucho Tinta Original incluye cuatro cartuchos: negro, magenta, cian y amarillo. Ideal para quienes buscan un rendimiento óptimo en impresión colorida, este pack es perfecto para imprimir documentos o fotos de alta calidad. Compatible con varias impresoras HP.",
+      "raiting": {
+        "valoracion": 4.6,
+        "votos": 2005
+      }
+    },
+    {
+      "id": "tin10",
+      "titulo": "Tóner Original HP 149X LaserJet Alta Capacidad Negro",
+      "precio": 4982,
+      "imagen": "/img productos/tin10.webp",
+      "descripcion": "El Tóner Original HP 149X LaserJet Alta Capacidad Negro es ideal para impresoras HP LaserJet que requieren un tóner de alta capacidad para impresiones rápidas y de alta calidad. Su rendimiento extendido lo convierte en una opción económica para oficinas de gran volumen de impresión.",
+      "raiting": {
+        "valoracion": 4.5,
+        "votos": 2
+      }
     }
-   }
-] 
+  ]
+  

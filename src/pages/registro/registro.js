@@ -101,7 +101,7 @@ formulario.addEventListener('submit', (e) => {
         
         document.getElementById('registro-exitoso').classList.add('registro-exitoso-activo');
         formulario.reset(); //Resetea el formulario una vez enviado
-        window.location.href = "src/pages/inicioSesion/inicioSesion.html";
+        window.location.href = "/src/pages/inicioSesion/inicioSesion.html";
     } else {
 
         document.getElementById('error-registro').classList.add('error-registro-activo'); //Muestra el mensaje de error

@@ -71,7 +71,7 @@
     "caracteristicas": {
       "marca": "AMD",
       "modelo": "AMD RYZEN 9 7900X3D",
-      "socket": "AM4",
+      "socket": "AM5",
       "disipador": "no",
       "graficos_integrados": "si",
       "TDP": 170
@@ -134,7 +134,7 @@
     "caracteristicas": {
       "marca": "AMD",
       "modelo": "AMD RYZEN 5 7600G",
-      "socket": "AM4",
+      "socket": "AM5",
       "disipador": "no",
       "graficos_integrados": "si",
       "TDP": 105

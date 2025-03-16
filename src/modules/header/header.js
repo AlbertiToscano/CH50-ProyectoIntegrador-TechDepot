@@ -1,5 +1,4 @@
-
-
+import { actualizarNavBar } from "../sesion/sesionIniciada";
 const insertHeader = ()=>{
     const header = document.getElementById("header");
     header.innerHTML = `
@@ -20,25 +19,23 @@ const insertHeader = ()=>{
       <!-- Menú de usuario y carrito -->
       <div class="user-menu d-flex align-items-center">
           <!-- Dropdown para Iniciar Sesión -->
-          <div class="dropdown">
+          <div id='icono-usuario' class="dropdown">
               <button class="btn user-btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
-
-                  <a href="#" class="nav-link me-3 login-link">
+                
+                  <a href="" class="nav-link me-3 login-link">
                       <i class="bi bi-person-circle"></i> Iniciar Sesión
                   </a>
               </button>
-              <ul class="dropdown-menu">
-                  <!-- <li><a class="dropdown-item" href="#">Perfil</a></li>s
--->
-                  <li><a class="dropdown-item" href="/src/pages/inicioSesion/inicioSesion.html">Iniciar sesion</a></li>
-                  <li><a class="dropdown-item" href="src/pages/registro/registro.html">Registrarse</a></li>
-                  <li><a class="dropdown-item" href="src/pages/inicioSesionAdmin/inicioSesionAdmin.html">Administrador</a></li>
+              <ul id='menu-perfil' class="dropdown-menu">
+                    <li></li>
+                  <li></li>
+                  <li></li>
               </ul>
           </div>
 
           <!-- Carrito -->
 
-          <a href="#" class="nav-link cart-link">
+          <a href="/src/pages/carrito/carrito.html" class="nav-link cart-link">
               <i class="bi bi-cart3"></i> Mi Carrito
           </a>
 
@@ -56,27 +53,9 @@ const insertHeader = ()=>{
       <div class="collapse navbar-collapse" id="secondaryNav">
           <ul class="navbar-nav w-100 justify-content-between">
    
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categorías
-                  </a>
-                  <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Opción 1</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 2</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 3</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 4</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 5</a></li>
-                  </ul>
-              </li>
+              
               <li class="nav-item"><a class="nav-link" href="/src/pages/Productos/productos.html">Productos</a></li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Construye tu PC
-                  </a>
-                  <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="/src/pages/construyeTuPc/construyeTuPc.html">Constructor interactivo de PC</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 2</a></li>
-                      <li><a class="dropdown-item" href="#">Opción 3</a></li>
-                  </ul>
-              </li>
+              <li class="nav-item"><a class="nav-link" href="/src/pages/construyeTuPc/construyeTuPc.html">Construye tu PC</a></li>
               <li class="nav-item"><a class="nav-link" href="/src/pages/contacto/contacto.html">Contacto</a></li>
               <li class="nav-item"><a class="nav-link" href="/src/pages/about/about.html">Acerca de nosotros</a></li>
           </ul>
@@ -87,4 +66,6 @@ const insertHeader = ()=>{
     `;
 }
 
+
 insertHeader();
+window.onload = actualizarNavBar();

@@ -1,0 +1,204 @@
+
+/*
+Font--'Poppins', sans-serif;
+Color Barra--#153B4C;
+Color Fondo--#D6E1EC;
+Color Tarjetas--#386578;
+*/
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #153B4C;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+h5{
+    color:#153B4C;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+h6{
+    color: #386578;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+.card:hover {
+    transform: scale(1.1); /* Escala la tarjeta al 110% */
+}
+
+.cart-link{
+    color: #A2B8C9; 
+} 
+
+.navbar-toggler:hover {
+    background-color: #D6E1EC
+    
+}
+
+#icono-pago{
+    width: 560px; /* Tamaño del ícono */
+   
+}
+
+ .card{
+
+    margin: 30px; /* Margen entre tarjetas */
+    padding: 5px; /* Relleno de la tarjeta */
+    border-radius: 10px; /* Bordes redondeados */
+   background:#D6E1EC 
+
+} 
+
+.titulo-tarjeta{
+    color:#153B4C; /* Color de texto del titulo de la tarjeta*/
+    font-weight: 600; /* Grosor de la fuente */
+    font-size: 22px; /* Tamaño de la fuente */
+    font-family: 'Poppins', sans-serif; /* Fuente */
+    text-align:left /* Alineación de texto */
+}
+
+.mensaje-tarjeta{
+    color:#386578; /* Color de texto */
+    font-weight: 300; /* Grosor de la fuente */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-family: 'Poppins', sans-serif; /* Fuente */
+    text-align:left /* Alineación de texto */
+}
+
+a{
+
+    text-decoration:none; /* Quita subrayado de los enlaces */
+
+}
+
+
+.bloque-texto{
+    display: block; /* Hace que el div sea un bloque */
+}
+
+.bloque-foto{
+    display:inline-block;/* Hace que el div sea un bloque */
+    position:relative; /* Posición relativa */
+}
+
+
+.foto-perfil {
+    width: 20rem; /* Tamaño del círculo */
+    height: 20rem; /* Tamaño del círculo */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    overflow: hidden; /* Asegura que la imagen no se salga del círculo */
+    border: 3px solid #386578; /* Borde opcional */
+    display: flex; /* Flexbox para centrar la imagen */
+    margin-left: 25%;/* Centra el círculo */
+}
+
+.foto-perfil img {
+    width: 110%; /* Ajusta la imagen al tamaño del círculo */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.titulo{
+    color:#153B4C; /* Color de texto del titulo de la tarjeta*/
+    font-weight: 600; /* Grosor de la fuente */
+    font-size: 40px; /* Tamaño de la fuente */
+    font-family: 'Poppins', sans-serif; /* Fuente */
+    text-align:center; /* Alineación de texto */
+}
+
+.mensaje{
+    color:#386578; /* Color de texto */
+    font-weight: 200; /* Grosor de la fuente */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-family: 'Poppins', sans-serif; /* Fuente */
+    text-align:center /* Alineación de texto */
+}
+
+.container-main{
+    display:flex; /* Flexbox para centrar los elementos */
+    margin-top: 0%; /* Margen superior */
+    margin-left: 0%;    /* Margen izquierdo */
+}
+
+.contenedor-informacion{
+  margin-top: 10px; /* Margen superior */
+  width: 50%; /* Ancho del contenedor */
+    padding: 20px; /* Relleno del contenedor */
+    box-sizing: border-box; /* Caja de borde */
+    display: block; /* Hace que el div sea un bloque */
+}
+
+.contenedor-tarjetas{
+    width: 50%;   /* Ancho del contenedor */
+    padding: 20px; /* Relleno del contenedor */
+    box-sizing: border-box; /* Caja de borde */
+    margin-top: 50px; /* Margen superior */
+    display: block; /* Hace que el div sea un bloque */
+    
+}
+
+.bloque-informacion{
+    display: block; /* Hace que el div sea un bloque */
+    margin-left: 10px; /* Margen izquierdo */
+    margin-top: 30px; /* Margen superior */
+}
+
+.btn-informacion{ 
+    background-color:#153B4C; /* Color de fondo del botón */
+    color: white; /* Color de texto del botón */
+    padding: 10px 10px; /* Relleno del botón */
+    border: none; /* Borde del botón */
+    border-radius: 30px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar el ratón */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-weight: 500; /* Grosor de la fuente */
+    margin-top: 20%; /* Margen superior */
+    margin-left: 38%;; /* Margen izquierdo */
+    
+}
+
+#cambiar-foto{
+    position:absolute; /* Posición absoluta */
+    top: 83%; /* Posición en la parte superior */
+    left: 93%; /* Posición en la parte izquierda */;
+    background-color:#153B4C; /* Color de fondo del botón */
+    color:#D6E1EC; /* Color de texto del botón */
+    border: none; /* Borde del botón */
+    border-radius: 100px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor al pasar el ratón */
+    font-weight: 1; /* Grosor de la fuente */
+   
+}
+
+.datos-usuario{
+    color:#153B4C; /* Color de texto */
+    font-weight: 600; /* Grosor de la fuente */
+    font-family: 'Poppins', sans-serif; /* Fuente */
+    text-align:left; /* Alineación de texto */
+}
+
+/* Estilos pagina Mis pedidos */
+.cartas-pedidos{
+    text-overflow: ellipsis; /* Texto que se desborda se muestra con puntos suspensivos */
+    white-space: nowrap; /* No se permite el salto de línea */
+    margin: 30px; /* Margen entre tarjetas */
+
+}
+
+/* Estilos pagina Mis pedidos */
+.cartas-pedidos{
+    text-overflow: ellipsis; /* Texto que se desborda se muestra con puntos suspensivos */
+    white-space: nowrap; /* No se permite el salto de línea */
+    margin: 30px; /* Margen entre tarjetas */
+
+
+}

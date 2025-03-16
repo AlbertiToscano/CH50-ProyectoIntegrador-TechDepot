@@ -1,4 +1,5 @@
-import { addElementToLocalStorage, obtenerProductoDeLocalStorage, restElementToLocalStorage, sumarTotal, verificarLocalStorage, } from "./funcionesLocalStorage";
+import { aplicarFiltros, filtroProcesador } from "./filtrosParaConstruyeTuPc";
+import { addElementToLocalStorage, deleteElementToLocalStorage, obtenerIndiceParaFiltro, obtenerProductoDeLocalStorage, restElementToLocalStorage, sumarTotal, verificarLocalStorage, } from "./funcionesLocalStorage";
 
 /*
 función para dibujar las estrellas
@@ -27,13 +28,14 @@ export const dibujarEstrellas = (rating) => {
 
 export const generarCodigoHtml = (producto) => {
     return `
+                       
                             <img src="${producto.imagen}" class="card-img-top" alt="${producto.titulo}">
-                            <div class="card-body">
+                            <div class="card-body container-fluid ">
                                 <h5 class="card-title">
-                                ${producto.titulo.length > 90 ? producto.titulo.substring(0, 87) + "..." : producto.titulo} 
+                                ${producto.titulo.length > 65 ? producto.titulo.substring(0, 62) + "..." : producto.titulo} 
                                 </h5>
                                 <p class="card-text">
-                                ${producto.descripcion.length > 60 ? producto.descripcion.substring(0, 57) + "..." : producto.descripcion} 
+                                ${producto.descripcion.length > 55 ? producto.descripcion.substring(0, 52) + "..." : producto.descripcion} 
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div>
@@ -41,20 +43,40 @@ export const generarCodigoHtml = (producto) => {
                                         <small class="text-muted">(${producto.rating.valoracion})</small>
                                     </div>
                                 </div>
-                                    <div class="d-flex justify-content-between align-items-center">
+                                    <div id="precio-btn" class="d-flex justify-content-between align-items-center ">
                                         <span class="h5 mb-0 card-price">$${producto.precio} </span>
                                         <div>
                                             <a  class="btn">Añadir al carrito</a>
                                         </div>
                                     </div>
                             </div>
+                        
         `;
 
 }
 
+
+/**
+ * función que toma cada producto extraido de un Json y genera un contenedor para separar las tarjetas
+ *  */
+
+export const crearTarjeta = (producto, contenedor) => {
+
+    const nuevoProducto = document.createElement("div");
+    nuevoProducto.classList = "card col-xxl-2 col-md-3 col-sm-5";
+    /* nuevoProducto.style = "width: 15rem"; */
+    nuevoProducto.innerHTML = generarCodigoHtml(producto);
+    contenedor.appendChild(nuevoProducto);
+
+    return nuevoProducto;
+
+}
+
+
+//función que retorna el formato de producto seleccionado
+
 export const generarProductoSeleccionado = (producto) => {
-    return `
-                                   <img class="col-2 " src="${producto.imagen}" alt="${producto.titulo}">
+    return                       `<img class="col-xxl-2 col col-sm-12" src="${producto.imagen}" alt="${producto.titulo}">
                                     <!-- contenedor con titulo, descripcion, cantidad y borrar -->
                                     <div class="col-xxl-8 col-md-6 texto-botones">
                                         <h4>
@@ -64,53 +86,43 @@ export const generarProductoSeleccionado = (producto) => {
                                         ${producto.descripcion.length > 60 ? producto.descripcion.substring(0, 57) + "..." : producto.descripcion}
                                         </p>
                                         <!-- Botones -->
-                                        <div id="${producto.id}" class= "row-cols-4">
+                                        <div id="${producto.id}" class= "container-fluid">
                                             <button type="button" class="btn btn-sm cuadro">-</button>
-                                            <span id="cantidad" class="cuadro">${producto.cantidad}</span>
+                                            <span id="cantidad${producto.id}" class="cuadro numeroCantidad">${producto.cantidad}</span>
                                             <button type="button" class="btn btn-sm cuadro">+</button>
-                                            <button id="bote-basura" type="button" class="bi bi-trash-fill btn btn-sm cuadro"> </button>
+                                            
                                         </div>
                                     </div>
-                                    <div class="col-2 container-fluid precio ">
+                                    <div class="col-xxl-2 col-sm-12 container-fluid precio">
                                         <h5 class="">Costo unitario</h5>
-                                        <span class="">${producto.precio}</span>
+                                        <span class="">$${producto.precio}</span>
+                                        <button id="bote-basura" type="button" class="${producto.id} bi bi-trash-fill btn btn-sm cuadro"> </button>
                                     </div>
-    `
-}
-
-/**
- * función que toma cada producto extraido de un Json y genera un contenedor para separar las tarjetas
- *  */
-
-export const crearTarjeta = (producto, contenedor) => {
-
-    const nuevoProducto = document.createElement("div");
-    nuevoProducto.classList = "card";
-    nuevoProducto.style = "width: 18rem";
-    nuevoProducto.innerHTML = generarCodigoHtml(producto);
-    contenedor.appendChild(nuevoProducto);
-
-    return nuevoProducto;
+                                </div>`
 
 }
+
+
 
 /* Despliega el producto seleccionado al añadir agregar producto */
 
-export const crearProductoSeleccionado = (contenedor, indice) => {
+export const crearProductoSeleccionado = (contenedor, productos, categoria) => {
+    const indice = obtenerIndiceParaFiltro(categoria);
     const producto = obtenerProductoDeLocalStorage(indice);
     contenedor.innerHTML = generarProductoSeleccionado(producto);
-    contenedor.classList = "accordion-body  container-fluid row align-items-start producto-seleccionado";
+    contenedor.classList = "accordion-body  container-fluid row  producto-seleccionado";
     botonSumar(producto);
     botonRestar(producto);
+    botonBorrar(producto, contenedor, productos, categoria);
     
 }
 
 
 
 /* función que elimina todos los elementos dentro de un contenedor padre */
-const borrarElementos = (contenedor) => {
-    borrarElementos(contenedor);
+export const borrarElementos = (contenedor) => {
     while (contenedor.firstChild) {
+        contenedor.classList = "accordion-body  container-fluid row align-items-start";
         contenedor.removeChild(contenedor.firstChild);
     }
 
@@ -120,20 +132,18 @@ const borrarElementos = (contenedor) => {
  * Función que interactua con el boton de agregar al carrito, añadé el elemento seleccionado al local storage y luego elimina la lista de productos
  */
 
-export const eventoClick = (contenedor, nuevoProducto, producto,) => {
+export const eventoClick = (contenedor, nuevoProducto, producto, productos, categoria) => {
     nuevoProducto.getElementsByClassName("btn")[0].addEventListener("click", () => {
-        addElementToLocalStorage(producto)
-        const indiceProducto = verificarLocalStorage(producto);
-        crearProductoSeleccionado(contenedor, indiceProducto);
+        addElementToLocalStorage(producto);
+        crearTienda();
         sumarTotal();
-
     });
 }
 
 
 /* obtiene la referencia al contenedor de cantidad */
-const contenedorCantidad = () => {
-    const cantidad = document.getElementById("cantidad");
+export const contenedorCantidad = (producto) => {
+    const cantidad = document.getElementById(`cantidad${producto.id}`);
     return cantidad;
 
 }
@@ -145,59 +155,110 @@ const contenedorCantidad = () => {
 export const botonRestar = (producto) => {
     const indice = verificarLocalStorage(producto);
     let pieza = obtenerProductoDeLocalStorage(indice);
-    const boton = document.getElementById(producto.id);
-    const cantidad = contenedorCantidad(boton);
-    boton.getElementsByClassName("btn")[0].addEventListener("click", () => {
+    const contenedorBoton = document.getElementById(producto.id);
+    const Cantidad = contenedorCantidad(producto);
+    contenedorBoton.getElementsByClassName("btn")[0].addEventListener("click", () => {
         if (pieza.cantidad > 1) {
             restElementToLocalStorage(producto);
             sumarTotal();
         }
         pieza = obtenerProductoDeLocalStorage(indice);
-        console.log(pieza.cantidad);
-        cantidad.innerText = pieza.cantidad;
+        Cantidad.innerText = pieza.cantidad;
     });
 }
+
+/**
+ * función que da funcionalidad al boton sumar
+ * @param {*} producto 
+ */
 
 export const botonSumar = (producto) => {
     const indice = verificarLocalStorage(producto);
     let pieza = obtenerProductoDeLocalStorage(indice);
-    const boton = document.getElementById(producto.id);
-    const cantidad = contenedorCantidad(boton);
-    boton.getElementsByClassName("btn")[1].addEventListener("click", () => {
+    const contenedorBoton = document.getElementById(producto.id);
+    const Cantidad = contenedorCantidad(producto);
+    contenedorBoton.getElementsByClassName("btn")[1].addEventListener("click", () => {
         if (pieza.cantidad >= 1) {
             addElementToLocalStorage(producto);
             sumarTotal();
         }
         pieza = obtenerProductoDeLocalStorage(indice);
-        console.log(pieza.cantidad);
-        cantidad.innerText = pieza.cantidad;
+        Cantidad.innerText = pieza.cantidad;
+    });
+}
+
+/**
+ * Funcionalidad del boton borrar dentro de la tarjeta de producto seleccionado
+ * @param {*} producto 
+ * @param {*} contenedor 
+ * @param {*} productos 
+ */
+export const botonBorrar = (producto, contenedor, productos, categoria ) => {
+    const indice = verificarLocalStorage(producto);
+    let pieza = obtenerProductoDeLocalStorage(indice);
+    contenedor.getElementsByClassName("btn")[2].addEventListener("click", () => {
+        if (pieza.cantidad >= 1) {
+            deleteElementToLocalStorage(producto);
+            sumarTotal();
+            borrarElementos(contenedor);
+            crearTienda();
+        }
     });
 }
 
 
+//** 
+// función que toma la lista de productos del json y la ubicación de donde posicionarlos y genera las tarjetas de producto
+// 
+// 
+// */
+
+export const generarTarjetasDeProducto = (productos, contenedorDeTarjetas, categoria)=> {
+    if(obtenerIndiceParaFiltro(categoria) != -1){
+        crearProductoSeleccionado(contenedorDeTarjetas, productos, categoria );
+    }else{
+        productos = aplicarFiltros(productos,categoria);
+        productos.forEach(producto => {
+        const nuevoProducto = crearTarjeta(producto, contenedorDeTarjetas);
+        eventoClick(contenedorDeTarjetas, nuevoProducto, producto, productos, categoria);
+    });
+    }
+    
+
+} 
 
 
 
-export const generarTarjetas = async (id, json) => {
-    const contenedorDeTarjetas = document.getElementById(id);
+/**
+ * función que crea la lista de productos segun una categoria y json
+ * @param {*categoria del producto} categoria 
+ * @param {*enlace al json} json 
+ */
+
+export const crearProductosConstruyeTuPC = async (categoria, json) => {
+    const contenedorDeTarjetas = document.getElementById(categoria);
+    borrarElementos(contenedorDeTarjetas);
     try {
         const response = await fetch(json);
         const productos = await response.json();
-        productos.forEach(producto => {
-            const nuevoProducto = crearTarjeta(producto, contenedorDeTarjetas);
-            eventoClick(contenedorDeTarjetas, nuevoProducto, producto);
-
-
-        });
+        generarTarjetasDeProducto(productos, contenedorDeTarjetas, categoria);
+        
 
     } catch (error) {
         console.error(error);
     }
-
-
-
-
-
 }
 
+
+//función que despliega la tienda con todos los productos
+export const crearTienda = () =>{
+crearProductosConstruyeTuPC("procesador", "/json/componentes/procesadores.json");
+crearProductosConstruyeTuPC("tarjeta madre", "/json/componentes/motherboard.json");
+crearProductosConstruyeTuPC("memoria RAM", "/json/componentes/memoriaRAM.json");
+crearProductosConstruyeTuPC("almacenamiento", "/json/componentes/almacenamientoInterno.json");
+crearProductosConstruyeTuPC("enfriamiento", "/json/componentes/enfriamiento.json");
+crearProductosConstruyeTuPC("tarjeta de video", "/json/componentes/GPU.json");
+crearProductosConstruyeTuPC("gabinete", "/json/componentes/gabinete.json");
+crearProductosConstruyeTuPC("Fuente de alimentacion", "/json/componentes/fuenteDeAlimentacion.json");
+}
 

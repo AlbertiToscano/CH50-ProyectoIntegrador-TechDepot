@@ -22,9 +22,8 @@ export const verificarLocalStorage = (producto) => {
 
         return indiceProducto;
     }
-
-
 }
+
 
 
 /**
@@ -82,6 +81,10 @@ export function addElementToLocalStorage(producto) {
 
 }
 
+/**
+ * Función que resta uno a la cantidad de un objeto en el local storage
+ * @param {*} producto 
+ */
 
 export function restElementToLocalStorage(producto) {
     const memoria = memoriaLocalStorage();
@@ -100,10 +103,31 @@ export function restElementToLocalStorage(producto) {
 
 }
 
+/**
+ * función que elimina un producto del local storage
+ * @param {} producto 
+ */
+export function deleteElementToLocalStorage(producto) {
+    const memoria = memoriaLocalStorage();
+
+    if (!memoria) {
+
+    } else {
+        const indiceProducto = verificarLocalStorage(producto);
+        const nuevaMemoria = memoria.splice(indiceProducto,1);
+        localStorage.setItem("piezaDePC", JSON.stringify(memoria));
+        
+    }
+
+
+}
 
 
 
 
+/**
+ * función que calcula el total de costo acumulado de los productos almacenados en el local Storage
+ */
 
 export const sumarTotal = () => {
     const productosEnCarrito = JSON.parse(localStorage.getItem("piezaDePC"));
@@ -116,32 +140,69 @@ export const sumarTotal = () => {
             precio += producto.precio * producto.cantidad;
         });
         referenciaTotal.innerText = "$ " + precio;
-
-
-
-
+    } else {
+        referenciaTotal.innerText = "$ " + 0
     }
 }
 
 
+//función que busca el indice de un producto en el local storage mediante su categoria
 
-
-
-
-
-
-
-//función para añadir un numero al carrito
-
-/* 
-const contenedorNumeroCarrito = document.getElementById(" ");
-export const numeroDeCarrito = () =>{
-    const memoria = JSON.parse(localStorage.getItem("piezaDePC"));
-    const cuenta = memoria.reduce((acumulado,prodActual) => acumulado+prodActual.cantidad,0);
-    contenedorNumeroCarrito.innerText = cuenta;
+export const obtenerIndiceParaFiltro = (categoria) => {
+    const memoria = memoriaLocalStorage();
+    let indiceProducto;
+    if (!memoria) {
+        indiceProducto = -1;
+    } else {
+        indiceProducto = memoria.findIndex(pieza => pieza.categoria[0] == categoria);
+    }
+    return indiceProducto;
 }
 
 
-// se ejecuta la función para que permanezca cargado en la pagina
-numeroDeCarrito();
- */
+//función que recibe una categoria y busca en el local Storage si ese producto existe y retorna un booleano.
+
+export const comprobarProductoSeleccionado = (categoria) => {
+    const indice = obtenerIndiceParaFiltro(categoria);
+    let respuesta;
+    if  (indice != -1){
+        respuesta = true;
+    } else {
+        respuesta = false;
+    }
+    return respuesta;
+}
+
+//función que verifica si el procesador seleccionado necesita ventilación y si no encuentra un disipador en el local storage devuelve un false
+export const comprobarVentilaciónNecesaria = () =>{
+    let respuesta = true;
+    const indiceProcesador = obtenerIndiceParaFiltro("procesador");
+    const procesador = obtenerProductoDeLocalStorage(indiceProcesador);
+    const enfriamientoCheck = comprobarProductoSeleccionado("enfriamiento");
+        const disipador = procesador.caracteristicas.disipador;
+        if (disipador == "si"){
+            respuesta = true;
+        }else if(enfriamientoCheck){
+            respuesta= true;
+        }else {
+            respuesta = false;
+        }
+    return respuesta;
+}
+
+//función que verifica si el procesador seleccionado necesita una tarjeta gráfica y si no encuentra una en el local storage devuelve un false
+export const comprobarGraficaNecesaria = () =>{
+    let respuesta = true;
+    const indiceProcesador = obtenerIndiceParaFiltro("procesador");
+    const procesador = obtenerProductoDeLocalStorage(indiceProcesador);
+    const gpuCheck = comprobarProductoSeleccionado("tarjeta de video");
+        const gpu = procesador.caracteristicas.graficos_integrados;
+        if (gpu == "si"){
+            respuesta = true;
+        }else if(gpuCheck){
+            respuesta= true;
+        }else {
+            respuesta = false;
+        }
+    return respuesta;
+}

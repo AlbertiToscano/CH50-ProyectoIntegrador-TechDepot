@@ -8,7 +8,7 @@ const insertFooter = ()=>{
 <footer class="text-center py-3 mt-0 footer">
   <p>&copy;2025 por TechDepot. Todos los derechos reservados</p>
   <nav>
-      <a href="/src/pages/terminosCondiciones/terminosC.html">Términos y condiciones</a> | <a href="#">Aviso de privacidad</a>
+      <a href="/src/pages/terminosCondiciones/terminosC.html">Términos y condiciones</a> | <a href="/src/pages/avisoPrivacidad/avisoPrivacidad.html">Aviso de privacidad</a>
   </nav>
 </footer>
     

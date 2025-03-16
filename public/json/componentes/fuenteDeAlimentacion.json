@@ -8,7 +8,7 @@
         "caracteristicas": {
             "marca": "Forgeon",
             "modelo": "Forgeon Bolt PSU 850W",
-            "capacidad": "850W",
+            "capacidad": 850,
             "tipo": "modular",
             "certificacion": "gold",
             "tamaño": "ATX"
@@ -29,7 +29,7 @@
         "caracteristicas": {
             "marca": "Nfortec",
             "modelo": "Nfortec Scutum X 650W",
-            "capacidad": "650W",
+            "capacidad": 650,
             "tipo": "semi-modular",
             "certificacion": "bronze",
             "tamaño": "ATX"
@@ -50,7 +50,7 @@
         "caracteristicas": {
             "marca": "Corsair",
             "modelo": "Corsair CX750",
-            "capacidad": "750W",
+            "capacidad": 750,
             "tipo": "no-modular",
             "certificacion": "bronze",
             "tamaño": "ATX"
@@ -71,7 +71,7 @@
         "caracteristicas": {
             "marca": "Gigabyte",
             "modelo": "Gigabyte GP-UD750GM",
-            "capacidad": "750W",
+            "capacidad": 750,
             "tipo": "modular",
             "certificacion": "gold",
             "tamaño": "ATX"
@@ -92,7 +92,7 @@
         "caracteristicas": {
             "marca": "Forgeon",
             "modelo": "Forgeon Bolt PSU 1000W",
-            "capacidad": "1000W",
+            "capacidad": 1000,
             "tipo": "modular",
             "certificacion": "gold",
             "tamaño": "ATX"
@@ -113,7 +113,7 @@
         "caracteristicas": {
             "marca": "Corsair",
             "modelo": "Corsair RMx Series RM1000x",
-            "capacidad": "1000W",
+            "capacidad": 1000,
             "tipo": "modular",
             "certificacion": "gold",
             "tamaño": "ATX"
@@ -134,7 +134,7 @@
         "caracteristicas": {
             "marca": "MSI",
             "modelo": "MSI MAG A850GL PCIE5 II",
-            "capacidad": "850W",
+            "capacidad": 850,
             "tipo": "modular",
             "certificacion": "gold",
             "tamaño": "ATX"
@@ -155,7 +155,7 @@
         "caracteristicas": {
             "marca": "Corsair",
             "modelo": "Corsair HXi Series HX1500i",
-            "capacidad": "1500W",
+            "capacidad": 1500,
             "tipo": "modular",
             "certificacion": "platinum",
             "tamaño": "ATX"
@@ -176,7 +176,7 @@
         "caracteristicas": {
             "marca": "UNYKAch",
             "modelo": "UNYKAch Mini ITX 150W",
-            "capacidad": "150W",
+            "capacidad": 150,
             "tipo": "no-modular",
             "certificacion": "no",
             "tamaño": "Mini-ITX"
@@ -197,7 +197,7 @@
         "caracteristicas": {
             "marca": "Phoenix",
             "modelo": "Phoenix 250 Mini ITX",
-            "capacidad": "250W",
+            "capacidad": 250,
             "tipo": "no-modular",
             "certificacion": "no",
             "tamaño": "Mini-ITX"
@@ -218,7 +218,7 @@
         "caracteristicas": {
             "marca": "Corsair",
             "modelo": "Corsair SF850",
-            "capacidad": "850W",
+            "capacidad": 850,
             "tipo": "modular",
             "certificacion": "platinum",
             "tamaño": "Micro-ATX"
@@ -239,7 +239,7 @@
         "caracteristicas": {
             "marca": "Silverstone",
             "modelo": "Silverstone ST30SF V2",
-            "capacidad": "300W",
+            "capacidad": 300,
             "tipo": "no-modular",
             "certificacion": "bronze",
             "tamaño": "Micro-ATX"
@@ -260,7 +260,7 @@
         "caracteristicas": {
             "marca": "Tacens",
             "modelo": "Tacens Anima APSIII500",
-            "capacidad": "500W",
+            "capacidad": 500,
             "tipo": "no-modular",
             "certificacion": "bronze",
             "tamaño": "Micro-ATX"

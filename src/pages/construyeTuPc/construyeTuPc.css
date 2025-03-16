@@ -41,7 +41,7 @@
    
    .accordion{
     margin: auto 8em autoem; /* Margen de los acordeones */
-    
+    min-width: 19.5em;
    }
    
    .accordion-button {
@@ -50,6 +50,7 @@
     font-weight: bold; /* Hace el texto más grueso */
     border-radius: 0; /* Elimina bordes redondeados */
     font-size: 22px; /* Ajusta el tamaño del texto dentro del botón */
+    
     
 }
 
@@ -74,6 +75,8 @@
     padding: 30px; /* Espaciado interno dentro del acordeón */
     font-size: 18px; /* Tamaño del texto dentro del acordeón */
     text-align: justify; /* Justifica el contenido */
+    
+    
 }
 
 .accordion-item {
@@ -86,43 +89,53 @@
    ESTILOS DE TARJETAS
    ============================== */
 
+
+
 .accordion .card{
    margin-top: 1em; /* margen superior de las tarjetas */ 
    margin-right: 1em;
    border-radius: 15px;
    background-color: #EEF5FC;
-   
-   
+   height:fit-content;
+   width: 14em;
+   min-width:14em;
 }
 
 .card img{ /* margen superior de las imagenes en las tarjetas */
     margin-top: 1em;
+    max-width: 15em;
 }
 
 
 .card-title{ /* estilos del titulo */
     color: #153B4C;
     font-weight: bold;
-    font-size:large;
+    font-size:medium;
 }
 .card-text{ /* estilos de la descripción */
     color:#153B4C;
-    font-size: medium;
+    font-size: small;
     text-align: left;
 }
 .card-price{ /* estilos del precio */
     color: #386578;
     font-size: medium;
     font-weight: bold;
-    margin-right: auto;
+    margin-right:1em;
+    margin-left: 1em;
 }
 
+#precio-btn{
+    margin-inline-start: -1em;
+    min-width: 14em;
+}
 .card .btn{ /* estilos del botón en reposo */
     color: #386578;
     scale: 80%;
     background-color: #ffffff;
     border-radius: 20px;
     border-color: #0E2A3A;
+    margin-right: .5em;
 }
 
 .card .btn:hover{ /* cuando pasas el mouse por encima */
@@ -168,8 +181,6 @@
     border-radius: 20px;
     border-color: #0E2A3A;
     max-width:15em;
-    margin: 0%;
-    
 }
 
 .totalAcumulado .btn:hover{ /* cuando pasas el mouse por encima */
@@ -185,8 +196,24 @@
 .totalAcumulado label{ /* texto de boton check */
     color:#A2B8C9 ;
     text-align: start;
+    font-size: small;
+    margin-bottom: 1em;
     
 }
+
+#switch-boton{
+    margin-inline: .1em;
+}
+
+.alert{
+    background-color: #EEF5FC;
+    border-color:#153B4C;
+    border-width: 3px;
+    color: #ff0000;
+}
+
+
+
 
 
 /* ==============================
@@ -198,6 +225,7 @@
     margin-inline-start:0%;
 }
 .producto-seleccionado img{ /* tamaño de la imagen */
+    margin-bottom: 1em;
     height:10%;
     width:10%;
     min-height:50px;
@@ -225,6 +253,7 @@
 }
 .producto-seleccionado span{ /* texto cantidad precio unitario */
     color: #FFFFFF;
+    margin-right: 1.5em;
 }
 
 /* estilos de los botones */
@@ -235,12 +264,14 @@
     color: #A2B8C9;
     padding: .4em;
     margin-inline: .2em;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
-#cantidad{
-    padding-inline: .6em;
-    padding-block: .20em;
+.producto-seleccionado .numeroCantidad{
+    padding-inline: 1em;
+    padding-block: .4em;
     border-radius: 10%;
+    
 }
 
 #bote-basura{
