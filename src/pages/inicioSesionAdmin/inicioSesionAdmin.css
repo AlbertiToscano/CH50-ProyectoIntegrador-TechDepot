@@ -55,26 +55,6 @@ body {
     text-align: center;
 }
 
-#instrucciones {
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-
-/* .error {
-    font-size: 12px;
-    margin-top: -25px;
-    display: none;
-}
-
-.error-activo {
-    display: block;
-} */
-
-
-
 /* Estilos para la sección de la imagen en dispositivos móviles */
 #img-login {
     position: relative;
@@ -106,21 +86,6 @@ body {
         object-fit: cover;
         width: 100%;
     }
-}
-
-
-/* Estilos para campos válidos */
-.campo-valido {
-    border: 2px solid #28a745 !important;
-    /* Verde */
-    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
-}
-
-/* Estilos para campos inválidos */
-.campo-invalido {
-    border: 2px solid #dc3545 !important;
-    /* Rojo */
-    box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
 }
 
 /* Estilos para los mensajes de error */
