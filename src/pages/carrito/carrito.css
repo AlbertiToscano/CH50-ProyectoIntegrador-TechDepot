@@ -194,3 +194,10 @@ h2, h4 {
 .descripcion{
     
 }
+
+.cantidad{
+    width: 80px;
+    height: 37px;
+    padding-top: 4px;
+    background-color: white;
+}

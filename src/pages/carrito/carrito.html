@@ -42,25 +42,9 @@
           <tbody id="productosCarrito">
             <!-- Aquí se cargarán los productos dinámicamente -->
             <!-- Ejemplo de una fila de producto (se agregará dinámicamente con JS) -->
-            <tr>
-              <td><img src="/img productos/alm1.webp" alt="Producto A" class="img-fluid imgProducto"></td>
-              <td>Producto A</td>
-              <td class="precio">$10.00</td>
-              <td>
-                <div class="input-group">
-                  <button class="btn btn-outline-secondary" type="button" onclick="decrementarCantidad(this)">-</button>
-                  <input type="number" class="form-control cantidad" value="1" min="1">
-                  <button class="btn btn-outline-secondary" type="button" onclick="incrementarCantidad(this)">+</button>
-                </div>
-              </td>
-              <td class="total">$10.00</td>
-              <td>
-                <!-- Botón de eliminar con icono PNG -->
-                <button class="btn btn-link" onclick="eliminarProducto(event)">
-                  <img src="/public/icons/icono-basura.png" alt="Eliminar" style="width: 20px; height: 20px;">
-                </button>
-              </td>
-            </tr>
+           
+
+            
             <!-- Fin del ejemplo de producto -->
           </tbody>
         </table>
@@ -82,7 +66,7 @@
             <!-- Checkbox dentro de la tarjeta -->
             <div class="custom-checkbox-container">
               <div class="form-check custom-checkbox">
-                <input class="form-check-input" type="checkbox" id="exampleCheck1">
+                <input class="form-check-input" type="checkbox" id="exampleCheck1" required >
                 <label class="form-check-label" for="exampleCheck1">
                   Acepto los
                   <a href="/src/pages/terminosCondiciones/terminosC.html" target="_blank">términos y condiciones</a>
@@ -92,7 +76,7 @@
 
             <!-- Botón de pago -->
             <div class="text-center mt-4">
-              <button class="btn btn-proceder-al-pago">Proceder al pago</button>
+              <button id="botonPagar" class="btn btn-proceder-al-pago">Proceder al pago</button>
             </div>
           </div>
         </div>
