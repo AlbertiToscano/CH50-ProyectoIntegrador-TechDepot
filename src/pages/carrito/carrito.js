@@ -3,10 +3,13 @@
     const idCarrito = this.getElementById("productosCarrito")
     
 
+    cargarProductos("producto");
     cargarProductos("piezaDePC");
+    
 
     function cargarProductos(key) {
-      productos = generarMemoria(key);
+      if(generarMemoria(key) != null){
+        productos = generarMemoria(key);
       const tablaCarrito = document.getElementById('productosCarrito');
       let totalCompra = 0;
       productos.forEach(producto => {
@@ -33,11 +36,15 @@
         botonRestar(producto,key);
         botonBorrar(producto,key);
         
+        
       });
   
       document.getElementById('totalCompra').textContent = `$${totalCompra.toFixed(2)}`;
     }
   
+
+      }
+      
     window.decrementarCantidad = function(button) {
       const inputCantidad = button.closest('tr').querySelector('.cantidad');
       if (inputCantidad.value > 1) {
@@ -60,6 +67,7 @@
     window.location.href = "/src/pages/pagar/pagar.html"; //redirige al carrito 
       });
     
+      actualizarTotal();
   });
   
 
@@ -149,11 +157,22 @@ function sumarCarrito(producto, key) {
 
 function actualizarTotal() {
   const memoriaConstruyeTuPc = generarMemoria("piezaDePC");
-  memoria = memoriaConstruyeTuPc;
+  const memoriaProductos = generarMemoria("producto");
+  memoria1 = memoriaConstruyeTuPc;
+  memoria2 = memoriaProductos;
   let total = 0;
-   memoria.forEach(producto =>{
-     total += producto.cantidad*producto.precio;
-   })
+
+  if(memoria1 != null){
+    memoria1.forEach(producto =>{
+      total += producto.cantidad*producto.precio;
+    })
+  }
+    if(memoria2 != null){
+      memoria2.forEach(producto =>{
+        total += producto.cantidad*producto.precio;
+      })
+    }
+   
    document.getElementById('totalCompra').textContent = `$${total.toFixed(2)}`;
  }
 
@@ -200,17 +219,52 @@ const botonRestar = (producto, key) => {
  */
 function botonBorrar(producto, key) {
   const contenedorBoton = document.getElementById(`borrar${producto.id}`);
-  const memoria = generarMemoria(key);
+  let memoria = generarMemoria(key);
   if (!memoria) {
   } else {
-    console.log(contenedorBoton.getElementsByClassName("btn"));
     contenedorBoton.addEventListener("click", () => {
-
+        memoria = generarMemoria(key);
         const indiceProducto = memoria.findIndex(pieza => pieza.id === producto.id)
         const nuevaMemoria = memoria.splice(indiceProducto,1);
         localStorage.setItem(key, JSON.stringify(memoria));
+        borrarKeysProductoUnitario(producto);
         actualizarTotal();
   });  
   }
+}
+
+
+/**
+ * función que elimina los elementos provenientes de la pagina de producto al presionar el bote de basura
+ * @param {} producto 
+ */
+const borrarKeysProductoUnitario= (producto) =>{
+    let productosComprados = localStorage.getItem("productosComprados");
+    let unitario = localStorage.getItem ("unitario");
+    productosComprados = productosComprados.split(",");
+    unitario = unitario.split(",");
+    console.log(productosComprados);
+   /*  let arregloDeObjetosComprados=[];  */
+   const newProductosComprados = productosComprados.length;
+
+    if(productosComprados){
+      
+      for(let i = 0; i<=newProductosComprados; i++) {
+        console.log(i);
+      //////////////////////////////////////////////////////
+        let indice = productosComprados.findIndex(elemento => elemento === producto.id)
+        if (indice != -1){
+          productosComprados.splice(indice,1);
+        }
+      /////////////////////////////////////////////////////
+      }
+      localStorage.setItem("productosComprados",(productosComprados));
+    }
+
+    if(unitario){
+      let indice = unitario.findIndex(elemento => elemento === producto.id)
+      unitario.splice(indice,1);
+    }
+    localStorage.setItem("unitario",(unitario));
 }
 
