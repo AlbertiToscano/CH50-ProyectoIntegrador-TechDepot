@@ -11,17 +11,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <!-- Estilo NavBar y Footer  -->
-  <script type="module" crossorigin src="/assets/footer-BO6_J53n.js"></script>
+  <script type="module" crossorigin src="/assets/pagCarrito-BkQwtaao.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/footer-BO6_J53n.js">
   <link rel="stylesheet" crossorigin href="/assets/footer-Di4OsO9k.css">
-  <link rel="stylesheet" crossorigin href="/assets/pagCarrito-BulEvgg4.css">
+  <link rel="stylesheet" crossorigin href="/assets/pagCarrito-pFSooAU_.css">
 </head>
 
 <body>
   <!-- Header -->
   <header id="header"></header>
 
-  <main>
-    <script src="/src/pages/carrito/carrito.js"></script>
+  <main>
 
     <!-- Contenedor principal -->
     <div class="carrito container my-3">
@@ -33,7 +33,7 @@
           <thead>
             <tr>
               <th scope="col">Imagen</th>
-              <th scope="col">Descripción</th>
+              <th class="descripcion" scope="col">Descripción</th>
               <th scope="col">Precio unitario</th>
               <th scope="col">Cantidad</th>
               <th scope="col">Precio total</th>
@@ -43,25 +43,9 @@
           <tbody id="productosCarrito">
             <!-- Aquí se cargarán los productos dinámicamente -->
             <!-- Ejemplo de una fila de producto (se agregará dinámicamente con JS) -->
-            <tr>
-              <td><img src="https://via.placeholder.com/100" alt="Producto A" class="img-fluid"></td>
-              <td>Producto A</td>
-              <td class="precio">$10.00</td>
-              <td>
-                <div class="input-group">
-                  <button class="btn btn-outline-secondary" type="button" onclick="decrementarCantidad(this)">-</button>
-                  <input type="number" class="form-control cantidad" value="1" min="1">
-                  <button class="btn btn-outline-secondary" type="button" onclick="incrementarCantidad(this)">+</button>
-                </div>
-              </td>
-              <td class="total">$10.00</td>
-              <td>
-                <!-- Botón de eliminar con icono PNG -->
-                <button class="btn btn-link" onclick="eliminarProducto(event)">
-                  <img src="data:image/png;base64,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" alt="Eliminar" style="width: 20px; height: 20px;">
-                </button>
-              </td>
-            </tr>
+           
+
+            
             <!-- Fin del ejemplo de producto -->
           </tbody>
         </table>
@@ -83,7 +67,7 @@
             <!-- Checkbox dentro de la tarjeta -->
             <div class="custom-checkbox-container">
               <div class="form-check custom-checkbox">
-                <input class="form-check-input" type="checkbox" id="exampleCheck1">
+                <input class="form-check-input" type="checkbox" id="exampleCheck1" required >
                 <label class="form-check-label" for="exampleCheck1">
                   Acepto los
                   <a href="/src/pages/terminosCondiciones/terminosC.html" target="_blank">términos y condiciones</a>
@@ -93,7 +77,7 @@
 
             <!-- Botón de pago -->
             <div class="text-center mt-4">
-              <button class="btn btn-proceder-al-pago">Proceder al pago</button>
+              <button id="botonPagar" class="btn btn-proceder-al-pago">Proceder al pago</button>
             </div>
           </div>
         </div>

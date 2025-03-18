@@ -9,7 +9,7 @@
 
     function cargarProductos(key) {
       if(generarMemoria(key) != null){
-        productos = generarMemoria(key);
+        const productos = generarMemoria(key);
       const tablaCarrito = document.getElementById('productosCarrito');
       let totalCompra = 0;
       productos.forEach(producto => {
@@ -27,7 +27,7 @@
           </td>
           <td class="total${producto.id}">$${(producto.precio*producto.cantidad).toFixed(2)}</td>
           <td><button id="borrar${producto.id}" class="btn btn-link" onclick="eliminarProducto(event)">
-            <img src="/public/icons/icono-basura.png" alt="Eliminar" style="width: 20px; height: 20px;">
+            <img src="/icons/icono-basura.png" alt="Eliminar" style="width: 20px; height: 20px;">
           </button></td>
         `;
         tablaCarrito.appendChild(tr);
@@ -104,8 +104,8 @@ function obtenerCantidad(producto, key) {
  * @param {*} key 
  */
 function actualizarCantidad(producto, key){
-  contenedor = document.getElementById(`cantidad${producto.id}`)
-  cantidad = obtenerCantidad(producto, key);
+  const contenedor = document.getElementById(`cantidad${producto.id}`)
+  const cantidad = obtenerCantidad(producto, key);
   contenedor.textContent = cantidad;
 }
 
@@ -158,8 +158,8 @@ function sumarCarrito(producto, key) {
 function actualizarTotal() {
   const memoriaConstruyeTuPc = generarMemoria("piezaDePC");
   const memoriaProductos = generarMemoria("producto");
-  memoria1 = memoriaConstruyeTuPc;
-  memoria2 = memoriaProductos;
+  const memoria1 = memoriaConstruyeTuPc;
+  const memoria2 = memoriaProductos;
   let total = 0;
 
   if(memoria1 != null){
