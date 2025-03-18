@@ -349,6 +349,7 @@ export function botonAgregarCarrito(categoria){
              }
             if(confirmacion){
                window.location.href="/src/pages/carrito/carrito.html";
+               
              }
              
              //document.getElementById("flycar").innerText=sumaCarrito();

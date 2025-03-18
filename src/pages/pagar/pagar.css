@@ -43,8 +43,15 @@ h4{
     color: #153B4C;
 }
 
+/* Mensajes de error */
 .error {
     color: red;
+    font-size: 0.9em;
+}
+
+/* Mensajes de éxito (cuando es correcto) */
+.correcto {
+    color: green;
     font-size: 0.9em;
 }
 
