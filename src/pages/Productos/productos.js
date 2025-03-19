@@ -346,15 +346,18 @@ export function botonAgregarCarrito(categoria){
              let confirmacion = window.confirm('Elemento agregado a su carrito. Usted tiene ' + sumaCarrito() + ' Items. ¿Desea ir al carrito de compras?');
              if(confirmacion){
                 iraACompras();
+                window.location.href="/src/pages/carrito/carrito.html";
              }
-            if(confirmacion){
-               window.location.href="/src/pages/carrito/carrito.html";
-             }
-             
+            
              //document.getElementById("flycar").innerText=sumaCarrito();
             }else{
-              localStorage.setItem("productosComprados",productoCompra);
-              let confirmacion = window.confirm('Elemento agregado a su carrito. Usted tiene ' + sumaCarrito() + ' Items. ¿Desea ir al carrito de compras?');
+                localStorage.setItem("productosComprados",productoCompra);
+                let confirmacion = window.confirm('Elemento agregado a su carrito. Usted tiene ' + sumaCarrito() + ' Items. ¿Desea ir al carrito de compras?');
+                if(confirmacion){
+                   iraACompras();
+                   window.location.href="/src/pages/carrito/carrito.html";
+                  
+                }
             }
           }     
       });
@@ -504,14 +507,14 @@ return card;
 };
 
 /* Capturar la reseña del usuario */
-document.getElementById("BotonEnviarComentario").addEventListener("click",  () => {
+/* document.getElementById("BotonEnviarComentario").addEventListener("click",  () => {
    // let colocarReseña = document.getElementById("colocarTarjetaReseña");
   let texto=document.getElementById("textResenaUsuario").value;
     document.getElementById("colocarTarjetaResena").innerHTML+=resenaCard(texto);
     document.getElementById("textResenaUsuario").value = "";
     
     });
-
+ */
 /* Codigo para estreellas */
 
 

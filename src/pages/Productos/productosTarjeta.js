@@ -49,7 +49,7 @@
 
                 <hr>
    <!-- Botones de compra -->
-                <div id="botoncillo" class="buttons mt-3 d-flex flex-column flex-md-row justify-content-md-start">
+                <div id="botoncillo" class="buttons mt-3 d-flex flex-column flex-md-row justify-content-md-end">
                    
                  <button id="addItemm" class="btn btn-primary me-md-2" data-producto="${idProductoPaginaProductoTarjeta}" >Añadir al carrito</button> 
                     

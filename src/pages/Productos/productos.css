@@ -118,13 +118,37 @@ section{
 /* ==============================
    ESTILOS DE TARJETAS
    ============================== */
-.card{
+.divTarj{
+  
+ justify-content: center;
+   
+   
+  
+}
+.bloquetitulos{
+
+
+min-width: fit-content;
+}
+
+
+@media screen and (max-width: 450px) {
+    .divTarj {
+      grid-template-columns: 1fr;
+ 
+      width: fit-content;
+    }
+  }
+
+   .card{
     display: flex;
    margin-block-start: 1rem; /* margen superior de las tarjetas */ 
    width: 18rem;
    margin-bottom: 10px;
    justify-content: center; /* Centrado horizontal */
   align-items: center;  
+ 
+ 
   
   /* height: 100vh;  */
 }
@@ -442,3 +466,4 @@ color: white;
 .fcar{
     visibility:hidden;
 }
+
