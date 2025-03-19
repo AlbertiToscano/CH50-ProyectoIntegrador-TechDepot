@@ -356,6 +356,9 @@ export function botonAgregarCarrito(categoria){
             }else{
               localStorage.setItem("productosComprados",productoCompra);
               let confirmacion = window.confirm('Elemento agregado a su carrito. Usted tiene ' + sumaCarrito() + ' Items. ¿Desea ir al carrito de compras?');
+              iraACompras();
+              window.location.href="/src/pages/carrito/carrito.html";
+              
             }
           }     
       });
