@@ -349,6 +349,7 @@ resize: none;
    
 
     }
+
 .estrellas{
      
      top: 0.4rem;
@@ -357,9 +358,19 @@ resize: none;
      position: relative;
     font-size: 0.5rem;
      margin-left:0.5rem;
-   
+   transition: color 0.3s;
      flex-direction: row;
+     cursor: pointer;
     }
+
+.starr:hover,
+.starr.checked{
+        color:gold;
+        
+        
+           }
+
+
 .icono{
     display: flex;
     position: relative;
@@ -416,3 +427,18 @@ align-items: center;
 color: white;
 
   }
+
+  .fijo {
+    position: fixed;
+    top: 10px; /* Ajusta la posición vertical */
+    right: 10px; /* Ajusta la posición horizontal */
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 32px;
+   
+}
+
+.fcar{
+    visibility:hidden;
+}
