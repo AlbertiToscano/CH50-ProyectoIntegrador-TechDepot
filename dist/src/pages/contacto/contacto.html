@@ -1,0 +1,121 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!--Estilo NavBar y Footer  -->
+  <script type="module" crossorigin src="/assets/footer-BO6_J53n.js"></script>
+  <script type="module" crossorigin src="/assets/contacto-BnI2xcPQ.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/footer-Di4OsO9k.css">
+  <link rel="stylesheet" crossorigin href="/assets/contact-CyNyOvMk.css">
+</head>
+
+<body> <!--  <header> <h1> Página de contacto </h1></header>-->
+
+  <header id="header">
+ </header>
+
+ 
+ <!-- Cuerpo de la pagina -->
+  <main> <br><br><br><br><br>
+    <section>
+      <!-- imagen -->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="col-md-12">
+              <!-- prueba -->
+              <div class="container">
+                <img src="/assets/contactanos-C4PmKijE.png" alt="Imagen de fondo" class="background">
+                <!--   <a href="https://wa.me/525598675423" class="button whatsapp">📞 (+52) 55 98 67 54 23</a>
+  <a href="mailto:contacto@techdepot.mx" class="button email">📧 contacto@techdepot.mx</a> -->
+                <a href="https://www.facebook.com/TechDepotMx" class="button facebook">
+                  <i class="icono"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGQSURBVHgBpVS/TsJgEL9ri3Fw6ADqYgKLM2z8GcTNKEbeQHgCfQP6Bsgb4BuQEBJHHVBGZhdqXEzA2MVBoT3vailN+dCIv6Rtvvvuftf+ftcPIQazXDUTH7NzRCgDUJYQ08HWEAlsQuqM+73reB1GF6lC5QI0sIQPfgTaAJ4VJdRDktJpk2mFZBN+BzfC6tbePrw/P95JQJPbdrHS4M+4VDf3WkBebuoaGbmAoDXfIm68Uzjx69DMV9MJfTZSN8b2uN+tRyPJYsVi/RqRkMMNckZCn1oxqRb4dMPu8tbfwlM2lmUa2qxmAGkHwHaoMNU3HHnu5o/Srq+fOg+RzgwmSS/tELHN7Mym44QhgFu/iDh/MRIBNBNTpcobxOz2COuv9902KKDQSNoMxbUh/BOszBMm2T7UsKlKELudQcf2NdKN0WoqqmmTh96VaAJrg2yZcH8gdc89XI+MbN3lWggm+2VwY/+VTFwUEqmVtTHfCAKZVPG4xvI1li1eECBQe6I4AZRgwnCC5WiRBvI7rcr/AhwnnBMBYtNfAAAAAElFTkSuQmCC" alt=""></i>
+                  TechDepotMx</a>
+                <a href="https://www.instagram.com/TechDepotMx" class="button instagram">
+                  <i class="icono"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHHSURBVHgBhVJBTtxAEOwejzcXpPhApBwnP2BviBxwbpGSCOcFSV6wmxes+cHygpAfGMGBG0ZCghv8AHNDCIlBICQ87Wl6DEL2ooW+9PS4y11V0wgSSZolg5pGjDAOJcwNrAB86Zp43R4VFSbLmYlVswfICTD8ZwA7F4pgJK3Jybr4ZqjjyOVSmKihT+dHu9U8YMuuuU+V47yJ9LGuF8YaWK0CwuYsMDRroiUiXQWKuqYxYzRh5TMvDBXCSAtdwwxnPVBN/9BRFuo4Ivjw+dsmsN8Ar67u393ty9RhaNWz9GLnpiIuE/PWpSzFg0wxjhAwuTjc+Rl6Fle+t709cDAPgH6JB9PLg+386bqUZivSJkmaJrYsnw1VXbDWZEJm5K0eHQVl+50WlvrXnSCtT9qDh7QHRlx7BFPVG9YtbFnYxZUfBSJPxKT3jLilPKyyZ1kefPEiLwyjQfQndnQtzWNkkOcRGYwFDW7+zvYGsEXwSXe6pN8fl7/mIsOQvj3pmvSogo2kCsXJXNZu5Bo9DMsAb0S7zhGdBhkYliKu3bH8TqZzIRTP5gFbhqjkKdlGTfMFw6VQNLKvuYiTVUXzymArHmyIlGmQ8gDdP8lE6gxI/AAAAABJRU5ErkJggg==" alt=""></i>
+                  @TechDepotMx</a>
+
+
+              </div>
+            </div>
+          </div>
+          <!-- formulario -->
+          <div class="col-sm-6">
+            <div class="row">
+
+              <div class="col-md-6">
+                <form id="miFormulario" action="https://formsubmit.co/853545695f0f5ef5f9680f0070a7ed98" method="POST">
+                  <label for="nombre">Nombre completo*</label>
+                  <input type="text" id="nombre" name="nombre" class="form-control" style="background-color:#A2B8C9;" aria-label="nombre"  onclick="borrarLeyenda(this.id)">
+                  <span class="error" id="error-nombre"></span><br>
+                  </div>
+                  <div class="col-md-6">
+                   <label for="email">Correo Electronico*</label>
+                   <input type="email" id="email" name="email" class="form-control"  style="background-color:#A2B8C9;" aria-label="email" onclick="borrarLeyenda(this.id)">
+                   <span class="error" id="error-email"></span>
+                    </div>
+                   <div type="tel" class="col-md-6">
+                   <label for="telefono">Número de teléfono*</label>
+                   <input type="tel" minlength="10" maxlength="12" id="telefono"  style="background-color:#A2B8C9;" name="telefono" class="form-control" onclick="borrarLeyenda(this.id)"
+                  aria-label="telefono" >
+                    <span class="error" id="error-telefono"></span>
+                   </div><br>
+                    <div class="col-md-12"><br>
+                    <div for="inputZip" class="form-label">
+                    <label for="mensaje">¿Cómo te podemos ayudar?*</label>
+                    </div>
+
+                    <div class="form-floating">
+                       <textarea class="form-control"  style="background-color:#A2B8C9;" id="mensaje" name="mensaje"
+                       placeholder="Escribe tus comentarios" onclick="borrarLeyenda(this.id)"></textarea>
+                      <label for="floatingTextarea" >Escribe tus comentarios</label>
+                       <span class="error" id="error-mensaje"></span>
+                       </div>
+                        </div>
+                       <div class="col-12"><br>
+                       <div class="form-check">
+                       <input class="form-check-input" type="checkbox" id="gridCheck" required >
+                        <label class="form-check-label" for="gridCheck" >
+                        Al aceptar, das tu consentimiento para que TechDepot almacene y procese la información personal
+                        proporcionada. Consulta nuestro Aviso de privacidad*
+                        </label>
+                        </div>
+                         </div>
+                         <div class="col-md-4">
+                         <button type="submit" class="btn btn-primary">Enviar</button>
+                         
+                     </div>
+                     <input type="hidden" name="_next" value="https://www.youtube.com/">
+                         <input type="hidden" name="_captcha" value="false">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><br><br><br>
+
+
+      <!-- Pie de página -->
+  <footer id="footer"></footer>
+    
+<!-- Codigo -->
+    
+      <!--  header js y footer js -->
+     <!-- Scripts -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
