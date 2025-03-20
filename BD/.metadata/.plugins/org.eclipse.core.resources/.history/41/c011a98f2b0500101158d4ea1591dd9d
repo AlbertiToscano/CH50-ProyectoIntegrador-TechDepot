@@ -1,0 +1,49 @@
+package com.techdepot.app.repository;
+
+import java.util.Optional;
+import java.util.Set;
+
+//import org.springframework.data.domain.Page;
+//import org.springframework.data.domain.Pageable;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
+
+import com.techdepot.app.model.Users;
+
+
+
+public interface UserRepository extends CrudRepository<Users, Long>, PagingAndSortingRepository<Users, Long> {
+	/*
+	 * Los query methods se refieren a métodos definidos en las 
+	 * interfaces de repositorios en Spring Data JPA (y otras 
+	 * implementaciones de Spring Data) que permiten generar 
+	 * consultas de manera automática a partir del nombre del 
+	 * método. Estos métodos siguen una convención de nombres 
+	 * específica que indica la consulta que deben ejecutar, 
+	 * evitando la necesidad de escribir manualmente consultas 
+	 * JPQL (Java Persistence Query Language) o SQL.
+	 * 
+	 * https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html
+	 * 
+	 */
+	
+	/**
+	 * Razones para usar Set en lugar de List:
+	 *  - Evita duplicados
+	 *  - Mejor rendimiento en búsquedas
+	 */
+	Set<Users> findByLastName(String lastname);
+	Set<Users> findByFirstName(String firstname);
+	
+	/**
+	 * Optional<T> es una clase de Java 8 (paquete java.util) 
+	 * que ayuda a manejar valores nulos de forma segura 
+	 * y evita errores de NullPointerException 
+	 */
+	Optional< Users > findByEmail(String email);
+
+//	Page<Users> findAllByActiveTrue(Pageable pageable);
+//	Page<Users> findAllByActiveFalse(Pageable pageable);
+ 
+
+}

@@ -1,0 +1,50 @@
+package com.techdepot.app.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.techdepot.app.model.Role;
+import com.techdepot.app.service.RoleService;
+import com.techdepot.app.model.Role;
+
+
+
+@CrossOrigin(origins = "*")
+@RestController
+@RequestMapping("/api/v1/role") // localhost:8080/api/v1 
+public class RoleController {
+	
+	RoleService roleService;
+	
+	
+	
+    public RoleController(RoleService roleService) {
+		super();
+		this.roleService = roleService;
+	}
+
+    @Override
+	ResponseEntity<Role> getRoleById(Long id) {
+    	Role Role = roleService.getRoleById(id);
+		return ResponseEntity.ok(Role);
+	}
+    
+    ResponseEntity< Iterable<Role> > getAllRoles() {
+    	
+	}
+    
+    ResponseEntity< Role > createRole(Role newRole) {
+		return null;
+	}
+    
+    ResponseEntity< Role > updateRole(Role role, Long id) {
+		return null;
+	}
+
+    ResponseEntity< Void > deleteRole(Long id) {
+		return null;
+	}
+ 
+}
