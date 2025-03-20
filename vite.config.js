@@ -24,7 +24,8 @@ export default defineConfig({
         misPedidos2: resolve(__dirname, 'src/pages/miCuenta/misPedidos/misPedidospag2.html'),
         metodosPago: resolve(__dirname, 'src/pages/miCuenta/metodosPago/metodosPago.html'),
         pagar: resolve(__dirname, 'src/pages/pagar/pagar.html'),
-        tarjetaProducto: resolve(__dirname, 'src/pages/Productos/tarjeta.html')
+        tarjetaProducto: resolve(__dirname, 'src/pages/Productos/tarjeta.html'),
+        inicioSesionAdmin: resolve(__dirname, 'src/pages/InicioSesionAdmin/inicioSesionAdmin.html')
       },
     },
   },

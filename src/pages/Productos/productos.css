@@ -1,241 +1,265 @@
 
 main{
     
-        background-color: #E6EDF4;
+    background-color: #E6EDF4;
 
 }
 .textoH1{
 
-    color: #4a859e;
-    text-align: center;
-   
-    
+color: #4a859e;
+text-align: center;
+
+
 }
 p{
-    text-align: center;
-    
+text-align: center;
+
 }
 section{
- align-items: center;
+align-items: center;
 
 }
 
 
 .imagenCarrousel  {
-    width: 100%;
-    max-width: 20rem;
-    background-color: brown;
-    padding-inline: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-   
+width: 100%;
+max-width: 20rem;
+background-color: brown;
+padding-inline: 1rem;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+background-color: transparent;
+
 }
 
 
 
 /* estilos de la pagina de Construye tu pc */
 /* ==============================
-   ESTILOS GENERALES DEL DOCUMENTO
-   ============================== */
-   html, body {
-    font-family: 'Poppins', sans-serif; /* Fuente principal del documento */
-    background-color: #F8F9FA; /* Color de fondo general */
-    color: #153B4C; /* Color del texto principal */
-    margin: 0; /* Elimina los márgenes predeterminados */
-    padding: 0; /* Elimina el padding predeterminado */
-    /*font-size: 18px;  Define un tamaño de fuente base */
-    text-align: justify; /* Justifica todo el texto para mejor legibilidad */ 
+ESTILOS GENERALES DEL DOCUMENTO
+============================== */
+html, body {
+font-family: 'Poppins', sans-serif; /* Fuente principal del documento */
+background-color: #F8F9FA; /* Color de fondo general */
+color: #153B4C; /* Color del texto principal */
+margin: 0; /* Elimina los márgenes predeterminados */
+padding: 0; /* Elimina el padding predeterminado */
+/*font-size: 18px;  Define un tamaño de fuente base */
+text-align: justify; /* Justifica todo el texto para mejor legibilidad */ 
 } 
 
 /* ==============================
-   ESTILOS DEL TÍTULO PRINCIPAL
-   ============================== */
-   .heading-title {
-    color: #386578;
-    font-size: 32px;
-    font-weight: bold;
-    position: relative;
-    display: inline-block;
-    margin-bottom: 0px;
+ESTILOS DEL TÍTULO PRINCIPAL
+============================== */
+.heading-title {
+color: #386578;
+font-size: 32px;
+font-weight: bold;
+position: relative;
+display: inline-block;
+margin-bottom: 0px;
 }
 
 .heading-title::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: #A2B8C9;
-    margin-top: 5px;
+content: "";
+display: block;
+width: 100%;
+height: 4px;
+background-color: #A2B8C9;
+margin-top: 5px;
 }
 
 /* ==============================
-   ESTILOS DEL ACORDEÓN
-   ============================== */
-   
-   .accordion{
-    margin: auto 7rem 4rem; /* Margen de los acordeones */
-   }
-   
-   .accordion-button {
-    background-color: #153B4C; /* Color de fondo del botón del acordeón */
-    color: white; /* Color del texto */
-    font-weight: bold; /* Hace el texto más grueso */
-    border-radius: 0; /* Elimina bordes redondeados */
-    font-size: 22px; /* Ajusta el tamaño del texto dentro del botón */
-    
+ESTILOS DEL ACORDEÓN
+============================== */
+
+.accordion{
+margin: auto 7rem 4rem; /* Margen de los acordeones */
+}
+
+.accordion-button {
+background-color: #153B4C; /* Color de fondo del botón del acordeón */
+color: white; /* Color del texto */
+font-weight: bold; /* Hace el texto más grueso */
+border-radius: 0; /* Elimina bordes redondeados */
+font-size: 22px; /* Ajusta el tamaño del texto dentro del botón */
+
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #0E2A3A; /* Color del botón cuando está expandido */
-    color: white;
+background-color: #0E2A3A; /* Color del botón cuando está expandido */
+color: white;
 }
 
 .accordion-button:focus {
-    box-shadow: none; /* Elimina el resaltado al hacer clic */
+box-shadow: none; /* Elimina el resaltado al hacer clic */
 }
 
 .accordion-button::after {
-    filter: brightness(0) invert(1); /* Cambia el color del icono de flecha a blanco */
+filter: brightness(0) invert(1); /* Cambia el color del icono de flecha a blanco */
 }
 
 .accordion-body {
-    background-color: #FFFFFF; /* Color de fondo del contenido dentro del acordeón */
-    color: #153B4C; /* Color del texto dentro del acordeón */
-    padding: 30px; /* Espaciado interno dentro del acordeón */
-    font-size: 18px; /* Tamaño del texto dentro del acordeón */
-    text-align: justify; /* Justifica el contenido */
-     
+background-color: #FFFFFF; /* Color de fondo del contenido dentro del acordeón */
+color: #153B4C; /* Color del texto dentro del acordeón */
+padding: 30px; /* Espaciado interno dentro del acordeón */
+font-size: 18px; /* Tamaño del texto dentro del acordeón */
+text-align: justify; /* Justifica el contenido */
+ 
 }
 
 .accordion-item {
-    border: 1px solid #A2B8C9; /* Define un borde alrededor de cada elemento del acordeón */
-    border-radius: 0; /* Quita bordes redondeados */
-    margin-bottom: 10px; /* Espaciado entre elementos del acordeón */
+border: 1px solid #A2B8C9; /* Define un borde alrededor de cada elemento del acordeón */
+border-radius: 0; /* Quita bordes redondeados */
+margin-bottom: 10px; /* Espaciado entre elementos del acordeón */
 }
 
 /* ==============================
-   ESTILOS DE TARJETAS
-   ============================== */
+ESTILOS DE TARJETAS
+============================== */
+.divTarj{
+
+justify-content: center;
+
+
+
+}
+.bloquetitulos{
+
+
+min-width: fit-content;
+}
+
+
+@media screen and (max-width: 450px) {
+.divTarj {
+  grid-template-columns: 1fr;
+
+  width: fit-content;
+}
+}
+
 .card{
-    display: flex;
-   margin-block-start: 1rem; /* margen superior de las tarjetas */ 
-   width: 18rem;
-   margin-bottom: 10px;
-   justify-content: center; /* Centrado horizontal */
-  align-items: center;  
-  
-  /* height: 100vh;  */
+display: flex;
+margin-block-start: 1rem; /* margen superior de las tarjetas */ 
+width: 18rem;
+margin-bottom: 10px;
+justify-content: center; /* Centrado horizontal */
+align-items: center;  
+
+
+
+/* height: 100vh;  */
 }
 .card-title{ /* estilos del titulo */
-    color: #153B4C;
-    font-weight: bold;
-    font-size:large;
-    margin-bottom: 0px;
+color: #153B4C;
+font-weight: bold;
+font-size:large;
+margin-bottom: 0px;
 }
 .card-text{ /* estilos de la descripción */
-    color:#153B4C;
-    font-size: medium;
-    text-align: left;
+color:#153B4C;
+font-size: medium;
+text-align: left;
 }
 .card-price{ /* estilos del precio */
-    color: #386578;
-    font-size: medium;
-    font-weight: bold;
-    margin-right: auto;
+color: #386578;
+font-size: medium;
+font-weight: bold;
+margin-right: auto;
 }
 
 
 
 .btn{ /* estilos del botón en reposo */
-    color: #386578;
-    scale: 80%;
-    background-color: #ffffff;
-    border-radius: 20px;
-    border-color: #0E2A3A;
+color: #386578;
+scale: 80%;
+background-color: #ffffff;
+border-radius: 20px;
+border-color: #0E2A3A;
 }
 
 .btn:hover{ /* cuando pasas el mouse por encima */
-    background-color: #A2B8C9;
+background-color: #A2B8C9;
 }
 
 .btn:active{ /* cuando se hace clic */
-    background-color: #153B4C; 
-    color: #A2B8C9;
+background-color: #153B4C; 
+color: #A2B8C9;
 }
 .cardEstrellas{
-    display:flex;
-    padding: 0.5rem;;
-    margin-bottom: 0px;
-    width;
+display:flex;
+padding: 0.5rem;;
+margin-bottom: 0px;
+
 }
 /*  */
 .card-body{
-    position: relative;
+position: relative;
 }
 .contPrice{
-   
-    /* position: absolute; */
-    bottom: 0;
+
+/* position: absolute; */
+bottom: 0;
 }
 
 
 /* ==============================
-   ESTILOS DE TARJETAS
-   ============================== */
+ESTILOS DE TARJETAS
+============================== */
 
-   .accordion .card{
-    margin-top: 1em; /* margen superior de las tarjetas */ 
-    margin-right: 1rem;
-    margin-left: 0.1rem;
-    border-radius: 15px;
-    background-color: #EEF5FC;
-    align-items: center;
-    
-    
- }
- 
- .card img{ /* margen superior de las imagenes en las tarjetas */
-     margin-top: 1em;
- }
- 
- 
- .card-title{ /* estilos del titulo */
-     color: #153B4C;
-     font-weight: bold;
-     font-size:large;
- }
- .card-text{ /* estilos de la descripción */
-     color:#153B4C;
-     font-size: medium;
-     text-align: left;
- }
- .card-price{ /* estilos del precio */
-     color: #386578;
-     font-size: medium;
-     font-weight: bold;
-     margin-right: auto;
- }
- 
- .card .btn{ /* estilos del botón en reposo */
-     color: #386578;
-     scale: 80%;
-     background-color: #ffffff;
-     border-radius: 20px;
-     border-color: #0E2A3A;
- }
- 
- .card .btn:hover{ /* cuando pasas el mouse por encima */
-     background-color: #A2B8C9;
- }
- 
- .card .btn:active{ /* cuando se hace clic */
-     background-color: #153B4C; 
-     color: #A2B8C9;
- }
- 
- 
+.accordion .card{
+margin-top: 1em; /* margen superior de las tarjetas */ 
+margin-right: 1rem;
+margin-left: 0.1rem;
+border-radius: 15px;
+background-color: #EEF5FC;
+align-items: center;
+
+
+}
+
+.card img{ /* margen superior de las imagenes en las tarjetas */
+ margin-top: 1em;
+}
+
+
+.card-title{ /* estilos del titulo */
+ color: #153B4C;
+ font-weight: bold;
+ font-size:large;
+}
+.card-text{ /* estilos de la descripción */
+ color:#153B4C;
+ font-size: medium;
+ text-align: left;
+}
+.card-price{ /* estilos del precio */
+ color: #386578;
+ font-size: medium;
+ font-weight: bold;
+ margin-right: auto;
+}
+
+.card .btn{ /* estilos del botón en reposo */
+ color: #386578;
+ scale: 80%;
+ background-color: #ffffff;
+ border-radius: 20px;
+ border-color: #0E2A3A;
+}
+
+.card .btn:hover{ /* cuando pasas el mouse por encima */
+ background-color: #A2B8C9;
+}
+
+.card .btn:active{ /* cuando se hace clic */
+ background-color: #153B4C; 
+ color: #A2B8C9;
+}
+
+
 
 
 
@@ -243,7 +267,7 @@ section{
 /* Estilos adicionales */
 .descripcionExpandida, .descripcionCorta, .descripcionCortabase{
 
-    display: none;
+display: none;
 }
 
 .imagenCarrousel{
@@ -254,140 +278,140 @@ border-radius: 40rem;
 
 
 .textoH1 {
-    font-size: 4rem; 
-    font-weight: bold; 
-    color: #153B4C; 
-    text-align: center; 
-    margin-bottom: 20px; 
-  }
-  
-  .textop {
-    font-size: 2rem; 
-    color: #555; 
-    text-align: center; 
-    line-height: 1.6; 
-  }
-  
-  /* ESTILO PARA LA PARTE DE LOS COMENTARIOS */
+font-size: 4rem; 
+font-weight: bold; 
+color: #153B4C; 
+text-align: center; 
+margin-bottom: 20px; 
+}
 
-  .espacioParaComentario{
+.textop {
+font-size: 2rem; 
+color: #555; 
+text-align: center; 
+line-height: 1.6; 
+}
+
+/* ESTILO PARA LA PARTE DE LOS COMENTARIOS */
+
+.espacioParaComentario{
 height: 10rem;
 width: 20rem;
 background-color: #386578;
 color: white;
 border-radius: 1rem;
 resize: none;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    line-height: 2.2rem;
+font-size: 14px;
+border: 1px solid #ccc;
+line-height: 2.2rem;
 
-  }
-  .espacioParaComentario::placeholder{
-    color:white;
-   text-transform: capitalize;
-   text-align:center ;
-   
-  }
-  #BotonEnviarComentario{
-    color: #386578;
-    height: 2rem;
-    width: 5rem;
-    background-color: #ffffff;
-    border-radius: 15px;
-    border-color: #0E2A3A;
-    box-shadow:0 0 2rem -1rem rgb(0,0,0, 0.5) ;
-   
-    
-  }
-  #BotonEnviarComentario:hover{
-    transform: scale(1.1);/* para que se agranden un poco al pasar el mouse */
-    
-   
-   }
+}
+.espacioParaComentario::placeholder{
+color:white;
+text-transform: capitalize;
+text-align:center ;
 
-   
-   .divPublicarComentarios{
-    /* background-color: #4a859e; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 5px;
-    flex-direction: column;
-   }
-   .todo{
-    /* background-color: red; */
-    padding-top: 2rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-    padding-bottom: 2rem;
-  display: flex;
-  flex-direction: row;
-    gap: 2rem;
-  
-   }
-   .recuadroAtras{
-    background-color:#A2B8C9;
-    position: relative;
-    
-    width: 11rem;
-    height: 10rem;
-    
-   }
-   .reseña{
-    left: 0.5rem;
-    top: 0.5rem;
-    position: absolute;
-    display: flex;
-    background-color: #386578;
-    width: 10rem;
-    height: 9rem;
-    padding: 0.5px;
-   
-    align-items: flex-start;
-   
+}
+#BotonEnviarComentario{
+color: #386578;
+height: 2rem;
+width: 5rem;
+background-color: #ffffff;
+border-radius: 15px;
+border-color: #0E2A3A;
+box-shadow:0 0 2rem -1rem rgb(0,0,0, 0.5) ;
 
-    }
+
+}
+#BotonEnviarComentario:hover{
+transform: scale(1.1);/* para que se agranden un poco al pasar el mouse */
+
+
+}
+
+
+.divPublicarComentarios{
+/* background-color: #4a859e; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding: 5px;
+flex-direction: column;
+}
+.todo{
+/* background-color: red; */
+padding-top: 2rem;
+padding-left: 8rem;
+padding-right: 8rem;
+padding-bottom: 2rem;
+display: flex;
+flex-direction: row;
+gap: 2rem;
+
+}
+.recuadroAtras{
+background-color:#A2B8C9;
+position: relative;
+
+width: 11rem;
+height: 10rem;
+
+}
+.reseña{
+left: 0.5rem;
+top: 0.5rem;
+position: absolute;
+display: flex;
+background-color: #386578;
+width: 10rem;
+height: 9rem;
+padding: 0.5px;
+
+align-items: flex-start;
+
+
+}
 
 .estrellas{
-     
-     top: 0.4rem;
-     right: -0.9rem;
-     display: flex;
-     position: relative;
-    font-size: 0.5rem;
-     margin-left:0.5rem;
-   transition: color 0.3s;
-     flex-direction: row;
-     cursor: pointer;
-    }
+ 
+ top: 0.4rem;
+ right: -0.9rem;
+ display: flex;
+ position: relative;
+font-size: 0.5rem;
+ margin-left:0.5rem;
+transition: color 0.3s;
+ flex-direction: row;
+ cursor: pointer;
+}
 
 .starr:hover,
 .starr.checked{
-        color:gold;
-        
-        
-           }
+    color:gold;
+    
+    
+       }
 
 
 .icono{
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    align-items: center;
-    color: white;
-   
+display: flex;
+position: relative;
+flex-direction: row;
+align-items: center;
+color: white;
+
 }
 .textReseña{
-    color: white;
-    font-size: 10px;
-    line-height: 0.80rem;
-    font-weight:lighter;
-    position: absolute;
-    align-items: center;
-    top:45px;
-    
+color: white;
+font-size: 10px;
+line-height: 0.80rem;
+font-weight:lighter;
+position: absolute;
+align-items: center;
+top:45px;
+
 }
 
 #idBotonVerMasComentario{
@@ -405,40 +429,40 @@ align-items: center;
 }
 
 #idBotonVerMasComentario:hover{
-   
-    transform: scale(1.1);/* para que se agranden un poco al pasar el mouse */
-    transform-origin: center;
-    
-    color:white;
-    background-color:#2f3b40 ;
+
+transform: scale(1.1);/* para que se agranden un poco al pasar el mouse */
+transform-origin: center;
+
+color:white;
+background-color:#2f3b40 ;
 }
 .contenedorBoton {
-    
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
-    
-  }
-  .textestrella{
-    position: absolute;
-    left: 2.6rem;
-    top: 0.05rem;
+
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+
+}
+.textestrella{
+position: absolute;
+left: 2.6rem;
+top: 0.05rem;
 color: white;
 
-  }
+}
 
-  .fijo {
-    position: fixed;
-    top: 10px; /* Ajusta la posición vertical */
-    right: 10px; /* Ajusta la posición horizontal */
-    background-color: #f0f0f0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    font-size: 32px;
-   
+.fijo {
+position: fixed;
+top: 10px; /* Ajusta la posición vertical */
+right: 10px; /* Ajusta la posición horizontal */
+background-color: #f0f0f0;
+padding: 10px;
+border: 1px solid #ccc;
+font-size: 32px;
+
 }
 
 .fcar{
-    visibility:hidden;
+visibility:hidden;
 }
