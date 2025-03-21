@@ -200,6 +200,7 @@ body {
     display: block;
 }
 
+
 .error-registro{
     /*cuando está inactivo */
     border-radius: 10px;
@@ -232,4 +233,16 @@ body {
 
 .registro-exitoso-activo {
     display: block;
+}
+.error-activoC {
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 130px;
+    font-size: 13px;
+    color: rgb(146, 19, 19);
+    padding-bottom: 01px;
+    display: none; 
+}
+.error-activoC-activo {
+    display: block !important;
 }

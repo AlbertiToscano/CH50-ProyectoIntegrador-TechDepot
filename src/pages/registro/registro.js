@@ -11,12 +11,12 @@ const campos = {
     contraseña: false,
 };
 
-const usuarios = [];
+const usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
 
 // Expresiones regulares para la validación de los datos
 const expresiones = {
     nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
-    contraseña: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])[A-Za-z\d$@$!%*?&#.$($)$-$_]{8,16}$//* /^.{8,16}$/ */,
+    contraseña: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$(\)-_/+\.,:;'"!&^~|`])[A-Za-z\d$@$!%*?&#.$(\)-_/+\.,:;'"!&^~|`]{8,16}$/,
     correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
     telefono: /^\d{10}$/
 }
@@ -33,6 +33,7 @@ const validarRegistro = (e) => {
             break;
         case "correo":
             validarCampo(expresiones.correo, e.target, 'correo');
+            verificarCorreoUnico(e.target.value);
             break;
         case "contraseña":
             validarCampo(expresiones.contraseña, e.target, 'contraseña');
@@ -70,7 +71,31 @@ const coincidenciaContraseña = () => {
         campos['contraseña'] = true;//remueve el mensaje de error
     }
 
+    //verifica que la contraseña siempre cumpla con los requisitos
+    const contraseñaValida= expresiones.contraseña.test(inputContraseña1.value);
+    if (!contraseñaValida){
+        document.querySelector(`#error-contraseña`).classList.add('error-activo');
+        campos['contraseña'] = false;
+    } else {
+        document.querySelector(`#error-contraseña`).classList.remove('error-activo');
+    }
+
+
 }
+
+//Verificar que el correo no este registrado
+const verificarCorreoUnico = (correo) => {
+    const correoYaRegistrado = usuarios.some(usuario => usuario.datosUsuario.correo === correo);
+    
+    if (correoYaRegistrado) {
+        document.querySelector('#error-correo').classList.add('error-activoC-activo');
+        campos['correo'] = false; 
+    } else {
+        document.querySelector('#error-correo').classList.remove('error-activoC-activo');
+        campos['correo'] = true; 
+    }
+};
+
 
 //Valida los campos del formulario cuando se levanta la tecla o se sale del campo
 inputs.forEach((input) => {
