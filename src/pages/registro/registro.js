@@ -88,10 +88,10 @@ const verificarCorreoUnico = (correo) => {
     const correoYaRegistrado = usuarios.some(usuario => usuario.datosUsuario.correo === correo);
     
     if (correoYaRegistrado) {
-        document.querySelector('#error-correo').classList.add('error-activoC-activo');
+        document.querySelector('#errorc-activo').classList.add('errorc-activo-activo');
         campos['correo'] = false; 
     } else {
-        document.querySelector('#error-correo').classList.remove('error-activoC-activo');
+        document.querySelector('#errorc-activo').classList.remove('errorc-activo-activo');
         campos['correo'] = true; 
     }
 };
