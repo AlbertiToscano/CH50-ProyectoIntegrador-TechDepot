@@ -52,7 +52,18 @@ Plataforma de comercio electrónico 'TeachDepot', en la cual se integran diferen
        ├──registro
        ├──terminosCondiciones
 
-
 ```
 
+##Instalación y uso
 
+1. Clona el repositorio:
+   ```bash
+   git clone git@github.com:AlbertiToscano/CH50-ProyectoIntegrador-TechDepot.git
+
+2. Intalar dependencias:
+   ```bash
+   npm i
+
+3. Visualizar:
+   ```bash
+   npm run dev -- --open
