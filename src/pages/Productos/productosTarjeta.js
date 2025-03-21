@@ -1,6 +1,6 @@
 /*  import { funest1,funest2,funest1,funest3,funest4,funest5} from "./productos.js"; */
 
- import { iraACompras } from "./productosObj.js";
+import { iraACompras } from "./productosObj.js";
 //window.onload = function() {
     // Recuperar los datos del localStorage
     let tit = localStorage.getItem("titulo");
@@ -49,7 +49,7 @@
 
                 <hr>
    <!-- Botones de compra -->
-                <div id="botoncillo" class="buttons mt-3 d-flex flex-column flex-md-row justify-content-md-start">
+                <div id="botoncillo" class="buttons mt-3 d-flex flex-column flex-md-row justify-content-md-end">
                    
                  <button id="addItemm" class="btn btn-primary me-md-2" data-producto="${idProductoPaginaProductoTarjeta}" >Añadir al carrito</button> 
                     
