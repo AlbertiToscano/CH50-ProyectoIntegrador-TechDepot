@@ -82,6 +82,7 @@ public class AddressServiceImpl implements AddressService {
 		existingAddress.setCity( address.getCity() );
 		existingAddress.setState( address.getState() );
 		existingAddress.setReferences( address.getReferences() );
+		existingAddress.setUsers( address.getUsers() );
 		// TODO modificar los roles en caso de ser necesario
 		// ID y name no se permite modificar
 		return addressRepository.save(existingAddress);

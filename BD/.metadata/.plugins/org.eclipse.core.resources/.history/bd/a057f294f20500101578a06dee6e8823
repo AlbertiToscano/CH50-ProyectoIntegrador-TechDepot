@@ -1,0 +1,41 @@
+package com.techdepot.app.util;
+
+
+import java.time.LocalDate; 
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.support.BeanDefinitionDsl.Role;
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
+
+import com.techdepot.app.model.Users;
+import com.techdepot.app.repository.UsersRepository;
+
+
+
+
+
+@Component
+@Order(2)
+
+public class UserDataLoader implements CommandLineRunner {
+
+	@Autowired
+	UsersRepository UserRepository;
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		UserRepository.save(new Users("Jorge", "Espinosa", "jorespi@gmail.com", "jorge123","https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GEXH3WKK0-backdrop_wide",LocalDate.of(2000, 12, 19)) );
+		UserRepository.save(new Users("Alberti", "Toscano", "alber@gmail.com", "alberti123","https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GEXH3WKK0-backdrop_wide",LocalDate.of(1998, 10, 7)) );
+		UserRepository.save(new Users("Cecilia", "Barranco", "abuebarranco@gmail.com", "barronco123","https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GEXH3WKK0-backdrop_wide",LocalDate.of(2001, 12, 5)) );
+		UserRepository.save(new Users("Fernando", "Moreno", "nandiux@gmail.com", "nandi123","https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GEXH3WKK0-backdrop_wide",LocalDate.of(1997, 11, 25)) );
+		UserRepository.save(new Users("Karen", "Flores", "kareflo@gmail.com", "flores123","https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=cover,format=auto,quality=85,width=1920/keyart/GEXH3WKK0-backdrop_wide",LocalDate.of(1999, 1, 30)) );
+	
+	
+		
+	
+	}
+	
+}

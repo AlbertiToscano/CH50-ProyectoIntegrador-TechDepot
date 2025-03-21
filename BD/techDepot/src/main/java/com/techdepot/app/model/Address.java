@@ -69,6 +69,16 @@ public class Address {
 		this.references = references;
 	}
 
+	
+	
+	public Users getUsers() {
+		return users;
+	}
+
+	public void setUsers(Users users) {
+		this.users = users;
+	}
+
 	public Long getId() {
 		return id;
 	}

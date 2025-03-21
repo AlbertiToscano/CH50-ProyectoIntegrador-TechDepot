@@ -1,6 +1,9 @@
 package com.techdepot.app.controller;
 
 
+import java.util.Optional;
+
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
@@ -10,8 +13,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.server.ResponseStatusException;
 
 import com.techdepot.app.model.Users;
 import com.techdepot.app.service.UsersService;
@@ -33,6 +37,18 @@ public class UsersController {
 	Users getUserById(@PathVariable("id") Long id){
 		Users existingUsers = usersService.getUserById(id);
 		return existingUsers;
+	}
+	
+	
+	@GetMapping("email")// http://localhost:8080/api/v1/users/email?email=test@example.com
+	public Users getUserByEmail(@RequestParam("email") String email) {
+	    // Llamamos al servicio para obtener el cliente usando el correo electrónico
+	    Users existingCustomer = usersService.getUserByEmail(email);
+	    if (existingCustomer != null) {
+	        return existingCustomer;
+	    } else {
+	        throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Customer not found with email: " + email);
+	    }
 	}
 	
 	

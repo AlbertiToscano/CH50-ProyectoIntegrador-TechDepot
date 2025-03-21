@@ -37,7 +37,18 @@
 					"name": "All User",
 					"request": {
 						"method": "GET",
-						"header": []
+						"header": [],
+						"url": {
+							"raw": "{{techdepot}}/api/v1/users",
+							"host": [
+								"{{techdepot}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"users"
+							]
+						}
 					},
 					"response": []
 				},
@@ -46,6 +57,54 @@
 					"request": {
 						"method": "GET",
 						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "User by Email",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{techdepot}}/api/v1/users/email?email=alber@gmail.com",
+							"host": [
+								"{{techdepot}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"email"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "alber@gmail.com"
+								}
+							]
+						}
 					},
 					"response": []
 				},
@@ -84,7 +143,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"{{Abuela Barronco}}\",\r\n    \"lastName\": \"{{Fernandez}}\",\r\n    \"email\": \"{{abuela@gmail.coml}}\",\r\n    \"birthDate\": \"2002-11-05\",\r\n    \"password\": \"{{hola1234}}\"\r\n    \r\n}",
+							"raw": "{\r\n    \"firstName\": \"Abuela Barronco2\",\r\n    \"lastName\": \"Fernandez\",\r\n    \"email\": \"abuela;prueba@gmail.coml\",\r\n    \"birthDate\": \"2002-11-05\",\r\n    \"password\": \"hola1234\",\r\n    \"role\":{\"id\":1}\r\n    \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -92,7 +151,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{techdepot}}/api/v1/users",
+							"raw": "{{techdepot}}/api/v1/users?role=2",
 							"host": [
 								"{{techdepot}}"
 							],
@@ -100,6 +159,12 @@
 								"api",
 								"v1",
 								"users"
+							],
+							"query": [
+								{
+									"key": "role",
+									"value": "2"
+								}
 							]
 						}
 					},
@@ -127,7 +192,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"Lizette\",\r\n    \"lastName\": \"Trejo\",\r\n    \"email\": \"liz@gmail.com\",\r\n    \"password\": \"mipassword\",\r\n    \"birthDate\": \"2002-11-05\",\r\n    \"role\":{\r\n    \"id\": 2,\r\n    \"name\": \"Customer\",\r\n    \"description\": \"Permisos Limitados\"\r\n}\r\n}",
+							"raw": "{\r\n    \"firstName\": \"Lizette\",\r\n    \"lastName\": \"Trejo\",\r\n    \"email\": \"liz@gmail.com\",\r\n    \"password\": \"mipassword\",\r\n    \"birthDate\": \"2002-11-05\",\r\n    \"role\":{\"id\": 2}\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -135,7 +200,7 @@
 							}
 						},
 						"url": {
-							"raw": "{{techdepot}}/api/v1/users/1?Role=2",
+							"raw": "{{techdepot}}/api/v1/users/1",
 							"host": [
 								"{{techdepot}}"
 							],
@@ -144,12 +209,6 @@
 								"v1",
 								"users",
 								"1"
-							],
-							"query": [
-								{
-									"key": "Role",
-									"value": "2"
-								}
 							]
 						}
 					},
