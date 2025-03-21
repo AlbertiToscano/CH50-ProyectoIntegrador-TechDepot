@@ -54,7 +54,7 @@ Plataforma de comercio electrónico 'TeachDepot', en la cual se integran diferen
 
 ```
 
-##Instalación y uso
+## Instalación y uso
 
 1. Clona el repositorio:
    ```bash
