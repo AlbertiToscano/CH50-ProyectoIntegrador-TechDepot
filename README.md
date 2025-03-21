@@ -36,7 +36,7 @@ Primero, clona este repositorio a tu máquina local:
 
 bash
 Copiar
-git clone https://
+git clone git@github.com:AlbertiToscano/CH50-ProyectoIntegrador-TechDepot.git
 
 2. Configurar la base de datos
 Asegúrate de tener MySQL instalado en tu máquina. Luego, crea una base de datos para la aplicación de comercio electrónico:
