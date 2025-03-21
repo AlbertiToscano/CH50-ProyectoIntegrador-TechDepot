@@ -13,11 +13,6 @@ import com.techdepot.app.repository.UsersRepository;
 
 
 
-
-
-@Component
-@Order(2)
-
 public class UserDataLoader implements CommandLineRunner {
 
 	@Autowired
