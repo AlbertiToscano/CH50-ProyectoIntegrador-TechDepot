@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Obteniendo los Id del formulario
 const campos = {
     nombre: false,
-    telefono: false,
+    apellido: false,
     correo: false,
     contraseña: false,
 };
@@ -18,7 +18,7 @@ const expresiones = {
     nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
     contraseña: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])[A-Za-z\d$@$!%*?&#.$($)$-$_]{8,16}$//* /^.{8,16}$/ */,
     correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-    telefono: /^\d{10}$/
+    apellido: /^[a-zA-ZÀ-ÿ\s]{1,40}$/
 }
 
 //Validación de los campos del formulario de registro
@@ -28,8 +28,8 @@ const validarRegistro = (e) => {
         case "nombre":
             validarCampo(expresiones.nombre, e.target, 'nombre');
             break;
-        case "telefono":
-            validarCampo(expresiones.telefono, e.target, 'telefono');
+        case "apellido":
+            validarCampo(expresiones.apellido, e.target, 'apellido');
             break;
         case "correo":
             validarCampo(expresiones.correo, e.target, 'correo');
@@ -81,7 +81,7 @@ inputs.forEach((input) => {
 });
 
 const todosCamposValidos = () => {
-    return campos.nombre && campos.telefono && campos.correo && campos.contraseña;
+    return campos.nombre && campos.apellido && campos.correo && campos.contraseña;
 };
 
 //Validación de datos con el botón
@@ -92,11 +92,22 @@ formulario.addEventListener('submit', (e) => {
     if (todosCamposValidos() && terminos.checked) {
         //Guarda los datos de usuario ingresados en el formulario de registro
         const datos = new FormData(e.target);
-        const datosUsuario = Object.fromEntries(datos.entries());   
-        const nuevoUsuario = {datosUsuario};
-        usuarios.push(nuevoUsuario);
-        localStorage.setItem("usuarios", JSON.stringify(usuarios));//Guarda los datos en local storage
-        console.log("Usuario nuevo agregado" , datosUsuario); 
+        const datosUsuario = Object.fromEntries(datos.entries());  
+        
+        //console.log("Usuario nuevo agregado" , datosUsuario); 
+        
+          const nuevoUsuario = {
+            "firstName": datosUsuario.nombre,
+            "lastName": datosUsuario.apellido,
+            "email": datosUsuario.correo,
+            "password": datosUsuario.contraseña,
+            "role": { "id": 2 }
+        };
+
+        console.log(nuevoUsuario)
+
+    
+        postUser(nuevoUsuario);
 
         
         document.getElementById('registro-exitoso').classList.add('registro-exitoso-activo');
@@ -116,3 +127,33 @@ formulario.addEventListener('submit', (e) => {
     }, 3000); //Borra el mensaje en 3 segundos
 });
 });
+
+
+const postUser = async (newUser) => {
+    const url = "http://localhost:8080/api/v1/users";
+     
+    const options = {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(newUser)
+    };
+
+    try {
+        const response = await fetch(url, options);
+      
+
+        // Verifica si la respuesta es exitosa antes de intentar parsear JSON
+        if (!response.ok) {
+            throw new Error(`Error ${response.status}: ${await response.text()}`);
+        }
+
+        const registeredUser = await response.json();
+        console.log("Respuesta del servidor:", registeredUser);
+        return registeredUser;
+    } catch (error) {
+        console.warn("Error en la solicitud:", error);
+        throw error; // Lanzar error para manejarlo en la función principal
+    }
+};
+
+

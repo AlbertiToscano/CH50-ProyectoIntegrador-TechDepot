@@ -1,7 +1,23 @@
 
+function cerrarSesion(){
+  const mensajeConfirmacion = confirm("Estas seguro de cerrar sesion?");
+  if (mensajeConfirmacion){
+  
+    alert("Sesion Cerrada correctamente.");
+    localStorage.removeItem("sesionIniciada"); 
+    window.location.href = "/index.html";
+  }else{}
+  
+  }
+  
+  
+  document.getElementById("btn-cerrar").addEventListener("click", function(event) {
+    event.preventDefault(); 
+    cerrarSesion()});
 
 
-export function actualizarInfoUsuario() {
+
+/* export function actualizarInfoUsuario() {
   const sesionIniciada = localStorage.getItem('sesionIniciada');
   const usuario = JSON.parse(localStorage.getItem("usuarios"));
   const nombre = usuario.map(usuario=>usuario.datosUsuario.nombre)
@@ -24,9 +40,9 @@ export function actualizarInfoUsuario() {
   }
 
  
-}
+} */
 
-window.onload = actualizarInfoUsuario();
+/* window.onload = actualizarInfoUsuario(); */
 
 document.getElementById("cambiar-foto").addEventListener("click", function () {
   document.getElementById("file-input").click(); // Activa la selección de archivos
@@ -61,7 +77,7 @@ document.getElementById("file-input").addEventListener("change", function (event
 });
 
 // Cargar la imagen guardada en localStorage al abrir la página
-window.addEventListener("load", function () {
+/* window.addEventListener("load", function () {
   const usuario = JSON.parse(localStorage.getItem("usuarios"));
   const imagenGuardada = usuario.map( usuario => usuario.imagen);
   if (imagenGuardada) {
@@ -69,26 +85,8 @@ window.addEventListener("load", function () {
     
   
   }
-});
+}); */
 
 
-function cerrarSesion(){
-const mensajeConfirmacion = confirm("Estas seguro de cerrar sesion?");
-if (mensajeConfirmacion){
 
-  alert("Sesion Cerrada correctamente.")
-  localStorage.removeItem("sesionIniciada")  
-  window.location.href = "/index.html";
-}else{}
-
-}
-
-
-document.getElementById("btn-cerrar").addEventListener("click", function(event) {
-  event.preventDefault(); 
-  cerrarSesion()})
-
-  
-
-
-  
+ 
