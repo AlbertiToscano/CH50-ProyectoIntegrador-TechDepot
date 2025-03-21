@@ -143,7 +143,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"Abuela Barronco2\",\r\n    \"lastName\": \"Fernandez\",\r\n    \"email\": \"abuela;prueba@gmail.coml\",\r\n    \"birthDate\": \"2002-11-05\",\r\n    \"password\": \"hola1234\",\r\n    \"role\":{\"id\":1}\r\n    \r\n}",
+							"raw": "{\r\n    \"firstName\": \"Alberti Ramirez\",\r\n    \"lastName\": \"Perez\",\r\n    \"email\": \"alpere@gmail.coml\",\r\n    \"birthDate\": \"2002-11-05\",\r\n    \"password\": \"hola1234\",\r\n    \"role\":{\"id\":1}\r\n    \r\n    \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -151,20 +151,15 @@
 							}
 						},
 						"url": {
-							"raw": "{{techdepot}}/api/v1/users?role=2",
+							"raw": "{{techdepot}}/techdepot/api/v1/users",
 							"host": [
 								"{{techdepot}}"
 							],
 							"path": [
+								"techdepot",
 								"api",
 								"v1",
 								"users"
-							],
-							"query": [
-								{
-									"key": "role",
-									"value": "2"
-								}
 							]
 						}
 					},
