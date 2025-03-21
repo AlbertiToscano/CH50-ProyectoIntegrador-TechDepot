@@ -6,7 +6,7 @@ document.getElementById("loginMain").addEventListener("submit", function(event) 
     const contrasenia = document.getElementById("contraseña").value;
    
 
-     traerUsuarios(`http://localhost:8080/api/v1/users/email?email=${correo}`,contrasenia);
+     traerUsuarios(`http://54.193.93.101:8080/api/v1/users/email?email=${correo}`,contrasenia);
 
     });
     const traerUsuarios = async (url,contrasenia) => {

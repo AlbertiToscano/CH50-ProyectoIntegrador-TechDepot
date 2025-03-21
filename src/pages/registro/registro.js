@@ -16,10 +16,11 @@ const usuarios = [];
 // Expresiones regulares para la validación de los datos
 const expresiones = {
     nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/,
-    contraseña: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])[A-Za-z\d$@$!%*?&#.$($)$-$_]{8,16}$//* /^.{8,16}$/ */,
+    contraseña: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$(\)-_/+\.,:;'"!&^~|`])[A-Za-z\d$@$!%*?&#.$(\)-_/+\.,:;'"!&^~|`]{8,16}$/,
     correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
     apellido: /^[a-zA-ZÀ-ÿ\s]{1,40}$/
 }
+
 
 //Validación de los campos del formulario de registro
 const validarRegistro = (e) => {
@@ -70,6 +71,14 @@ const coincidenciaContraseña = () => {
         campos['contraseña'] = true;//remueve el mensaje de error
     }
 
+    //verifica que la contraseña siempre cumpla con los requisitos
+    const contraseñaValida= expresiones.contraseña.test(inputContraseña1.value);
+    if (!contraseñaValida){
+        document.querySelector(`#error-contraseña`).classList.add('error-activo');
+        campos['contraseña'] = false;
+    } else {
+        document.querySelector(`#error-contraseña`).classList.remove('error-activo');
+    }
 }
 
 //Valida los campos del formulario cuando se levanta la tecla o se sale del campo
@@ -130,7 +139,7 @@ formulario.addEventListener('submit', (e) => {
 
 
 const postUser = async (newUser) => {
-    const url = "http://localhost:8080/api/v1/users";
+    const url = "http://54.193.93.101:8080/api/v1/users";
      
     const options = {
         method: "POST",

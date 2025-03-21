@@ -1,4 +1,4 @@
-import"./footer-BO6_J53n.js";import{i as h}from"./productosObj-CGBnYCj_.js";let m=localStorage.getItem("titulo"),g=localStorage.getItem("precio"),u=localStorage.getItem("imagen"),p=localStorage.getItem("descripcion"),f=localStorage.getItem("categoria"),L=localStorage.getItem("caracteristicas"),n=localStorage.getItem("idProductoPaginaProductoTarjeta"),v=localStorage.getItem("Modelodetarjetagráfica"),k=localStorage.getItem("Recuentodenucleosdetarjetagráfica"),y=localStorage.getItem("Frecuenciadetarjetagráfica"),S=localStorage.getItem("USB");m&&g&&u&&p?document.getElementById("infoTarjetaCompleta").innerHTML=`
+import"./footer-DaZsVk3c.js";import{i as h}from"./productosObj-CGBnYCj_.js";let m=localStorage.getItem("titulo"),g=localStorage.getItem("precio"),u=localStorage.getItem("imagen"),p=localStorage.getItem("descripcion"),f=localStorage.getItem("categoria"),L=localStorage.getItem("caracteristicas"),n=localStorage.getItem("idProductoPaginaProductoTarjeta"),v=localStorage.getItem("Modelodetarjetagráfica"),k=localStorage.getItem("Recuentodenucleosdetarjetagráfica"),y=localStorage.getItem("Frecuenciadetarjetagráfica"),S=localStorage.getItem("USB");m&&g&&u&&p?document.getElementById("infoTarjetaCompleta").innerHTML=`
             
       <article class="row align-items-center">
             <!-- Imagen del producto -->
@@ -26,7 +26,7 @@ import"./footer-BO6_J53n.js";import{i as h}from"./productosObj-CGBnYCj_.js";let 
 
                 <hr>
    <!-- Botones de compra -->
-                <div id="botoncillo" class="buttons mt-3 d-flex flex-column flex-md-row justify-content-md-start">
+                <div id="botoncillo" class="buttons mt-3 d-flex flex-column flex-md-row justify-content-md-end">
                    
                  <button id="addItemm" class="btn btn-primary me-md-2" data-producto="${n}" >Añadir al carrito</button> 
                     

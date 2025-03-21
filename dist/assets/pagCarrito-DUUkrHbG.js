@@ -1,4 +1,4 @@
-import"./footer-BO6_J53n.js";document.addEventListener("DOMContentLoaded",function(){this.getElementById("productosCarrito"),n("producto"),n("piezaDePC");function n(t){if(c(t)!=null){const e=c(t),i=document.getElementById("productosCarrito");let a=0;e.forEach(d=>{const s=document.createElement("tr");s.innerHTML=`
+import"./footer-DaZsVk3c.js";document.addEventListener("DOMContentLoaded",function(){this.getElementById("productosCarrito"),n("producto"),n("piezaDePC");function n(t){if(c(t)!=null){const e=c(t),i=document.getElementById("productosCarrito");let a=0;e.forEach(d=>{const s=document.createElement("tr");s.innerHTML=`
           <td><img src="${d.imagen}" alt="${d.titulo}" class="img-fluid imgProducto"></td>
           <td>${d.titulo.length>40?d.titulo.substring(0,37)+"...":d.titulo}</td>
           <td class="precio">$${d.precio.toFixed(2)}</td>
