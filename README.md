@@ -1,13 +1,18 @@
-# Backend API REST para Ecommerce - TeachDepot
+# CH50-ProyectoIntegrador-TechDepot
 
-## Descripción del Proyecto
-TeachDepot es una plataforma de ecommerce destinada a la venta de productos de computo. La API REST creada permite gestionar todos los aspectos del ecommerce, como la autenticación de usuarios, la gestión de productos, carritos de compras, pedidos y pagos.
-El backend está desarrollado en Java Spring Boot, utilizando MySQL como base de datos. Esta API ofrece una arquitectura eficiente y escalable para soportar las funcionalidades de la plataforma de ecommerce.
-Características Principales de la API
-1. Gestión de Usuarios
- ```bash
-POST /api/register: Registra un nuevo usuario en la plataforma.
+Plataforma de comercio electrónico 'TeachDepot', en la cual se integran diferentes tecnologías para lograr una integración completa en todo el stack, desde la parte visual e interactiva (Frontend) hasta la parte del negocio (Backend).
 
-POST /api/login: Inicia sesión y devuelve un token JWT para autenticación.
-```
+## Tecnologias Utilizadas
+- ### Frontend
+  - HTML
+  - JavaScript
+  - BootStrap
+- ### Backend
+  - Java
+  - SpringBoot
+  - MySQl
 
+ ## Funcionaidades Generales
+ - Registro de usuarios
+ - Compra de productos
+ - agregar productos y eliminar del carrito
