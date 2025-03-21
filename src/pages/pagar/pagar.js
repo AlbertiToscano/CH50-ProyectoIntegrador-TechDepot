@@ -111,7 +111,7 @@ function mostrarCompraExitosa() {
 // Validación de datos con el botón
 document.getElementById("miFormularioDePago").addEventListener("submit", function (e) {
   e.preventDefault(); // Prevenir el envío tradicional del formulario
-
+  const sesionIniciada = localStorage.getItem('sesionIniciada');
   const terminos = document.getElementById('gridCheck');
   if (todosCamposValidos() && terminos.checked) {
     // Recoger los datos del formulario
@@ -129,7 +129,17 @@ document.getElementById("miFormularioDePago").addEventListener("submit", functio
 
     // Esperar 5 segundos antes de redirigir (dándole tiempo al usuario para ver el mensaje)
     setTimeout(() => {
-      window.location.href = "/src/pages/inicioSesion/inicioSesion.html"; // O la página que desees
+      
+      console.log(sesionIniciada);
+      if (sesionIniciada){
+        console.log("hola");
+        window.location.href = "/src/pages/miCuenta/miCuenta.html";
+      } else{
+        window.location.href = "/src/pages/inicioSesion/inicioSesion.html"; // O la página que desees
+      }
+      
+      
     }, 5000);  // Cambié el tiempo de espera a 5 segundos para coincidir con el tiempo que el mensaje permanece visible
+    
   }
 });
