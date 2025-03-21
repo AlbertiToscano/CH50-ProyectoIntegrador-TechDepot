@@ -88,7 +88,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{techdepot}}/api/v1/users/email?email=alber@gmail.com",
+							"raw": "{{techdepot}}/api/v1/users/email?email=",
 							"host": [
 								"{{techdepot}}"
 							],
@@ -101,7 +101,7 @@
 							"query": [
 								{
 									"key": "email",
-									"value": "alber@gmail.com"
+									"value": ""
 								}
 							]
 						}
@@ -151,12 +151,11 @@
 							}
 						},
 						"url": {
-							"raw": "{{techdepot}}/techdepot/api/v1/users",
+							"raw": "{{techdepot}}/api/v1/users",
 							"host": [
 								"{{techdepot}}"
 							],
 							"path": [
-								"techdepot",
 								"api",
 								"v1",
 								"users"
