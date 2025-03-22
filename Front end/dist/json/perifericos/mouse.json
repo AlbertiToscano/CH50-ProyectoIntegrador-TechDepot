@@ -1,0 +1,112 @@
+[
+  {
+    "id": "mou1",
+    "titulo": "Energy Sistem Gaming Mouse ESG M2 Flash Ratón Gaming RGB 6400 DPI",
+    "precio": 297.40,
+    "imagen": "/img productos/mou1.webp",
+    "descripcion": "El Energy Sistem Gaming Mouse ESG M2 Flash es un ratón ergonómico diseñado para gamers que buscan precisión y personalización. Con una resolución ajustable de hasta 6400 DPI, permite adaptarse a diferentes estilos de juego. Sus efectos RGB personalizables ofrecen una experiencia visual única, y su diseño ambidiestro garantiza comodidad durante largas sesiones de juego.",
+    "raiting": {
+      "valoracion": 4.3,
+      "votos": 51
+    }
+  },
+  {
+    "id": "mou2",
+    "titulo": "Sharkoon Skiller SGM2 Ratón Gaming RGB 6400DPI Negro",
+    "precio": 446.21,
+    "imagen": "/img productos/mou2.webp",
+    "descripcion": "El Sharkoon Skiller SGM2 es un ratón gaming con una resolución de hasta 6400 DPI y retroiluminación RGB. Con un diseño ergonómico y botones programables, es ideal para jugadores que buscan precisión y personalización en sus partidas. Su construcción sólida y su buen rendimiento lo convierten en una opción excelente para quienes buscan un ratón eficiente a un precio accesible.",
+    "raiting": {
+      "valoracion": 4.8,
+      "votos": 2
+    }
+  },
+  {
+    "id": "mou3",
+    "titulo": "Logitech G203 Lightsync 2nd Gen Ratón Gaming 8000DPI RGB Negro",
+    "precio": 619.67,
+    "imagen": "/img productos/mou3.webp",
+    "descripcion": "El Logitech G203 Lightsync es un ratón gaming que destaca por su tecnología Lightsync RGB, la cual ofrece una iluminación dinámica que responde a tus acciones en el juego. Con una resolución de hasta 8000 DPI, permite un control preciso y rápido. Es ligero y cuenta con seis botones programables, ideal para jugadores que buscan rendimiento y personalización en un diseño simple y funcional.",
+    "raiting": {
+      "valoracion": 4.7,
+      "votos": 6271
+    }
+  },
+  {
+    "id": "mou4",
+    "titulo": "Logitech G402 Hyperion Fury FPS Gaming",
+    "precio": 974.68,
+    "imagen": "/img productos/mou4.webp",
+    "descripcion": "El Logitech G402 Hyperion Fury es un ratón FPS con un sensor de alta precisión y una velocidad de hasta 1000 Hz de reporte. Su resolución máxima de 4000 DPI y sus ocho botones programables lo convierten en una opción ideal para jugadores profesionales de shooters. Además, su diseño ligero y ergonómico proporciona comodidad durante sesiones intensas y largas de juego.",
+    "raiting": {
+      "valoracion": 4.6,
+      "votos": 1558
+    }
+  },
+  {
+    "id": "mou5",
+    "titulo": "Tempest X20W Vigilant RGB Ratón Gaming Inalámbrico 16.000 DPI Negro",
+    "precio": 701.09,
+    "imagen": "/img productos/mou5.webp",
+    "descripcion": "El Tempest X20W Vigilant es un ratón inalámbrico de alto rendimiento con una resolución de hasta 16.000 DPI. Con su tecnología RGB personalizable, ofrece un diseño visual atractivo, mientras que sus 10 botones programables y su sensor de alta precisión lo hacen perfecto para jugadores competitivos. La conexión inalámbrica garantiza un rendimiento sin interrupciones, ideal para juegos rápidos y estrategias de alto nivel.",
+    "raiting": {
+      "valoracion": 4.6,
+      "votos": 4736
+    }
+  },
+  {
+    "id": "mou6",
+    "titulo": "Tempest X8 Keeper RGB Ratón Gaming 10.000 DPI Negro",
+    "precio": 297.40,
+    "imagen": "/img productos/mou6.webp",
+    "descripcion": "El Tempest X8 Keeper es un ratón gaming de 10.000 DPI con retroiluminación RGB personalizable. Su diseño ergonómico y sus botones adicionales lo hacen ideal para largas sesiones de juego, mientras que su alta precisión es perfecta para juegos de disparos o estrategia. Además, su diseño moderno con una forma cómoda asegura que se adapte bien a diferentes tipos de agarre.",
+    "raiting": {
+      "valoracion": 4.6,
+      "votos": 4736
+    }
+  },
+  {
+    "id": "mou7",
+    "titulo": "Newskill Atreo Ratón Gaming RGB 6200 DPI",
+    "precio": 552.50,
+    "imagen": "/img productos/mou7.webp",
+    "descripcion": "El Newskill Atreo es un ratón gaming de 6200 DPI diseñado para jugadores que buscan un equilibrio entre rendimiento y diseño. Con retroiluminación RGB personalizable, ofrece un control preciso y rápido para diversas modalidades de juegos. Sus materiales de alta calidad y su construcción ergonómica lo hacen cómodo para largas horas de juego.",
+    "raiting": {
+      "valoracion": 4.7,
+      "votos": 251
+    }
+  },
+  {
+    "id": "mou8",
+    "titulo": "Newskill Chiron PRO Ratón Gaming Inalámbrico RGB 16000DPI Blanco",
+    "precio": 1061.84,
+    "imagen": "/img productos/mou8.webp",
+    "descripcion": "El Newskill Chiron PRO es un ratón inalámbrico con una increíble resolución de hasta 16.000 DPI, diseñado para jugadores de alto rendimiento. Su retroiluminación RGB personalizable y su diseño ergonómico aseguran una experiencia de juego cómoda y atractiva. Ideal para quienes buscan un ratón preciso, rápido y sin cables para sesiones de juego sin interrupciones.",
+    "raiting": {
+      "valoracion": 4.3,
+      "votos": 66
+    }
+  },
+  {
+    "id": "mou9",
+    "titulo": "HyperX Pulsefire Haste 2 Core Wireless Ratón Gaming Inalámbrico 3200DPI Blanco",
+    "precio": 1126.46,
+    "imagen": "/img productos/mou9.webp",
+    "descripcion": "El HyperX Pulsefire Haste 2 Core es un ratón gaming inalámbrico de alto rendimiento con una resolución de hasta 3200 DPI. Su diseño ultraligero y su batería de larga duración lo hacen perfecto para jugadores que buscan velocidad y agilidad sin cables. La retroiluminación RGB personalizable agrega un toque visual adicional, mientras que sus botones programables ofrecen una personalización completa.",
+    "raiting": {
+      "valoracion": 4.4,
+      "votos": 17
+    }
+  },
+  {
+    "id": "mou10",
+    "titulo": "Razer Orochi V2 Ratón Óptico Gaming 18000 DPI Blanco",
+    "precio": 1275.27,
+    "imagen": "/img productos/mou10.webp",
+    "descripcion": "El Razer Orochi V2 es un ratón óptico inalámbrico con una resolución de hasta 18.000 DPI, ideal para jugadores profesionales. Su diseño compacto y ligero lo convierte en una opción perfecta para quienes prefieren un ratón más pequeño pero de alto rendimiento. Con su batería de larga duración y retroiluminación RGB, es la herramienta ideal para sesiones de juego intensas y prolongadas.",
+    "raiting": {
+      "valoracion": 4.6,
+      "votos": 186
+    }
+  }
+]

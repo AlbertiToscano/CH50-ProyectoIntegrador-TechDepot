@@ -1,0 +1,112 @@
+[
+  {
+    "id": "tec1",
+    "titulo": "Owlotech MK500 Combo Teclado y Ratón Wireless Negro",
+    "precio": 409,
+    "imagen": "/img productos/tec1.webp",
+    "descripcion": "El Owlotech MK500 es un combo inalámbrico que ofrece un rendimiento fiable tanto para juegos como para tareas cotidianas. Su teclado cuenta con teclas silenciosas y un diseño ergonómico que mejora la comodidad durante largas jornadas. El ratón incluye varios niveles de DPI ajustables, lo que lo hace ideal para adaptarse a diferentes estilos de juego.",
+    "raiting": {
+      "valoracion": 4.2,
+      "votos": 41
+    }
+  },
+  {
+    "id": "tec2",
+    "titulo": "Forgeon Clutch Teclado Gaming RGB 60% Switch Blue",
+    "precio": 1486,
+    "imagen": "/img productos/tec2.webp",
+    "descripcion": "Con su diseño compacto de 60%, el Forgeon Clutch es perfecto para gamers que necesitan agilidad y eficiencia. Equipado con interruptores mecánicos Blue, ofrece una respuesta táctil precisa y un sonido satisfactorio. La retroiluminación RGB le da un toque dinámico, permitiendo personalizar cada tecla según tus preferencias.",
+    "raiting": {
+      "valoracion": 4.7,
+      "votos": 244
+    }
+  },
+  {
+    "id": "tec3",
+    "titulo": "SteelSeries Apex 3 TKL Teclado Gaming RGB US",
+    "precio": 840,
+    "imagen": "/img productos/tec3.webp",
+    "descripcion": "El SteelSeries Apex 3 TKL es un teclado mecánico compacto con retroiluminación RGB personalizable. Sus teclas de membrana son resistentes al agua y ofrecen una excelente respuesta táctil. Este modelo está diseñado para aquellos que buscan un teclado duradero con un perfil más pequeño para aprovechar al máximo su espacio de escritorio.",
+    "raiting": {
+      "valoracion": 4.7,
+      "votos": 347
+    }
+  },
+  {
+    "id": "tec4",
+    "titulo": "Newskill Pyros PRO Teclado Gaming Inalámbrico Mecánico 75% Hotswap Blanco",
+    "precio": 1486,
+    "imagen": "/img productos/tec4.webp",
+    "descripcion": "El Newskill Pyros PRO es un teclado mecánico con un diseño de 75% que ofrece una gran capacidad de personalización gracias a su función Hotswap, permitiendo cambiar los interruptores sin soldadura. Su conectividad inalámbrica garantiza una experiencia fluida sin cables y la retroiluminación RGB le añade un estilo moderno y llamativo.",
+    "raiting": {
+      "valoracion": 4.7,
+      "votos": 45
+    }
+  },
+  {
+    "id": "tec5",
+    "titulo": "Krom Kernel Teclado Mecánico Gaming RGB Negro",
+    "precio": 667,
+    "imagen": "/img productos/tec5.webp",
+    "descripcion": "El Krom Kernel es un teclado mecánico que combina durabilidad y rendimiento con su retroiluminación RGB y switches de alta calidad. Sus teclas de respuesta rápida y anti-ghosting lo hacen ideal para jugadores de alto rendimiento. Además, su diseño robusto y ergonómico proporciona una experiencia cómoda y eficaz durante largas sesiones de juego.",
+    "raiting": {
+      "valoracion": 4.4,
+      "votos": 3105
+    }
+  },
+  {
+    "id": "tec6",
+    "titulo": "Tempest Oblivion Combo Gaming Teclado + Ratón + Auriculares + Alfombrilla",
+    "precio": 603,
+    "imagen": "/img productos/tec6.webp",
+    "descripcion": "Este combo gaming de Tempest ofrece todo lo necesario para una experiencia inmersiva. Incluye un teclado mecánico con retroiluminación RGB, un ratón preciso, auriculares con sonido envolvente y una alfombrilla de gran tamaño. Todo esto, unido a una excelente relación calidad-precio, lo convierte en el paquete ideal para jugadores que buscan un set completo y de alta calidad.",
+    "raiting": {
+      "valoracion": 4.6,
+      "votos": 4250
+    }
+  },
+  {
+    "id": "tec7",
+    "titulo": "Tempest K20 Beast Teclado Mecánico Inalámbrico Gaming RGB TKL Mini Blanco",
+    "precio": 861,
+    "imagen": "/img productos/tec7.webp",
+    "descripcion": "El Tempest K20 Beast es un teclado mecánico TKL compacto y de alto rendimiento, ideal para jugadores que prefieren una configuración de teclado más pequeña y eficiente. Su diseño inalámbrico y la retroiluminación RGB ofrecen una experiencia de juego dinámica y cómoda. Además, su tamaño compacto permite más espacio para el movimiento del ratón.",
+    "raiting": {
+      "valoracion": 4.6,
+      "votos": 7128
+    }
+  },
+  {
+    "id": "tec8",
+    "titulo": "Ozone Tactical Teclado Mini Mecánico RGB USB/Bluetooth Switch Outemu Red",
+    "precio": 947,
+    "imagen": "/img productos/tec8.webp",
+    "descripcion": "El Ozone Tactical es un teclado mecánico compacto que combina la funcionalidad de teclas mecánicas con la flexibilidad de la conectividad USB y Bluetooth. Sus interruptores Outemu Red proporcionan una respuesta rápida y suave, mientras que su retroiluminación RGB ajustable permite personalizar su estética a tu gusto. Perfecto para jugadores que buscan un teclado eficiente y portable.",
+    "raiting": {
+      "valoracion": 4.5,
+      "votos": 512
+    }
+  },
+  {
+    "id": "tec9",
+    "titulo": "Owlotech Analog01 Teclado Wireless con Knob",
+    "precio": 516,
+    "imagen": "/img productos/tec9.webp",
+    "descripcion": "El Owlotech Analog01 es un teclado inalámbrico que se distingue por su elegante knob (rueda de control) para un ajuste rápido del volumen o configuración personalizada. Su diseño minimalista y sus teclas silenciosas lo hacen perfecto para quienes buscan un teclado funcional y estéticamente atractivo para la oficina o el hogar.",
+    "raiting": {
+      "valoracion": 3.7,
+      "votos": 32
+    }
+  },
+  {
+    "id": "tec10",
+    "titulo": "Owlotech EK500 Teclado Wireless Ergonómico Negro",
+    "precio": 538,
+    "imagen": "/img productos/tec10.webp",
+    "descripcion": "El Owlotech EK500 es un teclado ergonómico inalámbrico que ofrece comodidad y eficiencia en cada tecleo. Su diseño ajustado a la anatomía de las manos ayuda a reducir la fatiga, mientras que su conectividad inalámbrica asegura libertad de movimiento. Ideal para quienes pasan largas horas escribiendo o jugando y buscan un teclado que combine ergonomía y estilo.",
+    "raiting": {
+      "valoracion": 4.2,
+      "votos": 41
+    }
+  }
+]

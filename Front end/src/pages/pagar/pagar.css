@@ -1,0 +1,88 @@
+/* Importar fuente Poppins para todo el documento */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #D6E1EC;
+    color: #153B4C;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 600;
+    color:#153B4C;
+    text-align: center;
+}
+
+h4{
+    font-size: 32px;
+    font-weight: 600;
+    color:#153B4C;
+    text-align: center;
+  }
+  
+
+.valores-section {
+    background-color: #A2B8C9;
+    /* Color de fondo */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.valor-icon {
+    width: 50px;
+    /* Tamaño del ícono */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.valores-section p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #153B4C;
+}
+
+/* Mensajes de error */
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+/* Mensajes de éxito (cuando es correcto) */
+.correcto {
+    color: green;
+    font-size: 0.9em;
+}
+
+/*
+.form-control {
+    background-color: #A2B8C9;
+}
+    */
+
+.color-barra-busqueda{
+    background-color:#ffffff;
+}
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;/* Ajusta según tu imagen */
+}
+.background {
+    width: 100%;
+    display: block;
+}
+
+/* Estilos específicos para el botón "Pagar" */
+.btn-pagar {
+    background-color: #386578;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+}

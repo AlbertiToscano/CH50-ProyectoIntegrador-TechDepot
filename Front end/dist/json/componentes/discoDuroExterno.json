@@ -1,0 +1,112 @@
+[
+    {
+        "id": "disc1",
+        "titulo": "Disco Duro Toshiba Canvio Basics 1TB Disco Externo Portatil USB 3.2 Negro",
+        "precio": 1079.30,
+        "imagen": "/img productos/disc1.webp",
+        "descripcion": "El Toshiba Canvio Basics 1TB es un disco duro portátil que ofrece una solución de almacenamiento sencilla y confiable. Con conexión USB 3.2, es perfecto para transferencias rápidas de datos, ideal para quienes necesitan llevar su información de forma segura en todo momento.",
+        "raiting": {
+            "valoracion": 4,
+            "votos": 300
+        }
+    },
+    {
+        "id": "disc2",
+        "titulo": "Disco Duro WD Blue SN5000 2TB Disco SSD M.2 PCIe 4.0 NVMe Gen4",
+        "precio": 2437.50,
+        "imagen": "/img productos/disc2.webp",
+        "descripcion": "El WD Blue SN5000 de 2TB es un disco SSD M.2 con tecnología PCIe 4.0 NVMe Gen4, ofreciendo una velocidad de transferencia sobresaliente. Perfecto para usuarios que buscan un alto rendimiento, ideal para gaming, edición de video y otras tareas de gran exigencia.",
+        "raiting": {
+            "valoracion": 4.5,
+            "votos": 450
+        }
+    },
+    {
+        "id": "disc3",
+        "titulo": "Disco Duro Kingston XS1000 Disco SSD Externo 1TB USB 3.2 Negro",
+        "precio": 1501.50,
+        "imagen": "/img productos/disc3.webp",
+        "descripcion": "El Kingston XS1000 de 1TB es un disco SSD externo de alto rendimiento con conexión USB 3.2. Su diseño compacto y robusto lo hace ideal para transferencias rápidas de archivos grandes, manteniendo la seguridad de tus datos en cualquier lugar.",
+        "raiting": {
+            "valoracion": 5,
+            "votos": 500
+        }
+    },
+    {
+        "id": "disc4",
+        "titulo": "Disco Duro Kingston XS1000 Disco SSD Externo 1TB USB 3.2 Rojo",
+        "precio": 1677,
+        "imagen": "/img productos/disc4.webp",
+        "descripcion": "El Kingston XS1000 1TB en color rojo es un disco SSD externo que ofrece excelente velocidad de transferencia gracias a su puerto USB 3.2. Compacto y resistente, es la opción ideal para quienes necesitan llevar consigo una gran cantidad de datos de manera segura.",
+        "raiting": {
+            "valoracion": 4,
+            "votos": 250
+        }
+    },
+    {
+        "id": "disc5",
+        "titulo": "Disco Duro Kingston XS2000 SSD Externo 500GB USB 3.2",
+        "precio": 1560,
+        "imagen": "/img productos/disc5.webp",
+        "descripcion": "El Kingston XS2000 de 500GB es un disco SSD externo diseñado para quienes buscan almacenamiento rápido y portátil. Su diseño resistente y conexión USB 3.2 garantizan una experiencia de transferencia de datos sin interrupciones, ideal para usuarios móviles.",
+        "raiting": {
+            "valoracion": 4.5,
+            "votos": 350
+        }
+    },
+    {
+        "id": "disc6",
+        "titulo": "Disco Duro Forgeon Nimbus PRO Disco SSD 1TB 7400MB/S NVMe PCIe 4.0 M.2 Gen4",
+        "precio": 1755,
+        "imagen": "/img productos/disc6.webp",
+        "descripcion": "El Forgeon Nimbus PRO 1TB SSD con velocidad de hasta 7400MB/s es perfecto para quienes necesitan un alto rendimiento en transferencias de datos. Ideal para tareas profesionales que requieren gran capacidad de almacenamiento y velocidades de lectura/escritura extremas.",
+        "raiting": {
+            "valoracion": 5,
+            "votos": 500
+        }
+    },
+    {
+        "id": "disc7",
+        "titulo": "ASUS TUF Gaming AS1000 Disco Duro Externo Portátil 1TB SSD USB-C 3.2 Gen 2x1 M.2 NVMe PCIe",
+        "precio": 2535,
+        "imagen": "/img productos/disc7.webp",
+        "descripcion": "El ASUS TUF Gaming AS1000 es un disco SSD externo de 1TB con conectividad USB-C 3.2 Gen 2x1. Ofrece velocidades de transferencia ultra rápidas de hasta 10 Gbps, lo que lo convierte en una excelente opción para gamers y usuarios que requieren rendimiento superior.",
+        "raiting": {
+            "valoracion": 4,
+            "votos": 150
+        }
+    },
+    {
+        "id": "disc8",
+        "titulo": "Corsair EX100U Disco Duro Externo Portátil SSD 1TB USB-C",
+        "precio": 2730,
+        "imagen": "/img productos/disc8.webp",
+        "descripcion": "El Corsair EX100U de 1TB es un disco duro SSD externo ultra portátil con conexión USB-C. Su rendimiento de alta velocidad, con transferencias de hasta 20 Gbps, lo hace ideal para quienes necesitan almacenamiento rápido y fiable en sus dispositivos de trabajo o entretenimiento.",
+        "raiting": {
+            "valoracion": 4.5,
+            "votos": 270
+        }
+    },
+    {
+        "id": "disc9",
+        "titulo": "Disco Duro SanDisk SSD Externo 2TB USB-C",
+        "precio": 2340,
+        "imagen": "/img productos/disc9.webp",
+        "descripcion": "El SanDisk SSD Externo de 2TB es ideal para quienes buscan un almacenamiento confiable y rápido. Con velocidades de lectura de hasta 520 MB/s, es perfecto para almacenar grandes cantidades de datos y acceder a ellos rápidamente.",
+        "raiting": {
+            "valoracion": 5,
+            "votos": 400
+        }
+    },
+    {
+        "id": "disc10",
+        "titulo": "Disco Duro SanDisk Extreme PRO SSD Externo V2 1TB USB-C 3.2",
+        "precio": 2700.50,
+        "imagen": "/img productos/disc10.webp",
+        "descripcion": "El SanDisk Extreme PRO V2 1TB SSD externo es perfecto para profesionales que necesitan un almacenamiento de alto rendimiento. Su velocidad avanzada y diseño robusto lo hacen ideal para fotógrafos y videógrafos que requieren velocidad y fiabilidad en el manejo de grandes archivos.",
+        "raiting": {
+            "valoracion": 4,
+            "votos": 120
+        }
+    }
+]

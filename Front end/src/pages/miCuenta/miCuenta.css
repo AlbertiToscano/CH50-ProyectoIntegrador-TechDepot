@@ -1,0 +1,219 @@
+/*
+Color Barra: #153B4C;
+Color Fondo: #D6E1EC;
+Color Tarjetas: #386578;
+Fuente: 'Poppins', sans-serif;
+*/
+
+/* -----------------------------
+   1) Sticky Footer con Flexbox
+------------------------------ */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+
+  
+  /* -----------------------------
+     2) Estilos Base
+  ------------------------------ */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #153B4C;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  
+  /* Títulos y mensajes */
+  .titulo {
+    color: #153B4C;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+  }
+  .mensaje {
+    color: #386578;
+    font-weight: 200;
+    font-size: 16px;
+  }
+  
+  /* Tarjetas */
+  .card {
+    border-radius: 10px;
+    background: #D6E1EC;
+    transition: transform 0.2s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.02);
+  }
+  .titulo-tarjeta {
+    color: #153B4C;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .mensaje-tarjeta {
+    color: #386578;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  
+  /* Foto de perfil */
+  .bloque-foto {
+    position: relative;
+    text-align: center;
+  }
+  .foto-perfil {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden; /* Mantener la imagen recortada en círculo */
+    border: 3px solid #386578;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative; /* Para ubicar el lápiz dentro */
+  }
+  .foto-perfil img {
+    width: 110%;
+    height: auto;
+  }
+  /* Lápiz dentro de la foto, en la esquina inferior derecha */
+  #cambiar-foto {
+    position: absolute;
+    bottom: 10%; 
+    right: 10%;
+    background-color: #153B4C;
+    color: #fff;
+    border: 2px solid #fff;   /* Para que resalte */
+    border-radius: 50%;
+    cursor: pointer;
+    width: 3rem;             /* Aumentamos tamaño para que se note */
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;             /* Muy por encima de la imagen */
+  }
+  #cambiar-foto i {
+    font-size: 1.4rem;       /* Ícono más grande */
+  }
+  
+  /* Datos de usuario */
+  .datos-usuario {
+    color: #153B4C;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  .form-control-plaintext {
+    color: #153B4C;
+  }
+  
+  /* Botones */
+  .btn-informacion {
+    background-color: #153B4C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .btn-bd-primary {
+    background-color: #420404;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+
+  /* -----------------------------
+     4) Ajustes Responsivos
+     para pantallas pequeñas
+  ------------------------------ */
+  @media (max-width: 767px) {
+    /* Reducir ancho total de las tarjetas */
+    .card.mb-3 {
+      max-width: 95%;
+      margin: 0 auto 1rem; /* centrado horizontal + margen inferior */
+    }
+  
+    /* Convertir el row interno en flex, permitiendo wrap
+       para que la imagen quede arriba y el texto debajo 
+       (o en la misma fila si cabe) */
+    .card.mb-3 .row.g-0 {
+      display: flex;
+      flex-wrap: wrap; 
+      align-items: flex-start;
+    }
+  
+    /* La columna de imagen (col-md-4) se hace más pequeña */
+    .card.mb-3 .col-md-4 {
+      flex: 0 0 auto;
+    }
+  
+    /* La columna de texto (col-md-8) se hace flexible 
+       y permite multiple líneas (white-space: normal) */
+    .card.mb-3 .col-md-8 {
+      flex: 1 1 100%;    /* Ocupar el ancho restante */
+      white-space: normal;
+      overflow: visible;
+      text-overflow: unset;
+    }
+  
+    /* Reducir el tamaño de la imagen */
+    .card.mb-3 img {
+      max-width: 50px;
+      height: auto;
+    }
+  
+    /* Ajustar tipografía para que quepa */
+    .card.mb-3 .titulo-tarjeta {
+      font-size: 14px; 
+      margin-bottom: 0.25rem;
+    }
+    .card.mb-3 .mensaje-tarjeta {
+      font-size: 12px; 
+      margin: 0;
+    }
+  }
+  
+  /* -----------------------------
+     5) Ajustes para pantallas medianas y grandes
+  ------------------------------ */
+  @media (min-width: 576px) {
+    .foto-perfil {
+      width: 18rem;
+      height: 18rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .foto-perfil {
+      width: 20rem;
+      height: 20rem;
+    }
+    .titulo {
+      font-size: 40px;
+    }
+  }
+  

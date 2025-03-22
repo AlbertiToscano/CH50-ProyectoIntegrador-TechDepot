@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="/src/pages/pagar/pagar.css">
+  <!-- Estilo NavBar y Footer  -->
+  <link rel="stylesheet" href="/src/css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header"></header>
+
+    <!-- Contenedor principal -->
+    <div class="container my-3">
+        <h2 class="mb-4 text-center">¡Compra, acumula y gana!</h2>
+        <p class="mb-4 text-center">TechDepot premia tu lealtad con beneficios únicos y estás a punto de descubrirlos.</p>
+
+        <!-- Formulario -->
+        <form id="miFormularioDePago" method="POST">
+            <div class="row">
+                <!-- Columna de Dirección -->
+                <div class="col-sm-6 ">
+                    <h4>Dirección</h4>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Destinatario*</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" aria-label="nombre" required placeholder="Shrek Sánchez">
+                        <span class="error" id="error-nombre" aria-live="assertive"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Número de teléfono*</label>
+                        <input type="tel" id="telefono" name="telefono" class="form-control" aria-label="telefono" required minlength="10" maxlength="12" pattern="\d{10,12}" placeholder="5510203040">
+                        <span class="error" id="error-telefono" aria-live="assertive"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="calle" class="form-label">Calle*</label>
+                        <input type="text" id="calle" name="calle" class="form-control" aria-label="calle" required placeholder="Wallaby">
+                        <span class="error" id="error-calle" aria-live="assertive"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="numeroExt" class="form-label">Número exterior*</label>
+                        <input type="text" id="numeroExt" name="numeroExt" class="form-control" aria-label="numeroExterior" required placeholder="42">
+                        <span class="error" id="error-numeroExt" aria-live="assertive"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="numeroInt" class="form-label">Número interior</label>
+                        <input type="text" id="numeroInt" name="numeroInt" class="form-control" aria-label="numeroInterior">
+                        <span class="error" id="error-numeroInt" aria-live="assertive"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="colonia" class="form-label">Colonia*</label>
+                        <input type="text" id="colonia" name="colonia" class="form-control" aria-label="colonia" required placeholder="Doctores">
+                        <span class="error" id="error-colonia" aria-live="assertive"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="codigoPostal" class="form-label">Código Postal*</label>
+                        <input type="text" id="codigoPostal" name="codigoPostal" class="form-control" aria-label="codigoPostal" required pattern="\d{5,6}" title="El código postal debe ser un número de 5 o 6 dígitos" placeholder="56330">
+                        <span class="error" id="error-codigoPostal" aria-live="assertive"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="ciudad" class="form-label">Ciudad*</label>
+                        <input type="text" id="ciudad" name="ciudad" class="form-control" aria-label="ciudad" required placeholder="Chimalhuacán">
+                        <span class="error" id="error-ciudad" aria-live="assertive"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="estado" class="form-label">Estado*</label>
+                        <input type="text" id="estado" name="estado" class="form-control" aria-label="estado" required placeholder="Nayarit" >
+                        <span class="error" id="error-estado" aria-live="assertive"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="referencias" class="form-label">Referencias*</label>
+                        <input type="text" id="referencias" name="referencias" class="form-control" aria-label="referencias" required placeholder="junto al pantano con un árbol">
+                        <span class="error" id="error-referencias" aria-live="assertive"></span>
+                    </div>
+                </div>
+
+                <!-- Columna de Método de Pago -->
+                <div class="col-sm-6">
+                    <h4>Método de Pago</h4>
+                    <div class="mb-3">
+                        <label for="metodo-pago" class="form-label">Método de pago*</label>
+                        <select id="metodo-pago" name="metodo-pago" class="form-control" required>
+                            <option value="" disabled selected>Selecciona un método de pago</option>
+                            <option value="tarjeta">Tarjeta de Crédito/Débito</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="mercado-pago">Mercado Pago</option>
+                            <option value="oxxo">Oxxo</option>
+                            <option value="transferencia">Transferencia Bancaria</option>
+                        </select>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                        <label class="form-check-label" for="gridCheck">
+                            Al aceptar, das tu consentimiento para que TechDepot almacene y procese la información personal proporcionada. Consulta nuestro <a href="/src/pages/avisoPrivacidad/avisoPrivacidad.html" target="_blank">Aviso de privacidad</a>.
+                        </label>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-primary mt-3 btn-pagar">Pagar</button>
+                            <img src="/pagar.png" alt="Métodos de pago" class="img-fluid">
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer"></footer>
+
+    <!-- Scripts -->
+    <script type="module" src="/src/pages/pagar/pagar.js"></script>
+    <script type="module" src="/src/modules/header/header.js"></script>
+    <script type="module" src="/src/modules/footer/footer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="/src/pages/carrito/carrito.css">
+  <!-- Estilo NavBar y Footer  -->
+  <link rel="stylesheet" href="/src/css/main.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header"></header>
+
+  <main>
+    <script type="module" src="/src/pages/carrito/carrito.js"></script>
+
+    <!-- Contenedor principal -->
+    <div class="carrito container my-3">
+      <h2 class="mb-4 text-center">Carrito de Compras</h2>
+
+      <!-- Tabla del carrito -->
+      <section class="table-responsive">
+        <table class="table table-bordered table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Imagen</th>
+              <th class="descripcion" scope="col">Descripción</th>
+              <th scope="col">Precio unitario</th>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Precio total</th>
+              <th scope="col">Eliminar</th>
+            </tr>
+          </thead>
+          <tbody id="productosCarrito">
+            <!-- Aquí se cargarán los productos dinámicamente -->
+            <!-- Ejemplo de una fila de producto (se agregará dinámicamente con JS) -->
+           
+
+            
+            <!-- Fin del ejemplo de producto -->
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Tarjeta con el total dentro -->
+      <div class="container mt-3">
+        <div class="card mx-auto custom-card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Detalles de Pago</h5>
+            <p class="card-text text-center">Verifica el total de tu compra antes de continuar con el pago.</p>
+
+            <!-- Total dentro de la tarjeta -->
+            <section class="d-flex justify-content-between my-4">
+              <h4>Total</h4>
+              <h4 id="totalCompra">$0.00</h4>
+            </section>
+
+            <!-- Checkbox dentro de la tarjeta -->
+            <div class="custom-checkbox-container">
+              <div class="form-check custom-checkbox">
+                <input class="form-check-input" type="checkbox" id="exampleCheck1" required >
+                <label class="form-check-label" for="exampleCheck1">
+                  Acepto los
+                  <a href="/src/pages/terminosCondiciones/terminosC.html" target="_blank">términos y condiciones</a>
+                </label>
+              </div>
+            </div>
+
+            <!-- Botón de pago -->
+            <div class="text-center mt-4">
+              <button id="botonPagar" class="btn btn-proceder-al-pago">Proceder al pago</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- Fin del contenedor principal -->
+
+  </main>
+
+  <footer id="footer"></footer>
+
+  <!-- Vinculando los scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- header js y footer js -->
+  <script type="module" src="/src/modules/header/header.js"></script>
+  <script type="module" src="/src/modules/footer/footer.js"></script>
+
+  
+</body>
+
+</html>
+
+

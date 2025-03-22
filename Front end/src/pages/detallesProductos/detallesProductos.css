@@ -1,0 +1,416 @@
+/* Estilos generales del cuerpo del documento */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6edf4; /* Color de fondo principal */
+    color: #153B4C; /* Color de texto predeterminado */
+}
+
+/* Contenedor principal */
+.container-productos {
+    background: #e6edf4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1100px; /* Ajuste para mejor visualización en computadoras */
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Caja de la imagen y detalles del producto */
+.product-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 50%; /* Ajuste para que la imagen y la info tengan el mismo ancho */
+    text-align: center;
+    margin-bottom: 15px; /* Espacio adicional debajo de la imagen */
+}
+
+/* Estilos de la imagen del producto */
+.product-image {
+    text-align: center;
+    margin-bottom: 20px; /* Aumenta la separación entre la imagen y el título */
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos de la información del producto */
+.product-info {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+}
+
+/* Título del producto */
+.product-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px; /* Aumenta la separación con la imagen */
+}
+
+/* Precio del producto */
+.price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #386578;
+}
+
+/* Descripción del producto */
+.description {
+    font-size: 16px;
+    color: #4a859e;
+}
+
+/* Contenedor del selector de cantidad */
+.quantity-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Estilos del selector de cantidad */
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.quantity-selector .btn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/* Contenedor de los botones de acción */
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Estilos generales para los botones */
+.buttons .btn {
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    text-align: center;
+    min-width: 180px;
+}
+
+/* Ajustes responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+    .container-productos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-box, .product-info {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+    .buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .buttons .btn {
+        width: 100%;
+    }
+    .quantity-container {
+        flex-direction: column;
+    }
+    .product-title, .price, .description {
+        text-align: center;
+    }
+    .product-image {
+        margin-bottom: 25px; /* Ajuste de separación en vista móvil */
+    }
+}
+
+
+/* Estilos de los botones primarios */
+.btn-primary {
+    background-color: #386578;
+    border-color: #386578;
+}
+
+.btn-primary:hover {
+    background-color: #2e5261;
+    border-color: #2e5261;
+}
+
+/* Estilos de los botones de compra */
+.btn-success {
+    background-color: #153B4C;
+    border-color: #153B4C;
+}
+
+.btn-success:hover {
+    background-color: #0e2835;
+    border-color: #0e2835;
+}
+
+
+
+/* Estilos de las categorías y etiquetas del producto */
+.category, .tag {
+    font-size: 14px;
+    color: #677a8c;
+    text-align: center;
+}
+
+/* Alineación a la izquierda de la categoría y etiqueta */
+.category-container {
+    text-align: left !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Botones de selección de cantidad */
+.product-quantity-selector button {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+}
+
+/* Contenedor de categoría y etiquetas del producto */
+.product-category-container p {
+    margin: 5px 0;
+}
+
+
+/* ----------- Estilos del acordeón ----------- */
+
+.accordion-item {
+    border: none; 
+    border-radius: 0px;
+    margin-bottom: 10px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* Botón del acordeón */
+.accordion-button {
+    position: relative;
+    border-radius: 0;
+}
+
+/* Botón cuando el acordeón está cerrado */
+.accordion-button.collapsed {
+    background-color: #e6edf4;
+    color: #153B4C;
+    border-radius: 0;
+}
+
+/* Botón cuando el acordeón está abierto */
+.accordion-button:not(.collapsed) {
+    background-color: #153B4C;
+    color: white;
+}
+
+/* Quita el borde azul al hacer clic */
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* Flecha del acordeón */
+.accordion-button::after {
+    content: "\f078"; 
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #153B4C; 
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+    display: none !important;
+}
+
+/* Rotar el icono cuando el acordeón está abierto */
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(-180deg);
+}
+
+/* Cuerpo del acordeón */
+.accordion-body {
+    background-color: #ffffff;
+    padding: 15px;
+    color: #333;
+    border-radius: 0;
+
+}
+
+/* Agregar una flecha personalizada */
+.accordion-button::before {
+    content: "\f078"; /* Código del icono de Font Awesome (chevron-down) */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 14px;
+    position: absolute;
+    right: 20px; 
+    color: #153B4C;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Rotar la flecha cuando el acordeón está abierto */
+.accordion-button:not(.collapsed)::before {
+    transform: rotate(-180deg);
+}
+
+/****************** Opiniones del Producto *****************/
+
+.product-reviews {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+
+/************* Barras de calificación *****************/
+
+
+.rating-overview {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px; 
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #153B4C;
+    margin-bottom: 10px;
+}
+
+.overall-rating {
+    font-size: 2rem; 
+    font-weight: bold;
+    color: #153B4C;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.stars {
+    font-size: 1.5rem; 
+    color: gold;
+    display: flex;
+    gap: 2px;
+}
+
+.half-star {
+    position: relative;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.half-star::before {
+    content: '\2605'; 
+    position: absolute;
+    color: #cbd5e1; 
+    font-size: 1.5rem;
+    left: 0;
+    top: 0;
+}
+
+.half-star::after {
+    content: '\2605'; 
+    position: absolute;
+    color: gold;
+    font-size: 1.5rem;
+    left: 0;
+    top: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+.rating-count {
+    font-size: 14px; 
+    color: #547aa5;
+    margin-top: 2px; 
+}
+
+
+
+/* Barras de calificación */
+.rating-bars {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rating-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #153B4C;
+    width: 100%;
+}
+
+.rating-bar span {
+    white-space: nowrap;
+    color: #153B4C;
+    font-weight: 600;
+}
+
+/* Contenedor de la barra */
+.rating-bar .bar-container {
+    background: #dde5ec;
+    width: 100%;
+    height: 6px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+/* Barra de progreso */
+.rating-bar .bar {
+    background: #547aa5;
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.5s ease-in-out;
+}
+
+/* Estrellas a la derecha */
+.rating-bar .stars-text {
+    color: gold;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .rating-bars {
+        max-width: 100%;
+    }
+    .rating-bar {
+        font-size: 12px;
+    }
+}
