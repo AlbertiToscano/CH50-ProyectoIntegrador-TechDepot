@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item key="project_location" value="C:\generation\BD\techDepot"/>
+		<item key="apply_working_sets" value="false"/>
+		<list key="working_sets">
+		</list>
+		<section name="ProjectImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="506"/>
+			<item key="DIALOG_Y_ORIGIN" value="81"/>
+			<item key="DIALOG_WIDTH" value="470"/>
+			<item key="DIALOG_HEIGHT" value="656"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+		</section>
+	</section>
+</section>
