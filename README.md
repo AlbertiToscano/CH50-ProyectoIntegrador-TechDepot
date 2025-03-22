@@ -14,6 +14,9 @@ La función "Construye tu PC" es una herramienta interactiva en la que el usuari
 - **Orientación paso a paso: A medida que el usuario selecciona cada componente, el sistema muestra recomendaciones y detalles técnicos simples para facilitar la comprensión.
 - **Compatibilidad garantizada: Este sistema verifica que los componentes sean compatibles entre sí, evitando conflictos o problemas técnicos.
 
+## Deploy en netlify
+https://tech-depotch50.netlify.app/
+
 ## Tecnologias Utilizadas
 - ### Frontend
   - HTML
